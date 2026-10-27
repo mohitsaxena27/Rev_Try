@@ -1,0 +1,462 @@
+{
+    "rtmsType":"CarrierSync",
+    "id": 23840,
+    "legal_name": "QA Shipment LLC 2740",
+    "dba_name": null,
+    "connection": {
+        "status": "onboarded",
+        "is_monitored": true,
+        "external_id": "23840",
+        "relationship_status": "active_for_some_classifications"
+    },
+    "dot_number": "2439344",
+    "mc_number": "841444",
+    "identifiers": [
+        {
+            "is_type": "DOT",
+            "value": "2439344"
+        },
+        {
+            "is_type": "MC",
+            "value": "841444"
+        },
+        {
+            "is_type": "SCAC",
+            "value": "MMXG"
+        }
+    ],
+    "rules_assessment": {
+        "overall_result": "Incomplete",
+        "summary": {
+            "overall_result": "Incomplete"
+        },
+        "classifications": [
+            {
+                "name": "Interstate",
+                "result": "pass",
+                "rules": {
+                    "new_jersey_auto_liability": {
+                        "display_name": "Must have minimum BIPD coverage of $1,500,000 if the carrier has a physical address in New Jersey and the BIPD policy has an effective date of July 1, 2024 or later",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "has_verified_manually_entered_identifier": {
+                        "display_name": "Highway has completed manual review of non-DOT/MC identifier provided by Carrier",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "has_dot_number": {
+                        "display_name": "Carrier has a DOT number",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "has_mc_number": {
+                        "display_name": "Carrier has an MC number",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "is_authorized_for_property": {
+                        "display_name": "Carrier has an operating status authorized for property",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "interstate_carrier_authority_is_active": {
+                        "display_name": "Interstate carrier authority is active for property",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "no_active_oos_orders": {
+                        "display_name": "Carrier has no active Out-Of-Service Orders",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "safety_rating_satisfactory_or_unrated": {
+                        "display_name": "Safety Rating is one of Satisfactory or Unrated",
+                        "result": "incomplete",
+                        "overrides": []
+                    },
+                    "safer_operating_status_active": {
+                        "display_name": "Operating Status is Active or Authorized",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "has_no_published_identity_alerts": {
+                        "display_name": "Certain data properties require broker approval",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "has_verified_physical_location_activity": {
+                        "display_name": "Carrier has verified physical location or asset activity",
+                        "result": "incomplere",
+                        "overrides": []
+                    },
+                    "authority_age_requirement": {
+                        "display_name": "Minimum operating authority age of 90 days",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "multi_currency_bipd_requirement": {
+                        "display_name": "Minimum auto liability coverage of $1,000,000 USD or $1,500,000 CAD",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "multi_currency_cargo_requirement": {
+                        "display_name": "Minimum cargo insurance coverage of $100,000 USD or $150,000 CAD",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "sets_requiring_override_file": {
+                        "display_name": "These rules require a file upload in order to be overridden",
+                        "result": [],
+                        "overrides": []
+                    }
+                }
+            },
+            {
+                "name": "Temperature Controlled",
+                "result": "pass",
+                "rules": {
+                    "new_jersey_auto_liability": {
+                        "display_name": "Must have minimum BIPD coverage of $1,500,000 if the carrier has a physical address in New Jersey and the BIPD policy has an effective date of July 1, 2024 or later",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "has_verified_manually_entered_identifier": {
+                        "display_name": "Highway has completed manual review of non-DOT/MC identifier provided by Carrier",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "has_reefer_breakdown": {
+                        "display_name": "Carrier has refrigeration breakdown coverage",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "has_dot_number": {
+                        "display_name": "Carrier has a DOT number",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "has_mc_number": {
+                        "display_name": "Carrier has an MC number",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "is_authorized_for_property": {
+                        "display_name": "Carrier has an operating status authorized for property",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "interstate_carrier_authority_is_active": {
+                        "display_name": "Interstate carrier authority is active for property",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "no_active_oos_orders": {
+                        "display_name": "Carrier has no active Out-Of-Service Orders",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "safety_rating_satisfactory_or_unrated": {
+                        "display_name": "Safety Rating is one of Satisfactory or Unrated",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "safer_operating_status_active": {
+                        "display_name": "Operating Status is Active or Authorized",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "has_no_published_identity_alerts": {
+                        "display_name": "Certain data properties require broker approval",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "has_verified_physical_location_activity": {
+                        "display_name": "Carrier has verified physical location or asset activity",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "authority_age_requirement": {
+                        "display_name": "Minimum operating authority age of 90 days",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "multi_currency_bipd_requirement": {
+                        "display_name": "Minimum auto liability coverage of $1,000,000 USD or $1,500,000 CAD",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "multi_currency_cargo_requirement": {
+                        "display_name": "Minimum cargo insurance coverage of $100,000 USD or $150,000 CAD",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "sets_requiring_override_file": {
+                        "display_name": "These rules require a file upload in order to be overridden",
+                        "result": [],
+                        "overrides": []
+                    }
+                }
+            },
+            {
+                "name": "Power Only",
+                "result": "pass",
+                "rules": {
+                    "new_jersey_auto_liability": {
+                        "display_name": "Must have minimum BIPD coverage of $1,500,000 if the carrier has a physical address in New Jersey and the BIPD policy has an effective date of July 1, 2024 or later",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "has_verified_manually_entered_identifier": {
+                        "display_name": "Highway has completed manual review of non-DOT/MC identifier provided by Carrier",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "has_dot_number": {
+                        "display_name": "Carrier has a DOT number",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "has_mc_number": {
+                        "display_name": "Carrier has an MC number",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "is_authorized_for_property": {
+                        "display_name": "Carrier has an operating status authorized for property",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "interstate_carrier_authority_is_active": {
+                        "display_name": "Interstate carrier authority is active for property",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "no_active_oos_orders": {
+                        "display_name": "Carrier has no active Out-Of-Service Orders",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "safety_rating_satisfactory_or_unrated": {
+                        "display_name": "Safety Rating is one of Satisfactory or Unrated",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "safer_operating_status_active": {
+                        "display_name": "Operating Status is Active or Authorized",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "has_no_published_identity_alerts": {
+                        "display_name": "Certain data properties require broker approval",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "has_verified_physical_location_activity": {
+                        "display_name": "Carrier has verified physical location or asset activity",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "authority_age_requirement": {
+                        "display_name": "Minimum operating authority age of 90 days",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "multi_currency_bipd_requirement": {
+                        "display_name": "Minimum auto liability coverage of $1,000,000 USD or $1,500,000 CAD",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "multi_currency_cargo_requirement": {
+                        "display_name": "Minimum cargo insurance coverage of $100,000 USD or $150,000 CAD",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "multi_currency_trailer_interchange_requirement": {
+                        "display_name": "Minimum trailer interchange insurance coverage of $25,000 USD or $37,500 CAD",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "sets_requiring_override_file": {
+                        "display_name": "These rules require a file upload in order to be overridden",
+                        "result": [],
+                        "overrides": []
+                    }
+                }
+            },
+            {
+                "name": "High Value Cargo",
+                "result": "fail",
+                "rules": {
+                    "new_jersey_auto_liability": {
+                        "display_name": "Must have minimum BIPD coverage of $1,500,000 if the carrier has a physical address in New Jersey and the BIPD policy has an effective date of July 1, 2024 or later",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "has_verified_manually_entered_identifier": {
+                        "display_name": "Highway has completed manual review of non-DOT/MC identifier provided by Carrier",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "has_dot_number": {
+                        "display_name": "Carrier has a DOT number",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "has_mc_number": {
+                        "display_name": "Carrier has an MC number",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "is_authorized_for_property": {
+                        "display_name": "Carrier has an operating status authorized for property",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "interstate_carrier_authority_is_active": {
+                        "display_name": "Interstate carrier authority is active for property",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "no_active_oos_orders": {
+                        "display_name": "Carrier has no active Out-Of-Service Orders",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "safety_rating_satisfactory_or_unrated": {
+                        "display_name": "Safety Rating is one of Satisfactory or Unrated",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "safer_operating_status_active": {
+                        "display_name": "Operating Status is Active or Authorized",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "has_no_published_identity_alerts": {
+                        "display_name": "Certain data properties require broker approval",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "has_verified_physical_location_activity": {
+                        "display_name": "Carrier has verified physical location or asset activity",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "authority_age_requirement": {
+                        "display_name": "Minimum operating authority age of 90 days",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "multi_currency_bipd_requirement": {
+                        "display_name": "Minimum auto liability coverage of $1,000,000 USD or $1,500,000 CAD",
+                        "result": "pass",
+                        "overrides": []
+                    },
+                    "multi_currency_cargo_requirement": {
+                        "display_name": "Minimum cargo insurance coverage of $250,000 USD or $375,000 CAD",
+                        "result": "fail",
+                        "overrides": []
+                    },
+                    "sets_requiring_override_file": {
+                        "display_name": "These rules require a file upload in order to be overridden",
+                        "result": [],
+                        "overrides": []
+                    }
+                }
+            }
+        ]
+    },
+    "insurance": {
+        "insurance_policies": [
+            {
+                "id": 41321,
+                "status": "active",
+                "is_type": "contingent_cargo",
+                "number": "36AB2860AB8538A78D91C4D75B2D13A2",
+                "limit": "1000000.0",
+                "limit_type": "limit",
+                "effective_date": "2022-12-20",
+                "expiration_date": "2032-01-01",
+                "cancellation_date": "2035-01-01",
+                "insurance_certificate_id": 24058,
+                "has_additional_insured": false,
+                "has_subrogration_waived": false,
+                "currency": "usd",
+                "is_refrigeration_breakdown_included": false,
+                "insurance_insurer": {
+                    "name": "STEWART TITLE GUARANTY COMPANY",
+                    "short_name": "STEWART TITLE GUAR CO",
+                    "naic": "50121",
+                    "street1": "1360 POST OAK BOULEVARD",
+                    "street2": null,
+                    "city": "HOUSTON",
+                    "state": "TX",
+                    "phone": "7136258044",
+                    "postal_code": "77056",
+                    "website": "www.stewart.com",
+                    "am_best_rating": "A-"
+                }
+            },
+                    
+            {
+                "id": 41319,
+                "status": "active",
+                "is_type": "workers_compensation",
+                "number": "73D58002D2D76DD7C8E09E3AD73BAAF6",
+                "limit": "1000000.0",
+                "limit_type": "limit",
+                "effective_date": "2022-09-01",
+                "expiration_date": "2032-01-01",
+                "cancellation_date": null,
+                "insurance_certificate_id": 24058,
+                "has_additional_insured": false,
+                "has_subrogration_waived": false,
+                "currency": "usd",
+                "statutory_limits": false,
+                "insurance_insurer": {
+                    "name": "NATIONAL INTERSTATE INSURANCE COMPANY",
+                    "short_name": "NATIONAL INTERSTATE INS CO",
+                    "naic": "32620",
+                    "street1": "3250 INTERSTATE DRIVE",
+                    "street2": null,
+                    "city": "RICHFIELD",
+                    "state": "OH",
+                    "phone": "3306598900",
+                    "postal_code": "44286",
+                    "website": "www.natl.com",
+                    "am_best_rating": "A+"
+                }
+            }
+        ],
+        "insurance_certificates": [
+            {
+                "id": 24058,
+                "file": {
+                    "id": 210908,
+                    "filename": "Highway - Sprinter.pdf",
+                    "content_type": "application/pdf",
+                    "url": "https://highway-etl-development.s3.amazonaws.com/insurance_incoming_mails/4826/f49e5dcb85ad2105d0a65c2c?response-content-disposition=inline%3B%20filename%3D%22Highway%20-%20Sprinter.pdf%22%3B%20filename%2A%3DUTF-8%27%27Highway%2520-%2520Sprinter.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA5TETHIMSCVKTKVM7%2F20240920%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240920T163138Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjED8aCXVzLWVhc3QtMSJHMEUCIGj2TPxBoF%2FuX5lqwGoxdo59WgnQtqokEU4xLqmKLuQ2AiEA7554fx7DhPNgyzuI9rGb5vsO651Kn%2FXKBlb4PQBrcBEqswUIdxACGgw5MzQ0NjQxNDQxNjQiDFxG7i01MZVpbjQaQCqQBd4ZkON4ottDxnynGfFzfjHA8C4wzaJsLf0lcWo6ySSOx5dYDLV5g9vkdjgaaXD0BsU9O5MJmCr1mdaEcDVyAfze1qKPeL7XNV2HrFSVsX%2F2StxO1lcsZW%2FApTHm%2FxsjydQu5KyMRZPTjfAdh1%2FWeS9D4VEIka%2FMKObVUqc6K3vAXf6yyAvB9NxamA72%2B7LxDDE0oYb%2FYNfV9WyG7YLGuI5LoXCG8TU%2BMZP8KgMoq%2FZpKZPDjfCWmHg3xNxQYslocPBXTRMSWksz%2BxzsfqQsvr3nhnIApBJCL%2FEJr7ER4Bh%2BDk9LlDUPvG%2BFEWFo6bB8%2B11PtpoXckaX%2F%2B5FjxlLhp1IVHFXfUUargkrvX0KOAwz6bSM0Br5gIEU2qFZZ5KvIjGZApAC3grmdL2a3euOv6BulvSINeDSdpHnNd16%2F3DYmjjmBABmPJVAqq%2Bvc8A8lbDykIk1VJfSU0isUT5I87jdcTUsYm079wxkrsmqT4iWf4NE8gSbhqL7vsmiab6RA5IY9jzhzU7HrGDhkdMxURRB9wUcwBTeSrBOcaRPX16lChDXbSPuUVjUNwPOKy31SOIKR1Iykn84a36%2Bi5s13an82SiLrBMcuAWhjZqUESWk%2BpcSMKpYZi6lbuYLFBVJxGs1lpxTlHp7HGYBca3Jiup2ZLcdBPYu64EWNmZNDJFQy1VZVVNtJ9mwSf9krsBRmWxwKP94s3lQgjcB2z6h%2F3oGD9UQ62n5CvYTWdp9BUVKkV3fspB%2FaadQr6xjBV%2BWM0%2B72D%2FFUarozCLCpgl%2BnVSyDJ5JhQRiMSLhbSG6bEWiWONTlVP5duFfEIbXK5zDZuGcSAvCuuS1aud3jwIjMo57%2FoUz4h%2BgFEzznYMVSoHEMMeJtrcGOrEBRIIIB%2B9eST6DXaPn%2BiQfzk2qaZEwuTNJXTJxPxQmvMtQN6ELGiGp93WaAkLdB1a9WHydjoa7BX0%2BCNJ3UTAUk0Wcxgw1pEV4Fih8ODwhAKCMqMHjkbf71DBYhog9EGnMdRov49o5wd1P82Xon4FgZllKP1BtuVwwOGXy2%2F7Aut%2BmsAIABfVsPzQChsx6oO1J34BEzIkzlIcfSxsWb3PYqm6dijed7tw5KAqzQpWlnbGW&X-Amz-SignedHeaders=host&X-Amz-Signature=bc0444c88bb2484471ca333e8d7c70d62aa22b35cd8bf571fec20f46888454c1"
+                }
+            }
+        ],
+        "exclusions": [
+            {
+                "id": 5464,
+                "is_type": "tobacco",
+                "carrier_id": 1292,
+                "file_date": "2023-12-07",
+                "created_at": "2023-12-07T16:19:26.163-06:00",
+                "updated_at": "2023-12-07T16:19:26.163-06:00"
+            },
+            {
+                "id": 5465,
+                "is_type": "alcohol",
+                "carrier_id": 1292,
+                "file_date": "2023-12-07",
+                "created_at": "2023-12-07T16:19:26.168-06:00",
+                "updated_at": "2023-12-07T16:19:26.168-06:00"
+            }
+        ]
+    }
+}

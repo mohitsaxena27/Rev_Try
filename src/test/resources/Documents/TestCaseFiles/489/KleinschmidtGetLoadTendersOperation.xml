@@ -1,0 +1,129 @@
+<getLoadTenderResponse>
+	<status>
+		<statusCode>OK</statusCode>
+		<messageCode/>
+		<message/>
+	</status>
+	<loadTenders>
+		<loadTender>
+			<tradingPartnerId>KLIQA</tradingPartnerId>
+			<shipmentId>Load-489</shipmentId>
+			<purpose>Original</purpose>
+            <referenceNums>
+                <referenceNum>
+                    <type>CR</type>
+                    <text>Reference Number</text>
+                    <value>ORD1919191</value>
+                </referenceNum>
+            </referenceNums>
+            <equipmentType>53 Dry Van</equipmentType>
+            <specialInstructions>
+                <specialInstruction>Hello</specialInstruction>
+                <specialInstruction>World</specialInstruction>
+            </specialInstructions>
+			<paymentTerms>Third Party</paymentTerms>
+			<mileage>1200</mileage>
+			<totalCharge>800</totalCharge>
+			<respondByDate>2023-07-01</respondByDate>
+			<respondByTime>03:30</respondByTime>
+			<timeZone>LT</timeZone>
+			<cargoValue>50000</cargoValue>
+			<insuranceAmount>12000</insuranceAmount>
+			<billTo>
+				<companyName>Newgistics Inc</companyName>
+				<companyId>NGS</companyId>
+				<addr>2700 Via Fortuna</addr>
+				<city>Austin</city>
+				<state>TX</state>
+				<zip>78746</zip>
+				<country>US</country>
+				<contact>
+					<contactName>Accounts Payable</contactName>
+					<phone>512-225-6000</phone>
+				</contact>
+			</billTo>
+			<stops>
+				<stop>
+					<stopNum>1</stopNum>
+					<stopType>pickup</stopType>
+                    <stopInstructions>go to dock 122</stopInstructions>
+                    <referenceNums>
+                        <referenceNum>
+                            <type>PO</type>
+                            <text>Reference Number</text>
+                            <value>PO94949494</value>
+                        </referenceNum>
+                    </referenceNums>
+					<company>
+						<companyName>Newgistics - RN01</companyName>
+						<companyId>NG-0181</companyId>
+						<addr>46 Isidor Court</addr>
+						<city>Sparks</city>
+						<state>NV</state>
+						<zip>89441</zip>
+						<country>US</country>
+					</company>
+					<apptRequired>Y</apptRequired>
+					<expectedDate>2023-06-15</expectedDate>
+					<expectedTimeStart>12:00</expectedTimeStart>
+					<expectedTimeEnd>15:00</expectedTimeEnd>
+				</stop>
+				<stop>
+					<stopNum>2</stopNum>
+					<stopType>dropoff</stopType>
+					<company>
+						<companyName>QVC Returns - Lancaster</companyName>
+						<companyId>NG-0251</companyId>
+						<addr>1000 Stoney Battery Road</addr>
+						<city>Lancaster</city>
+						<state>PA</state>
+						<zip>17698</zip>
+						<country>US</country>
+					</company>
+                    <contacts>
+                    <contact>
+                        <contactName>George Smiley</contactName>
+                        <phone>312-888-9999</phone>
+                        <fax>312-888-9999</fax>
+                        <email>gsmiley@mi6.org</email>
+                        </contact>
+                        <contact>
+                        <contactName>Percy Allelline</contactName>
+                        <phone>312-888-9999</phone>
+                        <fax>312-888-9999</fax>
+                        <email>percy@mi6.org</email>
+                        </contact>
+                    </contacts>
+					<apptRequired>N</apptRequired>
+					<expectedDate>2023-06-25</expectedDate>
+					<expectedTimeStart>12:30</expectedTimeStart>
+					<expectedTimeEnd>14:30</expectedTimeEnd>
+				</stop>
+			</stops>
+			<items>
+				<item>
+					<pickupStopNum>1</pickupStopNum>
+					<dropoffStopNum>2</dropoffStopNum>
+					<itemNum>Test Line Item 1</itemNum>
+					<desc>This is Test Line Item 1</desc>
+					<nmfcNum>056290-04</nmfcNum>
+					<weight>600</weight>
+					<weightUnits>lbs</weightUnits>
+					<handlingUnitCount>6</handlingUnitCount>
+					<handlingUnits>Pallets</handlingUnits>
+				</item>
+				<item>
+					<pickupStopNum>1</pickupStopNum>
+					<dropoffStopNum>2</dropoffStopNum>
+					<itemNum>Test Line Item 2</itemNum>
+					<desc>This is Test Line Item 2</desc>
+					<nmfcNum>056290-04</nmfcNum>
+					<weight>800</weight>
+					<weightUnits>lbs</weightUnits>
+					<handlingUnitCount>8</handlingUnitCount>
+					<handlingUnits>Pallets</handlingUnits>
+				</item>
+			</items>
+		</loadTender>
+	</loadTenders>
+</getLoadTenderResponse>

@@ -1,0 +1,176 @@
+{
+
+  "weightUnits": "lbs",
+
+  "tradingPartnerId": "KLIQA",
+
+  "totalWeight": 15000,
+
+  "stops": [
+
+    {
+
+      "timeZone": "LT",
+
+      "stopType": "Pickup",
+
+      "stopNum": 1,
+
+      "stopInstructions": [
+
+        "Pickup Instructions"
+
+      ],
+
+      "referenceNums": [],
+
+      "expectedTimeStart": "09:00",
+
+      "expectedTimeEnd": "22:00",
+
+      "expectedDate": "{CurrentDate}",
+
+      "events": [],
+
+      "contacts": [],
+
+      "company": {
+
+        "zip": "60015",
+
+        "state": "IL",
+
+        "country": "US",
+
+        "companyName": "Revenova HQ",
+
+        "city": "Bannockburn",
+
+        "addr": "2333 Waukegan Rd."
+
+      },
+
+      "apptRequired": false
+
+    },
+
+    {
+
+      "timeZone": "LT",
+
+      "stopType": "Dropoff",
+
+      "stopNum": 2,
+
+      "stopInstructions": [
+
+        "Delivery Instructions"
+
+      ],
+
+      "referenceNums": [],
+
+      "expectedTimeStart": "09:00",
+
+      "expectedTimeEnd": "22:00",
+
+      "expectedDate": "{CurrentDate+3}",
+
+      "events": [],
+
+      "contacts": [],
+
+      "company": {
+
+        "zip": "80204",
+
+        "state": "CO",
+
+        "country": "US",
+
+        "companyName": "Denver Deli Meats",
+
+        "city": "Denver",
+
+        "addr": "1435 Fox St."
+
+      },
+
+      "apptRequired": false
+
+    }
+
+  ],
+
+  "shipmentId": "{shipmentId}",
+
+  "referenceNums": [],
+
+  "loadNum": "{shipmentId}",
+
+  "items": [
+
+    {
+
+      "weightUnits": "lbs",
+
+      "weight": 15000,
+
+      "referenceNums": [],
+
+      "pickupStopNum": 1,
+
+      "itemNum": "Item 1",
+
+      "isHazMat": false,
+
+      "dropoffStopNum": 2,
+
+      "dimensionUnits": "in",
+
+      "description": "Bananas"
+
+    }
+
+  ],
+
+  "customerBillTo": {
+
+    "zip": "60015",
+
+    "state": "IL",
+
+    "country": "US",
+
+    "companyName": "Revenova HQ",
+
+    "city": "Bannockburn",
+
+    "addr": "2333 Waukegan Rd."
+
+  },
+
+  "currentLocation": {
+
+    "timeZone": "LT",
+
+    "stopNum": 2,
+    "statusTime": "{CurrentTime-2}",
+
+    "statusDate": "{CurrentDate}",
+
+    "status": "In Transit",
+
+    "state": "IL",
+
+    "lon": -87.859529,
+
+    "lat": 42.19565,
+
+    "country": "US",
+
+    "city": "Bannockburn"
+
+  }
+
+}

@@ -1,0 +1,58 @@
+{
+    "fleet_id": {fleet_id},
+    "driver_ids": [
+        4389365
+    ],
+    "details": [
+{
+            "id": 4389365,
+            "fleet_id": {fleet_id},
+            "time": "2024-10-18T18:32:26.308792Z",
+            "tsp_source": "motive",
+            "name": "QA Driver Two Thousand Four Hundred Thirty Seven",
+            "username": "",
+            "phone": "",
+            "email": "",
+            "status": "inactive",
+            "external_ids": {},
+            "notes": "",
+            "created_at_time": "2024-08-06T17:59:24.459879Z",
+            "timezone": "UTC",
+            "current_vehicle_id": 0,
+            "carrier": {
+                "carrier_name": "Fleet Carrier One",
+                "dot_number": 0,
+                "home_terminal_address": "",
+                "home_terminal_name": "",
+                "main_office_address": ""
+            },
+            "license": {
+                "license_number": "12345123456677",
+                "license_state": "IL",
+                "license_country": "US"
+            },
+            "work_rules": {
+                "break": "Property (off-duty/sleeper)",
+                "cycle": "USA 70 hour / 8 day",
+                "jurisdiction": "",
+                "restart": "34-hour Restart",
+                "shift": "US Interstate Property"
+            },
+            "hours_of_service": {
+                "date": "",
+                "off_duty_seconds": 0,
+                "on_duty_seconds": 0,
+                "sleeper_seconds": 0,
+                "driving_seconds": 0,
+                "waiting_seconds": 0,
+                "active_seconds": 0,
+                "personal_conveyance_seconds": 0,
+                "yard_move_seconds": 0
+            },
+            "vehicle_group": {
+                "id": "",
+                "name": ""
+            }
+        }
+	]
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+<DriverRecentAssignment>//lightning-layout-item[contains(@class,'recentRow')]</DriverRecentAssignment>
+    <TableDataContains>(//div[contains(@class,'active ')]//*[@data-label="{paramlink1}"]//a//*[contains(text(),'{paramlink2}')])[{index}]</TableDataContains>
+
+</locators>
+

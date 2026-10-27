@@ -1,0 +1,18 @@
+{"data":[{"id":"3230","name":"Tractor ThreeTwoThreeZero",
+"fuelPercent":{"time":"2021-06-21T12:42:40Z","value":88},
+"gps":{"time":"2021-09-21T13:18:10Z",
+"latitude":39.71136,
+"longitude":-105.34851,
+"headingDegrees":5,
+"speedMilesPerHour":32,
+"reverseGeo":{"formattedLocation":"Bannockburn, IL"},
+"address":{"id":"23982415","name":"Revenova LLC"},"isEcuSpeed":false},
+"barometricPressurePa":{"time":"2021-06-21T12:42:40Z","value":98000}}
+,{"id":"281474978360556","name":"Mike SUV",
+"gps":{"time":"2021-06-21T13:15:14Z",
+"latitude":41.83350161,
+"longitude":-87.906335889,
+"headingDegrees":268.5,
+"speedMilesPerHour":46.505,
+"reverseGeo":{"formattedLocation":"31st Street, Westchester, IL"},"isEcuSpeed":false}}],
+"pagination":{"endCursor":"","hasNextPage":false}}

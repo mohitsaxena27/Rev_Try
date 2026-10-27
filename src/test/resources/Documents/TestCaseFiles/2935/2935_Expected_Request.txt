@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PostLoads.Many>
+	<LoadDO>
+		<phone></phone>
+		<postAction>U</postAction>
+		<importRef>LOAD_NUMBER2935</importRef>
+		<originCity>Indianapolis</originCity>
+		<originState>IN</originState>
+		<pickupDate>{CurrentDate}</pickupDate>
+		<destCity>Colorado Springs</destCity>
+		<destState>CO</destState>
+		<deliveryDate>{CurrentDate+7}</deliveryDate>
+		<truckType>VR</truckType>
+		<fullOrPartial>Partial</fullOrPartial>
+		<length>53</length>
+		<weight>15000</weight>
+		<rate>1.5</rate>
+        <comment>testing 123</comment>
+	</LoadDO>
+</PostLoads.Many>

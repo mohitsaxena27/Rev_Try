@@ -1,0 +1,51 @@
+{"partnerId":101,
+
+"accountId":"QgUtHuyPJEVcWlmUk2q4Jw==",
+
+"loadTrackId":16868237,
+
+"loadTrackExternalId":"{loadTrackExternalId}",
+
+"ltExternalId":"{loadTrackExternalId}",
+
+"carrierExternalId":null,
+
+"driverPhone":"9169044221",
+
+"loadNumber":"{loadNumber}",
+
+"eventType":"LocationUpdate",
+
+"latestStatus":{
+
+"name":"Tracking",
+
+"code":"TLT",
+
+"timestamp":"06/12/2025 06:51 PDT",
+
+"timestampSec":"06/12/2025 06:51:57 PDT",
+
+"timestampUTC":"06/12/2025 13:51:57 UTC"
+
+},
+
+"latestLocation":{"lat":"41.5560159","lon":"-112.12727","accuracy":4.7538,
+
+"timestampSec":"06/12/2025 06:51:57 PDT",
+
+"timestamp":"06/12/2025 12:52 PDT",
+
+"timestampUTC":"06/12/2025 13:51:57 UTC",
+
+"provider":"APP",
+
+"city":"Brigham City",
+
+"state":"UT",
+
+"country":"USA"
+
+}
+
+}

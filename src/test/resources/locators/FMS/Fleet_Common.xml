@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <TripPlanWithLoad>//th[.//a[text()='{paramlink}']]/..//button[@name='trip_plans']</TripPlanWithLoad>
+    <TripPlanID>//span[@class='revenovaHeader1' and contains(text(),'Plan Trip')]</TripPlanID>
+    <InputPlaceHolder>//input[@placeholder='{paramlink}']</InputPlaceHolder>
+    <ButtonTitle>//div[contains(@class,'revenovaHeader3')]//*[@title='{paramlink}']</ButtonTitle>
+    <Trip_Event_Action>//*[contains(text(),'Trip Event')]/../../..//button[text()='{paramlink}']</Trip_Event_Action>
+    <SegmentText>//div[contains(@class,'active ')]//*[@data-segment-number='{paramlink1}']//label[text()='{paramlink}' or .='{paramlink}']</SegmentText>
+    <SegmentTextWithIndex>(//div[contains(@class,'active ')]//*[@data-segment-number='{paramlink1}']//label[text()='{paramlink}' or .='{paramlink}'])[2]</SegmentTextWithIndex>
+    <Driver_ConfirmationStatus>//div[contains(@class,'active ')]//*[@data-segment-number='{paramlink1}']//label[text()='Driver Confirmation Status' or .='Driver Confirmation Status']/../..//button/*[text()='{paramlink2}']</Driver_ConfirmationStatus>
+    <SegmentStatus>//div[contains(@class,'active ')]//*[@data-segment-number='{paramlink1}']//label[text()='Status' or .='Status']/../..//button/*[text()='{paramlink2}']</SegmentStatus>
+    <LabelText>//div[contains(@class,'active ')]//*[@data-leg-number='{paramlink1}']//label[text()='{paramlink}' or .='{paramlink}']</LabelText>
+    <LabelTextWithIndex>(//div[contains(@class,'active ')]//*[@data-leg-number='{paramlink1}']//label[text()='{paramlink}' or .='{paramlink}'])[2]</LabelTextWithIndex>
+    <Location>//div[contains(@class,'active')]//*[@data-leg-number='{paramlink1}' and contains(@class,'legOriginDestination')]//label</Location>
+    <Timezone>(//div[contains(@class,'active')]//*[@title='{paramlink2}'])[{paramlink1}]</Timezone>
+    <LabelClaer>//input[@id='{paramlink}']/../..//button[@data-element-id='searchClear']</LabelClaer>
+    <AddressField>//div[contains(@class,'active')]//*[@data-leg-number='{paramlink1}' and contains(@class,'legOriginDestination')]</AddressField>
+    <Location2>(//div[contains(@class,'active')]//*[@data-leg-number='{paramlink1}' and contains(@class,'legOriginDestination')]//label)[2]</Location2>
+    <Div_aria_Label>//div[contains(@class,'active ')]//*[@data-leg-number='{paramlink3}']/../..//div[@aria-label="{paramlink}"]</Div_aria_Label>
+    <Div_aria_Label_Span_Text>//div[contains(@class,'active ')]//*[@data-leg-number='{paramlink3}']/../..//div[@aria-label="{paramlink1}"]//span[text()='{paramlink2}']</Div_aria_Label_Span_Text>
+    <Div_aria_Label_Span_Text2>(//div[contains(@class,'active ')]//*[@data-leg-number='{paramlink3}']/../..//div[@aria-label="{paramlink1}"]//span[text()='{paramlink2}'])[2]</Div_aria_Label_Span_Text2>
+    <Div_aria_Span_Text>//div[contains(@class,'active ')]//*[@data-leg-number='{paramlink3}']/../..//span[text()='{paramlink2}']</Div_aria_Span_Text>
+    <SelectSearchResult>//*[@data-location-name="{paramlink}"]</SelectSearchResult>
+    <EnterDriver>//div[contains(@class,'active ')]//*[@data-segment-number='{paramlink1}']//label[text()='Driver' or .='Driver']/..//input</EnterDriver>
+    <VerifyEldIDwithTripPlan>//td[@data-label='Trip Plan']//span[normalize-space()='{paramlink1}']/ancestor::tr//td[@data-label='ELD Trip Id']//span[text()='{paramlink2}']</VerifyEldIDwithTripPlan>
+    <GetTripPlanSegmentsField>//div[contains(@class,'active ')]//td[@data-label='{paramlink1}']//span[normalize-space()='{paramlink2}']/ancestor::tr//td[@data-label='{paramlink3}']//span[@Title]</GetTripPlanSegmentsField>
+    <GetTripPlanSegmentsFieldDouble>//div[contains(@class,'active ')]//tr[.//td[@data-label='{paramlink1}']//span[normalize-space()='{paramlink2}'] and .//*[@data-label='{paramlink3}']//span[normalize-space()='{paramlink4}']]//td[@data-label='{paramlink5}']//span[@Title]</GetTripPlanSegmentsFieldDouble>
+    <LegButton>//div[contains(@class,'active')]//*[@data-leg-number='{paramlink1}' or @data-in-segment-leg-number='{paramlink1}' ]/../..//button[@title='{paramlink2}']</LegButton>
+    <LegIcon>//div[contains(@class,'active')]//*[@data-leg-number='{paramlink1}' or @data-in-segment-leg-number='{paramlink1}' ]/../..//lightning-icon[@icon-name='{paramlink2}']</LegIcon>
+    <ButtonUnderView>//div[contains(@class,'active')]//label[normalize-space(text())='{paramlink1}']/ancestor::c-revenova-row//button[@title='{paramlink2}']</ButtonUnderView>
+    <ButtonUnderViewDisabled>//div[contains(@class,'active')]//label[normalize-space(text())='{paramlink1}']/ancestor::c-revenova-row//button[@title='{paramlink2}' and @disabled]</ButtonUnderViewDisabled>
+    <ButtonUnderViewWithText>//label[normalize-space(text())='{paramlink1}']/ancestor::c-revenova-row//button[text()='{paramlink2}']</ButtonUnderViewWithText>
+    <UnderViewWithText>//label[normalize-space(text())='{paramlink1}']/ancestor::c-revenova-row//*[text()='{paramlink2}']</UnderViewWithText>
+    <AddressSearch>//label[normalize-space(text())='{paramlink1}']/ancestor::c-revenova-row//c-revenova-address-search//button[@title='{paramlink2}']</AddressSearch>
+    <TitleUnderView>//div[contains(@class,'active ')]//label[normalize-space(text())='{paramlink1}']/ancestor::c-revenova-row//button[@title='{paramlink2}']</TitleUnderView>
+    <TableunderSelectedView>//div[contains(@class,'active ')]//label[normalize-space(text())='{paramlink1}']/ancestor::c-revenova-row//table[@data-num-rows='0']</TableunderSelectedView>
+    <TableunderSelectedViewCount>//div[contains(@class,'active ')]//label[normalize-space(text())='{paramlink1}']/ancestor::c-revenova-row//table</TableunderSelectedViewCount>
+    <VerifyFilter>//div[contains(@class,'active ')]//label[normalize-space(text())='{paramlink}']/ancestor::c-revenova-row//c-datatable-view-header-form</VerifyFilter>
+    <VerifyDataTable>//div[contains(@class,'active ')]//label[normalize-space(text())='View - Fleet Asset']/ancestor::c-revenova-row//c-revenova-datatable-list</VerifyDataTable>
+    <FieldWithNameCombobox>//div[contains(@class,'active ')]//input[contains(@name,'{paramlink1}') and @role]</FieldWithNameCombobox>
+    <LogEntry>//div[contains(@class,'active ')]//tr[.//td[@data-label='Start Time']//span[starts-with(normalize-space(.),'{paramlink1}')]]//th[@data-label='Driver Log Entry']//a</LogEntry>>
+    <ButtonunderSegments>//span[normalize-space(text())='{paramlink1}']/ancestor::c-revenova-row//button[@title='{paramlink2}']</ButtonunderSegments>
+    <Segment_Button>//div[contains(@class,'active ')]//*[@data-segment-number='{index}']//button[@title='{paramlink}']</Segment_Button>
+    <NumberOfDriver>//div[contains(@class,'active ')]//*[@data-segment-number='{index}']//label[text()='Driver' or .='Driver']</NumberOfDriver>
+    <ButtonIconTitle>//div[contains(@class,'active ')]//*[@data-segment-number='{index}']//*//*[@title='{paramlink}']</ButtonIconTitle>
+    <Segment_Option_Span_Text>//div[contains(@class,'active ')]//*[@data-segment-number='{index}']//div[@aria-label="{paramlink1}"]//span[text()='{paramlink2}']</Segment_Option_Span_Text>
+    <CloseIcon>//div[contains(@class,'active ')]//button[@title='{paramlink}' and contains(@part,'button-icon')]</CloseIcon>
+    <LwcHeading>//span[(contains(@class,'revenovaHeader1') or contains(@class,'revenovaHeader2'))  and text()='{paramlink}']</LwcHeading>
+    <XIcon>//div[contains(@class,'active ')]//*[@icon-name="utility:close"]</XIcon>
+    <SegmentClearIcon>//div[contains(@class,'active ')]//*[@data-segment-number='{paramlink1}']//label[text()='{paramlink}' or .='{paramlink}']/..//button[@title='Clear Selection' or @data-element-id='searchClear' or contains(@title,'Clear {paramlink}')]</SegmentClearIcon>
+</locators>
+

@@ -1,0 +1,272 @@
+{
+  "load": {
+    "id": {TriumphPayID},
+    "load_id": "{load_id}",
+    "external_id": "{external_id}",
+    "status": "Assigned",
+    "brokered": true,
+    "tms_created_at": "{tms_created_at}",
+    "tms_updated_at": "{tms_updated_at}",
+    "target_delivery_start": "{CurrentDate+3}T08:00:00.000Z",
+    "target_delivery_end": "{CurrentDate+4}T07:59:59.000Z",
+    "actual_delivered_at": null,
+    "target_ship_start": "{CurrentDate}T08:00:00.000Z",
+    "target_ship_end": "{CurrentDate+1}T07:59:59.000Z",
+    "actual_shipped_at": null,
+    "links": [],
+    "require_pod": false,
+    "require_weight_ticket": false,
+    "require_customer_rate_confirmation": false,
+    "require_originals": false,
+    "pro_number": "100001",
+    "primary_reference": "{load_id}",
+    "primary_reference_type": "Load Number",
+    "quantity": 1,
+    "weight": 8000,
+    "distance": "776.495",
+    "mode": "LTL",
+    "freight_class": null,
+    "po": "200002",
+    "pickup_reference": "31",
+    "memo": null,
+    "tender_user": "User User",
+    "delivery_number": "87",
+    "ppe": null,
+    "quote_number": null,
+    "ship_ref": "{load_id}",
+    "load_note": "TEST NOTE",
+    "payables_note": null,
+    "office": null,
+    "sales_rep": "User User",
+    "business_unit": null,
+    "priority": null,
+    "blind": false,
+    "days_to_pay": null,
+    "quickpay": false,
+    "origin": {
+      "name": "Joliet Jazz Supplies",
+      "address_line_1": "321 S Larkin Ave",
+      "address_line_2": null,
+      "city": "Joliet",
+      "state": "IL",
+      "postal_code": "60436",
+      "country": "US"
+    },
+    "destination": {
+      "name": "Philadelphia Eagles",
+      "address_line_1": "1 Novacare Way",
+      "address_line_2": null,
+      "city": "Philadelphia",
+      "state": "PA",
+      "postal_code": "19145",
+      "country": "US"
+    },
+    "carrier": {
+      "name": "Email Carrier Two",
+      "external_id": "{Carrier_external_id}",
+      "scac": "AABB",
+      "mc_number": "MC112233",
+      "dot_number": "11223344",
+      "ein": null,
+      "address_name": "Email Carrier Two",
+      "address_line_1": "351 S Larkin Ave",
+      "address_line_2": null,
+      "city": "Joliet",
+      "state": "IL",
+      "postal_code": "60436",
+      "country": "US"
+    },
+    "customer": {
+      "name": "Joliet Jazz Supplies",
+      "external_id": "{Joliet_External_Id}",
+      "account_number": null
+    },
+    "shipments": [
+      {
+        "external_id": "{external_id}"
+      }
+    ],
+    "charges": {
+      "total": 2250.0,
+      "currency": "USD",
+      "line_haul": 2000.0,
+      "fuel": 200.0,
+      "detention": 0.0,
+      "other": 50.0,
+      "customer_total": 0.0
+    },
+    "picks": [
+      {
+        "external_id": "{Stop_1_Id}",
+        "name": "Joliet Jazz Supplies",
+        "address_line_1": "321 S Larkin Ave",
+        "address_line_2": null,
+        "city": "Joliet",
+        "state": "IL",
+        "postal_code": "60436",
+        "country": "US",
+        "shipments": [
+          {
+            "external_id": "{external_id}"
+          }
+        ]
+      }
+    ],
+    "drops": [
+      {
+        "external_id": "{Stop_2_Id}",
+        "name": "Philadelphia Eagles",
+        "address_line_1": "1 Novacare Way",
+        "address_line_2": null,
+        "city": "Philadelphia",
+        "state": "PA",
+        "postal_code": "19145",
+        "country": "US",
+        "shipments": [
+          {
+            "external_id": "{external_id}"
+          }
+        ]
+      }
+    ],
+    "line_items": [
+      {
+        "external_id": "fc{Carrier_Quote_SFId}",
+        "description": "Freight Charges",
+        "total": 2000.0,
+        "quantity": 0.0,
+        "rate": 0.0,
+        "rate_qualifier": null,
+        "type_code": "Freight Charges",
+        "customer_total": 0.0,
+        "carrier": {
+          "external_id": "{Carrier_external_id}",
+          "scac": "AABB",
+          "name": "Email Carrier Two"
+        },
+        "carrier_payable_id": "{Carrier_Quote_Id}{Carrier_Quote_SFId}"
+      },
+      {
+        "external_id": "fuel{Carrier_Quote_SFId}",
+        "description": "Fuel Surcharge",
+        "total": 200.0,
+        "quantity": 0.0,
+        "rate": 0.0,
+        "rate_qualifier": null,
+        "type_code": "Fuel Surcharge",
+        "customer_total": 0.0,
+        "carrier": {
+          "external_id": "{Carrier_external_id}",
+          "scac": "AABB",
+          "name": "Email Carrier Two"
+        },
+        "carrier_payable_id": "{Carrier_Quote_Id}{Carrier_Quote_SFId}"
+      },
+      {
+        "external_id": "{Blind_Shipment_SFID}",
+        "description": "Blind Shipments",
+        "total": 0.0,
+        "quantity": 0.0,
+        "rate": 0.0,
+        "rate_qualifier": null,
+        "type_code": null,
+        "customer_total": 0.0,
+        "carrier": {
+          "external_id": "{Carrier_external_id}",
+          "scac": "AABB",
+          "name": "Email Carrier Two"
+        },
+        "carrier_payable_id": "{Carrier_Quote_Id}{Carrier_Quote_SFId}"
+      },
+      {
+        "external_id": "{Hazardous_SFID}",
+        "description": "Hazardous Material Handling",
+        "total": 50.0,
+        "quantity": 0.0,
+        "rate": 0.0,
+        "rate_qualifier": null,
+        "type_code": null,
+        "customer_total": 0.0,
+        "carrier": {
+          "external_id": "{Carrier_external_id}",
+          "scac": "AABB",
+          "name": "Email Carrier Two"
+        },
+        "carrier_payable_id": "{Carrier_Quote_Id}{Carrier_Quote_SFId}"
+      }
+    ],
+    "shipped_items": [
+      {
+        "external_id": "{Line_Item_Id}",
+        "description": "Music",
+        "item_type": "Pieces",
+        "class_name": "50",
+        "nmfc": null,
+        "hazardous_material": true,
+        "quantity": 4.0,
+        "weight": 8000.0,
+        "weight_unit": "pounds",
+        "width": 42.0,
+        "height": 42.0,
+        "length": 42.0
+      }
+    ],
+    "carrier_invoices": [],
+    "references": {
+      "Load ID": "{load_id}",
+      "Pickup Reference": "31",
+      "Shipment Reference": "{load_id}",
+      "PO Number": "200002",
+      "PRO Number": "100001",
+      "Carrier PRO": "100001",
+      "BOL": "{Bill_of_Lading_Number}",
+      "Carrier Sales Rep": "User User",
+      "Stop 1 Pickup/Delivery Number": "31",
+      "Stop 2 Pickup/Delivery Number": "87"
+    },
+    "reference_lists": {
+      "Load ID": [
+        "{load_id}"
+      ],
+      "Pickup Reference": [
+        "31"
+      ],
+      "Shipment Reference": [
+        "{load_id}"
+      ],
+      "PO Number": [
+        "200002"
+      ],
+      "PRO Number": [
+        "100001"
+      ],
+      "Carrier PRO": [
+        "100001"
+      ],
+      "BOL": [
+        "{Bill_of_Lading_Number}"
+      ],
+      "Carrier Sales Rep": [
+        "User User"
+      ],
+      "Stop 1 Pickup/Delivery Number": [
+        "31"
+      ],
+      "Stop 2 Pickup/Delivery Number": [
+        "87"
+      ]
+    },
+    "documents": [],
+    "contacts": [],
+    "carrier_payables": [
+      {
+        "carrier": {
+          "external_id": "{Carrier_external_id}"
+        },
+        "external_id": "{Carrier_Quote_Id}{Carrier_Quote_SFId}",
+        "status": "Pending",
+        "currency": "USD"
+      }
+    ]
+  }
+}

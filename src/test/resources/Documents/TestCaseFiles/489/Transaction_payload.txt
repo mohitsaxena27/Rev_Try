@@ -1,0 +1,28 @@
+<loadTenderResponse>
+<tradingPartnerId>KLIQA</tradingPartnerId>
+<shipmentId>Load-489</shipmentId>
+<loadNum>Load-489</loadNum>
+<referenceNums>
+<referenceNum>
+<type>IN</type>
+<text>Reference Number 4</text>
+<value>123TEST</value>
+</referenceNum>
+<referenceNum>
+<type>IN</type>
+<text>Reference Number 4</text>
+<value>678TEST</value>
+</referenceNum>
+<referenceNum>
+<type>PRO</type>
+<text>Reference Number 2</text>
+<value>PROXYZ489</value>
+</referenceNum>
+<referenceNum>
+<type>OD</type>
+<text>Reference Number 1</text>
+<value>{CurrentDate+1} 00:00:00</value>
+</referenceNum>
+</referenceNums>
+<status>Accept</status>
+</loadTenderResponse>

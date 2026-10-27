@@ -1,0 +1,130 @@
+{
+  "transactionId": "b5818d9d-1c88-4c7f-92ff-f53eca8fa5a1",
+  "carrierResults": [
+    {
+      "transactionId": "4e3fd414-7f96-4fd0-942a-dc93837a2b69",
+      "billToAccount": "03624",
+      "evaAccessId": "Revenova-126351",
+      "scac": "SMCA",
+      "pricingType": "DYNAMIC",
+      "quote": {
+        "effectiveDate": "20211012",
+        "expirationDate": "20220107",
+        "quoteId": "903624"
+      },
+      "service": {
+        "description": "GUARANTEED! Morning",
+        "guaranteedTime": "1030",
+         "level": "GTD_AM_3624"
+      },
+      "shipmentInfo": {
+        "currency": "CAD",
+        "deficitClass": "",
+        "deficitRate": "",
+        "deficitWeight": "",
+        "discountPercent": "24.6992",
+        "weight": "3624",
+        "totalCharge": "1912.63",
+        "totalChargeDetails": {
+          "accessorialsTotal": "541.00",
+          "deficitAmount": "0.00",
+          "discountAmount": "416.43",
+          "fuelSurcharge": "102.06",
+          "lineHaulGrossCharge": "1686.00",
+          "lineHaulNetCharge": "1269.57",
+          "rateType": "CLASS 3624",
+          "unItemizedAmount": "0.00"
+        }
+      },
+      "accessorials": [
+        {
+          "code": "GTD",
+          "chargeAmount": "180.33",
+          "description": "Better be there"
+        },
+        {
+          "code": "3624",
+          "chargeAmount": "180.33",
+          "description": "3624 Description"
+        },
+        {
+          "code": "COD",
+          "chargeAmount": "180.33",
+          "description": "Collect 3624"
+        }
+      ],
+      "commodities": [
+        {
+          "chargeAmount": "1686.00",
+          "classification": "60",
+          "rateAmount": "236.44",
+          "weight": "1500"
+        }
+      ],
+      "transit": {
+        "movementInfo": {
+          "details": "",
+          "estimatedDeliveryDate": "20260108",
+          "estimatedTransitDays": "3",
+          "movementType": "DIRECT",
+          "movementTypeDestination": "PARTNER",
+         "movementTypeOrigin": "INDIRECT",
+          "source": [
+            "CCXL",
+            "CARRIER-API"
+          ],
+          "terminals": {
+            "destination": {
+              "address": "101 destination terminal way",
+              "city": "Calgary",
+              "code": "DCBA3624",
+              "contact": {
+                "email": "qaeva@gmail.com",
+                "fax": "1233212233",
+                "name": "John Doe",
+                "phone": "5233211234",
+                "title": "Manager",
+                "tollFree": "8003219876"
+              },
+              "country": "CAN",
+              "name": "CALGARY",
+              "phone": "4321230000",
+              "postalCode": "T1Y2S2",
+              "stateProvince": "AB"
+            },
+            "origin": {
+              "address": "789 origin terminal way",
+              "city": "Louisville",
+              "code": "ABCD3624",
+              "contact": {
+                "email": "qa@revenova.com",
+                "fax": "1233216541",
+                "name": "Jane Doe",
+                "phone": "1233219987",
+                "title": "Manager",
+                "tollFree": "8003219876"
+              },
+              "country": "USA",
+              "name": "LOUISVILLE",
+              "phone": "1233211234",
+              "postalCode": "40213",
+              "stateProvince": "KY"
+            },
+            "source": [
+              "CCXL",
+              "CARRIER-API"
+            ]
+          }
+        },
+        "pickupDate": "20260105"
+      },
+      "messageStatus": {
+        "status": "PASS",
+        "code": "10000000",
+        "message": "Transaction was successful.",
+        "resolution": "",
+        "information": []
+      }
+    }
+  ]
+}

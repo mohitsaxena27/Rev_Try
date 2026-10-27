@@ -1,0 +1,13 @@
+{
+  "dateAvail": "{CurrentDate}",
+  "srceCity": "Boston",
+  "srceSt": "MA",
+  "srceRadius": 200,
+  "destCity": "Edmonton",
+  "destSt": "AB",
+  "destRadius": 200,
+  "vehicleSize": "T",
+  "vehicleType": "V",
+  "comment": "{Load_Number}: test Offer Rate: USD 1 Fixed Cost",
+  "postingAttrib": "Z"
+}

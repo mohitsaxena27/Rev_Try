@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <VerifyCheckboxLabel>//label[contains(@class,'checkbox')]//*[text()="{paramlink}"]</VerifyCheckboxLabel>
+    <FooterBtn>//*[@name='footer']//button[text()='{paramlink}']</FooterBtn>
+    <IconName>//lightning-icon[@icon-name='{paramlink}']</IconName>
+    <VerifyButton>//button[text()='{paramlink1}' and @aria-disabled='{paramlink2}']</VerifyButton>
+    <InputPlaceHolder>//input[@placeholder='{paramlink}']</InputPlaceHolder>
+    <DivText>//div[contains(text(),'{paramlink}')]</DivText>
+    <LabelText>//label[text()='{paramlink}' or .='{paramlink}' or .//span[normalize-space(text())='{paramlink}']]</LabelText>
+    <LabelTextWithIndex>(//lightning-file-upload[@data-stop-id]//label[text()='{paramlink}' or .='{paramlink}' or .//span[normalize-space(text())='{paramlink}']])[last()]</LabelTextWithIndex>
+    <FormFields>//*[@id='{paramlink}']</FormFields>
+    <RFQInputByField>//lightning-input[@data-field-name='{paramlink}']//input</RFQInputByField>
+    <RFQComboboxByField>//lightning-combobox[@data-field-name='{paramlink}']//button[@role='combobox']</RFQComboboxByField>
+    <RFQComboboxOption>//lightning-base-combobox-item[@data-value='{paramlink}' or .//*[normalize-space()='{paramlink}']]</RFQComboboxOption>
+    <RFQModeCheckbox>(//label[normalize-space(.)='{paramlink}' or .//*[normalize-space()='{paramlink}']]//input[@type='checkbox'] | //lightning-input[.//*[normalize-space()='{paramlink}']]//input[@type='checkbox'])</RFQModeCheckbox>
+    <RFQMatchingLoadsRowCount>//p[normalize-space()='Matching Loads']/ancestor::lightning-layout[1]//p[normalize-space()='{paramlink}']</RFQMatchingLoadsRowCount>
+    <RFQMatchingLoadRow>//tr[@role='row' and @data-row-key-value='{paramlink}']</RFQMatchingLoadRow>
+    <RFQMatchingLoadsHeading>//p[normalize-space()='Matching Loads']</RFQMatchingLoadsHeading>
+    <RFQSearchButton>//c-rfq-load-board//lightning-button[.//button[normalize-space()='Search']]//button</RFQSearchButton>
+    <ButtonIconTitle>//*[@title='{paramlink}']</ButtonIconTitle>
+    <UploadModalButton>//div[@role='dialog' and @aria-modal='true' and contains(@class,'slds-fade-in-open') and not(@aria-hidden='true')]//button[.//span[normalize-space(.)='{paramlink}']]</UploadModalButton>
+    <Stop2Button>//c-carrier-settlement//lightning-button[contains(@class,'slds-m-right_small')]//button</Stop2Button>
+    <ButtonIconSearchTitle>//*[contains(@data-value,"{paramlink}")]/../..//*[@title='{paramlink}']</ButtonIconSearchTitle>
+    <LabelClearIcon>//label[text()='{paramlink}']/..//button[@title='Clear {paramlink} Selection' or @data-element-id='searchClear']</LabelClearIcon>
+    <Div_aria_Label>//div[@aria-label="{paramlink}"]</Div_aria_Label>
+    <Div_aria_Label_Span_Text>//div[@aria-label="{paramlink1}"]//span[text()='{paramlink2}']</Div_aria_Label_Span_Text>
+    <SpanText>//span[contains(text(),'{paramlink}')]</SpanText>
+    <SelectTextRadio>//*[contains(text(),'{paramlink}')]/../../../../..//label/span</SelectTextRadio>
+    <GlobalText2>//*[text()='{paramlink}']</GlobalText2>
+    <ButtonIconTitleWithLabel>//label[text()='{paramlink}' or .='{paramlink}' or .//span[normalize-space(text())='{paramlink}']]/../..//*[@title='{paramlink2}']</ButtonIconTitleWithLabel>
+    <LabelClearIcon_2>(//label[text()='{paramlink}']/..//button[@title='Clear Selection' or @data-element-id='searchClear'])[2]</LabelClearIcon_2>
+    <LinkText>//div[contains(@class,'active')]//a[text()='{paramlink}']</LinkText>
+    <ComboxCurrency>//button[contains(@id,'combobox-button')]</ComboxCurrency>
+    <VerifyMessage>//*[contains(text(),'{paramlink}')]</VerifyMessage>
+    <InputField>//label[contains(text(),'{paramlink}')]/../..//input</InputField>
+    <secondelement>(//span[normalize-space()='{paramlink}'])[{index}]</secondelement>
+    <VerifyMessage>//*[contains(text(),'{paramlink}')]</VerifyMessage>
+    <VerifyMessage1>//*[contains(@class,'toastMessage') and contains(text(),'{paramlink}')]</VerifyMessage1>
+    <ErrorMessage>//div[@data-key='error']//*[@icon-name='utility:error']/..//span[contains(@class,'toastMessage')]</ErrorMessage>
+    <ErrorCloseToastMsg>//span[contains(text(),'{paramlink}')]/ancestor::div[@data-key="error"]//button[contains(@class,'modal__close ') or contains(@class,'toastClose')]</ErrorCloseToastMsg>
+
+</locators>

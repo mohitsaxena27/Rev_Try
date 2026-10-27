@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/"
+                  xmlns:acc="http://schemas.datacontract.org/2004/07/accufRATE.accufRATE"
+                  xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <tem:GetQuotes>
+            <tem:request>
+                <acc:Accessorial/>
+                <acc:Authentication>
+                    <acc:Mode>C</acc:Mode>
+                    <acc:Password>eRRu4EvfaPTphYoQC0cLGg==</acc:Password>
+                    <acc:UserName>apitest@ship1a.com</acc:UserName>
+                </acc:Authentication>
+                <acc:FreightItems>
+                    <acc:FreightItem>
+                        <acc:ClassCode>50</acc:ClassCode>
+                        <acc:Weight>6500</acc:Weight>
+                    </acc:FreightItem>
+                </acc:FreightItems>
+                <acc:FromCity>Bannockburn</acc:FromCity>
+                <acc:FromCountry>US</acc:FromCountry>
+                <acc:FromState>IL</acc:FromState>
+                <acc:FromZip>60015</acc:FromZip>
+                <acc:IsFullTruckLoad>false</acc:IsFullTruckLoad>
+                <acc:PackageDimensions>
+                    <acc:Dimension>
+                        <acc:Height>45.00</acc:Height>
+                        <acc:Length>45.00</acc:Length>
+                        <acc:Pieces>2</acc:Pieces>
+                        <acc:Width>45.00</acc:Width>
+                    </acc:Dimension>
+                </acc:PackageDimensions>
+                <acc:IsStandardSize>true</acc:IsStandardSize>
+                <acc:Pallets>2</acc:Pallets>
+                <acc:QuoteTypeId>1</acc:QuoteTypeId>
+                <acc:StackTypeId>1</acc:StackTypeId>
+               <acc:ToCity>Boston</acc:ToCity>
+               <acc:ToCountry>US</acc:ToCountry>
+                <acc:ToState>MA</acc:ToState>
+                <acc:ToZip>02215</acc:ToZip>
+            </tem:request>
+        </tem:GetQuotes>
+    </soapenv:Body>
+</soapenv:Envelope>

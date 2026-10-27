@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+ <IconName>//div[contains(@class,'active ')]//lightning-tab//lightning-icon[@icon-name='{paramlink}']</IconName>
+ <TableHeaderModal>//div[contains(@class,'active ')]//c-revenova-modal//th[@role='columnheader']//span[@class='slds-truncate']</TableHeaderModal>
+ <Global_Text>//div[contains(@class,'active ')]//c-fleet-trip-event-viewer//*[text()='{paramlink}']</Global_Text>
+<VerifyButton>//div[contains(@class,'active')]//c-fleet-trip-event-viewer//button[text()='{paramlink1}' and @aria-disabled='{paramlink2}']</VerifyButton>
+    <WithTitle>//div[contains(@class,'active')]//c-fleet-trip-event-viewer//*[@title='{paramlink}']</WithTitle>
+<TripEventRecords>//div[contains(@class,'active')]//c-fleet-trip-event-viewer//tbody//tr[{index}]/*[@data-label]//div[contains(@class,'slds-truncate')]</TripEventRecords>
+<TripEventRecordCheckbox>//div[contains(@class,'active')]//c-fleet-trip-event-viewer//tbody//tr[{index}]//input[@type='radio']</TripEventRecordCheckbox>
+<SelectTripEventWithType>//div[contains(@class,'active')]//c-fleet-trip-event-viewer//tbody//tr[.//td[@data-label='{paramlink1}' and @data-cell-value='{paramlink2}']]//input[@type='radio']</SelectTripEventWithType>
+<ChatterDetails>//lightning-layout[contains(@class,'chatterBox')]//lightning-layout-item[.//*[text()='{paramlink1}']]/following-sibling::lightning-layout-item[3]//*[contains(text(),'{paramlink2}')]</ChatterDetails>
+<TripEventOnFleetAsset>//div[contains(@class,'active')]//tr[.//*[text()='{paramlink1}']]//button[@name='trip_events' and @title='{paramlink2}']</TripEventOnFleetAsset>
+<TripEventWithFleetAsset>//div[contains(@class,'active')]//tr[.//*[text()='{paramlink1}']]//button[@name='trip_events']</TripEventWithFleetAsset>
+<TripPlanBackgroundColor>//div[contains(@class,'active')]//lightning-input-field[.//label[text()='Status']]</TripPlanBackgroundColor>
+<TripEventTable>//div[contains(@class,'active')]//c-fleet-trip-event-viewer//table</TripEventTable>
+<LabelInput>//div[contains(@class,'active')]//Label[text()='{paramlink}']/..//input</LabelInput>
+    <LabelButtonDataValue>//div[contains(@class,'active')]//label[text()='{paramlink1}']/../..//button[@data-value="{paramlink2}"]</LabelButtonDataValue>
+<VerifyTitlePlace>//div[contains(@class,'active ')]//lightning-button-icon[.//*[@title='{paramlink1}']]/preceding-sibling::lightning-button-icon//*[@title='{paramlink2}']</VerifyTitlePlace>
+</locators>
+

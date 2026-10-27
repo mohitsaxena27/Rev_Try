@@ -1,0 +1,45 @@
+{
+  "freight": {
+    "equipmentType": "V",
+    "fullPartial": "FULL",
+    "comments": [
+      {
+        "comment": "testing"
+      }
+    ],
+    "lengthFeet": 48,
+    "weightPounds": 23000,
+    "pickupHours": "{CurrentDateWithSlash} 09:00-22:00",
+    "dropOffHours": "{CurrentDateWithSlash+3} 09:00-22:00"
+  },
+  "lane": {
+    "origin": {
+      "city": "Boston",
+      "stateProv": "MA"
+    },
+    "destination": {
+      "city": "Denver",
+      "stateProv": "CO"
+    }
+  },
+  "exposure": {
+    "preferredContactMethod": "PRIMARY_PHONE",
+    "audience": {
+      "loadBoard": {
+        "transactionDetails": {
+          "transactionType": "NONBOOKABLE_OFFER_RATE",
+          "loadOfferRateUsd": 1
+        }
+      }
+    },
+    "earliestAvailabilityWhen": "{CurrentData}T12:00:00.000Z"
+  },
+  "referenceId": "{Load_Number}",
+  "posterInfo": {
+    "contactMethods": [
+      {
+        "method": "PRIMARY_PHONE"
+      }
+    ]
+  }
+}

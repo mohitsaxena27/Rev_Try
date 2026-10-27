@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+
+    <modalLocator>//section[contains(@class,'slds-modal') and contains(@class,'slds-fade-in-open')]</modalLocator>
+    <headerLocator>//header//div[contains(@class,'slds-text-heading_medium')]</headerLocator>
+    <iframeLocator>//iframe[contains(@src,'{paramlink}')]</iframeLocator>
+    <CloseModal>//button[contains(@class,'slds-modal__close')]</CloseModal>
+    <CustomerInvoiceLink>//div[contains(@class,'active ')]//span[contains(@title,'Customer Invoice.pdf')]</CustomerInvoiceLink>
+    <TableTextLink>//div[contains(@class,'active ')]//*[@aria-label='{paramlink3}']//*[@data-label="{paramlink1}"]//*[text()='{paramlink2}']</TableTextLink>
+    <DeleteDropdown>//div[contains(@class,'active ')]//*[contains(@class,'listViewContainer')]//tbody//td[contains(@data-col-key-value,'ViewRowLevelAction')]//button</DeleteDropdown>
+    <DeleteDropdownWithName>//div[contains(@class,'active ')]//span[normalize-space()='{paramlink}']/ancestor::*[self::th or self::td]/following-sibling::td[contains(@data-col-key-value,'ViewRowLevelAction')]//button</DeleteDropdownWithName>
+    <VerifyAttacheDocumentSection>//div[contains(@class,'active ')]//*[text()='Attached Documents']/..//*[contains(@title,'{paramlink}')]</VerifyAttacheDocumentSection>
+     <DivText2>//div[text()='{paramlink}']</DivText2>
+    <HeadigText>//h1[text()='{paramlink}']</HeadigText>
+    <FileNameCount>//div[contains(@class,'active ')]//*[@title='{paramlink}']</FileNameCount>
+</locators>
+

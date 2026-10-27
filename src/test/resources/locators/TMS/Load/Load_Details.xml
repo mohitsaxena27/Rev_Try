@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <Carrier_Sales_Rep_Vaue>//*[contains(@data-field-id,"Carrier_Sales_Rep")]//span[text()='{paramlink}']</Carrier_Sales_Rep_Vaue>
+    <VerifyFieldValue>//div[contains(@class,'active ')]//*[text()='{paramlink1}' and @class='test-id__field-label']/../..//*[contains(@class,'test-id__field-value')]//*[@data-output-element-id="output-field" and text()='{paramlink2}']</VerifyFieldValue>
+    <Last_Reported_City>//input[@name='rtms__Last_Reported_City__c']</Last_Reported_City>
+    <LoadPostRecord>//div[contains(@class,'active ')]//tr[.//a[@title='{paramlink1}']]//th[@data-label='{paramlink2}']//a</LoadPostRecord>
+    <GetFileNames>//div[contains(@class,'active ')]//div[@rtms-fileviewer_fileviewer]//*[@data-label="Name"]//lightning-base-formatted-text</GetFileNames>
+    <StopsButtonGroup>//*[normalize-space(.)='{paramlink1}']/ancestor::div/lightning-layout//button[@title='{paramlink2}']</StopsButtonGroup>
+    <StopsRemoveReason>//*[normalize-space(.)='Stop {paramlink1}']/ancestor::lightning-layout-item[1]//fieldset//label//span[normalize-space(.)='{paramlink2}']</StopsRemoveReason>
+    <StopTexts>//span[text()='Delete Stops']/following::lightning-layout-item//lightning-formatted-text[not(contains(text(),'Stop'))]</StopTexts>
+    <StopLocations>//span[text()='Delete Stops']/following::lightning-layout-item//lightning-formatted-text[not(contains(text(),'Stop'))]</StopLocations>
+    <ButtonIcon>//div[contains(@class,'active')]//*[@title='{paramlink}']</ButtonIcon>
+</locators>
+

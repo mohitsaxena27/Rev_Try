@@ -1,0 +1,49 @@
+{
+    "transactionId": "3f5bd03f-7aa2-44a7-98e4-cd6e06787b19",
+    "scac": "SMCA",
+    "referenceNumbers": {
+      "proNumber": "PRO2304",
+      "bol": "BOL2304"
+    },
+    "shipmentInfo": {
+      "weight": "6500"
+    },
+    "origin": {
+      "postalCode": "02215"
+    },
+    "destination": {
+      "postalCode": "90023"
+    },
+    "transit": {
+      "pickupDate": "20240219",
+      "delivery": {
+        "estimatedDate": "",
+        "estimatedTime": "",
+        "actualDate": "",
+        "actualTime": "",
+        "signature": "",
+        "appointment": {
+          "date": "",
+          "startTime": "",
+          "endTime": "",
+          "notes": "In Transit notes"
+        }
+      }
+    },
+    "status": {
+      "code": "IN TRANSIT",
+      "date": "20240219",
+      "time": "105900",
+      "utc": "2024-02-19T19:13:11.337Z",
+      "carrierDescription": "We're In Transit, here.",
+      "city": "Topeka",
+      "stateProvince": "KS"
+    },
+    "messageStatus": {
+      "status": "PASS",
+      "code": "10000000",
+      "message": "Transaction was successful.",
+      "resolution": "",
+      "information": []
+    }
+  }

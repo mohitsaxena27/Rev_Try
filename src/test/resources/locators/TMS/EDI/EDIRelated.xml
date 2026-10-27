@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+<TransactionPayload>//div[@data-target-selection-name='sfdc:RecordField.rtms__EDITransaction__c.rtms__Transaction_Payload__c']//textarea</TransactionPayload>
+</locators>
+

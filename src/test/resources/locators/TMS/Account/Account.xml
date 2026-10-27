@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+  <HeadingText>//{paramlink1}[text()='{paramlink2}']</HeadingText>
+    <GetDocumentID>(//div[contains(@class,'active ')]//a[contains(@href,'ContentDocument') and .//span[contains(text(),'{paramlink1}')]])[{Index}]</GetDocumentID>
+</locators>
+

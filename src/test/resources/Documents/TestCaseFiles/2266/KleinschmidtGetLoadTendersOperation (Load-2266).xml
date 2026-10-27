@@ -1,0 +1,238 @@
+<getLoadTenderResponse>
+	<status>
+		<statusCode>OK</statusCode>
+		<messageCode/>
+		<message/>
+	</status>
+	<loadTenders>
+		<loadTender>
+			<tradingPartnerId>KLIQA</tradingPartnerId>
+			<shipmentId>Load-2266</shipmentId>
+			<purpose>Original</purpose>
+			<mode>Truckload</mode>
+            <equipmentType>53' van **#Dry</equipmentType>
+			<specialInstructions>
+                <specialInstruction>Hello</specialInstruction>
+                <specialInstruction>World</specialInstruction>
+            </specialInstructions>
+			<poNum>2266</poNum>
+			<orderNum>ON2266</orderNum>
+			<bolNum>2266BOL</bolNum>
+            <paymentTerms>Collect</paymentTerms>
+            <respondByDate>2028-12-23</respondByDate>
+            <respondByTime>19:30</respondByTime>
+			 <totalCharge>2500.00</totalCharge>              
+            <cargoValue>50000.00</cargoValue>
+            <currencyCode>USD</currencyCode>
+            <insuranceAmount>250.00</insuranceAmount>
+            <mileage>250</mileage>
+			<billTo>                                               
+				<companyName>Bill To Company ABC</companyName>
+				<companyId>testtesttest123</companyId>
+				<addr>4600 Via Fortuna</addr>
+				<city>Chicago</city>
+				<state>IL</state>
+				<zip>60603</zip>
+				<country>US</country>
+				<contact>
+					<contactName>Accounts Payable</contactName>
+					<phone>312-313-3922</phone>
+				</contact>
+			</billTo>
+			<stops>
+				<stop>
+					<stopNum>1</stopNum>
+					<stopType>pickup</stopType>
+					<stopInstructions>go to dock 122</stopInstructions>
+					<referenceNums>
+						<referenceNum>
+							<type>PO</type>
+							<text>PO Number</text>
+							<value>02240044</value>
+						</referenceNum>
+					</referenceNums>
+					<company>
+						<companyName>Arizona Diamondbacks</companyName>
+						<companyId>AZD1</companyId>
+						<addr>401 E Jefferson St</addr>
+						<city>Phoenix</city>
+						<state>AZ</state>
+						<zip>85004</zip>
+						<country>US</country>
+					</company>
+					<apptRequired>N</apptRequired>
+					<expectedDate>2028-08-24</expectedDate>
+					<expectedTimeStart>13:00</expectedTimeStart>
+					<expectedTimeEnd>15:00</expectedTimeEnd>
+					<contacts>
+                        <contact>
+                            <contactName>George Smiley</contactName>
+                            <phone>312-888-9999</phone>
+                            <fax>312-888-9999</fax>
+                            <email>gsmiley@mi6.org</email>
+                        </contact>
+                    </contacts> 
+					    <accessorials>
+                        <accessorial>
+                            <name>Exhibition/Trade Show Pick Up</name>
+                            <code>BB</code>
+                            <charge>245.17</charge>
+                        </accessorial>
+                    </accessorials>
+				</stop>
+				<stop>
+					<stopNum>2</stopNum>
+					<stopType>dropoff</stopType>
+					<referenceNums>
+						<referenceNum>
+							<type>BM</type>
+							<text>BOL Number</text>
+							<value>04022401275315659</value>
+						</referenceNum>
+						<referenceNum>
+							<type>CR</type>
+							<text>Customer Reference Number</text>
+							<value>LD000461060</value>
+						</referenceNum>
+					</referenceNums>
+					<company>
+						<companyName>Arizona Cardinals</companyName>
+						<companyId>AZC1</companyId>
+						<addr>8701 S Hardy Dr</addr>
+						<city>Tempe</city>
+						<state>AZ</state>
+						<zip>85284</zip>
+						<country>US</country>
+					</company>
+					<apptRequired>Y</apptRequired>
+					<expectedDate>2028-08-26</expectedDate>
+					<expectedTimeStart>06:00</expectedTimeStart>
+					<expectedTimeEnd>08:00</expectedTimeEnd>
+				</stop>
+				<stop>
+					<stopNum>3</stopNum>
+					<stopType>dropoff</stopType>
+					<referenceNums>
+						<referenceNum>
+							<type>PO</type>
+							<text>PO Number</text>
+							<value>02240044</value>
+						</referenceNum>
+					</referenceNums>
+					<company>
+						<companyName>NeimanMarcus - Irving</companyName>
+						<companyId>OG-0044</companyId>
+						<addr>123 Customer Way</addr>
+						<city>Irving</city>
+						<state>TX</state>
+						<zip>75039</zip>
+						<country>US</country>
+					</company>
+					<apptRequired>N</apptRequired>
+					<expectedDate>2028-08-26</expectedDate>
+					<expectedTimeStart>06:30</expectedTimeStart>
+					<expectedTimeEnd>08:30</expectedTimeEnd>
+				</stop>
+				<stop>
+					<stopNum>4</stopNum>
+					<stopType>dropoff</stopType>
+					<company>
+						<companyName>Texas Rangers</companyName>
+						<companyId>TXR1</companyId>
+						<addr>1000 Ballpark Way Ste 400</addr>
+						<city>Arlington</city>
+						<state>TX</state>
+						<zip>76011</zip>
+						<country>US</country>
+					</company>
+					<apptRequired>N</apptRequired>
+					<expectedDate>2028-08-27</expectedDate>
+					<expectedTimeStart>16:30</expectedTimeStart>
+					<expectedTimeEnd>18:30</expectedTimeEnd>
+				</stop>
+			</stops>
+			<items>
+				<item>
+					<pickupStopNum>1</pickupStopNum>
+					<dropoffStopNum>2</dropoffStopNum>
+					<itemNum>MG000520788</itemNum>
+					<desc>CLOTHING LT/12 PCF</desc>
+					<handlingUnitCount>10</handlingUnitCount>
+                    <handlingUnits>Pallets</handlingUnits>
+                    <packagingUnitCount>10</packagingUnitCount>
+                    <packagingUnits>Pieces</packagingUnits>
+                    <weight>20000</weight>
+                    <weightUnits>lbs</weightUnits>
+                    <length>48</length>
+                    <width>48</width>
+                    <height>48</height>
+                    <dimensionUnits>in</dimensionUnits>
+                    <volume>200</volume>
+                    <volumeUnits>Cubic Feet</volumeUnits>
+                    <nmfcClass>70</nmfcClass>
+                    <nmfcNum>122270</nmfcNum>
+                    <isHazardousMaterials>Y</isHazardousMaterials>
+                    <hazMatNumberType>UN</hazMatNumberType>
+                    <hazMatNumber>1234</hazMatNumber>
+                    <hazMatClassDivision>1.1</hazMatClassDivision>
+                    <hazMatPackagingGroup>III</hazMatPackagingGroup>
+                    <hazMatContactName>QA Arizona Cardinals</hazMatContactName>
+                    <hazMatContactPhone>775-441-9985</hazMatContactPhone>
+                    <hazMatContactEmail>HFord@revenova.com</hazMatContactEmail>
+				</item>
+				<item>
+					<pickupStopNum>1</pickupStopNum>
+					<dropoffStopNum>3</dropoffStopNum>
+					<itemNum>MG000520789</itemNum>
+					<desc>CLOTHING LT/12 PCF</desc>
+					<nmfcNum>049880-03</nmfcNum>
+					<weight>300</weight>
+					<weightUnits>lbs</weightUnits>
+					<handlingUnitCount>3</handlingUnitCount>
+					<handlingUnits>Pallets</handlingUnits>
+					<packagingUnitCount>10</packagingUnitCount>
+					<packagingUnits>Pieces</packagingUnits>
+					 <hazMatContactName>QA Arizona Diamondbacks 2266</hazMatContactName>
+                    <hazMatContactPhone>741-778-7741</hazMatContactPhone>
+                    <hazMatContactEmail>qa@revenova.com</hazMatContactEmail>
+				</item>
+				<item>
+					<pickupStopNum>1</pickupStopNum>
+					<dropoffStopNum>4</dropoffStopNum>
+					<itemNum>Item5789</itemNum>
+					<desc>Hangers</desc>
+					<nmfcNum>123774-01</nmfcNum>
+					<weight>1300</weight>
+					<weightUnits>lbs</weightUnits>
+					<handlingUnitCount>1</handlingUnitCount>
+					<handlingUnits>Pallets</handlingUnits>
+					 <hazMatContactName>QA Hazmat Not Found</hazMatContactName>
+                    <hazMatContactPhone>775-441-9981</hazMatContactPhone>
+                    <hazMatContactEmail>qa@revenova.com</hazMatContactEmail>
+				</item>
+			</items>
+			<charges>
+				<charge>
+					<type>Line Haul</type>
+					<desc>Line Haul</desc>
+					<amount>5000.00</amount>
+				</charge>
+				<charge>
+					<type>Fuel</type>
+					<desc>Fuel Surcharge</desc>
+					<amount>200.00</amount>
+				</charge>
+				<charge>
+					<type>Accessorial</type>
+					<desc>Lift Gate</desc>
+					<amount>100.00</amount>
+				</charge>
+				<charge>
+					<type>Accessorial</type>
+					<desc>Lumper </desc>
+					<amount>200.00</amount>
+				</charge>
+			</charges>
+		</loadTender>
+	</loadTenders>
+</getLoadTenderResponse>

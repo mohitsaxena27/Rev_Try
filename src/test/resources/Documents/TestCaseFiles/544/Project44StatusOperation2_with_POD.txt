@@ -1,0 +1,1377 @@
+{
+  "previousShipmentStatus": {
+    "shipment": {
+      "capacityProviderAccountGroup": {
+        "code": "Legacy_PPD",
+        "accounts": [
+          {
+            "code": "RLCA_PPD"
+          }
+        ]
+      },
+      "shipmentIdentifiers": [
+        {
+          "type": "PRO",
+          "value": "I546485976",
+          "primaryForType": true,
+          "source": "CAPACITY_PROVIDER"
+        },
+        {
+          "type": "BILL_OF_LADING",
+          "value": "377986",
+          "primaryForType": true,
+          "source": "CUSTOMER"
+        },
+        {
+          "type": "PRO",
+          "value": "WQ1966806",
+          "primaryForType": false,
+          "source": "CAPACITY_PROVIDER"
+        },
+        {
+          "type": "PICKUP",
+          "value": "75707287",
+          "primaryForType": true,
+          "source": "CAPACITY_PROVIDER"
+        },
+        {
+          "type": "PICKUP",
+          "value": "REF# SO1168412",
+          "primaryForType": false,
+          "source": "CUSTOMER"
+        },
+        {
+          "type": "PURCHASE_ORDER",
+          "value": "PO# AGX8552",
+          "primaryForType": true,
+          "source": "CUSTOMER"
+        },
+        {
+          "type": "EXTERNAL",
+          "value": "{externalid}",
+          "primaryForType": true,
+          "source": "CUSTOMER"
+        }
+      ],
+      "shipmentStops": [
+        {
+          "id": 900337410,
+          "stopType": "ORIGIN",
+          "stopDescription": null,
+          "location": {
+            "address": {
+              "postalCode": "89502",
+              "addressLines": [
+                "5360 CAPITAL CT., SUITE 100"
+              ],
+              "city": "RENO",
+              "state": "NV",
+              "country": "US"
+            },
+            "contact": {
+              "companyName": "LEGACY SUPPLY CHAIN SERVICES C/O GUMDROP, STORER 975",
+              "contactName": "apanelli",
+              "phoneNumber": "317-736-2830",
+              "phoneNumberCountryCode": null,
+              "phoneNumber2": null,
+              "phoneNumber2CountryCode": null,
+              "email": "apanelli@legacyscs.com",
+              "faxNumber": null,
+              "faxNumberCountryCode": null
+            },
+            "id": null
+          },
+          "locationIdentifiers": [
+            {
+              "type": "SYSTEM",
+              "value": "3a36ae0e-0e75-4c74-abec-b2030038cccb"
+            }
+          ],
+          "appointmentWindow": {
+            "startDateTime": "2023-09-21T08:00:00",
+            "endDateTime": "2023-09-21T15:00:00",
+            "localTimeZoneIdentifier": "America/Los_Angeles"
+          },
+          "additionalAppointmentWindows": null,
+          "stopName": "Origin",
+          "stopNumber": 1,
+          "involvedParties": null,
+          "uuid": "35aa0f02-0001-a000-e000-000000000000",
+          "geoCoordinates": {
+            "latitude": 39.50257,
+            "longitude": -119.75072
+          }
+        },
+        {
+          "id": 900509642,
+          "stopType": "TERMINAL",
+          "stopDescription": null,
+          "location": {
+            "address": {
+              "postalCode": null,
+              "addressLines": null,
+              "city": "RENO",
+              "state": "NV",
+              "country": "US"
+            },
+            "contact": null,
+            "id": null
+          },
+          "locationIdentifiers": [
+            {
+              "type": "SYSTEM",
+              "value": "6a2d10fa-6125-43a8-9ec3-862cb353247e"
+            }
+          ],
+          "appointmentWindow": {
+            "startDateTime": null,
+            "endDateTime": null,
+            "localTimeZoneIdentifier": "America/Los_Angeles"
+          },
+          "additionalAppointmentWindows": null,
+          "stopName": "RENO",
+          "stopNumber": 2,
+          "involvedParties": null,
+          "uuid": "35acafca-0001-a000-e000-000000000000",
+          "geoCoordinates": {
+            "latitude": 39.52767,
+            "longitude": -119.81353
+          }
+        },
+        {
+          "id": 900726305,
+          "stopType": "TERMINAL",
+          "stopDescription": null,
+          "location": {
+            "address": {
+              "postalCode": null,
+              "addressLines": null,
+              "city": "RENO, NV in route to SALT LAKE CITY",
+              "state": "UT",
+              "country": "US"
+            },
+            "contact": null,
+            "id": null
+          },
+          "locationIdentifiers": [
+            {
+              "type": "SYSTEM",
+              "value": "3802ee44-bff1-405d-a750-36fa03444e5f"
+            }
+          ],
+          "appointmentWindow": {
+            "startDateTime": null,
+            "endDateTime": null,
+            "localTimeZoneIdentifier": null
+          },
+          "additionalAppointmentWindows": null,
+          "stopName": "RENO, NV in route to SALT LAKE CITY",
+          "stopNumber": 3,
+          "involvedParties": null,
+          "uuid": "35affe21-0001-a000-e000-000000000000",
+          "geoCoordinates": {
+            "latitude": 40.66803,
+            "longitude": -111.90306
+          }
+        },
+        {
+          "id": 901141657,
+          "stopType": "TERMINAL",
+          "stopDescription": null,
+          "location": {
+            "address": {
+              "postalCode": null,
+              "addressLines": null,
+              "city": "SALT LAKE CITY",
+              "state": "UT",
+              "country": "US"
+            },
+            "contact": null,
+            "id": null
+          },
+          "locationIdentifiers": [
+            {
+              "type": "SYSTEM",
+              "value": "d69b6a68-7606-42ef-b5b2-119b2bc4f0d5"
+            }
+          ],
+          "appointmentWindow": {
+            "startDateTime": null,
+            "endDateTime": null,
+            "localTimeZoneIdentifier": "America/Denver"
+          },
+          "additionalAppointmentWindows": null,
+          "stopName": "SALT LAKE CITY",
+          "stopNumber": 4,
+          "involvedParties": null,
+          "uuid": "35b65499-0001-a000-e000-000000000000",
+          "geoCoordinates": {
+            "latitude": 40.76031,
+            "longitude": -111.88822
+          }
+        },
+        {
+          "id": 902411497,
+          "stopType": "TERMINAL",
+          "stopDescription": null,
+          "location": {
+            "address": {
+              "postalCode": null,
+              "addressLines": null,
+              "city": "NORTH LAS VEGAS",
+              "state": "NV",
+              "country": "US"
+            },
+            "contact": null,
+            "id": null
+          },
+          "locationIdentifiers": [
+            {
+              "type": "SYSTEM",
+              "value": "836850f0-dcee-4da1-81af-5b205a2a6a95"
+            }
+          ],
+          "appointmentWindow": {
+            "startDateTime": null,
+            "endDateTime": null,
+            "localTimeZoneIdentifier": "America/Los_Angeles"
+          },
+          "additionalAppointmentWindows": null,
+          "stopName": "NORTH LAS VEGAS",
+          "stopNumber": 5,
+          "involvedParties": null,
+          "uuid": "35c9b4e9-0001-a000-e000-000000000000",
+          "geoCoordinates": {
+            "latitude": 36.20069,
+            "longitude": -115.12228
+          }
+        },
+        {
+          "id": 900337411,
+          "stopType": "DESTINATION",
+          "stopDescription": null,
+          "location": {
+            "address": {
+              "postalCode": "89030",
+              "addressLines": [
+                "3201 EAST ALEXANDER RD"
+              ],
+              "city": "North Las Vegas",
+              "state": "NV",
+              "country": "US"
+            },
+            "contact": {
+              "companyName": "CDW LOGISTICS",
+              "contactName": "Jeff Gastineau",
+              "phoneNumber": "847-371-3113",
+              "phoneNumberCountryCode": null,
+              "phoneNumber2": null,
+              "phoneNumber2CountryCode": null,
+              "email": "jeffgas@cdw.com",
+              "faxNumber": null,
+              "faxNumberCountryCode": null
+            },
+            "id": null
+          },
+          "locationIdentifiers": [
+            {
+              "type": "SYSTEM",
+              "value": "184424a5-ef0e-4bee-a630-c9aac630e2be"
+            }
+          ],
+          "appointmentWindow": {
+            "startDateTime": "2023-09-25T08:00:00",
+            "endDateTime": "2023-09-25T17:00:00",
+            "localTimeZoneIdentifier": "America/Los_Angeles"
+          },
+          "additionalAppointmentWindows": null,
+          "stopName": "Destination",
+          "stopNumber": 6,
+          "involvedParties": null,
+          "uuid": "35aa0f03-0001-a000-e000-000000000000",
+          "geoCoordinates": {
+            "latitude": 36.23104,
+            "longitude": -115.10533
+          }
+        }
+      ],
+      "apiConfiguration": {
+        "fallBackToDefaultAccountGroup": false
+      },
+      "id": 90339955934075,
+      "masterShipmentId": null,
+      "ltlLegId": null,
+      "shipmentAttributes": []
+    },
+    "latestStatusUpdate": {
+      "timestamp": null,
+      "retrievalDateTime": "2023-09-25T16:37:45+0000",
+      "statusCode": "OUT_TO_STOP",
+      "statusReason": {
+        "code": null,
+        "description": "This shipment is out for delivery on time in NORTH LAS VEGAS, NV as stop 1."
+      },
+      "exceptionSummaryCode": null,
+      "exceptionDetailCode": null,
+      "address": {
+        "postalCode": null,
+        "addressLines": null,
+        "city": "NORTH LAS VEGAS",
+        "state": "NV",
+        "country": "US"
+      },
+      "stopId": 900337411,
+      "stopType": "DESTINATION",
+      "stopNumber": 6
+    },
+    "statusUpdates": [
+      {
+        "timestamp": null,
+        "retrievalDateTime": "2023-09-25T16:37:45+0000",
+        "statusCode": "OUT_TO_STOP",
+        "statusReason": {
+          "code": null,
+          "description": "This shipment is out for delivery on time in NORTH LAS VEGAS, NV as stop 1."
+        },
+        "exceptionSummaryCode": null,
+        "exceptionDetailCode": null,
+        "address": {
+          "postalCode": null,
+          "addressLines": null,
+          "city": "NORTH LAS VEGAS",
+          "state": "NV",
+          "country": "US"
+        },
+        "stopId": 900337411,
+        "stopType": "DESTINATION",
+        "stopNumber": 6
+      },
+      {
+        "timestamp": null,
+        "retrievalDateTime": "2023-09-25T04:37:44+0000",
+        "statusCode": "IN_TRANSIT",
+        "statusReason": {
+          "code": null,
+          "description": "This shipment is in transit and requires an appointment. a customer care representative will be contacting the consignee 24 hours prior to delivery. Please note appointment, residential and COD shipments may require additional days for service."
+        },
+        "exceptionSummaryCode": null,
+        "exceptionDetailCode": null,
+        "address": null,
+        "stopId": null,
+        "stopType": null,
+        "stopNumber": null
+      },
+      {
+        "timestamp": {
+          "date": "2023-09-25",
+          "time": "03:37:44",
+          "timeZoneOffset": "+0000"
+        },
+        "retrievalDateTime": "2023-09-25T03:37:44+0000",
+        "statusCode": "INFO",
+        "statusReason": {
+          "code": "NOT_RECEIVING_DATA_48_TO_71",
+          "description": null
+        },
+        "exceptionSummaryCode": null,
+        "exceptionDetailCode": null,
+        "address": null,
+        "stopId": null,
+        "stopType": null,
+        "stopNumber": null
+      },
+      {
+        "timestamp": {
+          "date": "2023-09-22",
+          "time": "18:51:48",
+          "timeZoneOffset": null
+        },
+        "retrievalDateTime": "2023-09-23T02:37:45+0000",
+        "statusCode": "AT_STOP",
+        "statusReason": {
+          "code": null,
+          "description": "Arrived at destination terminal"
+        },
+        "exceptionSummaryCode": null,
+        "exceptionDetailCode": null,
+        "address": null,
+        "stopId": null,
+        "stopType": "TERMINAL",
+        "stopNumber": null
+      },
+      {
+        "timestamp": {
+          "date": "2023-09-22",
+          "time": "16:43:34",
+          "timeZoneOffset": "-0600"
+        },
+        "retrievalDateTime": "2023-09-22T22:37:44+0000",
+        "statusCode": "IN_TRANSIT",
+        "statusReason": {
+          "code": null,
+          "description": "Departed SALT LAKE CITY, UT in route to destination terminal"
+        },
+        "exceptionSummaryCode": null,
+        "exceptionDetailCode": null,
+        "address": {
+          "postalCode": null,
+          "addressLines": null,
+          "city": "SALT LAKE CITY",
+          "state": "UT",
+          "country": "US"
+        },
+        "stopId": null,
+        "stopType": null,
+        "stopNumber": null
+      },
+      {
+        "timestamp": {
+          "date": "2023-09-22",
+          "time": "08:38:54",
+          "timeZoneOffset": "-0600"
+        },
+        "retrievalDateTime": "2023-09-22T15:37:44+0000",
+        "statusCode": "AT_STOP",
+        "statusReason": {
+          "code": null,
+          "description": "Arrived at SALT LAKE CITY, UT"
+        },
+        "exceptionSummaryCode": null,
+        "exceptionDetailCode": null,
+        "address": {
+          "postalCode": null,
+          "addressLines": null,
+          "city": "SALT LAKE CITY",
+          "state": "UT",
+          "country": "US"
+        },
+        "stopId": 901141657,
+        "stopType": "TERMINAL",
+        "stopNumber": 4
+      },
+      {
+        "timestamp": {
+          "date": "2023-09-22",
+          "time": "02:18:11",
+          "timeZoneOffset": null
+        },
+        "retrievalDateTime": "2023-09-22T06:37:44+0000",
+        "statusCode": "IN_TRANSIT",
+        "statusReason": {
+          "code": null,
+          "description": "Departed RENO, NV in route to SALT LAKE CITY, UT"
+        },
+        "exceptionSummaryCode": null,
+        "exceptionDetailCode": null,
+        "address": {
+          "postalCode": null,
+          "addressLines": null,
+          "city": "RENO, NV in route to SALT LAKE CITY",
+          "state": "UT",
+          "country": "US"
+        },
+        "stopId": null,
+        "stopType": null,
+        "stopNumber": null
+      },
+      {
+        "timestamp": {
+          "date": "2023-09-22",
+          "time": "01:08:32",
+          "timeZoneOffset": null
+        },
+        "retrievalDateTime": "2023-09-22T05:37:44+0000",
+        "statusCode": "IN_TRANSIT",
+        "statusReason": {
+          "code": null,
+          "description": "Departed RENO, NV in route to SALT LAKE CITY, UT"
+        },
+        "exceptionSummaryCode": null,
+        "exceptionDetailCode": null,
+        "address": {
+          "postalCode": null,
+          "addressLines": null,
+          "city": "RENO, NV in route to SALT LAKE CITY",
+          "state": "UT",
+          "country": "US"
+        },
+        "stopId": null,
+        "stopType": null,
+        "stopNumber": null
+      },
+      {
+        "timestamp": {
+          "date": "2023-09-21",
+          "time": "17:38:56",
+          "timeZoneOffset": "-0700"
+        },
+        "retrievalDateTime": "2023-09-22T00:37:45+0000",
+        "statusCode": "IN_TRANSIT",
+        "statusReason": {
+          "code": "PICKED_UP",
+          "description": "Picked Up in RENO, NV"
+        },
+        "exceptionSummaryCode": null,
+        "exceptionDetailCode": null,
+        "address": {
+          "postalCode": "89502",
+          "addressLines": [
+            "5360 CAPITAL CT STE 100"
+          ],
+          "city": "RENO",
+          "state": "NV",
+          "country": "US"
+        },
+        "stopId": null,
+        "stopType": null,
+        "stopNumber": null
+      },
+      {
+        "timestamp": null,
+        "retrievalDateTime": "2023-09-21T22:52:44+0000",
+        "statusCode": "IN_TRANSIT",
+        "statusReason": {
+          "code": null,
+          "description": "This shipment is currently in transit with Delivery Appointment date of 09/25/2023 . Please note Appointment, Residential, and COD Shipments may require additional days for service."
+        },
+        "exceptionSummaryCode": null,
+        "exceptionDetailCode": null,
+        "address": null,
+        "stopId": null,
+        "stopType": null,
+        "stopNumber": null
+      }
+    ],
+    "latestStopStatuses": [
+      {
+        "stopType": "ORIGIN",
+        "stopId": 900337410,
+        "stopNumber": 1,
+        "uuid": null,
+        "statusCode": "DEPARTED",
+        "arrivalEstimate": null,
+        "arrivalCode": "UNKNOWN",
+        "arrivalDateTime": null,
+        "departureDateTime": {
+          "date": "2023-09-21",
+          "time": "17:38:56",
+          "timeZoneOffset": "-0700"
+        }
+      },
+      {
+        "stopType": "TERMINAL",
+        "stopId": 900509642,
+        "stopNumber": 2,
+        "uuid": null,
+        "statusCode": "DEPARTED",
+        "arrivalEstimate": null,
+        "arrivalCode": "UNKNOWN",
+        "arrivalDateTime": null,
+        "departureDateTime": null
+      },
+      {
+        "stopType": "TERMINAL",
+        "stopId": 900726305,
+        "stopNumber": 3,
+        "uuid": null,
+        "statusCode": "DEPARTED",
+        "arrivalEstimate": null,
+        "arrivalCode": "UNKNOWN",
+        "arrivalDateTime": null,
+        "departureDateTime": {
+          "date": "2023-09-22",
+          "time": "01:08:32",
+          "timeZoneOffset": null
+        }
+      },
+      {
+        "stopType": "TERMINAL",
+        "stopId": 901141657,
+        "stopNumber": 4,
+        "uuid": null,
+        "statusCode": "DEPARTED",
+        "arrivalEstimate": null,
+        "arrivalCode": "UNKNOWN",
+        "arrivalDateTime": {
+          "date": "2023-09-22",
+          "time": "08:38:54",
+          "timeZoneOffset": "-0600"
+        },
+        "departureDateTime": {
+          "date": "2023-09-22",
+          "time": "16:43:34",
+          "timeZoneOffset": "-0600"
+        }
+      },
+      {
+        "stopType": "TERMINAL",
+        "stopId": 902411497,
+        "stopNumber": 5,
+        "uuid": null,
+        "statusCode": "DEPARTED",
+        "arrivalEstimate": null,
+        "arrivalCode": "UNKNOWN",
+        "arrivalDateTime": null,
+        "departureDateTime": {
+          "date": "2023-09-25",
+          "time": "12:21:48",
+          "timeZoneOffset": "-0700"
+        }
+      },
+      {
+        "stopType": "DESTINATION",
+        "stopId": 900337411,
+        "stopNumber": 6,
+        "uuid": null,
+        "statusCode": "EN_ROUTE",
+        "arrivalEstimate": {
+          "estimatedArrivalWindow": {
+            "startDateTime": {
+              "date": "2023-09-25",
+              "time": "12:00:00",
+              "timeZoneOffset": "-0700"
+            },
+            "endDateTime": {
+              "date": "2023-09-25",
+              "time": "12:00:00",
+              "timeZoneOffset": "-0700"
+            }
+          }
+        },
+        "arrivalCode": "UNKNOWN",
+        "arrivalDateTime": null,
+        "departureDateTime": null
+      }
+    ],
+    "imageReferences": [
+      {
+        "imageUrl": "https://prod-1143-images.s3.amazonaws.com/3187aec3a0a009f243455f08c384cd07-1.png",
+        "documentType": "BILL_OF_LADING",
+        "imageFormat": "PNG"
+      }
+    ],
+    "infoMessages": [
+      {
+        "severity": "WARNING",
+        "message": "Imaging: Document type: INVOICE, The vendor sent back invalid data in the response.",
+        "diagnostic": null,
+        "source": "SYSTEM"
+      },
+      {
+        "severity": "WARNING",
+        "message": "Imaging: Document type: DELIVERY_RECEIPT, The vendor sent back invalid data in the response.",
+        "diagnostic": null,
+        "source": "SYSTEM"
+      },
+      {
+        "severity": "WARNING",
+        "message": "Imaging: Document type: WEIGHT_CERTIFICATE, The vendor sent back invalid data in the response.",
+        "diagnostic": null,
+        "source": "SYSTEM"
+      }
+    ],
+    "mapUrl": null
+  },
+  "latestShipmentStatus": {
+    "shipment": {
+      "capacityProviderAccountGroup": {
+        "code": "Legacy_PPD",
+        "accounts": [
+          {
+            "code": "RLCA_PPD"
+          }
+        ]
+      },
+      "shipmentIdentifiers": [
+        {
+          "type": "PRO",
+          "value": "I546485976",
+          "primaryForType": true,
+          "source": "CAPACITY_PROVIDER"
+        },
+        {
+          "type": "BILL_OF_LADING",
+          "value": "377986",
+          "primaryForType": true,
+          "source": "CUSTOMER"
+        },
+        {
+          "type": "PRO",
+          "value": "WQ1966806",
+          "primaryForType": false,
+          "source": "CAPACITY_PROVIDER"
+        },
+        {
+          "type": "PICKUP",
+          "value": "75707287",
+          "primaryForType": true,
+          "source": "CAPACITY_PROVIDER"
+        },
+        {
+          "type": "PICKUP",
+          "value": "REF# SO1168412",
+          "primaryForType": false,
+          "source": "CUSTOMER"
+        },
+        {
+          "type": "PURCHASE_ORDER",
+          "value": "PO# AGX8552",
+          "primaryForType": true,
+          "source": "CUSTOMER"
+        },
+        {
+          "type": "EXTERNAL",
+          "value": "{externalid}",
+          "primaryForType": true,
+          "source": "CUSTOMER"
+        }
+      ],
+      "shipmentStops": [
+        {
+          "id": 900337410,
+          "stopType": "ORIGIN",
+          "stopDescription": null,
+          "location": {
+            "address": {
+              "postalCode": "89502",
+              "addressLines": [
+                "5360 CAPITAL CT., SUITE 100"
+              ],
+              "city": "RENO",
+              "state": "NV",
+              "country": "US"
+            },
+            "contact": {
+              "companyName": "LEGACY SUPPLY CHAIN SERVICES C/O GUMDROP, STORER 975",
+              "contactName": "apanelli",
+              "phoneNumber": "317-736-2830",
+              "phoneNumberCountryCode": null,
+              "phoneNumber2": null,
+              "phoneNumber2CountryCode": null,
+              "email": "apanelli@legacyscs.com",
+              "faxNumber": null,
+              "faxNumberCountryCode": null
+            },
+            "id": null
+          },
+          "locationIdentifiers": [
+            {
+              "type": "SYSTEM",
+              "value": "3a36ae0e-0e75-4c74-abec-b2030038cccb"
+            }
+          ],
+          "appointmentWindow": {
+            "startDateTime": "2023-09-21T08:00:00",
+            "endDateTime": "2023-09-21T15:00:00",
+            "localTimeZoneIdentifier": "America/Los_Angeles"
+          },
+          "additionalAppointmentWindows": null,
+          "stopName": "Origin",
+          "stopNumber": 1,
+          "involvedParties": null,
+          "uuid": "35aa0f02-0001-a000-e000-000000000000",
+          "geoCoordinates": {
+            "latitude": 39.50257,
+            "longitude": -119.75072
+          }
+        },
+        {
+          "id": 900509642,
+          "stopType": "TERMINAL",
+          "stopDescription": null,
+          "location": {
+            "address": {
+              "postalCode": null,
+              "addressLines": null,
+              "city": "RENO",
+              "state": "NV",
+              "country": "US"
+            },
+            "contact": null,
+            "id": null
+          },
+          "locationIdentifiers": [
+            {
+              "type": "SYSTEM",
+              "value": "6a2d10fa-6125-43a8-9ec3-862cb353247e"
+            }
+          ],
+          "appointmentWindow": {
+            "startDateTime": null,
+            "endDateTime": null,
+            "localTimeZoneIdentifier": "America/Los_Angeles"
+          },
+          "additionalAppointmentWindows": null,
+          "stopName": "RENO",
+          "stopNumber": 2,
+          "involvedParties": null,
+          "uuid": "35acafca-0001-a000-e000-000000000000",
+          "geoCoordinates": {
+            "latitude": 39.52767,
+            "longitude": -119.81353
+          }
+        },
+        {
+          "id": 900726305,
+          "stopType": "TERMINAL",
+          "stopDescription": null,
+          "location": {
+            "address": {
+              "postalCode": null,
+              "addressLines": null,
+              "city": "RENO, NV in route to SALT LAKE CITY",
+              "state": "UT",
+              "country": "US"
+            },
+            "contact": null,
+            "id": null
+          },
+          "locationIdentifiers": [
+            {
+              "type": "SYSTEM",
+              "value": "3802ee44-bff1-405d-a750-36fa03444e5f"
+            }
+          ],
+          "appointmentWindow": {
+            "startDateTime": null,
+            "endDateTime": null,
+            "localTimeZoneIdentifier": null
+          },
+          "additionalAppointmentWindows": null,
+          "stopName": "RENO, NV in route to SALT LAKE CITY",
+          "stopNumber": 3,
+          "involvedParties": null,
+          "uuid": "35affe21-0001-a000-e000-000000000000",
+          "geoCoordinates": {
+            "latitude": 40.66803,
+            "longitude": -111.90306
+          }
+        },
+        {
+          "id": 901141657,
+          "stopType": "TERMINAL",
+          "stopDescription": null,
+          "location": {
+            "address": {
+              "postalCode": null,
+              "addressLines": null,
+              "city": "SALT LAKE CITY",
+              "state": "UT",
+              "country": "US"
+            },
+            "contact": null,
+            "id": null
+          },
+          "locationIdentifiers": [
+            {
+              "type": "SYSTEM",
+              "value": "d69b6a68-7606-42ef-b5b2-119b2bc4f0d5"
+            }
+          ],
+          "appointmentWindow": {
+            "startDateTime": null,
+            "endDateTime": null,
+            "localTimeZoneIdentifier": "America/Denver"
+          },
+          "additionalAppointmentWindows": null,
+          "stopName": "SALT LAKE CITY",
+          "stopNumber": 4,
+          "involvedParties": null,
+          "uuid": "35b65499-0001-a000-e000-000000000000",
+          "geoCoordinates": {
+            "latitude": 40.76031,
+            "longitude": -111.88822
+          }
+        },
+        {
+          "id": 902411497,
+          "stopType": "TERMINAL",
+          "stopDescription": null,
+          "location": {
+            "address": {
+              "postalCode": null,
+              "addressLines": null,
+              "city": "NORTH LAS VEGAS",
+              "state": "NV",
+              "country": "US"
+            },
+            "contact": null,
+            "id": null
+          },
+          "locationIdentifiers": [
+            {
+              "type": "SYSTEM",
+              "value": "836850f0-dcee-4da1-81af-5b205a2a6a95"
+            }
+          ],
+          "appointmentWindow": {
+            "startDateTime": null,
+            "endDateTime": null,
+            "localTimeZoneIdentifier": "America/Los_Angeles"
+          },
+          "additionalAppointmentWindows": null,
+          "stopName": "NORTH LAS VEGAS",
+          "stopNumber": 5,
+          "involvedParties": null,
+          "uuid": "35c9b4e9-0001-a000-e000-000000000000",
+          "geoCoordinates": {
+            "latitude": 36.20069,
+            "longitude": -115.12228
+          }
+        },
+        {
+          "id": 900337411,
+          "stopType": "DESTINATION",
+          "stopDescription": null,
+          "location": {
+            "address": {
+              "postalCode": "89030",
+              "addressLines": [
+                "3201 EAST ALEXANDER RD"
+              ],
+              "city": "North Las Vegas",
+              "state": "NV",
+              "country": "US"
+            },
+            "contact": {
+              "companyName": "CDW LOGISTICS",
+              "contactName": "Jeff Gastineau",
+              "phoneNumber": "847-371-3113",
+              "phoneNumberCountryCode": null,
+              "phoneNumber2": null,
+              "phoneNumber2CountryCode": null,
+              "email": "jeffgas@cdw.com",
+              "faxNumber": null,
+              "faxNumberCountryCode": null
+            },
+            "id": null
+          },
+          "locationIdentifiers": [
+            {
+              "type": "SYSTEM",
+              "value": "184424a5-ef0e-4bee-a630-c9aac630e2be"
+            }
+          ],
+          "appointmentWindow": {
+            "startDateTime": "2023-09-25T08:00:00",
+            "endDateTime": "2023-09-25T17:00:00",
+            "localTimeZoneIdentifier": "America/Los_Angeles"
+          },
+          "additionalAppointmentWindows": null,
+          "stopName": "Destination",
+          "stopNumber": 6,
+          "involvedParties": null,
+          "uuid": "35aa0f03-0001-a000-e000-000000000000",
+          "geoCoordinates": {
+            "latitude": 36.23104,
+            "longitude": -115.10533
+          }
+        }
+      ],
+      "apiConfiguration": {
+        "fallBackToDefaultAccountGroup": false
+      },
+      "id": 90339955934075,
+      "masterShipmentId": null,
+      "ltlLegId": null,
+      "shipmentAttributes": []
+    },
+    "latestStatusUpdate": {
+      "timestamp": {
+        "date": "2023-09-25",
+        "time": "12:21:48",
+        "timeZoneOffset": "-0700"
+      },
+      "retrievalDateTime": "2023-09-25T17:07:44+0000",
+      "statusCode": "OUT_TO_STOP",
+      "statusReason": {
+        "code": null,
+        "description": "Out for delivery in NORTH LAS VEGAS, NV"
+      },
+      "exceptionSummaryCode": null,
+      "exceptionDetailCode": null,
+      "address": {
+        "postalCode": null,
+        "addressLines": null,
+        "city": "NORTH LAS VEGAS",
+        "state": "NV",
+        "country": "US"
+      },
+      "stopId": 900337411,
+      "stopType": "DESTINATION",
+      "stopNumber": 6
+    },
+    "statusUpdates": [
+      {
+        "timestamp": {
+          "date": "2023-09-25",
+          "time": "12:21:48",
+          "timeZoneOffset": "-0700"
+        },
+        "retrievalDateTime": "2023-09-25T17:07:44+0000",
+        "statusCode": "OUT_TO_STOP",
+        "statusReason": {
+          "code": null,
+          "description": "Out for delivery in NORTH LAS VEGAS, NV"
+        },
+        "exceptionSummaryCode": null,
+        "exceptionDetailCode": null,
+        "address": {
+          "postalCode": null,
+          "addressLines": null,
+          "city": "NORTH LAS VEGAS",
+          "state": "NV",
+          "country": "US"
+        },
+        "stopId": 900337411,
+        "stopType": "DESTINATION",
+        "stopNumber": 6
+      },
+      {
+        "timestamp": null,
+        "retrievalDateTime": "2023-09-25T16:37:45+0000",
+        "statusCode": "OUT_TO_STOP",
+        "statusReason": {
+          "code": null,
+          "description": "This shipment is out for delivery on time in NORTH LAS VEGAS, NV as stop 1."
+        },
+        "exceptionSummaryCode": null,
+        "exceptionDetailCode": null,
+        "address": {
+          "postalCode": null,
+          "addressLines": null,
+          "city": "NORTH LAS VEGAS",
+          "state": "NV",
+          "country": "US"
+        },
+        "stopId": 900337411,
+        "stopType": "DESTINATION",
+        "stopNumber": 6
+      },
+      {
+        "timestamp": null,
+        "retrievalDateTime": "2023-09-25T04:37:44+0000",
+        "statusCode": "IN_TRANSIT",
+        "statusReason": {
+          "code": null,
+          "description": "This shipment is in transit and requires an appointment. a customer care representative will be contacting the consignee 24 hours prior to delivery. Please note appointment, residential and COD shipments may require additional days for service."
+        },
+        "exceptionSummaryCode": null,
+        "exceptionDetailCode": null,
+        "address": null,
+        "stopId": null,
+        "stopType": null,
+        "stopNumber": null
+      },
+      {
+        "timestamp": {
+          "date": "2023-09-25",
+          "time": "03:37:44",
+          "timeZoneOffset": "+0000"
+        },
+        "retrievalDateTime": "2023-09-25T03:37:44+0000",
+        "statusCode": "INFO",
+        "statusReason": {
+          "code": "NOT_RECEIVING_DATA_48_TO_71",
+          "description": null
+        },
+        "exceptionSummaryCode": null,
+        "exceptionDetailCode": null,
+        "address": null,
+        "stopId": null,
+        "stopType": null,
+        "stopNumber": null
+      },
+      {
+        "timestamp": {
+          "date": "2023-09-22",
+          "time": "18:51:48",
+          "timeZoneOffset": null
+        },
+        "retrievalDateTime": "2023-09-23T02:37:45+0000",
+        "statusCode": "AT_STOP",
+        "statusReason": {
+          "code": null,
+          "description": "Arrived at destination terminal"
+        },
+        "exceptionSummaryCode": null,
+        "exceptionDetailCode": null,
+        "address": null,
+        "stopId": null,
+        "stopType": "TERMINAL",
+        "stopNumber": null
+      },
+      {
+        "timestamp": {
+          "date": "2023-09-22",
+          "time": "16:43:34",
+          "timeZoneOffset": "-0600"
+        },
+        "retrievalDateTime": "2023-09-22T22:37:44+0000",
+        "statusCode": "IN_TRANSIT",
+        "statusReason": {
+          "code": null,
+          "description": "Departed SALT LAKE CITY, UT in route to destination terminal"
+        },
+        "exceptionSummaryCode": null,
+        "exceptionDetailCode": null,
+        "address": {
+          "postalCode": null,
+          "addressLines": null,
+          "city": "SALT LAKE CITY",
+          "state": "UT",
+          "country": "US"
+        },
+        "stopId": null,
+        "stopType": null,
+        "stopNumber": null
+      },
+      {
+        "timestamp": {
+          "date": "2023-09-22",
+          "time": "08:38:54",
+          "timeZoneOffset": "-0600"
+        },
+        "retrievalDateTime": "2023-09-22T15:37:44+0000",
+        "statusCode": "AT_STOP",
+        "statusReason": {
+          "code": null,
+          "description": "Arrived at SALT LAKE CITY, UT"
+        },
+        "exceptionSummaryCode": null,
+        "exceptionDetailCode": null,
+        "address": {
+          "postalCode": null,
+          "addressLines": null,
+          "city": "SALT LAKE CITY",
+          "state": "UT",
+          "country": "US"
+        },
+        "stopId": 901141657,
+        "stopType": "TERMINAL",
+        "stopNumber": 4
+      },
+      {
+        "timestamp": {
+          "date": "2023-09-22",
+          "time": "02:18:11",
+          "timeZoneOffset": null
+        },
+        "retrievalDateTime": "2023-09-22T06:37:44+0000",
+        "statusCode": "IN_TRANSIT",
+        "statusReason": {
+          "code": null,
+          "description": "Departed RENO, NV in route to SALT LAKE CITY, UT"
+        },
+        "exceptionSummaryCode": null,
+        "exceptionDetailCode": null,
+        "address": {
+          "postalCode": null,
+          "addressLines": null,
+          "city": "RENO, NV in route to SALT LAKE CITY",
+          "state": "UT",
+          "country": "US"
+        },
+        "stopId": null,
+        "stopType": null,
+        "stopNumber": null
+      },
+      {
+        "timestamp": {
+          "date": "2023-09-22",
+          "time": "01:08:32",
+          "timeZoneOffset": null
+        },
+        "retrievalDateTime": "2023-09-22T05:37:44+0000",
+        "statusCode": "IN_TRANSIT",
+        "statusReason": {
+          "code": null,
+          "description": "Departed RENO, NV in route to SALT LAKE CITY, UT"
+        },
+        "exceptionSummaryCode": null,
+        "exceptionDetailCode": null,
+        "address": {
+          "postalCode": null,
+          "addressLines": null,
+          "city": "RENO, NV in route to SALT LAKE CITY",
+          "state": "UT",
+          "country": "US"
+        },
+        "stopId": null,
+        "stopType": null,
+        "stopNumber": null
+      },
+      {
+        "timestamp": {
+          "date": "2023-09-21",
+          "time": "17:38:56",
+          "timeZoneOffset": "-0700"
+        },
+        "retrievalDateTime": "2023-09-22T00:37:45+0000",
+        "statusCode": "IN_TRANSIT",
+        "statusReason": {
+          "code": "PICKED_UP",
+          "description": "Picked Up in RENO, NV"
+        },
+        "exceptionSummaryCode": null,
+        "exceptionDetailCode": null,
+        "address": {
+          "postalCode": "89502",
+          "addressLines": [
+            "5360 CAPITAL CT STE 100"
+          ],
+          "city": "RENO",
+          "state": "NV",
+          "country": "US"
+        },
+        "stopId": null,
+        "stopType": null,
+        "stopNumber": null
+      },
+      {
+        "timestamp": null,
+        "retrievalDateTime": "2023-09-21T22:52:44+0000",
+        "statusCode": "IN_TRANSIT",
+        "statusReason": {
+          "code": null,
+          "description": "This shipment is currently in transit with Delivery Appointment date of 09/25/2023 . Please note Appointment, Residential, and COD Shipments may require additional days for service."
+        },
+        "exceptionSummaryCode": null,
+        "exceptionDetailCode": null,
+        "address": null,
+        "stopId": null,
+        "stopType": null,
+        "stopNumber": null
+      }
+    ],
+    "latestStopStatuses": [
+      {
+        "stopType": "ORIGIN",
+        "stopId": 900337410,
+        "stopNumber": 1,
+        "uuid": null,
+        "statusCode": "DEPARTED",
+        "arrivalEstimate": null,
+        "arrivalCode": "UNKNOWN",
+        "arrivalDateTime": null,
+        "departureDateTime": {
+          "date": "2023-09-21",
+          "time": "17:38:56",
+          "timeZoneOffset": "-0700"
+        }
+      },
+      {
+        "stopType": "TERMINAL",
+        "stopId": 900509642,
+        "stopNumber": 2,
+        "uuid": null,
+        "statusCode": "DEPARTED",
+        "arrivalEstimate": null,
+        "arrivalCode": "UNKNOWN",
+        "arrivalDateTime": null,
+        "departureDateTime": null
+      },
+      {
+        "stopType": "TERMINAL",
+        "stopId": 900726305,
+        "stopNumber": 3,
+        "uuid": null,
+        "statusCode": "DEPARTED",
+        "arrivalEstimate": null,
+        "arrivalCode": "UNKNOWN",
+        "arrivalDateTime": null,
+        "departureDateTime": {
+          "date": "2023-09-22",
+          "time": "01:08:32",
+          "timeZoneOffset": null
+        }
+      },
+      {
+        "stopType": "TERMINAL",
+        "stopId": 901141657,
+        "stopNumber": 4,
+        "uuid": null,
+        "statusCode": "DEPARTED",
+        "arrivalEstimate": null,
+        "arrivalCode": "UNKNOWN",
+        "arrivalDateTime": {
+          "date": "2023-09-22",
+          "time": "08:38:54",
+          "timeZoneOffset": "-0600"
+        },
+        "departureDateTime": {
+          "date": "2023-09-22",
+          "time": "16:43:34",
+          "timeZoneOffset": "-0600"
+        }
+      },
+      {
+        "stopType": "TERMINAL",
+        "stopId": 902411497,
+        "stopNumber": 5,
+        "uuid": null,
+        "statusCode": "DEPARTED",
+        "arrivalEstimate": null,
+        "arrivalCode": "UNKNOWN",
+        "arrivalDateTime": null,
+        "departureDateTime": {
+          "date": "2023-09-25",
+          "time": "12:21:48",
+          "timeZoneOffset": "-0700"
+        }
+      },
+      {
+        "stopType": "DESTINATION",
+        "stopId": 900337411,
+        "stopNumber": 6,
+        "uuid": null,
+        "statusCode": "EN_ROUTE",
+        "arrivalEstimate": {
+          "estimatedArrivalWindow": {
+            "startDateTime": {
+              "date": "2023-09-25",
+              "time": "12:00:00",
+              "timeZoneOffset": "-0700"
+            },
+            "endDateTime": {
+              "date": "2023-09-25",
+              "time": "12:00:00",
+              "timeZoneOffset": "-0700"
+            }
+          }
+        },
+        "arrivalCode": "UNKNOWN",
+        "arrivalDateTime": null,
+        "departureDateTime": null
+      }
+    ],
+    "imageReferences": [
+      {
+        "imageUrl": "https://prod-1143-images.s3.amazonaws.com/3187aec3a0a009f243455f08c384cd07-1.png",
+        "documentType": "BILL_OF_LADING",
+        "imageFormat": "PNG"
+      }
+    ],
+    "infoMessages": [
+      {
+        "severity": "WARNING",
+        "message": "Imaging: Document type: INVOICE, The vendor sent back invalid data in the response.",
+        "diagnostic": null,
+        "source": "SYSTEM"
+      },
+      {
+        "severity": "WARNING",
+        "message": "Imaging: Document type: DELIVERY_RECEIPT, The vendor sent back invalid data in the response.",
+        "diagnostic": null,
+        "source": "SYSTEM"
+      },
+      {
+        "severity": "WARNING",
+        "message": "Imaging: Document type: WEIGHT_CERTIFICATE, The vendor sent back invalid data in the response.",
+        "diagnostic": null,
+        "source": "SYSTEM"
+      }
+    ],
+    "mapUrl": null
+  }
+}

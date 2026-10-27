@@ -1,0 +1,21 @@
+{
+
+  "tenderDeclinedReasonCodes": [
+
+
+
+  ],
+
+  "status": "Accept",
+
+  "shipmentId": "Load-XYZ",
+
+  "loadAccepted": true,
+
+  "hasException": false,
+
+  "ediProvider": "Kleinschmidt",
+
+  "carrierTradingPartnerId": "REDIC1"
+
+}

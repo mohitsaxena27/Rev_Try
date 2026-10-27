@@ -1,0 +1,86 @@
+{
+  "carrierIdentifier": {
+    "type": "DOT_NUMBER",
+    "value": "123456"
+  },
+  "shipmentIdentifiers": [
+    {
+      "type": "BILL_OF_LADING",
+      "value": "{BOL}"
+    }
+  ],
+  "shipmentStops": [
+    {
+      "stopNumber": 1,
+      "appointmentWindow": {
+        "startDateTime": "{CurrentDate}T09:45:00",
+        "endDateTime": "{CurrentDate}T09:45:00"
+      },
+      "location": {
+        "address": {
+          "postalCode": "02215",
+          "addressLines": [
+            "526 Beacon Street"
+          ],
+          "city": "Boston",
+          "state": "MA",
+          "country": "US"
+        },
+        "contact": {
+          "companyName": "Boston Beans"
+        }
+      },
+      "stopName": "Stop 1",
+      "stopType": "PICKUP"
+    },
+    {
+      "stopNumber": 2,
+      "appointmentWindow": {
+        "startDateTime": "{CurrentDate+3}T14:45:00",
+        "endDateTime": "{CurrentDate+3}T14:45:00"
+      },
+      "location": {
+        "address": {
+          "postalCode": "80204",
+          "addressLines": [
+            "1435 Fox St."
+          ],
+          "city": "Denver",
+          "state": "CO",
+          "country": "US"
+        },
+        "contact": {
+          "companyName": "Denver Deli Meats"
+        }
+      },
+      "stopName": "Stop 2",
+      "stopType": "DELIVERY"
+    }
+  ],
+  "equipmentIdentifiers": [
+    {
+      "type": "MOBILE_PHONE_NUMBER",
+      "value": "217-972-1878"
+    }
+  ],
+  "apiConfiguration": {
+    "webhookEndpointConfigName": "truckload-{OrgID}"
+  },
+  "attributes": [
+    {
+      "predefined": true,
+      "name": "Load ID",
+      "value": "{SFID}"
+    },
+    {
+      "predefined": true,
+      "name": "Customer",
+      "value": "Boston Beans"
+    },
+    {
+      "predefined": true,
+      "name": "Carrier Sales Rep",
+      "value": "User User"
+    }
+  ]
+}

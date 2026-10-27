@@ -1,0 +1,27 @@
+{
+  "City": "Sunbury",
+  "Country": "US",
+  "FourKitesLoadId": {FourKites_LoadId},
+  "Latitude": "40.3531437",
+  "LoadNumber": "{Load ID}",
+  "Location": "I-71 Sunbury, OH",
+  "Longitude": "-82.8584506",
+  "MessageType": "LOCATION_UPDATE",
+  "OdometerReading": null,
+  "ProNumber": null,
+  "ReferenceNumbers": [
+    "406263",
+    "482065",
+    "895-57732"
+  ],
+  "Scac": "MC970896",
+  "Shipper": "tom-lange-company-inc",
+  "State": "OH",
+  "Tags": [
+    "115098"
+  ],
+  "Timestamp": "2023-06-12T08:28:03-07:00",
+  "Timezone": "America/Los_Angeles",
+  "TimezoneOffset": -25200,
+  "TimezoneShortName": "PDT"
+}

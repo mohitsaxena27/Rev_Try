@@ -1,0 +1,23 @@
+{
+  "hos_availability": [
+      {
+          "fleet_id": {fleet_id},
+          "time": "2024-03-14T16:37:51.451395201Z",
+          "tsp_source": "motive",
+          "driver_id": 4389365,
+          "name": "QA Driver Two Thousand Four Hundred Thirty Seven",
+          "available_time": {
+              "cycle_seconds": 33780,
+              "shift_seconds": 28620,
+              "drive_seconds": 23700,
+              "break_seconds": 16500
+          }
+      }
+  ],
+  "pagination": {
+      "page": 1,
+      "results_per_page": 50,
+      "has_next_page": false,
+      "next_page_cursor": ""
+  }
+}

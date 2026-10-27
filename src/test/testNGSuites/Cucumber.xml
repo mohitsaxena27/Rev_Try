@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--<suite name="Unified Test" parallel="methods" thread-count="2" data-provider-thread-count="2"  verbose="10"  annotations="JDK">-->
+<suite name="Unified Test" parallel="none" thread-count="1" data-provider-thread-count="1"  verbose="1"  annotations="JDK">
+
+    <test name="BDD Regression" junit="false" preserve-order="true">
+        <classes>
+            <!--Before Class-->
+            <class name="bddRunner.Web"/>
+            <!--After Class-->
+        </classes>
+    </test>
+    <test name="BDD Regression Retry" junit="false" preserve-order="true">
+        <classes>
+            <!--Before Class-->
+            <class name="bddRunner.Web_retry"/>
+            <!--After Class-->
+        </classes>
+    </test>
+    <test name="BDD Regression Retry 2" junit="false" preserve-order="true">
+        <classes>
+            <!--Before Class-->
+            <class name="bddRunner.Web_Failed_retry"/>
+            <!--After Class-->
+        </classes>
+    </test>
+
+</suite>
+
+<!--After Suite-->
+

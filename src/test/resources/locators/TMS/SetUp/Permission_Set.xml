@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <AvailablePermissionSets>//label[text()='Available Permission Sets']/../..//select</AvailablePermissionSets>
+    <EnabledPermissionSets>//label[text()='Enabled Permission Sets']/../..//select</EnabledPermissionSets>
+    <Add>(//span[text()='Add']/..//img)[1]</Add>
+    <Remove>(//span[text()='Add']/..//img)[2]</Remove>
+
+</locators>
+

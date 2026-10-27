@@ -1,0 +1,35 @@
+{
+  "subRequests": [
+    {
+      "headers": [
+        {
+          "name": "Accept",
+          "value": "subRequests[0].headers[0].value"
+        },
+        {
+          "name": "Authorization",
+          "value": "subRequests[0].headers[1].value"
+        },
+        {
+          "name": "X-Minor-Version",
+          "value": "subRequests[0].headers[2].value"
+        },
+        {
+          "name": "X-Demo-Instructions",
+          "value": "subRequests[0].headers[3].value"
+        },
+        {
+          "name": "X-EVA-Access-Id",
+          "value": "subRequests[0].headers[4].value"
+        },
+        {
+          "name": "X-Willing-To-Wait-Seconds",
+          "value": "subRequests[0].headers[5].value"
+        }
+      ],
+      "body": "{\n  \"carriers\" : [ {\n    \"scac\" : \"SMCA\",\n    \"evaAccessId\" : \"Revenova-126351\",\n    \"billTo\" : {\n      \"account\" : \"0123456789\",\n      \"name\" : \"Chewbacca Credit Limit\",\n      \"address\" : \"706 S Rose St\",\n      \"address2\" : \"\",\n      \"city\" : \"Stuttgart\",\n      \"stateProvince\" : \"AR\",\n      \"postalCode\" : \"72160\",\n      \"country\" : \"USA\",\n      \"contact\" : {\n        \"name\" : \"Joe Chewbacca Credit Limit\",\n        \"phone\" : \"3129997777\",\n        \"email\" : \"{email}\"\n      }\n    },\n    \"payment\" : {\n      \"terms\" : \"Third Party\",\n      \"payer\" : \"Shipper\"\n    }\n  } ],\n  \"pricingTypes\" : [ \"CONTRACT\" ],\n  \"serviceLevels\" : [ \"All\" ],\n  \"transit\" : {\n    \"pickupDate\" : \"CurrentDateYYYYMMDD+1\"\n  },\n  \"unitOfMeasure\" : {\n    \"weight\" : \"Pounds\",\n    \"dimensions\" : \"Inches\"\n  },\n  \"commodities\" : [ {\n    \"classification\" : \"125\",\n    \"weight\" : \"1500\",\n    \"description\" : \"Material\",\n    \"length\" : 24,\n    \"width\" : 48,\n    \"height\" : 48,\n    \"pieces\" : \"11\",\n    \"packagingType\" : \"PAT\",\n    \"stackable\" : \"N\"\n  } ],\n  \"shipmentInfo\" : {\n    \"linearLength\" : 144,\n    \"totalWidth\" : 48,\n    \"totalHeight\" : 48,\n    \"totalWeight\" : 1500\n  },\n  \"accessorials\" : {\n    \"codes\" : [ ]\n  },\n  \"origin\" : {\n    \"name\" : \"Chicago Bulls\",\n    \"address\" : \"1901 West Madison Street\",\n    \"city\" : \"Chicago\",\n    \"stateProvince\" : \"IL\",\n    \"postalCode\" : \"60612\",\n    \"country\" : \"USA\"\n  },\n  \"destination\" : {\n    \"name\" : \"Denver Deli Meats\",\n    \"address\" : \"1435 Fox St.\",\n    \"city\" : \"Denver\",\n    \"stateProvince\" : \"CO\",\n    \"postalCode\" : \"80204\",\n    \"country\" : \"USA\"\n  },\n  \"requestor\" : {\n    \"name\" : \"{Company_Name}\",\n    \"contact\" : {\n      \"name\" : \"User User\",\n      \"email\" : \"{email}\"\n    }\n  }\n}",
+      "url": "pricing/aggregate/v1/app/",
+      "key": "ltl-cust1-chunk0"
+    }
+  ]
+}

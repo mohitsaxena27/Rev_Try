@@ -1,0 +1,982 @@
+{
+"rtmsType":"OnboardingPacket",
+"id": 2721,
+"status": "complete",
+"created_at": "2024-09-11T13:38:04.030-05:00",
+"payment_term": {
+"is_type": "quick_pay",
+"days_to_pay": 7,
+"charge_basis": "percentage",
+"discount_rate": "0.0175",
+"flat_fee_amount": "0.0",
+"name": "7-Day Quick Pay (ACH, Check issued on 7th Day)",
+"external_id": null
+},
+"payment_method": {
+"is_type": "ach",
+"street1": null,
+"street2": null,
+"city": null,
+"state": null,
+"postal_code": null,
+"country": null,
+"account_last_four": "3456",
+"cad_eft_bank_number": null,
+"cad_eft_branch_number": null,
+"cad_eft_account_number": null,
+"email_address": null,
+"routing_number": "111000025",
+"bank_name": "BANK OF AMERICA, N.A."
+},
+"factor": null,
+"executed_contracts": [
+{
+"is_type": "broker_carrier_agreement",
+"signed_at": "2023-02-27T01:11:52.479-06:00",
+"signed_by_id": 7762,
+"signed_by": "Tony Soprano",
+"signed_by_email": "bigtony@revenova.com",
+"broker_uploaded": false,
+"broker_uploaded_at": null,
+"broker_uploaded_by_id": null,
+"broker_uploaded_by": null,
+"broker_uploaded_by_email": null
+},
+{
+"is_type": "w9",
+"signed_at": "2023-02-27T01:11:52.785-06:00",
+"signed_by_id": 7762,
+"signed_by": "Tony Soprano",
+"signed_by_email": "bigtony@revenova.com",
+"broker_uploaded": false,
+"broker_uploaded_at": null,
+"broker_uploaded_by_id": null,
+"broker_uploaded_by": null,
+"broker_uploaded_by_email": null
+}
+],
+"custom_questions": [
+{
+"question": "General Freight - Logistics LLC: DE&I - Self reporting of status of various types of owned businesses - Logistics LLC: Certifications & Documentation - Logistics LLC: Compromised Identity - Has your company\u00e2\u20ac\u2122s Identity ever been compromised?",
+"description": null,
+"answer": "No"
+}
+],
+"custom_questions_by_classification": [
+{
+"classification": "General Freight",
+"sections": [
+{
+"section": "Logistics LLC: DE&I - Self reporting of status of various types of owned businesses",
+"questions": [
+{
+"question": "Is your entity an ethnic minority owned business?",
+"description": null,
+"answer": "Yes"
+},
+{
+"question": "Please upload copy of certification(s) from NMSDC: National Minority Supplier Development Council (www.nmsdc.org)",
+"description": null,
+"answer": "TEST Minority Biz Certificate.pdf"
+},
+{
+"question": "Please check applicable ethnic minorities below",
+"description": null,
+"answer": null
+},
+{
+"question": "Is your entity a disabled owned business?",
+"description": null,
+"answer": null
+},
+{
+"question": "Please upload copy of certification from Disability:IN (www.usbln.org)",
+"description": null,
+"answer": null
+},
+{
+"question": "Is your business a service-disabled veteran owned business?",
+"description": null,
+"answer": null
+},
+{
+"question": "Please upload a copy of your certification",
+"description": null,
+"answer": null
+},
+{
+"question": "Is your entity a veteran business?",
+"description": null,
+"answer": null
+},
+{
+"question": "Please upload a copy of your certification from either the US Veteran\u00e2\u20ac\u2122s Administration (https://www.vip.vetbiz.gov/), National Veteran-Owned Business Associations (www.navoba.org), and/or the National Veteran Business Development Council (www.nvbdc.org)",
+"description": null,
+"answer": null
+},
+{
+"question": "Is your entity an LGBTQ owned business?",
+"description": null,
+"answer": null
+},
+{
+"question": "Please upload a copy of your certification from the NGLCC: National Gay & Lesbian Chamber of Commerce (www.nglcc.org)",
+"description": null,
+"answer": null
+},
+{
+"question": "Is your entity a women owned business?",
+"description": null,
+"answer": null
+},
+{
+"question": "Please upload a copy of your certification from the WBENC: Women\u00e2\u20ac\u2122s Business Enterprise National Council (www.wbenc.org)",
+"description": null,
+"answer": null
+},
+{
+"question": "Is your entity classified as a small business?",
+"description": null,
+"answer": null
+},
+{
+"question": "Please upload either government-sponsored certification and/or self-certification",
+"description": null,
+"answer": null
+}
+]
+},
+{
+"section": "Logistics LLC: Certifications & Documentation",
+"questions": [
+{
+"question": "Do you have Transportation Security Administration (TSA) Security Threat Assessment Certification (STA) or equivalent (TWIC, FAST, Hazmat Endorsement, etc.)?",
+"description": null,
+"answer": null
+},
+{
+"question": "Please upload documentation for this certification",
+"description": null,
+"answer": null
+},
+{
+"question": "Do you have a C-TPAT certification?",
+"description": null,
+"answer": "Yes"
+},
+{
+"question": "Please upload documentation of your C-TPAT certification",
+"description": null,
+"answer": "TEST CTPAT Certificate.pdf"
+},
+{
+"question": "Do you have a HAZMAT certification?",
+"description": null,
+"answer": "Yes"
+},
+{
+"question": "Please upload documentation of your HAZMAT certification",
+"description": null,
+"answer": "TEST HAZMAT Certificate.pdf"
+},
+{
+"question": "Are you California Air Resources Board (CARB) Truck and Bus Regulation compliant?",
+"description": null,
+"answer": "Yes"
+},
+{
+"question": "Please upload documentation of your CARB certification\t",
+"description": null,
+"answer": "TEST CARB Certificate.pdf"
+},
+{
+"question": "Please list at least one (1) and up to three (3) trade references",
+"description": null,
+"answer": "Reference name"
+}
+]
+},
+{
+"section": "Compromised Identity",
+"questions": [
+{
+"question": "Has your company\u00e2\u20ac\u2122s Identity ever been compromised?",
+"description": null,
+"answer": "No"
+}
+]
+}
+]
+},
+{
+"classification": "Refrigerated Freight",
+"sections": []
+}
+],
+"carrier_detail": {
+"id": 23815,
+"legal_name": "Quality Assurance Trans LLC 2721",
+"dba_name": "QA TRAN",
+"connection": null,
+"dot_number": 2439316,
+"mc_number": 841412,
+"identifiers": [
+{
+"is_type": "DOT",
+"value": "2439316"
+},
+{
+"is_type": "MC",
+"value": "841412"
+},
+{
+"is_type": "SCAC",
+"value": "GOBN"
+}
+],
+"tax_identifiers": [
+{
+"is_type": "ein",
+"value": "463673743",
+"source": "fmcsa"
+}
+],
+"authority_assessment": {
+"rating": "Authorized Carrier",
+"carrier_interstate_authority_check": "Active",
+"broker_interstate_authority_check": "Inactive",
+"is_active_insurance": true,
+"no_out_of_service_order": true,
+"is_satisfactory_safety_rating": true,
+"is_operating_status_active": true,
+"is_inspection_history_greater_than_zero": true,
+"latest_safety_rating": "Satisfactory"
+},
+"authority": {
+"authorities": {
+"common_authority_status": "Active",
+"continuous_authority_grant_date_common": "2013-10-22",
+"contract_authority_status": null,
+"continuous_authority_grant_date_contract": null,
+"broker_authority_status": null,
+"continuous_authority_grant_date_broker": null
+},
+"licensed_capabilities": [
+"Property"
+],
+"latest_li_authority": {
+"mx_type": null,
+"rfc_number": null,
+"common_authority": "Holds Active Authority",
+"pending_common_authority": "No Application Pending",
+"common_authority_revocation": "Not in Revocation",
+"contract_authority": "No Authority",
+"pending_contract_authority": "No Application Pending",
+"contract_authority_revocation": "Not in Revocation",
+"broker_authority": "No Authority",
+"pending_broker_authority": "No Application Pending",
+"broker_authority_revocation": "Not in Revocation",
+"is_freight": true,
+"is_passenger": false,
+"is_household_goods": false,
+"is_private_check": false,
+"is_enterprise_check": false,
+"is_bipd_required": false,
+"is_cargo_required": false,
+"is_bond_surety_required": false,
+"bipd_on_file": 1000,
+"is_cargo_on_file": false,
+"is_bond_surety_on_file": false,
+"is_address_deliverable": true,
+"file_date": "2022-12-19"
+}
+},
+"addresses": [
+{
+"is_type": "physical",
+"street1": "820 S MONACO PKWY",
+"street2": "213",
+"city": "DENVER",
+"postal_code": "80224",
+"state": "CO",
+"nationality": "US"
+},
+{
+"is_type": "mailing",
+"street1": "500 Main",
+"street2": "",
+"city": "DENVER",
+"postal_code": "80224",
+"state": "CO",
+"nationality": "US"
+},
+{
+"is_type": "terminal",
+"street1": "820 S MONACO PKWY",
+"street2": "",
+"city": "DENVER",
+"postal_code": "80224",
+"state": "CO",
+"nationality": "US"
+}
+],
+"rules_assessment": {
+"overall_result": "pass",
+"summary": {
+"overall_result": "pass"
+},
+"classifications": [
+{
+"name": "General Freight",
+"result": "pass",
+"rules": {
+"bipd_insurance_limit_gteq_750_000": {
+"result": "pass",
+"overrides": []
+},
+"has_verified_manually_entered_identifier": {
+"result": "pass",
+"overrides": []
+},
+"interstate_carrier_authority_is_active": {
+"result": "pass",
+"overrides": []
+},
+"no_active_oos_orders": {
+"result": "pass",
+"overrides": []
+},
+"safer_operating_status_active": {
+"result": "pass",
+"overrides": []
+},
+"authority_age_requirement": {
+"result": "pass",
+"overrides": []
+},
+"bipd_requirement": {
+"result": "pass",
+"overrides": []
+},
+"sets_requiring_override_file": {
+"result": "",
+"overrides": []
+}
+}
+},
+{
+"name": "Eligible Highway Carrier",
+"result": "pass",
+"rules": {
+"has_verified_manually_entered_identifier": {
+"result": "pass",
+"overrides": []
+},
+"sets_requiring_override_file": {
+"result": "",
+"overrides": []
+}
+}
+}
+]
+},
+"safety": {
+"safety_rating": "Satisfactory",
+"safety_rating_effective_date": "2021-11-22",
+"safety_rating_review_date": "2019-09-27",
+"safety_rating_review_type": "Compliance Review",
+"latest_sms_basic": {
+"file_date": "2022-12-01",
+"driver_fitness_measure": "0.05",
+"is_driver_fitness_acute_critical": false,
+"driver_fitness_percentile": 0.4709418837675351,
+"driver_fitness_over_threshold": false,
+"hos_compliance_measure": "1.01",
+"is_hos_compliance_acute_critical": false,
+"hos_compliance_percentile": 0.974559686888454,
+"hos_compliance_over_threshold": true,
+"substance_alcohol_measure": "0.0",
+"is_substance_alcohol_acute_critical": false,
+"substance_alcohol_percentile": null,
+"substance_alcohol_over_threshold": false,
+"unsafe_driving_measure": "2.18",
+"is_unsafe_driving_acute_critical": false,
+"unsafe_driving_percentile": 0.6371681415929203,
+"unsafe_driving_over_threshold": false,
+"vehicle_maintenance_measure": "5.15",
+"is_vehicle_maintenance_acute_critical": false,
+"vehicle_maintenance_percentile": 0.833011583011583,
+"vehicle_maintenance_over_threshold": true
+},
+"sms_basics": [
+{
+"file_date": "2022-12-01",
+"driver_fitness_measure": "0.05",
+"is_driver_fitness_acute_critical": false,
+"hos_compliance_measure": "1.01",
+"is_hos_compliance_acute_critical": false,
+"substance_alcohol_measure": "0.0",
+"is_substance_alcohol_acute_critical": false,
+"unsafe_driving_measure": "2.18",
+"is_unsafe_driving_acute_critical": false,
+"vehicle_maintenance_measure": "5.15",
+"is_vehicle_maintenance_acute_critical": false
+},
+{
+"file_date": "2022-11-01",
+"driver_fitness_measure": "0.04",
+"is_driver_fitness_acute_critical": false,
+"hos_compliance_measure": "1.04",
+"is_hos_compliance_acute_critical": false,
+"substance_alcohol_measure": "0.0",
+"is_substance_alcohol_acute_critical": false,
+"unsafe_driving_measure": "2.37",
+"is_unsafe_driving_acute_critical": false,
+"vehicle_maintenance_measure": "5.01",
+"is_vehicle_maintenance_acute_critical": false
+},
+{
+"file_date": "2022-10-01",
+"driver_fitness_measure": "0.04",
+"is_driver_fitness_acute_critical": false,
+"hos_compliance_measure": "1.03",
+"is_hos_compliance_acute_critical": false,
+"substance_alcohol_measure": "0.0",
+"is_substance_alcohol_acute_critical": false,
+"unsafe_driving_measure": "2.44",
+"is_unsafe_driving_acute_critical": false,
+"vehicle_maintenance_measure": "4.86",
+"is_vehicle_maintenance_acute_critical": false
+},
+{
+"file_date": "2022-09-01",
+"driver_fitness_measure": "0.03",
+"is_driver_fitness_acute_critical": false,
+"hos_compliance_measure": "0.99",
+"is_hos_compliance_acute_critical": false,
+"substance_alcohol_measure": "0.0",
+"is_substance_alcohol_acute_critical": false,
+"unsafe_driving_measure": "2.72",
+"is_unsafe_driving_acute_critical": false,
+"vehicle_maintenance_measure": "4.86",
+"is_vehicle_maintenance_acute_critical": false
+},
+{
+"file_date": "2022-08-01",
+"driver_fitness_measure": "0.05",
+"is_driver_fitness_acute_critical": false,
+"hos_compliance_measure": "0.97",
+"is_hos_compliance_acute_critical": false,
+"substance_alcohol_measure": "0.0",
+"is_substance_alcohol_acute_critical": false,
+"unsafe_driving_measure": "3.09",
+"is_unsafe_driving_acute_critical": false,
+"vehicle_maintenance_measure": "4.66",
+"is_vehicle_maintenance_acute_critical": false
+},
+{
+"file_date": "2022-07-01",
+"driver_fitness_measure": "0.08",
+"is_driver_fitness_acute_critical": false,
+"hos_compliance_measure": "1.04",
+"is_hos_compliance_acute_critical": false,
+"substance_alcohol_measure": "0.0",
+"is_substance_alcohol_acute_critical": false,
+"unsafe_driving_measure": "3.29",
+"is_unsafe_driving_acute_critical": false,
+"vehicle_maintenance_measure": "4.68",
+"is_vehicle_maintenance_acute_critical": false
+}
+]
+},
+"certifications": {
+"all": [],
+"verified": {
+"carb": false,
+"carb_number": null,
+"carb_start": null,
+"carb_end": null,
+"carb_tru": false,
+"carb_tru_number": null,
+"carb_tru_start": null,
+"carb_tru_end": null,
+"hazmat": false,
+"hazmat_number": null,
+"hazmat_start": null,
+"hazmat_end": null,
+"smart_way": false,
+"smart_way_number": null,
+"smart_way_start": null,
+"smart_way_end": null
+}
+},
+"contact_information": {
+"dispatch_contact": {
+"name": "Beyonce Knowles",
+"phone": "(720) 469-0371",
+"email_address": "queenbee@revenova.com"
+},
+"line_item_contacts": [
+{
+"is_type": "dispatch",
+"name": "Beyonce Knowles",
+"email_address": "queenbee@revenova.com",
+"phone": "(720) 469-0371"
+},
+{
+"is_type": "billing",
+"name": "Beyonce Knowles",
+"email_address": "queenbee@revenova.com",
+"phone": "(720) 469-0371"
+},
+{
+"is_type": "claims",
+"name": "Dolly Parton",
+"email_address": "dolly@revenova.com",
+"phone": "(555) 469-0371"
+},
+{
+"is_type": null,
+"name": "Beyonce Knowles",
+"email_address": null,
+"phone": null
+}
+],
+"contacts": [
+{
+"is_type": "dispatch",
+"name": "Beyonce Knowles"
+},
+{
+"is_type": "billing",
+"name": "Beyonce Knowles"
+},
+{
+"is_type": "claims",
+"name": "Dolly Parton"
+},
+{
+"is_type": "census",
+"name": "Beyonce Knowles"
+}
+],
+"phones": [
+{
+"is_type": "claims",
+"value": "(720) 469-0371"
+},
+{
+"is_type": "billing",
+"value": "(720) 469-0371"
+},
+{
+"is_type": "dispatch",
+"value": "(720) 469-0371"
+},
+{
+"is_type": "census_cell",
+"value": "(720) 644-6200"
+},
+{
+"is_type": "census_main",
+"value": "(720) 644-6200"
+}
+],
+"email_addresses": [
+{
+"is_type": "claims",
+"value": "queenbee@revenova.com"
+},
+{
+"is_type": "billing",
+"value": "queenbee@revenova.com"
+},
+{
+"is_type": "dispatch",
+"value": "queenbee@revenova.com"
+},
+{
+"is_type": "census",
+"value": "queenbee@revenova.com"
+}
+]
+},
+"inspections": {
+"total_inspections": 877,
+"driver_fitness_inspections": 799,
+"driver_fitness_oos_inspections": 52,
+"hazmat_inspections": 3,
+"hazmat_oos_inspections": 0,
+"vehicle_maintenance_inspections": 340,
+"vehicle_maintenance_oos_inspections": 77
+},
+"crashes": {
+"total": 50,
+"fatal_crashes_total": 2,
+"injury_crashes_total": 13,
+"tow_away_crashes_total": 48
+},
+"insurance": {
+"bipd_required": 750,
+"insurance_policies": [
+{
+"status": "active",
+"is_type": "automobile_liability",
+"number": "78A69A0095D59B5817C1B8CD4DD497FD",
+"currency": "mxn",
+"limit": null,
+"effective_date": "2022-02-25",
+"expiration_date": "2032-01-01",
+"cancellation_date": null,
+"insurance_certificate_id": 5329,
+"scheduled_autos": false,
+"any_auto": false,
+"owned_autos": false,
+"hired_autos": false,
+"non_owned_autos": false,
+"insurance_insurer": {
+"name": "QA INSURANCE COMPANY",
+"short_name": "BENCHMARK INS CO",
+"naic": "41394",
+"street1": "151 LAKE STREET WEST",
+"street2": null,
+"city": "WAYZATA",
+"state": "MN",
+"phone": "9529742265",
+"postal_code": "55391",
+"website": "www.benchmarkinsco.com"
+}
+},
+{
+"status": "active",
+"is_type": "commercial_general_liability",
+"number": "03C750D327D07C792E7B732353D42004",
+"limit": "1000000.0",
+"effective_date": "2022-12-20",
+"expiration_date": "2032-01-01",
+"cancellation_date": "2025-11-20",
+"insurance_certificate_id": 5329,
+"insurance_insurer": {
+"name": "QUALITY ASSURANCE GUARANTY COMPANY",
+"short_name": "STEWART TITLE GUAR CO",
+"naic": "50121",
+"street1": "1360 POST OAK BOULEVARD",
+"street2": null,
+"city": "HOUSTON",
+"state": "TX",
+"phone": "7136258044",
+"postal_code": "77056",
+"website": "www.stewart.com"
+}
+},
+{
+"status": "active",
+"is_type": "motor_truck_cargo",
+"number": "BFD6A2168057B227ADD4EAF59B1346B5",
+"limit": "100000.0",
+"effective_date": "2022-04-01",
+"expiration_date": "2032-01-01",
+"cancellation_date": null,
+"insurance_certificate_id": 5329,
+"is_refrigeration_breakdown_included": false,
+"insurance_insurer": {
+"name": "QA NORTHERN INSURANCE COMPANY",
+"short_name": "PROGRESSIVE NORTHERN INS CO",
+"naic": "38628",
+"street1": "6300 WILSON MILLS ROAD, W33",
+"street2": null,
+"city": "CLEVELAND",
+"state": "OH",
+"phone": "4404615000",
+"postal_code": "44143-2182",
+"website": "progressive.com"
+}
+},
+{
+"status": "active",
+"is_type": "contingent_cargo",
+"number": "FC500C0CC10DC8C307261F617D53F050",
+"limit": "40000.0",
+"effective_date": "2022-04-01",
+"expiration_date": "2032-01-01",
+"cancellation_date": null,
+"insurance_certificate_id": 5329,
+"actual_cash_value": false,
+"insurance_insurer": {
+"name": "QA NORTHERN INSURANCE COMPANY",
+"short_name": "PROGRESSIVE NORTHERN INS CO",
+"naic": "38628",
+"street1": "6300 WILSON MILLS ROAD, W33",
+"street2": null,
+"city": "CLEVELAND",
+"state": "OH",
+"phone": "4404615000",
+"postal_code": "44143-2182",
+"website": "progressive.com"
+}
+},
+{
+"status": "active",
+"is_type": "workers_compensation",
+"number": "77E056B925AF779A73DFF3255324C09D",
+"limit": "1000080",
+"effective_date": "2022-09-01",
+"expiration_date": "2032-01-01",
+"cancellation_date": null,
+"insurance_certificate_id": 5329,
+"statutory_limits": false,
+"insurance_insurer": {
+"name": "QA INTERSTATE INSURANCE COMPANY",
+"short_name": "NATIONAL INTERSTATE INS CO",
+"naic": "32620",
+"street1": "3250 INTERSTATE DRIVE",
+"street2": null,
+"city": "RICHFIELD",
+"state": "OH",
+"phone": "3306598900",
+"postal_code": "44286",
+"website": "www.natl.com"
+}
+}
+],
+"insurance_certificates": []
+},
+"carrier_modes": [
+{
+"is_type": "drayage"
+},
+{
+"is_type": "truckload"
+}
+],
+"operations": {
+"mcs150_form_date": "2022-08-25",
+"mcs150_year": 2020,
+"mcs150_mileage": 39526000,
+"mcsip_step_description": "Not In MCSIP",
+"mcsip_date": "2017-08-09",
+"classifications": [
+"Authorized For Hire"
+],
+"operating_status": "AUTHORIZED FOR Property",
+"operating_status_date": "2023-02-27",
+"fleet_size": "401-550",
+"cargo_carried": [
+{
+"id": 1,
+"name": "General Freight"
+}
+],
+"entity_types": [
+{
+"id": 1,
+"name": "Carrier"
+}
+],
+"total_power_units": 442,
+"owned_tractors": 0,
+"owned_trailers": 0,
+"term_leased_tractors": 442,
+"term_leased_trailers": 335,
+"total_drivers": 497
+},
+"equipment": {
+"summary": {
+"van_trailers": 73,
+"reefer_trailers": 218,
+"flatbed_trailers": 20,
+"tanker_trailers": 0,
+"intermodal_trailers": 8,
+"pneumatic_trailers": 0,
+"dumps_trailers": 0,
+"car_hauler_trailers": 1,
+"double_drop_trailers": 2,
+"lowboy_trailers": 1,
+"grain_trailers": 0,
+"livestock_trailers": 0,
+"heavy_haul_trailers": 0,
+"drop_deck_trailers": 1,
+"refuse_transfer_trailers": 0,
+"forestry_trailers": 0,
+"uncategorized_trailers": 70,
+"total_observed_trailers": 392,
+"truck_tractors": 363,
+"cargo_vans": 0,
+"straight_box_trucks": 37,
+"buses": 0,
+"uncategorized_trucks": 2,
+"total_observed_power_units": 402
+}
+},
+"lane_preferences": {
+"by_state": {
+"preferred_areas": [
+{
+"id": 34,
+"code": "NV",
+"name": "NEVADA",
+"is_type": "state"
+},
+{
+"id": 26,
+"code": "MS",
+"name": "MISSISSIPPI",
+"is_type": "state"
+}
+],
+"terminal_or_headquarter_areas": [
+{
+"id": 6,
+"code": "CO",
+"name": "COLORADO",
+"is_type": "state"
+}
+],
+"historical_presence_areas": [
+{
+"id": 34,
+"code": "NV",
+"name": "NEVADA",
+"is_type": "state",
+"number_of_touches": "6.0"
+},
+{
+"id": 19,
+"code": "LA",
+"name": "LOUISIANA",
+"is_type": "state",
+"number_of_touches": "3.0"
+},
+{
+"id": 22,
+"code": "ME",
+"name": "MAINE",
+"is_type": "state",
+"number_of_touches": "3.0"
+},
+{
+"id": 25,
+"code": "MO",
+"name": "MISSOURI",
+"is_type": "state",
+"number_of_touches": "20.0"
+},
+{
+"id": 4,
+"code": "AZ",
+"name": "ARIZONA",
+"is_type": "state",
+"number_of_touches": "9.0"
+},
+{
+"id": 11,
+"code": "GA",
+"name": "GEORGIA",
+"is_type": "state",
+"number_of_touches": "20.0"
+},
+{
+"id": 24,
+"code": "MN",
+"name": "MINNESOTA",
+"is_type": "state",
+"number_of_touches": "10.0"
+},
+{
+"id": 45,
+"code": "TX",
+"name": "TEXAS",
+"is_type": "state",
+"number_of_touches": "8.0"
+},
+{
+"id": 21,
+"code": "MD",
+"name": "MARYLAND",
+"is_type": "state",
+"number_of_touches": "11.0"
+},
+{
+"id": 30,
+"code": "NE",
+"name": "NEBRASKA",
+"is_type": "state",
+"number_of_touches": "19.0"
+},
+{
+"id": 52,
+"code": "WV",
+"name": "WEST VIRGINIA",
+"is_type": "state",
+"number_of_touches": "1.0"
+},
+{
+"id": 14,
+"code": "ID",
+"name": "IDAHO",
+"is_type": "state",
+"number_of_touches": "3.0"
+},
+{
+"id": 26,
+"code": "MS",
+"name": "MISSISSIPPI",
+"is_type": "state",
+"number_of_touches": "26.0"
+}
+],
+"headquarter_areas": [
+{
+"id": 6,
+"code": "CO",
+"name": "COLORADO",
+"is_type": "state"
+}
+],
+"inspection_areas": [
+{
+"id": 34,
+"code": "NV",
+"name": "NEVADA",
+"is_type": "state",
+"number_of_touches": "6.0"
+},
+{
+"id": 26,
+"code": "MS",
+"name": "MISSISSIPPI",
+"is_type": "state",
+"number_of_touches": "26.0"
+}
+]
+},
+"by_country": {
+"preferred_areas": [
+{
+"id": 55111,
+"code": "CM",
+"name": "Mexico",
+"is_type": "country"
+},
+{
+"id": 55110,
+"code": "CC",
+"name": "Canada",
+"is_type": "country"
+}
+],
+"terminal_or_headquarter_areas": [
+{
+"id": 55113,
+"code": "US",
+"name": "UNITED STATES",
+"is_type": "country"
+}
+],
+"historical_presence_areas": []
+}
+},
+"integrations": null,
+"insights": []
+}
+}

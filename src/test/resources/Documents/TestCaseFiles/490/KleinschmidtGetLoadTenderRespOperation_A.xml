@@ -1,0 +1,34 @@
+<getLoadTenderResponsesResponse>
+<status>
+<statusCode>OK</statusCode>
+<messageCode/>
+<message/>
+</status>
+<loadTenderResponses>
+<loadTenderResponse>
+<carrierTradingPartnerId>EDIC1</carrierTradingPartnerId>
+<shipmentId>Load-490A</shipmentId>
+<status>Accept</status>
+</loadTenderResponse>
+<loadTenderResponse>
+<carrierTradingPartnerId>REDIC1</carrierTradingPartnerId>
+<shipmentId>Load-490B</shipmentId>
+<status>Accept with exception</status>
+<waybillNumber>490B</waybillNumber>
+<tenderExceptionComments>Exception Comment $^&amp;! 490&lt;</tenderExceptionComments>
+</loadTenderResponse>
+<loadTenderResponse>
+<carrierTradingPartnerId>REDIC1</carrierTradingPartnerId>
+<shipmentId>Load-490C</shipmentId>
+<status>Decline</status>
+<waybillNumber>490C</waybillNumber>
+<bookingNumber>C490</bookingNumber>
+<tenderDeclinedReasonCodes>
+<tenderDeclinedReasonCode>C</tenderDeclinedReasonCode>
+<tenderDeclinedReasonCode>OTH</tenderDeclinedReasonCode>
+<tenderDeclinedReasonCode>8</tenderDeclinedReasonCode>
+</tenderDeclinedReasonCodes>
+<tenderDeclinedComments>Declined Comment $^&amp;*! 490</tenderDeclinedComments>
+</loadTenderResponse>
+</loadTenderResponses>
+</getLoadTenderResponsesResponse>

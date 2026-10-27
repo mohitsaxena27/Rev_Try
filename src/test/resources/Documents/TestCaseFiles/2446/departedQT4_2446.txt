@@ -1,0 +1,59 @@
+{tripPlanSegments_SFID}{
+
+"properties": {
+
+"tripId": {tripId},
+
+"tripStatus": "InProgress",
+
+"tspDriverId": "fred",
+
+"notificationType": "stop_status_update",
+
+"stopStatusEvents": {
+
+"stopId": 1270093363,
+
+"stopSequence": 1,
+
+"eventType": "DepartedStop",
+
+"stopLocation": {
+
+"address": {
+
+"streetAddress": "5800 Airline Dr.",
+
+"city": "Metairie",
+
+"state": "LA",
+
+"zip": "70003",
+
+"county": "Jefferson Parish",
+
+"country": "United States"
+
+},
+
+"coords": {
+
+"lat": "29.9746",
+
+"lon": "-90.19565"
+
+},
+
+"label": "StopLabel"
+
+},
+
+"publishedOn": "07-15-2024T11:24:27+00:00",
+
+"deviceDT": "2024-07-15T15:09:25+00:00"
+
+}
+
+}
+
+}

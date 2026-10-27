@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <ClearAdrressSearch>//label[normalize-space(text())='{paramlink1}']/ancestor::c-revenova-row//c-revenova-address-search/../../../../ancestor::c-revenova-column[1]//button[@title='Clear']</ClearAdrressSearch>
+    <ModalText>//div[contains(@class,'active')]//c-revenova-modal//*[text()='{paramlink}']</ModalText>
+    <AddColumnIcon>//div[contains(@class,'active')]//c-revenova-column//*[text()='{paramlink}']//button[@title='Add']</AddColumnIcon>
+    <RemoveColumnIcon>//div[contains(@class,'active')]//c-revenova-column//*[text()='{paramlink}']//button[@title='Remove']</RemoveColumnIcon>
+    <AddColumnActionText>//div[contains(@class,'active ')]//label[normalize-space(text())='{paramlink1}']/ancestor::c-revenova-row//span[text()='{paramlink2}']</AddColumnActionText>
+    <ViewManager>//div[contains(@class,'active ')]//button[@title='View Manager' and @aria-pressed='false']</ViewManager>
+    <AddressSearch>//div[contains(@class,'active ')]//lightning-lookup-address//label[contains(text(),'Search')]/../..//input</AddressSearch>
+    <DeleteViewManager>//tr[.//*[contains(text(), '{paramlink}')]]//button[@title='Delete']</DeleteViewManager>
+    <FleetAssetList>//div[contains(@class,'active ')]//div[contains(@class,'list-item')]</FleetAssetList>
+    <FleetAssets>//div[contains(@class,'active ')]//div[contains(@class,'list-item') and text()='{paramlink}']</FleetAssets>
+    <VerifyModal>//div[contains(@class,'active')]//div[contains(@class,'slds-modal')]</VerifyModal>
+    <VerifyFilterIcon>//*[@icon-name="standard:filter" and @title='Fleet Asset']</VerifyFilterIcon>
+    <ModalIcon>//div[contains(@class,'slds-modal')]//*[@icon-name="{paramlink}"]</ModalIcon>
+    <VerifyOptions>//div[contains(@class,'active')]//label[text()='{paramlink}']/..//select</VerifyOptions>
+    <ColumnWidth>//div[contains(@class,'active')]//label[normalize-space(text())='{paramlink2}']/ancestor::c-revenova-row//input[@aria-label='{paramlink}']</ColumnWidth>
+    <resizeHandle>//div[contains(@class,'active')]//label[normalize-space(text())='{paramlink2}']/ancestor::c-revenova-row//th[contains(@data-col-key-value,'{paramlink}')]//span[contains(@class,'slds-resizable__handle')]</resizeHandle>
+    <SelectAnOption>//div[contains(@class,'active')]//button//span[text()='Select an Option']</SelectAnOption>
+    <ViewManagerTable>//div[contains(@class,'active')]//span[text()='View Name']/ancestor::thead</ViewManagerTable>
+    <SelectAllCheckbox>//div[contains(@class,'active')]//input[contains(@class,'datatable-select-all')]</SelectAllCheckbox>
+    <ViewManagerIcon>//div[contains(@class,'active')]//span[text()='View Name']/ancestor::thead//th[@aria-label='{paramlink}']</ViewManagerIcon>
+    <ViewManagerHeaderText>//div[contains(@class,'active')]//span[text()='View Name']/ancestor::thead//th[@role='columnheader']//span[@title and text()]</ViewManagerHeaderText>
+    <VerifyColumnResize>//div[contains(@class,'active')]//th[@aria-label='{paramlink}']//lightning-primitive-resize-handler</VerifyColumnResize>
+    <VerifyViewManagerSelected>//div[contains(@class,'active')]//tr[.//*[contains(text(), '{paramlink}')]]//input[@type='checkbox']</VerifyViewManagerSelected>
+    <ViewManagerAllRow>//div[contains(@class,'active')]//tbody//tr[.//*[text()='User User']]</ViewManagerAllRow>
+    <ViewAllTab>//div[contains(@class,'active')]//label[contains(text(),'View -')]/..//input</ViewAllTab>
+    <ViewManagerCheckboxDisabled>//tr[.//*[contains(text(), '{paramlink}')]]//input[@type='checkbox' and @disabled]</ViewManagerCheckboxDisabled>
+    <ViewManagerCheckbox>//tr[.//*[contains(text(), '{paramlink}')]]//input[@type='checkbox']</ViewManagerCheckbox>
+     <ViewManagerViewAction>//div[contains(@class,'active')]//*[text()='{paramlink1}']/ancestor::tr//*[@title='{paramlink2}']</ViewManagerViewAction>
+     <MultiSelectText>//div[text()='{paramlink}']/..//span[@title]</MultiSelectText>
+    <MultiSelectOptions>//div[text()='{paramlink1}']/..//div[@title='{paramlink2}']</MultiSelectOptions>
+    <VerifyViewManagerDetails>//div[contains(@class,'active')]//tr[.//td[@data-cell-value='{paramlink1}']]//td[@data-label='{paramlink2}']</VerifyViewManagerDetails>
+    <ViewTypeDropdown>//div[contains(@class,'active')]//label[text()='View Type']/following::select[1]</ViewTypeDropdown>
+</locators>
+
+

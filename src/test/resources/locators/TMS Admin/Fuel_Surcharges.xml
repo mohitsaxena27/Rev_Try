@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <Fuel_Surcharge_Grid_Items>//lightning-formatted-text[contains(text(),'Entry')]/../../following-sibling::lightning-layout-item[1]//lightning-formatted-number[contains(text(),'{paramlink}.000')]/../../following-sibling::lightning-layout-item[2]//lightning-formatted-number
+    </Fuel_Surcharge_Grid_Items>
+    <IndicativeTax>//div[contains(@class,'active ')]//lightning-formatted-text[normalize-space()='{paramlink}']/ancestor::lightning-layout-item/following-sibling::lightning-layout-item//lightning-formatted-number</IndicativeTax>
+    <AllFuelIndexValue>//div[contains(@class,'active ')]//*[contains(@class,'gridRow') and @rtms-fuelSurcharge_fuelSurcharge]//lightning-formatted-number[contains(text(),'USD')]</AllFuelIndexValue>
+    <DateFormatted>//div[contains(@class,'active ')]//*[contains(@class,'gridRow') and @rtms-fuelSurcharge_fuelSurcharge]//lightning-formatted-date-time</DateFormatted>
+    <TotalGridRow>//div[contains(@class,'active ')]//*[contains(@class,'gridRow') and @rtms-fuelSurcharge_fuelSurcharge]</TotalGridRow>
+    <FuelSurchargeEntries>//*[contains(@class,'slds-size_6-of-12')]//lightning-layout-item[contains(@class,'gridRow')]</FuelSurchargeEntries>
+    <GettingFuelIndex>(//div[contains(@class,'active ')]//*[contains(@class,'slds-size_3-of-12')]//*[contains(@class,'gridRow') and @rtms-fuelSurcharge_fuelSurcharge]//lightning-formatted-number[contains(text(),'USD')])[{index}]</GettingFuelIndex>
+    <EntryFieldReadOnly>//div[contains(@class,'active ')]//*[contains(@class,'gridRow')]//input[@disabled]</EntryFieldReadOnly>
+    <FuelInputField>//div[contains(@class,'active ')]//*[@data-field-name='rtms__{paramlink}__c']//input[not(@disabled)]</FuelInputField>
+    <FormValueFields>//lightning-input[@data-field-name='rtms__From_Value__c']</FormValueFields>
+    <FuelSurcharge_Entry>//lightning-input[@data-field-name='rtms__{paramlink1}__c' and @data-entry-id='{paramlink2}']//input</FuelSurcharge_Entry>
+</locators>

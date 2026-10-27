@@ -1,0 +1,215 @@
+{ 
+ "shipment": {
+    "id": "6f8a930c-266e-4f4e-af7c-380628cb2460",
+    "identifiers": [
+      {
+        "type": "CONTAINER_ID",
+        "value": "TRHU9024567"
+      },
+ {
+        "type": "CONTAINER_ID",
+        "value": "TRHU9024568"
+      }, 
+{
+        "type": "CONTAINER_ID",
+        "value": "TRHU9024569"
+      },
+      {
+        "type": "VESSEL_NAME",
+        "value": "USS Enterprise"
+      }
+    ],
+    "attributes": [],
+    "shipmentShareLink": "https://na12.voc.project44.com/portal/v2/public/ma/tracking-details?shipmentShareToken=fd07baca-bc11-4a28-a55e-605df66d51f9",
+    "routeInfo": {
+      "stops": [
+        {
+          "id": "23eca143-716a-3c87-9fab-bea98cb53fa7",
+          "type": "PORT_OF_LOADING",
+          "location": {
+            "name": "Savannah",
+            "identifiers": [
+              {
+                "type": "PORT_UN_LOCODE",
+                "value": "USSAV"
+              }
+            ],
+            "coordinates": {
+              "latitude": 18.939413,
+              "longitude": 72.947845
+            }
+          }
+        },
+        {
+          "id": "f3d28b4a-2494-3a34-a06c-ff50328db863",
+          "type": "PORT_OF_DISCHARGE",
+          "location": {
+            "name": "Hamburg",
+            "identifiers": [
+              {
+                "type": "PORT_UN_LOCODE",
+                "value": "DEHAM"
+              }
+            ],
+            "coordinates": {
+              "latitude": 53.55,
+              "longitude": 9.933333
+            }
+          }
+        }
+      ],
+      "routeSegments": [
+        {
+          "id": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+          "fromStopId": "23eca143-716a-3c87-9fab-bea98cb53fa7",
+          "toStopId": "f3d28b4a-2494-3a34-a06c-ff50328db863",
+          "transportationMode": "OCEAN",
+          "identifiers": [
+            {
+              "type": "VOYAGE_NUMBER",
+              "value": "IS210A"
+            },
+            {
+              "type": "VESSEL_NAME",
+              "value": "MSC GAIA"
+            },
+            {
+              "type": "VESSEL_IMO",
+              "value": "9401142"
+            },
+            {
+              "type": "CARRIER_NAME",
+              "value": "HIMALAYA EXPRESS SERVICE"
+            }
+          ]
+        }
+      ]
+    },
+    "relatedShipments": [
+      {
+        "id": "3b84c1da-1cd1-4898-b62f-30f0c575b3c6",
+        "identifiers": [
+          {
+            "type": "CARRIER_SCAC",
+            "value": "MSCU"
+          },
+          {
+            "type": "BILL_OF_LADING",
+            "value": "MEDUI4733164"
+          }
+        ]
+      }
+    ]
+  },
+  "states": [],
+  "events": [
+        {
+      "dateTime": "2022-02-05T06:16:00+0000",
+"receivedDateTime": "2025-10-14T17:27:00+0000",
+"id": "bd494d96-4f54-44c5-ae10-1647125787e0",
+      "type": "DEPARTURE_FROM_STOP",
+      "stopId": "23eca143-716a-3c87-9fab-bea98cb53fa7",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "plannedDateTime": "2022-02-06T07:00:00+0000",
+"dateTimes": [
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-09-10T16:45:00+0000",
+          "lastModifiedDateTime": "2025-10-14T17:27:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU9024567"
+            }
+          ],
+          "selected": true,
+          "sequence": 1
+        },
+{
+          "type": "ACTUAL",
+          "dateTime": "2025-09-10T16:45:00+0000",
+          "lastModifiedDateTime": "2025-10-14T17:27:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU9024569"
+            }
+          ],
+          "selected": true,
+          "sequence": 2
+        }
+],
+      "details": {
+        "ocean": {
+          "code": "VESSEL_DEPARTURE_FROM_PORT_OF_LOADING"
+        }
+      }
+      
+    },
+{
+      "dateTime": "2022-02-07T09:19:00+0000",
+"receivedDateTime": "2025-10-14T17:27:00+0000",
+"id": "bd494d96-4f54-44c5-ae10-1647125787e0",
+      "type": "DEPARTURE_FROM_STOP",
+      "stopId": "23eca143-716a-3c87-9fab-bea98cb53fa7",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "plannedDateTime": "2022-02-06T07:00:00+0000",
+"dateTimes": [
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-09-10T16:45:00+0000",
+          "lastModifiedDateTime": "2025-10-14T17:27:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU9024569"
+            }
+          ],
+          "selected": true,
+          "sequence": 1
+        },
+{
+          "type": "ACTUAL",
+          "dateTime": "2025-09-10T16:45:00+0000",
+          "lastModifiedDateTime": "2025-10-14T17:27:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU9024567"
+            }
+          ],
+          "selected": true,
+          "sequence": 2
+        }
+],
+      "details": {
+        "ocean": {
+          "code": "VESSEL_DEPARTURE_FROM_PORT_OF_LOADING"
+        }
+      }
+      
+    }
+
+  ],
+  "positions": []
+}

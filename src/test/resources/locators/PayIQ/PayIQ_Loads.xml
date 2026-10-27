@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <ParticipantMatches>//div[contains(@class,'active')]//tr[.//*[@data-label='{paramlink1}']//*[contains(text(),'{paramlink2}')] and .//td[@data-label="{paramlink3}"]//*[contains(text(),'{paramlink4}')]]</ParticipantMatches>
+    <VerifyTableRecordsWithOneParam>//div[contains(@class,'active')]//tr[ .//td[@data-label='{paramlink1}']//*[contains(normalize-space(.),'{paramlink2}')] ]</VerifyTableRecordsWithOneParam>
+    <LoadRows>//div[contains(@class,'listViewContainer')]/..//../../../..//span[text()='{paramlink}']/ancestor::tr</LoadRows>>
+    <Checkbox>//div[contains(@class,'listViewContainer')]/..//../../../..//span[text()='{paramlink1}']/ancestor::tr/..//..//..//..//..//section[@aria-label='Edit {paramlink2}']/..//span[@class='slds-checkbox_faux']</Checkbox>
+</locators>
+

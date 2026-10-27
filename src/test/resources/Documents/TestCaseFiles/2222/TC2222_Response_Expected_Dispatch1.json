@@ -1,0 +1,21 @@
+{
+  "transactionId": "Transaction1",
+  "scac": "SMCA",
+  "referenceNumbers": [{
+    "assignedBy": "Carrier",
+    "type": "pickup",
+    "number": "55667788"
+    },
+    {
+    "assignedBy": "Customer",
+    "type": "pro",
+    "number": "1234578"
+  }],
+  "messageStatus": {
+    "status": "PASS",
+    "code": "10000000",
+    "message": "Transaction was successful.",
+    "resolution": "",
+    "information": []
+  }
+}

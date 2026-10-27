@@ -1,0 +1,17 @@
+{
+
+"TrackingStatuses": [
+
+{ "LoadID": 63770511, "BOL": "3000555567", "ProNumber": "207000555", "DateTime": null, "Code": "T1", "CarrierMessage": "En route to interim Bismarck, ND ", "BanyanMessage": "In Transit", "City": "Bismarck", "State": "ND" }
+
+,
+
+{ "LoadID": 63770511, "BOL": "3000555567", "ProNumber": "207000555", "DateTime": null, "Code": "X3", "CarrierMessage": "En route to destination Lumberton, NC ", "BanyanMessage": "En Route to Delivery Location", "City": "Lumberton", "State": "NC" }
+
+],
+
+"Success": true,
+
+"Error": null
+
+}

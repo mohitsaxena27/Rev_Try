@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <GetJobDetails>//div[contains(@class,'active')]//tr[@data-row-key-value='{paramlink2}']/td[@data-label='{paramlink1}']//lightning-formatted-date-time</GetJobDetails>
+    <GetValuebyDataLabel>//div[contains(@class,'active')]//tr[@data-row-key-value='{paramlink1}']/td[@data-label='{paramlink2}']</GetValuebyDataLabel>
+    <JobButtonDisabled>//div[contains(@class,'active ')]//*[text()='{paramlink}']/../../../../../th//a[@aria-disabled="true"]//span[text()='{paramlink1}']</JobButtonDisabled>
+    <RunJobButton>//div[contains(@class,'active ')]//*[text()='{paramlink}']/../../../../..//span[text()='Run Now']</RunJobButton>
+    <AllScheduledJob>(//div[contains(@class,'active ')]//tr[.//lightning-base-formatted-text[text()='Scheduled']]//td[@data-label='Name'])[{index}]</AllScheduledJob>
+    <DeleteJob>//*[contains(@title,'Delete') and contains(@title ,'{paramlink}')]</DeleteJob>
+    <DeleteJob2>//*[contains(@title,'Pause')]/..//a[contains(@title,'Delete')]</DeleteJob2>
+</locators>

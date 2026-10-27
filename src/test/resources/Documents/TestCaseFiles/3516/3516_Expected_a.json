@@ -1,0 +1,9 @@
+{
+  "identifiers" : [ {
+    "type" : "CARRIER_SCAC",
+    "value" : "TRHU"
+  }, {
+    "type" : "CONTAINER_ID",
+    "value" : "TRHU7493516"
+  } ]
+}

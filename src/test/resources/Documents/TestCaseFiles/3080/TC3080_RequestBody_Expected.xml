@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope
+        xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+        xmlns:tem="http://tempuri.org/"
+        xmlns:acc="http://schemas.datacontract.org/2004/07/accufRATE.accufRATE">
+    <soapenv:Header />
+    <soapenv:Body>
+        <tem:CreateShipment>
+            <tem:request>
+                <acc:Authentication>
+                    <acc:Mode>C</acc:Mode>
+                    <acc:Password>eRRu4EvfaPTphYoQC0cLGg==</acc:Password>
+                    <acc:UserName>apitest@ship1a.com</acc:UserName>
+                </acc:Authentication>
+                <acc:ConsigneeAddress1>526 Beacon Street</acc:ConsigneeAddress1>
+                <acc:ConsigneeCompany>Boston Beans</acc:ConsigneeCompany>
+                <acc:ConsigneeContact>Joe Boston Beans</acc:ConsigneeContact>
+                <acc:ConsigneePhone>312-999-7777</acc:ConsigneePhone>
+                <acc:ConsigneeEmail>{email}</acc:ConsigneeEmail>
+                <acc:FreightItems>
+                    <acc:FreightItem>
+                        <acc:ClassCode>50</acc:ClassCode>
+                        <acc:Description>Material</acc:Description>
+                        <acc:ItemTypeCode>11</acc:ItemTypeCode>
+                        <acc:Quantity>2</acc:Quantity>
+                        <acc:Reference>Item 1</acc:Reference>
+                        <acc:Weight>6500</acc:Weight>
+                    </acc:FreightItem>
+                </acc:FreightItems>
+                <acc:IsPickUpRequired>true</acc:IsPickUpRequired>
+                <acc:PickUpCloseTime>22:00</acc:PickUpCloseTime>
+                <acc:PickUpDate>{CurrentDate+1}T09:00:00</acc:PickUpDate>
+                <acc:PickUpReadyTime>09:00</acc:PickUpReadyTime>
+                <acc:QuoteDetailId>{QuoteDetailId}</acc:QuoteDetailId>
+                <acc:ShipperAddress1>2333 Waukegan Rd.</acc:ShipperAddress1>
+                <acc:ShipperCompany>AccuFrate Customer</acc:ShipperCompany>
+                <acc:ShipperContact>Joe AccuFrate Customer</acc:ShipperContact>
+                <acc:ShipperEmail>{email}</acc:ShipperEmail>
+                <acc:ShipperPhone>312-999-7777</acc:ShipperPhone>
+                <acc:SpecialInstructions>Pickup Instructions: Pickup Instructions&amp;#10;Delivery Instructions: Delivery Instructions</acc:SpecialInstructions>
+            </tem:request>
+        </tem:CreateShipment>
+    </soapenv:Body>
+</soapenv:Envelope>

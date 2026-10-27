@@ -1,0 +1,19 @@
+{
+  "fleet_id": 165964,
+  "created_at": "2025-05-28T20:25:36.187078Z",
+  "fleet_code": "00DRu00000TImlRMAT",
+  "carrier": {
+    "carrier_name": "",
+    "dot_number": 0,
+    "home_terminal_address": "",
+    "home_terminal_name": "",
+    "main_office_address": ""
+  },
+  "tsps": [
+    {
+      "axle_tsp_id": 164551,
+      "tsp_source": "samsara",
+      "invalid_credentials": false
+    }
+  ]
+}

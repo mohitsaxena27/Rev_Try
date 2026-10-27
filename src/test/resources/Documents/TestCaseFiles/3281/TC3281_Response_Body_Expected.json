@@ -1,0 +1,32 @@
+{
+  "Address": {
+    "StreetAddress": "",
+    "City": "San Agustin",
+    "State": "SL",
+    "Zip": "78720",
+    "County": "Matehuala",
+    "Country": "Mexico",
+    "SPLC": null,
+    "CountryPostalFilter": 0,
+    "AbbreviationFormat": 0,
+    "StateName": "San Luís Potosí",
+    "StateAbbreviation": "SL",
+    "CountryAbbreviation": "MX"
+  },
+  "Coords": {
+    "Lat": "23.665928",
+    "Lon": "-100.654073"
+  },
+  "Region": 4,
+  "Label": "",
+  "PlaceName": "",
+  "TimeZone": "CST",
+  "Errors": [],
+  "SpeedLimitInfo": null,
+  "ConfidenceLevel": "Exact",
+  "DistanceFromRoad": null,
+  "CrossStreet": null,
+  "TimeZoneOffset": "GMT-6:00",
+  "TimeZoneAbbreviation": "CST",
+  "IsDST": false
+}

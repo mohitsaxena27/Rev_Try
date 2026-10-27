@@ -1,0 +1,12 @@
+{
+  "transactionId": "TransactionId",
+  "scac": "scacNumber",
+  "proNumber": "Pro_Num",
+  "messageStatus": {
+    "status": "PASS",
+    "code": "10000000",
+    "message": "Transaction was successful.",
+    "resolution": "",
+    "information": []
+  }
+}

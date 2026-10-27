@@ -1,0 +1,59 @@
+{tripPlanSegments_SFID}{
+
+"properties": {
+
+    "tripId": {tripId},
+
+    "tripStatus": "InProgress",
+
+    "tspDriverId": "fred",
+
+    "notificationType": "stop_status_update",
+
+    "stopStatusEvents": {
+
+     "stopId": 1270093363,
+
+     "stopSequence": 0,
+
+     "eventType": "ArrivedAtStop",
+
+     "stopLocation": {
+
+      "address": {
+
+       "streetAddress": "976 South Union Avenue",
+
+       "city": "Los Angeles",
+
+       "state": "CA",
+
+       "zip": "90015",
+
+       "county": "Los Angeles",
+
+       "country": "United States"
+
+      },
+
+      "coords": {
+
+       "lat": "34.049881",
+
+       "lon": "-118.273503"
+
+      },
+
+      "label": "StopLabel"
+
+     },
+
+     "publishedOn": "07-14-2024T16:28:27+00:00",
+
+     "deviceDT": "2024-07-14T16:28:25+00:00"
+
+    }
+
+   }
+
+  }

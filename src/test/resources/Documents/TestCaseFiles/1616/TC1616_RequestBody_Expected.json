@@ -1,0 +1,110 @@
+{
+  "capacityProviderAccountGroup": {
+    "accounts": [
+      {
+        "code": "SEFL"
+      }
+    ]
+  },
+  "pickupNote": "{pickupNote}",
+  "originLocation": {
+    "address": {
+      "postalCode": "60015",
+      "addressLines": [
+        "2333 Waukegan Rd."
+      ],
+      "city": "Bannockburn",
+      "state": "IL",
+      "country": "US"
+    },
+    "contact": {
+      "companyName": "Project44 Customer",
+      "contactName": "Joe Project44 Customer",
+      "phoneNumber": "312-999-7777",
+      "email": "{email}"
+    }
+  },
+  "deliveryNote": "{deliveryNote}",
+  "destinationLocation": {
+    "address": {
+      "postalCode": "02215",
+      "addressLines": [
+        "526 Beacon Street"
+      ],
+      "city": "Boston",
+      "state": "MA",
+      "country": "US"
+    },
+    "contact": {
+      "companyName": "Boston Beans",
+      "contactName": "Joe Boston Beans",
+      "phoneNumber": "312-999-7777",
+      "email": "{email}"
+    }
+  },
+  "requesterLocation": {
+    "address": {
+      "postalCode": "60015",
+      "addressLines": [
+        "2333 Waukegan Rd."
+      ],
+      "city": "Bannockburn",
+      "state": "IL",
+      "country": "US"
+    },
+    "contact": {
+      "companyName": "{Company_Name}",
+      "contactName": "User User",
+      "phoneNumber": "312-376-8883",
+      "email": "{email}"
+    }
+  },
+  "lineItems": [
+    {
+      "totalWeight": 6500,
+      "packageDimensions": {
+        "length": 45.00,
+        "width": 45.00,
+        "height": 45.00
+      },
+      "freightClass": "50",
+      "packageType": "PLT",
+      "totalPackages": 2,
+      "description": "Material",
+      "stackable": false
+    }
+  ],
+  "pickupWindow": {
+    "date": "{CurrentData}",
+    "startTime": "09:00",
+    "endTime": "22:00"
+  },
+  "carrierCode": "SEFL",
+  "shipmentIdentifiers": [
+    {
+      "type": "BILL_OF_LADING",
+      "value": "{BOL_Num}"
+    },
+    {
+      "type": "PICKUP",
+      "value": "1616/*- QA Testing!@#$%"
+    },
+    {
+      "type": "EXTERNAL",
+      "value": "{External_ID}"
+    }
+  ],
+  "accessorialServices": [],
+  "capacityProviderQuoteNumber": "{capacityProviderQuoteNumber}",
+  "totalLinearFeet": 4,
+  "weightUnit": "LB",
+  "lengthUnit": "IN",
+  "apiConfiguration": {
+    "noteConfiguration": {
+      "enableTruncation": true
+    },
+    "enableUnitConversion": true,
+    "pickupOnly": false
+  },
+  "currencyCode": "USD"
+}

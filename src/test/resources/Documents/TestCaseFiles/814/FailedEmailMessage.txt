@@ -1,0 +1,57 @@
+The existing invoice for this EDI 210 transaction is not in an editable status and can not be updated. Please follow up with the accounting and the vendor. Load Number: Load-814
+Ensure the XML within renders the below:
+{
+ "ShipmentId" : "Load-814",
+ "PRONumber" : "PRO814",
+ "OriginStreet" : null,
+ "OriginState" : null,
+ "OriginPostalCode" : null,
+ "OriginName" : null,
+ "OriginCountry" : null,
+ "OriginCity" : null,
+ "Items" : [ ],
+ "InvoiceNum" : "INV814",
+ "InvoiceDueDate" : "2023-08-15",
+ "InvoiceDate" : "2023-08-01",
+ "DestinationStreet" : null,
+ "DestinationState" : null,
+ "DestinationPostalCode" : null,
+ "DestinationName" : null,
+ "DestinationCountry" : null,
+ "DestinationCity" : null,
+ "CurrencyCode" : "USD",
+ "Charges" : [ {
+  "Type" : "Line Haul",
+  "StopNum" : null,
+  "RateType" : "Per Mile",
+  "Rate" : 1.00,
+  "Qty" : 1200,
+  "Description" : "Net Line Haul",
+  "Amount" : 1200.00
+ }, {
+  "Type" : "Fuel",
+  "StopNum" : null,
+  "RateType" : "Per Mile",
+  "Rate" : 0.25,
+  "Qty" : 1200,
+  "Description" : "Fuel Surcharge",
+  "Amount" : 300.00
+ }, {
+  "Type" : "Accessorial",
+  "StopNum" : null,
+  "RateType" : "Fixed Cost",
+  "Rate" : 75,
+  "Qty" : 1,
+  "Description" : "After Hours Delivery",
+  "Amount" : 75.00
+ }, {
+  "Type" : "Accessorial",
+  "StopNum" : null,
+  "RateType" : "Per Handling Unit",
+  "Rate" : 75,
+  "Qty" : 5,
+  "Description" : "Unknown Accessorial Name",
+  "Amount" : 375.00
+ } ],
+ "CarrierTradingPartnerId" : "EDIC1"
+}

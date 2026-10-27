@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <ShowMoreDropdown>//span[contains(text(),'{paramlink}')]/../following-sibling::td[3]//a</ShowMoreDropdown>
+    <SelectedButtons>//label[text()='Selected Buttons']/../..//*[text()='{paramlink}']</SelectedButtons>
+    <AvailableButtons>//label[text()='Available Buttons']/../..//*[text()='{paramlink}']</AvailableButtons>
+</locators>

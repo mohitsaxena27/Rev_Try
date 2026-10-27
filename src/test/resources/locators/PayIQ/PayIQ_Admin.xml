@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+  <CheckJobStatus>//div[contains(@class,'active')]//tr[.//td[text()='{paramlink1}'] and .//td[text()='{paramlink2}']]</CheckJobStatus>
+  <ClickonRecord>//div[contains(@class,'active')]//tr[.//td[@data-label='{paramlink1}']//*[text()='{paramlink2}']]//*[contains(text(),'{paramlink3}')]</ClickonRecord>
+  <ClickonRecordWithTwoParam>//div[contains(@class,'active')]//tr[.//td[@data-label='{paramlink1}']//*[text()='{paramlink2}'] and .//td[@data-label="{paramlink3}"]//*[contains(text(),'{paramlink4}')]]//*[contains(text(),'{paramlink5}')]</ClickonRecordWithTwoParam>
+  <BtnClickOnSection>//span[contains(normalize-space(),'{paramlink2}')]/ancestor::article//button[@name='{paramlink1}']</BtnClickOnSection>
+  <BtnClickOnFiltersSection>//span[normalize-space()='{paramlink2}']/ancestor::flexipage-component2[1]//button[normalize-space()='{paramlink1}']</BtnClickOnFiltersSection>
+  <Global_Text_Contains_Normalized>//div[contains(@class,'active')]//*[contains(.,'{paramlink}')]</Global_Text_Contains_Normalized>
+  <ClickonRecordWithTwoFields>//div[contains(@class,'active')]//tr[ .//td[@data-label='{paramlink1}']//*[contains(normalize-space(),'{paramlink2}')] and .//td[@data-label='{paramlink3}']//*[contains(normalize-space(),'{paramlink4}')] ]//*[contains(text(),'{paramlink5}')]</ClickonRecordWithTwoFields>
+  <ListViewDropdown>//*[contains(@title,'{paramlink}')]</ListViewDropdown>
+  <ListViewName>//*[text()='{paramlink}']</ListViewName>
+  <AccessorialRemoveIcon>//lightning-icon[@icon-name='{paramlink2}' and @data-accessorial-index='{paramlink1}']</AccessorialRemoveIcon>
+  <ParticipantMatches>//div[contains(@class,'active')]//tr[.//*[@data-label='{paramlink1}']//*[contains(text(),'{paramlink2}')] and .//td[@data-label="{paramlink3}"]//*[contains(text(),'{paramlink4}')]]</ParticipantMatches>
+  <AdminLogsTimeStamp>//div[contains(@class,'active')]//lightning-formatted-date-time[contains(normalize-space(.),'{paramlink}')]</AdminLogsTimeStamp>
+    <AdminLogsFirstTimeStamp>//div[contains(@class,'active')]//table[.//th[normalize-space()='Timestamp']]//tbody/tr[.//td][1]/td[1]//lightning-formatted-date-time</AdminLogsFirstTimeStamp>
+    <ClickOnRecordsWithThree>//div[contains(@class,'active')]//tr[.//td[@data-label="{paramlink1}"]//*[contains(normalize-space(),'{paramlink2}')] and .//td[@data-label="{paramlink3}"]//*[contains(normalize-space(),'{paramlink4}')] and .//td[@data-label="{paramlink5}"]//*[contains(normalize-space(),'{paramlink6}')]]//*[contains(text(),'{paramlink7}')]</ClickOnRecordsWithThree>
+    <ClickOnRecordsWithFour>//div[contains(@class,'active')]//tr[.//td[@data-label="{paramlink1}"]//*[text()='{paramlink2}'] and .//td[@data-label="{paramlink3}"]//*[text()='{paramlink4}']  and .//td[@data-label="{paramlink5}"]//*[text()='{paramlink6}']and .//td[@data-label="{paramlink7}"]//*[text()='{paramlink8}']]//*[contains(text(),'{paramlink9}')]</ClickOnRecordsWithFour>
+    <LogsDetail>//div[contains(@class,'active ')]//lightning-base-formatted-text[normalize-space(.)='{paramlink}']</LogsDetail>
+    <Unloaded>//div[contains(@class,'active ')]//*[@data-segment-number='{paramlink2}']/../../..//lightning-layout[contains(@class,'mileageBox')]//lightning-layout-item[.//*[text()='{paramlink1}']]/following-sibling::lightning-layout-item[1]//lightning-formatted-number</Unloaded>
+    <TableRecordsWithThree>//div[contains(@class,'active')]//tr[ .//td[@data-label='{paramlink1}']//*[text()='{paramlink2}'] and .//td[@data-label='{paramlink3}']//*[text()='{paramlink4}'] and .//td[@data-label='{paramlink5}']//*[text()='{paramlink6}']]</TableRecordsWithThree>
+    <PayIQFrequency>//button[normalize-space()='{paramlink1}'] /ancestor::lightning-layout-item[1] /preceding-sibling::lightning-layout-item[1] //label[normalize-space()='Frequency'] /following::select[1]</PayIQFrequency>
+  <PayIQTime>//button[normalize-space()='{paramlink1}'] /ancestor::lightning-layout-item[1] /preceding-sibling::lightning-layout-item[1] //label[normalize-space()='Time'] /following::input[@role='combobox'][1]</PayIQTime>
+  <PayIQTimeOption>//lightning-base-combobox-item//span[@title='{paramlink1}']</PayIQTimeOption><ScheduledRunMessage>//p[contains(normalize-space(.),'{paramlink1}')]</ScheduledRunMessage>
+  <AdminLogsTimeStamp>//div[contains(@class,'active')]//lightning-formatted-date-time[contains(normalize-space(.),'{paramlink}')]</AdminLogsTimeStamp>
+  <PayIQLogsDetail>//*[contains(normalize-space(.),'{paramlink}')]</PayIQLogsDetail>
+    <ScheduleJobNextSceduleTime>//tr[.//*[text()='{paramlink1}']]//td[text()='{paramlink2}']</ScheduleJobNextSceduleTime>
+   <StatusPayEstimate>//div[contains(@class,'active ')]//*[normalize-space()='{paramlink}']/ancestor::lightning-layout[1]//legend/..//label</StatusPayEstimate>
+   <VerifyEstimatedPaySection>//div[contains(@class,'active ')]//*[contains(@class,'estimateBox')]//*[text()='{paramlink}']</VerifyEstimatedPaySection>
+   <EstimateField>(//div[contains(@class,'active ')]//*[normalize-space()='{paramlink}']/ancestor::lightning-layout-item//lightning-layout-item[contains(@class,'estimateDetailBox')][{RecordNum}]//label)[{index}]</EstimateField>
+   <EstimatePayCalculationTier>//div[contains(@class,'active ')]//*[normalize-space()='{paramlink}']/ancestor::lightning-layout-item//lightning-layout-item[contains(@class,'estimateDetailBox')][{RecordNum}]//*[contains(text(),'{paramlink2}')]</EstimatePayCalculationTier>
+  <EstimateFormattedField>//span[@class='revenovaHeader1' and normalize-space()='{paramlink1}']/ancestor::lightning-layout[1]/following-sibling::lightning-layout[1]//lightning-formatted-text[normalize-space(.)='{paramlink2}']</EstimateFormattedField>
+  <EstimatedPaySaveButton>//lightning-layout-item[.//span[contains(@class,'revenovaHeader1') and normalize-space()='{paramlink1}']]/following-sibling::lightning-layout-item[1]//button[@title='{paramlink2}']</EstimatedPaySaveButton>
+  <EstimateInputField>(//*[contains(@class,'estimateBox') and .//*[text()='{paramlink1}']]//*[contains(@class,'estimateDetailBox')]//label)[{index}]</EstimateInputField>
+  <AdminLogsType>//div[contains(@class,'active')]//tr/td[normalize-space()='{paramlink}']</AdminLogsType>
+  <AdminLogsType1>//div[contains(@class,'active')]//tr/td[normalize-space()='{paramlink}']</AdminLogsType1>
+  <AdminLogTypeHas>//div[contains(@class,'active')]//table[.//th[normalize-space()='Type']]//tbody/tr/td[last()][normalize-space()!='{paramlink1}']</AdminLogTypeHas>
+  <AdminLogTypeNotHas>//div[contains(@class,'active')]//table[.//th[normalize-space()='Type']]//tbody/tr/td[last()][normalize-space()='{paramlink1}']</AdminLogTypeNotHas>
+  <AdminLogLoad>//div[contains(@class,'active')]//table[.//th[normalize-space()='Load']]//tbody/tr/td[2][normalize-space()!='{paramlink1}']</AdminLogLoad>
+  <AdminLogDriverLog>//div[contains(@class,'active')]//table[.//th[normalize-space()='Driver Log']]//tbody/tr/td[3][normalize-space()!='{paramlink1}']</AdminLogDriverLog>
+  <AdminLogTripPlanLeg>//div[contains(@class,'active')]//table[.//th[normalize-space()='Trip Plan Leg']]//tbody/tr/td[4][normalize-space()!='{paramlink1}']</AdminLogTripPlanLeg>
+  <AdminTabs>//div[contains(@class,'active')]//ul[@role='tablist']//li[@data-label='{paramlink}']</AdminTabs>
+  <TableColumnHeader>//div[contains(@class,'active')]//table//th[normalize-space(.)='{paramlink}']</TableColumnHeader>
+  <LogsDetail1>//div[contains(@class,'active ')]//lightning-base-formatted-text[normalize-space(.)='{paramlink}']</LogsDetail1>
+  <LogsDetailText>//div[contains(@class,'active ')]//lightning-base-formatted-text</LogsDetailText>
+</locators>

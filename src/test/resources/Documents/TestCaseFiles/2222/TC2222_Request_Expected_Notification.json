@@ -1,0 +1,80 @@
+{
+  "dispatchCode": "TEST",
+  "revenovaId": "{revenovaId}",
+  "service": {
+    "level": "GTD_NOON"
+  },
+  "shipmentComments": "PU: Pickup Instructions.  Dlvy: Delivery Instructions",
+  "payment": {
+    "terms": "Prepaid",
+    "payer": "Third Party"
+  },
+  "pickupAvailability": {
+    "date": "{CurrentDateYYYYMMDD+3}",
+    "startTime": "090000",
+    "endTime": "220000",
+    "closeTime": "220000"
+  },
+  "commodities": [{
+    "packagingType": "PAT",
+    "pieces": "10",
+    "classification": "50",
+    "weight": "4500",
+    "length": "24",
+    "width": "48",
+    "height": "48",
+    "description": "Material"
+  }],
+  "accessorials": {
+    "codes": []
+  },
+  "referenceNumbers": {
+    "bol": "112233",
+    "po": ["A123"],
+    "estimate": "CarrierQuoteRef",
+    "pro": "1234578"
+  },
+  "origin": {
+    "name": "Chicago Bulls",
+    "address": "1901 West Madison Street",
+    "city": "Chicago",
+    "stateProvince": "IL",
+    "postalCode": "60612",
+    "country": "USA",
+    "contact": {
+      "name": "Joe Chicago Bulls",
+      "phone": "3129997777",
+      "email": "{email}"
+    }
+  },
+  "destination": {
+    "name": "Denver Deli Meats",
+    "address": "1435 Fox St.",
+    "city": "Denver",
+    "stateProvince": "CO",
+    "postalCode": "80204",
+    "country": "USA",
+    "contact": {
+      "name": "Joe Denver Deli Meats",
+      "phone": "3129997777",
+      "email": "{email}"
+    }
+  },
+  "requestor": {
+    "name": "{Company_Name}",
+    "contact": {
+      "name": "User User",
+      "phone": "8002723425",
+      "email": "{email}"
+    },
+    "billTo": {
+      "address": "2333 Waukegan Rd.",
+      "city": "Bannockburn",
+      "country": "USA",
+      "name": "SMC3 EVA Customer",
+      "postalCode": "60015",
+      "stateProvince": "IL"
+    }
+  }
+
+}

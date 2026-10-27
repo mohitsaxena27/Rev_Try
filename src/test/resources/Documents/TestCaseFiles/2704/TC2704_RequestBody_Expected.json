@@ -1,0 +1,34 @@
+{
+  "exposure": {
+    "audience": {
+      "loadBoard": {
+        "transactionDetails": {
+          "loadOfferRateUsd": 3139.13,
+          "transactionType": "NONBOOKABLE_OFFER_RATE"
+        }
+      }
+    },
+    "earliestAvailabilityWhen": "{CurrentDate+2}T12:00:00.000Z",
+    "preferredContactMethod": "EMAIL"
+  },
+  "freight": {
+    "comments": [
+      {
+        "comment": "THIS IS A TEST"
+      }
+    ],
+    "dropOffHours": "{CurrentDateWithSlash+7} 20:00-22:00",
+    "fullPartial": "PARTIAL",
+    "lengthFeet": 53,
+    "pickupHours": "{CurrentDateWithSlash+2} 12:00-13:00",
+    "weightPounds": 15000
+  },
+  "posterInfo": {
+    "contactMethods": [
+      {
+        "method": "EMAIL"
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,114 @@
+{
+  "transactionId": "b5818d9d-1c88-4c7f-92ff-f53eca8fa5a1",
+  "carrierResults": [
+    {
+      "transactionId": "1e3fd414-7f96-4fd0-942a-5678",
+      "billToAccount": "03624",
+      "evaAccessId": "Revenova-126351",
+      "scac": "SMCA",
+      "pricingType": "VOLUME",
+      "quote": {
+        "effectiveDate": "20211012",
+        "expirationDate": "20220107",
+        "quoteId": "903647"
+      },
+      "service": {
+        "description": "GUARANTEED! Morning",
+        "guaranteedTime": "1030",
+        "level": "GTD_PM"
+      },
+      "shipmentInfo": {
+        "currency": "USD",
+        "deficitClass": "",
+        "deficitRate": "50",
+        "deficitWeight": "100.55",
+        "discountPercent": "24.6992",
+        "weight": "",
+        "totalCharge": "1977.86",
+        "totalChargeDetails": {
+          "accessorialsTotal": "541.00",
+          "deficitAmount": "75.00",
+          "discountAmount": "416.43",
+          "fuelSurcharge": "102.06",
+          "lineHaulGrossCharge": "1686.00",
+          "lineHaulNetCharge": "1269.57",
+          "rateType": "QA is Cool",
+          "unItemizedAmount": "65.23"
+        }
+      },
+      "accessorials": [],
+      "commodities": [
+        {
+          "chargeAmount": "1686.00",
+          "classification": "60",
+          "rateAmount": "236.44",
+          "weight": ""
+        }
+      ],
+      "transit": {
+        "movementInfo": {
+          "details": "",
+          "estimatedDeliveryDate": "20260218",
+          "estimatedTransitDays": "6",
+          "movementType": "DIRECT",
+          "movementTypeDestination": "PARTNER",
+          "movementTypeOrigin": "INDIRECT",
+          "source": [
+            "CCXL",
+            "CARRIER-API"
+          ],
+          "terminals": {
+            "destination": {
+              "address": "101 destination terminal way",
+              "city": "Calgary",
+              "code": "DCBA34624",
+              "contact": {
+                "email": "",
+                "fax": "1233212233",
+                "name": "John Doe",
+                "phone": "5233211234",
+                "title": "Manager",
+                "tollFree": "8003219876"
+              },
+              "country": "CAN",
+              "name": "CALGARY",
+              "phone": "4321230000",
+              "postalCode": "T1Y2S2",
+              "stateProvince": "AB"
+            },
+            "origin": {
+              "address": "789 origin terminal way",
+              "city": "Louisville",
+              "code": "ABCD3624",
+              "contact": {
+                "email": "qa@revenova.com",
+                "fax": "1233216541",
+                "name": "Jane Doe",
+                "phone": "",
+                "title": "Manager",
+                "tollFree": "8003219876"
+              },
+              "country": "USA",
+              "name": "LOUISVILLE",
+              "phone": "1233211234",
+              "postalCode": "40213",
+              "stateProvince": "KY"
+            },
+            "source": [
+              "CCXL",
+              "CARRIER-API"
+            ]
+          }
+        },
+        "pickupDate": "20260105"
+      },
+      "messageStatus": {
+        "status": "PASS",
+        "code": "10000000",
+        "message": "Transaction was successful.",
+        "resolution": "",
+        "information": []
+      }
+    }
+  ]
+}

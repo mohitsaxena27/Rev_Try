@@ -1,0 +1,19 @@
+{
+  "fleet_id": {fleet_id},
+  "created_at": "2025-05-28T20:25:36.187078Z",
+  "fleet_code": "{fleet_code}",
+  "carrier": {
+    "carrier_name": "",
+    "dot_number": 0,
+    "home_terminal_address": "",
+    "home_terminal_name": "",
+    "main_office_address": ""
+  },
+  "tsps": [
+    {
+      "axle_tsp_id": {axle_tsp_id},
+      "tsp_source": "samsara",
+      "invalid_credentials": false
+    }
+  ]
+}

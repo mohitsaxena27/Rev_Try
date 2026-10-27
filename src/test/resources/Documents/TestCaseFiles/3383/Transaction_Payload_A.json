@@ -1,0 +1,45 @@
+{
+  "shipmentId": "Load-3383",
+  "proNumber": "PRO3383",
+  "items": [],
+  "invoiceNum": "INV3383",
+  "invoiceDueDate": "2023-08-15",
+  "invoiceDate": "2023-08-01",
+  "ediProvider": "Kleinschmidt",
+  "currencyCode": "USD",
+  "charges": [
+    {
+      "type": "Line Haul",
+      "rateType": "Per Mile",
+      "rate": 1,
+      "qty": 1200,
+      "description": "Net Line Haul",
+      "amount": 1200
+    },
+    {
+      "type": "Fuel",
+      "rateType": "Per Mile",
+      "rate": 0.25,
+      "qty": 1200,
+      "description": "Fuel Surcharge",
+      "amount": 300
+    },
+    {
+      "type": "Accessorial",
+      "rateType": "Fixed Cost",
+      "rate": 75,
+      "qty": 1,
+      "description": "After Hours Delivery",
+      "amount": 75
+    },
+    {
+      "type": "Accessorial",
+      "rateType": "Per Handling Unit",
+      "rate": 75,
+      "qty": 5,
+      "description": "Unknown Accessorial Name",
+      "amount": 375
+    }
+  ],
+  "carrierTradingPartnerId": "EDIC1"
+}

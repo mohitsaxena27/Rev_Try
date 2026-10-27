@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <Margincolor>//div[contains(@class,'active ')]//lightning-formatted-number[@class='{paramlink}']</Margincolor>
+    <VerifyTaxAmount>(//*[text()='Customer Quote Taxes']/ancestor::div[1]/following-sibling::*[1]//*[contains(text(),'USD')])[{index}]</VerifyTaxAmount>
+   </locators>
+

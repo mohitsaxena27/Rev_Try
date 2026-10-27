@@ -1,0 +1,81 @@
+[
+  {
+    "inbound": true,
+    "ediCode": 204,
+    "payload": {
+      "tradingPartnerId": "KLIQA",
+      "stops": [
+        {
+          "stopType": "pickup",
+          "expectedDate": "12/26/2028",
+          "company": {
+            "companyName": "Arizona Cardinals",
+"companyID": "AZC1"
+          }
+        },
+        {
+          "stopType": "dropoff",
+          "expectedDate": "2028-12-28",
+          "company": {
+            "companyName": "Texas Rangers",
+"companyId": "TXR1"      
+    }
+        }
+      ],
+      "shipmentId": "Load-ABC",
+      "purpose": "Update"
+    }
+  },
+  {
+    "inbound": true,
+    "ediCode": 214,
+    "payload": {
+      "shipmentId": "Load-ABC",
+      "carrierTradingPartnerId": "EDIC1"
+    }
+  },
+  {
+    "inbound": true,
+    "ediCode": 322,
+    "payload": {
+      "shipmentId": "Load-XYZ",
+      "carrierTradingPartnerId": "REDIC1"
+    }
+  },
+  {
+    "inbound": true,
+    "ediCode": 824,
+    "payload": {
+      "status": "Accept",
+      "shipmentId": "Load-XYZ",
+      "carrierTradingPartnerId": "REDIC1"
+    }
+  },
+  {
+    "inbound": true,
+    "ediCode": 990,
+    "payload": {
+      "status": "Accept",
+      "shipmentId": "Load-ABC",
+      "carrierTradingPartnerId": "EDIC1"
+    }
+  },
+  {
+    "inbound": true,
+    "ediCode": 210,
+    "payload": {
+      "shipmentId": "Load-ABC",
+      "invoiceDate": "2028-12-28",
+      "carrierTradingPartnerId": "EDIC1"
+    }
+  },
+  {
+    "inbound": true,
+    "ediCode": 410,
+    "payload": {
+      "shipmentId": "Load-XYZ",
+      "invoiceDate": "2028-12-28",
+      "carrierTradingPartnerId": "REDIC1"
+    }
+  }
+]

@@ -1,0 +1,293 @@
+[
+    {
+        "inbound": true,
+        "ediCode": 210,
+        "payload": {
+            "shipmentId": "Load-1498A",
+            "proNumber": "PRO1498A",
+            "originStreet": "2333 Waukegan Rd.",
+            "originState": "IL",
+            "originPostalCode": "60045",
+            "originName": "XYZ Shipper",
+            "originCountry": "US",
+            "originCity": "Bannockburn",
+            "items": [
+                {
+                    "weightUnits": "lbs",
+                    "weight": 100,
+                    "rateType": "Per Mile",
+                    "rate": 0.25,
+                    "quantity": 10,
+                    "freightClass": "50",
+                    "description": "Commodity AAA",
+                    "amount": 100
+                },
+                {
+                    "weightUnits": "lbs",
+                    "weight": 100,
+                    "rateType": "Per Mile",
+                    "rate": 1.25,
+                    "quantity": 20,
+                    "freightClass": "55",
+                    "description": "60# Red Potato",
+                    "amount": 100
+                },
+                {
+                    "weightUnits": "lbs",
+                    "weight": 100,
+                    "rateType": "Per Mile",
+                    "rate": 1.25,
+                    "quantity": 20,
+                    "freightClass": "60",
+                    "description": "5/10 Poly Russet Potato",
+                    "amount": 100
+                }
+            ],
+            "invoiceNum": "INV1498A",
+            "invoiceDueDate": "2023-10-15",
+            "invoiceDate": "2023-10-01",
+            "destinationStreet": "526 Beacon Street",
+            "destinationState": "MA",
+            "destinationPostalCode": "02215",
+            "destinationName": "ABC Consignee",
+            "destinationCountry": "US",
+            "destinationCity": "Boston",
+            "currencyCode": "USD",
+            "charges": [
+                {
+                    "type": "Line Haul",
+                    "rateType": "Per Mile",
+                    "rate": 1,
+                    "qty": 1200,
+                    "description": "Net Line Haul",
+                    "amount": 1200
+                },
+                {
+                    "type": "Fuel",
+                    "rateType": "Per Mile",
+                    "rate": 0.25,
+                    "qty": 1200,
+                    "description": "Fuel Surcharge",
+                    "amount": 300
+                },
+                {
+                    "type": "Accessorial",
+                    "stopNum": 2,
+                    "rateType": "Fixed Cost",
+                    "rate": 75,
+                    "qty": 1,
+                    "description": "After Hours Delivery",
+                    "amount": 75
+                },
+                {
+                    "type": "Accessorial",
+                    "rateType": "Per Handling Unit",
+                    "rate": 75,
+                    "qty": 5,
+                    "description": "Unknown Accessorial Name",
+                    "amount": 375
+                }
+            ],
+            "carrierTradingPartnerId": "EDIC1"
+        }
+    },
+    {
+        "inbound": true,
+        "ediCode": 210,
+        "payload": {
+            "shipmentId": "Load-1498B",
+            "proNumber": "PRO1498B",
+            "originStreet": "2333 Waukegan Rd.",
+            "originState": "IL",
+            "originPostalCode": "60045",
+            "originName": "123 Shipper",
+            "originCountry": "US",
+            "originCity": "Bannockburn",
+            "items": [
+                {
+                    "weightUnits": "lbs",
+                    "weight": 100,
+                    "rateType": "Per Mile",
+                    "rate": 0.25,
+                    "quantity": 10,
+                    "freightClass": "50",
+                    "description": "Grapes",
+                    "amount": 100
+                },
+                {
+                    "weightUnits": "lbs",
+                    "weight": 100,
+                    "rateType": "Per Mile",
+                    "rate": 1.25,
+                    "quantity": 20,
+                    "freightClass": "55",
+                    "description": "Cucumbers",
+                    "amount": 100
+                },
+                {
+                    "weightUnits": "lbs",
+                    "weight": 100,
+                    "rateType": "Per Mile",
+                    "rate": 1.25,
+                    "quantity": 20,
+                    "freightClass": "60",
+                    "description": "Oranges",
+                    "amount": 100
+                }
+            ],
+            "invoiceNum": "INV1498B",
+            "invoiceDueDate": "2023-11-15",
+            "invoiceDate": "2023-11-01",
+            "destinationStreet": "526 Beacon Street",
+            "destinationState": "MA",
+            "destinationPostalCode": "02215",
+            "destinationName": "456 Shipper",
+            "destinationCountry": "US",
+            "destinationCity": "Boston",
+            "currencyCode": "USD",
+            "charges": [
+                {
+                    "type": "Line Haul",
+                    "rateType": "Per Mile",
+                    "rate": 1,
+                    "qty": 1300,
+                    "description": "Net Line Haul",
+                    "amount": 1300
+                },
+                {
+                    "type": "Fuel",
+                    "rateType": "Per Mile",
+                    "rate": 0.25,
+                    "qty": 1300,
+                    "description": "Fuel Surcharge",
+                    "amount": 325
+                },
+                {
+                    "type": "Accessorial",
+                    "stopNum": 2,
+                    "rateType": "Fixed Cost",
+                    "rate": 80,
+                    "qty": 1,
+                    "description": "After Hours Delivery",
+                    "amount": 80
+                },
+                {
+                    "type": "Accessorial",
+                    "rateType": "Per Handling Unit",
+                    "rate": 75,
+                    "qty": 5,
+                    "description": "Unknown Accessorial Name",
+                    "amount": 375
+                }
+            ],
+            "carrierTradingPartnerId": "EDIC1"
+        }
+    },
+    {
+        "inbound": true,
+        "ediCode": 210,
+        "payload": {
+            "shipmentId": "Load-1498C",
+            "proNumber": "PRO1498C",
+            "originStreet": "2333 Waukegan Rd.",
+            "originState": "IL",
+            "originPostalCode": "60045",
+            "originName": "Shipper A",
+            "originCountry": "US",
+            "originCity": "Bannockburn",
+            "items": [
+                {
+                    "weightUnits": "lbs",
+                    "weight": 100,
+                    "rateType": "Per Mile",
+                    "rate": 0.25,
+                    "quantity": 10,
+                    "freightClass": "50",
+                    "description": "Kiwi",
+                    "amount": 120
+                },
+                {
+                    "weightUnits": "lbs",
+                    "weight": 100,
+                    "rateType": "Per Mile",
+                    "rate": 1.25,
+                    "quantity": 20,
+                    "freightClass": "55",
+                    "description": "Strawberries",
+                    "amount": 100
+                },
+                {
+                    "weightUnits": "lbs",
+                    "weight": 100,
+                    "rateType": "Per Mile",
+                    "rate": 1.25,
+                    "quantity": 20,
+                    "freightClass": "60",
+                    "description": "Lemons",
+                    "amount": 100
+                }
+            ],
+            "invoiceNum": "INV1498C",
+            "invoiceDueDate": "2023-10-18",
+            "invoiceDate": "2023-10-03",
+            "destinationStreet": "526 Beacon Street",
+            "destinationState": "MA",
+            "destinationPostalCode": "02215",
+            "destinationName": "Shipper B",
+            "destinationCountry": "US",
+            "destinationCity": "Boston",
+            "currencyCode": "USD",
+            "charges": [
+                {
+                    "type": "Line Haul",
+                    "rateType": "Per Mile",
+                    "rate": 1,
+                    "qty": 1100,
+                    "description": "Net Line Haul",
+                    "amount": 1100
+                },
+                {
+                    "type": "Fuel",
+                    "rateType": "Per Mile",
+                    "rate": 0.25,
+                    "qty": 1100,
+                    "description": "Fuel Surcharge",
+                    "amount": 275
+                }
+            ],
+            "carrierTradingPartnerId": "EDIC2"
+        }
+    },
+    {
+        "inbound": true,
+        "ediCode": 210,
+        "payload": {
+            "shipmentId": "Load-1498D",
+            "proNumber": "PRO1498D",
+            "items": [],
+            "invoiceNum": "INV1498D",
+            "invoiceDueDate": "2023-11-18",
+            "invoiceDate": "2023-11-03",
+            "currencyCode": "USD",
+            "charges": [
+                {
+                    "type": "Line Haul",
+                    "rateType": "Per Mile",
+                    "rate": 1,
+                    "qty": 1100,
+                    "description": "Net Line Haul",
+                    "amount": 1100
+                },
+                {
+                    "type": "Fuel",
+                    "rateType": "Per Mile",
+                    "rate": 0.25,
+                    "qty": 1100,
+                    "description": "Fuel Surcharge",
+                    "amount": 275
+                }
+            ],
+            "carrierTradingPartnerId": "EDIC2"
+        }
+    }
+]

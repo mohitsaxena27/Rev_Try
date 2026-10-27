@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Order
+	xmlns:ns0="http://macropoint-lite.com/xml/1.0">
+	<ns0:TrackVia>
+		<ns0:Number Type="Mobile">2179721878</ns0:Number>
+	</ns0:TrackVia>
+	<ns0:Notifications>
+		<ns0:Notification>
+			<ns0:PartnerMPID>5313778</ns0:PartnerMPID>
+			<ns0:IDNumber>{LoadNumber}</ns0:IDNumber>
+		</ns0:Notification>
+	</ns0:Notifications>
+	<ns0:Carrier>
+		<ns0:Name>Email Carrier Two</ns0:Name>
+		<ns0:CarrierID>{EmailCarrierTwo}</ns0:CarrierID>
+	</ns0:Carrier>
+	<ns0:EmailCopiesOfUpdatesTo>QA@revenova.com</ns0:EmailCopiesOfUpdatesTo>
+	<ns0:Notes>123TESTING</ns0:Notes>
+</ns0:Order>
+

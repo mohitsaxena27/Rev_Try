@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+
+    <LRPField>//div[@data-label='{paramlink}']//div[contains(@class,'field-container')]</LRPField>
+    <WaitForLoadDetails>//span[@Title='{paramlink}' and contains(@class,'breadcrumb-item')]</WaitForLoadDetails>
+    <UIBehaviorFiled>//*[text()='{paramlink1}']/..//input[@value='{paramlink2}']</UIBehaviorFiled>
+    <ButtonWithText>//button[text()='{paramlink}']</ButtonWithText>
+    <SaveConfirm>//button[text()='Save' and contains(@class,'okButton')]</SaveConfirm>
+    <AssignSave>//button[text()='Save' and contains(@class,'assignButton')]</AssignSave>
+    <IframeTitle>//iframe[contains(@title,'{paramlink}')]</IframeTitle>
+    <VerifyHeading>//div[contains(@class,'modal-container')]//*[contains(text(),'{paramlink}')]</VerifyHeading>
+    <VerifyInActiveButton>//button[text()='Save' and @disabled='true']</VerifyInActiveButton>
+    <Accessorials>//table[contains(@class,'slds-vf-data-table')]//tr[td[1][contains(.,'{paramlink}')]]</Accessorials>
+    <ClickOnModalButton>//div[contains(@class,'active ')]//h2[text()='{paramlink2}']/../../..//button[text()='{paramlink1}']</ClickOnModalButton>
+</locators>
+

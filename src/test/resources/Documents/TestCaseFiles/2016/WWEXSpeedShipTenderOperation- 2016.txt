@@ -1,0 +1,100 @@
+{
+    "apiVersion": "1",
+    "clientStatus": {
+        "apiVersion": "1",
+        "success": true,
+        "message": ""
+    },
+    "correlationId": "NG-6c01df73-c0dc-4c54-90e1-1696145b2bbe",
+    "response": {
+        "message": "pickup order successful",
+        "pickupOrderResponse": {
+            "order": {
+                "orderedItemList": [
+                    {
+                        "apiVersion": "1",
+                        "orderedBy": "8h94TCp0N6fg09ipP3yyJmfPPv5l1mCD",
+                        "orderedItemId": "ad944829-b02f-460f-955c-1ea1a297fe6e",
+                        "offerId": "c97e7b95-1cac-45cd-8674-044646ce313c",
+                        "pickupTxnId": "d0335214-cff6-4c17-8b51-43f9938fce53",
+                        "offeredProductId": "93969628-511d-46f8-81f3-90640198e5e2",
+                        "status": "ORDERED"
+                    }
+                ],
+                "apiVersion": "3",
+                "orderId": "c0941637-f2a6-4803-b1ec-6affc8678517",
+                "orderDate": "2023-12-01",
+                "status": "ORDERED"
+            }
+        },
+        "shipmentOrderResponse": {
+            "order": {
+                "orderedItemList": [
+                    {
+                        "orderedItemId": "0ea20e3a-f7c0-453d-b2d9-0b9e2c464f8a",
+                        "documentList": [
+                            {
+                                "s3fileName": "NUD10794116-8891819e-1441-4e9a-97af-d0f399751b19-BILL_OF_LADING.pdf",
+                                "apiVersion": "2",
+                                "docFormat": "PDF",
+                                "docType": "BILL_OF_LADING",
+                                "name": "BILL_OF_LADING",
+                                "cachingEnabled": false
+                            },
+                            {
+                                "s3fileName": "NUD10794116-8891819e-1441-4e9a-97af-d0f399751b19-QUOTE.pdf",
+                                "apiVersion": "2",
+                                "docFormat": "PDF",
+                                "docType": "QUOTE",
+                                "name": "QUOTE",
+                                "cachingEnabled": false
+                            },
+                            {
+                                "s3fileName": "NUD10794116-8891819e-1441-4e9a-97af-d0f399751b19-PACKING_LIST.pdf",
+                                "apiVersion": "2",
+                                "docFormat": "PDF",
+                                "docType": "PACKING_LIST",
+                                "name": "PACKING_LIST",
+                                "cachingEnabled": false
+                            },
+                            {
+                                "s3fileName": "NUD10794116-8891819e-1441-4e9a-97af-d0f399751b19-PALLET_LABEL.pdf",
+                                "apiVersion": "2",
+                                "docFormat": "PDF",
+                                "docType": "PALLET_LABEL",
+                                "name": "PALLET_LABEL",
+                                "cachingEnabled": false
+                            }
+                        ],
+                        "isPrimary": true,
+                        "secondaryTxnIdList": [
+                            {
+                                "type": "BILL_OF_LADING",
+                                "value": "WBOL201620162016"
+                            },
+			    {
+				"type": "PRN",
+				"value": "2016AbC"
+			    }
+                        ],
+                        "offerId": "d1de2233-d39a-46ca-a928-3a2bf09893a0",
+                        "handlingUnitIdList": [
+                            "468e6483-c6af-41a0-8cf5-672dc9b3efd5"
+                        ],
+                        "offeredProductId": "d4447f75-cc13-49db-bca6-70207936f694"
+                    }
+                ],
+                "orderId": "NUD10794116",
+                "combinedLabel": "NUD10794116-8891819e-1441-4e9a-97af-d0f399751b19-BILL_OF_LADING.pdf",
+                "orderDate": "2023-12-01",
+                "quoteNumber": "Q10187838",
+                "status": "ORDERED",
+                "createdBy": "8h94TCp0N6fg09ipP3yyJmfPPv5l1mCD"
+            }
+        },
+        "error": {
+            "apiVersion": "1"
+        },
+        "freightBillDetails": "Carrier Payment Processing \nP O Box 192629 \nDallas, TX 75219 United States \nCustomer Number: W000907156"
+    }
+}

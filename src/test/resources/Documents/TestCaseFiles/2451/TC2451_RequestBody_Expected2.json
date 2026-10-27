@@ -1,0 +1,5 @@
+{
+  "LoadID": "Load id",
+  "QuoteID": "Quote Id",
+  "PickupDateTime": "{CurrentDate+1}T08:00:00"
+}

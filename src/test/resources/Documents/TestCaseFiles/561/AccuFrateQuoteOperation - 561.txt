@@ -1,0 +1,729 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Body>
+<GetQuotesResponse xmlns="http://tempuri.org/">
+<GetQuotesResult xmlns:a="http://schemas.datacontract.org/2004/07/accufRATE.accufRATE" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<a:ErrorMessage i:nil="true"/>
+<a:IsValid>true</a:IsValid>
+<a:QuoteID>3113037</a:QuoteID>
+<a:Quotes>
+<a:Quote>
+<a:AccountNumber>859972055</a:AccountNumber>
+<a:BaseCharge>545.316</a:BaseCharge>
+<a:CarrierID>41</a:CarrierID>
+<a:CarrierLogo>Holland.png</a:CarrierLogo>
+<a:CarrierName>Holland</a:CarrierName>
+<a:DestPhone>(978) 667-6274</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>0.0000</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>545.32</a:NetCharge>
+<a:OriginPhone>(847) 465-8600</a:OriginPhone>
+<a:QuoteDetailID>168826989</a:QuoteDetailID>
+<a:QuoteNumber/>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service/>
+<a:TariffDesc>Holland - Note that when a shipment weighs less than 500 lbs, a single shipment fee of $40.00 will be charged - Liftgate one piece can't exceed 1700lbs -or 60*72*64 Inches - Correct dimensions and weight must be entered to have an accurate rate - Quote valid up to 95 inches - Up to 650 CBF - Up to 9999 lbs - 1 piece can't exceed 3500 lbs - GLT</a:TariffDesc>
+<a:TariffID>1068838</a:TariffID>
+<a:TransitTime>2</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>681.084</a:BaseCharge>
+<a:CarrierID>41</a:CarrierID>
+<a:CarrierLogo>Holland.png</a:CarrierLogo>
+<a:CarrierName>Holland</a:CarrierName>
+<a:DestPhone>(978) 667-6274</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>0.0000</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>681.08</a:NetCharge>
+<a:OriginPhone>(847) 465-8600</a:OriginPhone>
+<a:QuoteDetailID>168826990</a:QuoteDetailID>
+<a:QuoteNumber/>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service>GUARANTEE BY: before 12:00 PM (noon)</a:Service>
+<a:TariffDesc>Holland - Note that when a shipment weighs less than 500 lbs, a single shipment fee of $40.00 will be charged - Liftgate one piece can't exceed 1700lbs -or 60*72*64 Inches - Correct dimensions and weight must be entered to have an accurate rate - Quote valid up to 95 inches - Up to 650 CBF - Up to 9999 lbs - 1 piece can't exceed 3500 lbs - GLT (GUARANTEE BY: before 12:00 PM (noon))</a:TariffDesc>
+<a:TariffID>1068838</a:TariffID>
+<a:TransitTime>2</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>635.82</a:BaseCharge>
+<a:CarrierID>41</a:CarrierID>
+<a:CarrierLogo>Holland.png</a:CarrierLogo>
+<a:CarrierName>Holland</a:CarrierName>
+<a:DestPhone>(978) 667-6274</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>0.0000</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>635.82</a:NetCharge>
+<a:OriginPhone>(847) 465-8600</a:OriginPhone>
+<a:QuoteDetailID>168826991</a:QuoteDetailID>
+<a:QuoteNumber/>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service>GUARANTEE BY: before 3:30 PM</a:Service>
+<a:TariffDesc>Holland - Note that when a shipment weighs less than 500 lbs, a single shipment fee of $40.00 will be charged - Liftgate one piece can't exceed 1700lbs -or 60*72*64 Inches - Correct dimensions and weight must be entered to have an accurate rate - Quote valid up to 95 inches - Up to 650 CBF - Up to 9999 lbs - 1 piece can't exceed 3500 lbs - GLT (GUARANTEE BY: before 3:30 PM)</a:TariffDesc>
+<a:TariffID>1068838</a:TariffID>
+<a:TransitTime>2</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>224.98</a:BaseCharge>
+<a:CarrierID>6</a:CarrierID>
+<a:CarrierLogo>Fedex.png</a:CarrierLogo>
+<a:CarrierName>FedEx Freight Priority</a:CarrierName>
+<a:DestPhone>(866) 393-4585</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>42.66</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>224.98</a:NetCharge>
+<a:OriginPhone>(866) 393-4585</a:OriginPhone>
+<a:QuoteDetailID>168826993</a:QuoteDetailID>
+<a:QuoteNumber>1104055701</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service/>
+<a:TariffDesc>FedEx Freight Priority - Liftgate one piece can't exceed 1700lbs -or 60*72*64 Inches- Quote valid up to 95 inches - HAZMAT shipments do not qualify for guaranteed service levels. On lift gate accessorial, system will only read one leg (origin or dest), but not bothTSA CERTIFIED FOR AIRPORT PICK UPS AND/OR DELIVERIES - 1A</a:TariffDesc>
+<a:TariffID>689296</a:TariffID>
+<a:TransitTime>2</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>214.06</a:BaseCharge>
+<a:CarrierID>7</a:CarrierID>
+<a:CarrierLogo>Fedex.png</a:CarrierLogo>
+<a:CarrierName>FedEx Freight Economy</a:CarrierName>
+<a:DestPhone>(866) 393-4585</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>40.6</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>214.06</a:NetCharge>
+<a:OriginPhone>(866) 393-4585</a:OriginPhone>
+<a:QuoteDetailID>168826994</a:QuoteDetailID>
+<a:QuoteNumber>1104055702</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service/>
+<a:TariffDesc>FedEx Freight Economy - Liftgate one piece can't exceed 1700lbs -or 60*72*64 Inches- Quote valid up to 95 inches - HAZMAT shipments do not qualify for guaranteed service levels. On lift gate accessorial, system will only read one leg (origin or dest), but not bothTSA CERTIFIED FOR AIRPORT PICK UPS AND/OR DELIVERIES - 1A</a:TariffDesc>
+<a:TariffID>689295</a:TariffID>
+<a:TransitTime>4</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>1709.91</a:BaseCharge>
+<a:CarrierID>27</a:CarrierID>
+<a:CarrierLogo>Midwest.png</a:CarrierLogo>
+<a:CarrierName>Midwest Motors</a:CarrierName>
+<a:DestPhone/>
+<a:ErrorMessage/>
+<a:FuelCharge>282.61</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>1709.91</a:NetCharge>
+<a:OriginPhone/>
+<a:QuoteDetailID>168826997</a:QuoteDetailID>
+<a:QuoteNumber/>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service/>
+<a:TariffDesc>Midwest Motors - Liftgate one piece can't exceed 1700lbs -or 67*74*67 Inches. HAZMAT shipments do not qualify for guaranteed service levels. - 1A</a:TariffDesc>
+<a:TariffID>687125</a:TariffID>
+<a:TransitTime>1-3</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>203.68</a:BaseCharge>
+<a:CarrierID>23</a:CarrierID>
+<a:CarrierLogo>Custom.png</a:CarrierLogo>
+<a:CarrierName>Custom Companies</a:CarrierName>
+<a:DestPhone>310-672-8800</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>36.18</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>203.68</a:NetCharge>
+<a:OriginPhone>310-672-8800</a:OriginPhone>
+<a:QuoteDetailID>168827000</a:QuoteDetailID>
+<a:QuoteNumber>4299490</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service/>
+<a:TariffDesc>Custom Companies - Items over 8 feet will be re-bill as Overlength - MLK - Cargo Express</a:TariffDesc>
+<a:TariffID>1213665</a:TariffID>
+<a:TransitTime>3</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>1890.88</a:BaseCharge>
+<a:CarrierID>11</a:CarrierID>
+<a:CarrierLogo>SAIA.png</a:CarrierLogo>
+<a:CarrierName>SAIA</a:CarrierName>
+<a:DestPhone>(508) 871-0958</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>359.18</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>1890.88</a:NetCharge>
+<a:OriginPhone>(847) 680-5035</a:OriginPhone>
+<a:QuoteDetailID>168827001</a:QuoteDetailID>
+<a:QuoteNumber>5165283</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service/>
+<a:TariffDesc>SAIA - Liftgate one piece can't exceed 1700lbs -or 60*72*64 Inches. HAZMAT shipments do not qualify for guaranteed service levels. TSA CERTIFIED FOR AIRPORT PICK UPS AND/OR DELIVERIES - Quote valid up to 95 inches - Correct dimensions and weight must be entered to have an accurate rate - Detention fee will start after 30 minutes - Guarantee tariffs do not apply for more than 12 feet or more than 10.000 Lbs. - 1A</a:TariffDesc>
+<a:TariffID>870178</a:TariffID>
+<a:TransitTime>2</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>1921.88</a:BaseCharge>
+<a:CarrierID>11</a:CarrierID>
+<a:CarrierLogo>SAIA.png</a:CarrierLogo>
+<a:CarrierName>SAIA</a:CarrierName>
+<a:DestPhone>(508) 871-0958</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>359.18</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>1921.88</a:NetCharge>
+<a:OriginPhone>(847) 680-5035</a:OriginPhone>
+<a:QuoteDetailID>168827002</a:QuoteDetailID>
+<a:QuoteNumber>5165283</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service>Guaranteed by 5pm</a:Service>
+<a:TariffDesc>SAIA - Liftgate one piece can't exceed 1700lbs -or 60*72*64 Inches. HAZMAT shipments do not qualify for guaranteed service levels. TSA CERTIFIED FOR AIRPORT PICK UPS AND/OR DELIVERIES - Quote valid up to 95 inches - Correct dimensions and weight must be entered to have an accurate rate - Detention fee will start after 30 minutes - Guarantee tariffs do not apply for more than 12 feet or more than 10.000 Lbs. - 1A (Guaranteed by 5pm)</a:TariffDesc>
+<a:TariffID>870178</a:TariffID>
+<a:TransitTime>2</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>159.38</a:BaseCharge>
+<a:CarrierID>1682</a:CarrierID>
+<a:CarrierLogo>CTI.png</a:CarrierLogo>
+<a:CarrierName>Central Transport, Inc.</a:CarrierName>
+<a:DestPhone>(586) 467-1900</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>21.16</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>159.38</a:NetCharge>
+<a:OriginPhone>(586) 467-1900</a:OriginPhone>
+<a:QuoteDetailID>168827003</a:QuoteDetailID>
+<a:QuoteNumber/>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service/>
+<a:TariffDesc>Central Transport, Inc - Liftgate one piece can't exceed 1700lbs -or 67*74*67 Inches. HAZMAT shipments do not qualify for guaranteed service levels. This is a dimensional carrier and not NMFC class carrier. Only input the "suggested" class based on density and not the NMFC class. Max CFT is 600 and its calculated as follows: RealLenght x RealWidth x CalculatedHeight: CalculatedHeight is obtained as follows: 0" to 51" inches tall - You need to input 51" inches tall to get the total CUBE, and 51" inches and up, you need to input 108" inches to get the total CUBE. IF you are unsure of how to do this, please contact us - 1A</a:TariffDesc>
+<a:TariffID>712608</a:TariffID>
+<a:TransitTime>3</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>247.92</a:BaseCharge>
+<a:CarrierID>3</a:CarrierID>
+<a:CarrierLogo>XPO.png</a:CarrierLogo>
+<a:CarrierName>XPO Logistics</a:CarrierName>
+<a:DestPhone>(781) 848-9600</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>36.17</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>247.92</a:NetCharge>
+<a:OriginPhone>(847) 566-8595</a:OriginPhone>
+<a:QuoteDetailID>168827004</a:QuoteDetailID>
+<a:QuoteNumber>5069377039562</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service/>
+<a:TariffDesc>XPO Logistics - Note that when a shipment weighs less than 500 lbs, a single shipment fee of $25.00 will be charged. Liftgate one piece can't exceed 1700lbs -or 60*72*64 Inches. HAZMAT shipments do not qualify for guaranteed service levels - Correct dimensions and weight must be entered to have an accurate rate - Quote valid up to 95 inches - TSA CERTIFIED FOR AIRPORT PICK UPS AND/OR DELIVERIES. - 1A</a:TariffDesc>
+<a:TariffID>838266</a:TariffID>
+<a:TransitTime>2</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>337.92</a:BaseCharge>
+<a:CarrierID>3</a:CarrierID>
+<a:CarrierLogo>XPO.png</a:CarrierLogo>
+<a:CarrierName>XPO Logistics</a:CarrierName>
+<a:DestPhone>(781) 848-9600</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>36.17</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>337.92</a:NetCharge>
+<a:OriginPhone>(847) 566-8595</a:OriginPhone>
+<a:QuoteDetailID>168827005</a:QuoteDetailID>
+<a:QuoteNumber>5069377039562</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service>Instant Guaranteed Service</a:Service>
+<a:TariffDesc>XPO Logistics - Note that when a shipment weighs less than 500 lbs, a single shipment fee of $25.00 will be charged. Liftgate one piece can't exceed 1700lbs -or 60*72*64 Inches. HAZMAT shipments do not qualify for guaranteed service levels - Correct dimensions and weight must be entered to have an accurate rate - Quote valid up to 95 inches - TSA CERTIFIED FOR AIRPORT PICK UPS AND/OR DELIVERIES. - 1A (Instant Guaranteed Service)</a:TariffDesc>
+<a:TariffID>838266</a:TariffID>
+<a:TransitTime>2</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>421.644</a:BaseCharge>
+<a:CarrierID>3</a:CarrierID>
+<a:CarrierLogo>XPO.png</a:CarrierLogo>
+<a:CarrierName>XPO Logistics</a:CarrierName>
+<a:DestPhone>(781) 848-9600</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>38.33</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>421.64</a:NetCharge>
+<a:OriginPhone>(847) 566-8595</a:OriginPhone>
+<a:QuoteDetailID>168827006</a:QuoteDetailID>
+<a:QuoteNumber>5069377039903</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service/>
+<a:TariffDesc>XPO Logistics - Please call 315-454-5555 for any shipments over 8 ft in length for over length charges. - Express Save</a:TariffDesc>
+<a:TariffID>1337061</a:TariffID>
+<a:TransitTime>2</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>529.644</a:BaseCharge>
+<a:CarrierID>3</a:CarrierID>
+<a:CarrierLogo>XPO.png</a:CarrierLogo>
+<a:CarrierName>XPO Logistics</a:CarrierName>
+<a:DestPhone>(781) 848-9600</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>38.33</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>529.64</a:NetCharge>
+<a:OriginPhone>(847) 566-8595</a:OriginPhone>
+<a:QuoteDetailID>168827007</a:QuoteDetailID>
+<a:QuoteNumber>5069377039903</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service>Instant Guaranteed Service</a:Service>
+<a:TariffDesc>XPO Logistics - Please call 315-454-5555 for any shipments over 8 ft in length for over length charges. - Express Save (Instant Guaranteed Service)</a:TariffDesc>
+<a:TariffID>1337061</a:TariffID>
+<a:TransitTime>2</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>181.64</a:BaseCharge>
+<a:CarrierID>25</a:CarrierID>
+<a:CarrierLogo>UPS.png</a:CarrierLogo>
+<a:CarrierName>UPS Freight</a:CarrierName>
+<a:DestPhone>800-333-7400</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>0.0000</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>181.64</a:NetCharge>
+<a:OriginPhone>800-333-7400</a:OriginPhone>
+<a:QuoteDetailID>168827009</a:QuoteDetailID>
+<a:QuoteNumber/>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service/>
+<a:TariffDesc>UPS Freight - If requesting a Saturday delivery, quoting a shipment delivering to or picking-up from a construction site or your shipments is 750 cubic feet or more and has an average density of less than six (6) pounds per cubic foot or if you have a handling unit with a dimension of 8 ft or greater in length you must send a quote request to quotes@exactdirect.com - ExactDirect</a:TariffDesc>
+<a:TariffID>690072</a:TariffID>
+<a:TransitTime>3</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>293.3562</a:BaseCharge>
+<a:CarrierID>3</a:CarrierID>
+<a:CarrierLogo>XPO.png</a:CarrierLogo>
+<a:CarrierName>XPO Logistics</a:CarrierName>
+<a:DestPhone>(781) 848-9600</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>45.08</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>293.36</a:NetCharge>
+<a:OriginPhone>(847) 566-8595</a:OriginPhone>
+<a:QuoteDetailID>168827010</a:QuoteDetailID>
+<a:QuoteNumber>5069377051904</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service/>
+<a:TariffDesc>XPO Logistics - A quote request must be sent to quotes@exactdirect.com for the following: Shipments containing item(s) with an excessive/over length of 8' or more' - Shipments requiring 350 cubic ft or more of trailer space with an average density of less than 3 pcf and if requesting a Saturday Delivery. Note If shipping from or to a Container Freight Station, please choose accessorial for "Container Freight Station pick-up or delivery (XPO Logistics Only) - Archgate - ExactDirect</a:TariffDesc>
+<a:TariffID>1066088</a:TariffID>
+<a:TransitTime>2</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>395.9562</a:BaseCharge>
+<a:CarrierID>3</a:CarrierID>
+<a:CarrierLogo>XPO.png</a:CarrierLogo>
+<a:CarrierName>XPO Logistics</a:CarrierName>
+<a:DestPhone>(781) 848-9600</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>45.08</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>395.96</a:NetCharge>
+<a:OriginPhone>(847) 566-8595</a:OriginPhone>
+<a:QuoteDetailID>168827011</a:QuoteDetailID>
+<a:QuoteNumber>5069377051904</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service>Instant Guaranteed Service</a:Service>
+<a:TariffDesc>XPO Logistics - A quote request must be sent to quotes@exactdirect.com for the following: Shipments containing item(s) with an excessive/over length of 8' or more' - Shipments requiring 350 cubic ft or more of trailer space with an average density of less than 3 pcf and if requesting a Saturday Delivery. Note If shipping from or to a Container Freight Station, please choose accessorial for "Container Freight Station pick-up or delivery (XPO Logistics Only) - Archgate - ExactDirect (Instant Guaranteed Service)</a:TariffDesc>
+<a:TariffID>1066088</a:TariffID>
+<a:TransitTime>2</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>165.6</a:BaseCharge>
+<a:CarrierID>18</a:CarrierID>
+<a:CarrierLogo>NEMF.png</a:CarrierLogo>
+<a:CarrierName>NEMF</a:CarrierName>
+<a:DestPhone>908-965-0100</a:DestPhone>
+<a:ErrorMessage>Successful</a:ErrorMessage>
+<a:FuelCharge>13</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>165.6</a:NetCharge>
+<a:OriginPhone>908-965-0100</a:OriginPhone>
+<a:QuoteDetailID>168827015</a:QuoteDetailID>
+<a:QuoteNumber/>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service/>
+<a:TariffDesc>NEMF - Liftgate one piece can't exceed 1700lbs -or 67*74*67 Inches. A single piece cannot exceed 144 in long, allowed linear feet for the whole shipment 16 ft. Up to 650 CFT - GLT</a:TariffDesc>
+<a:TariffID>1091613</a:TariffID>
+<a:TransitTime>2</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>152.67</a:BaseCharge>
+<a:CarrierID>5</a:CarrierID>
+<a:CarrierLogo>Estes.png</a:CarrierLogo>
+<a:CarrierName>Estes</a:CarrierName>
+<a:DestPhone>(508) 513-0120</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>20.37</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>152.67</a:NetCharge>
+<a:OriginPhone>(224) 377-3250</a:OriginPhone>
+<a:QuoteDetailID>168827016</a:QuoteDetailID>
+<a:QuoteNumber>2006343</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service/>
+<a:TariffDesc>Estes - Liftgate one piece can't exceed 1700lbs -or 60*72*64 Inches. Quote valid up to 95 inches - HAZMAT shipments do not qualify for guaranteed service levels. Up to 250 CBF - Up to 9999 lbs- Correct dimensions and weight must be entered to have an accurate rate. TSA CERTIFIED FOR AIRPORT PICK UPS AND/OR DELIVERIES. - 1A</a:TariffDesc>
+<a:TariffID>687007</a:TariffID>
+<a:TransitTime>2</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>192.67</a:BaseCharge>
+<a:CarrierID>5</a:CarrierID>
+<a:CarrierLogo>Estes.png</a:CarrierLogo>
+<a:CarrierName>Estes</a:CarrierName>
+<a:DestPhone>(508) 513-0120</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>20.37</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>192.67</a:NetCharge>
+<a:OriginPhone>(224) 377-3250</a:OriginPhone>
+<a:QuoteDetailID>168827017</a:QuoteDetailID>
+<a:QuoteNumber>2006343</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service>Guaranteed by 1/30/2019 5:00 PM</a:Service>
+<a:TariffDesc>Estes - Liftgate one piece can't exceed 1700lbs -or 60*72*64 Inches. Quote valid up to 95 inches - HAZMAT shipments do not qualify for guaranteed service levels. Up to 250 CBF - Up to 9999 lbs- Correct dimensions and weight must be entered to have an accurate rate. TSA CERTIFIED FOR AIRPORT PICK UPS AND/OR DELIVERIES. - 1A (Guaranteed by 1/30/2019 5:00 PM)</a:TariffDesc>
+<a:TariffID>687007</a:TariffID>
+<a:TransitTime>2</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>232.67</a:BaseCharge>
+<a:CarrierID>5</a:CarrierID>
+<a:CarrierLogo>Estes.png</a:CarrierLogo>
+<a:CarrierName>Estes</a:CarrierName>
+<a:DestPhone>(508) 513-0120</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>20.37</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>232.67</a:NetCharge>
+<a:OriginPhone>(224) 377-3250</a:OriginPhone>
+<a:QuoteDetailID>168827018</a:QuoteDetailID>
+<a:QuoteNumber>2006343</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service>Guaranteed by 1/30/2019 12:00 PM</a:Service>
+<a:TariffDesc>Estes - Liftgate one piece can't exceed 1700lbs -or 60*72*64 Inches. Quote valid up to 95 inches - HAZMAT shipments do not qualify for guaranteed service levels. Up to 250 CBF - Up to 9999 lbs- Correct dimensions and weight must be entered to have an accurate rate. TSA CERTIFIED FOR AIRPORT PICK UPS AND/OR DELIVERIES. - 1A (Guaranteed by 1/30/2019 12:00 PM)</a:TariffDesc>
+<a:TariffID>687007</a:TariffID>
+<a:TransitTime>2</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>202.572</a:BaseCharge>
+<a:CarrierID>5</a:CarrierID>
+<a:CarrierLogo>Estes.png</a:CarrierLogo>
+<a:CarrierName>Estes</a:CarrierName>
+<a:DestPhone>(508) 513-0120</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>18.09</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>202.57</a:NetCharge>
+<a:OriginPhone>(224) 377-3250</a:OriginPhone>
+<a:QuoteDetailID>168827019</a:QuoteDetailID>
+<a:QuoteNumber>2006342</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service/>
+<a:TariffDesc>Estes - Liftgate one piece can't exceed 1700lbs -or 60*72*64 Inches. Quote valid up to 95 inches - Up to 400 CBF - Up to 9999 lbs - 1 piece can't exceed 3500 lbs - Correct dimensions and weight must be entered to have an accurate rate. - GLT</a:TariffDesc>
+<a:TariffID>1012939</a:TariffID>
+<a:TransitTime>2</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>280.572</a:BaseCharge>
+<a:CarrierID>5</a:CarrierID>
+<a:CarrierLogo>Estes.png</a:CarrierLogo>
+<a:CarrierName>Estes</a:CarrierName>
+<a:DestPhone>(508) 513-0120</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>18.09</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>280.57</a:NetCharge>
+<a:OriginPhone>(224) 377-3250</a:OriginPhone>
+<a:QuoteDetailID>168827020</a:QuoteDetailID>
+<a:QuoteNumber>2006342</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service>Guaranteed by 1/30/2019 5:00 PM</a:Service>
+<a:TariffDesc>Estes - Liftgate one piece can't exceed 1700lbs -or 60*72*64 Inches. Quote valid up to 95 inches - Up to 400 CBF - Up to 9999 lbs - 1 piece can't exceed 3500 lbs - Correct dimensions and weight must be entered to have an accurate rate. - GLT (Guaranteed by 1/30/2019 5:00 PM)</a:TariffDesc>
+<a:TariffID>1012939</a:TariffID>
+<a:TransitTime>2</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>352.572</a:BaseCharge>
+<a:CarrierID>5</a:CarrierID>
+<a:CarrierLogo>Estes.png</a:CarrierLogo>
+<a:CarrierName>Estes</a:CarrierName>
+<a:DestPhone>(508) 513-0120</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>18.09</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>352.57</a:NetCharge>
+<a:OriginPhone>(224) 377-3250</a:OriginPhone>
+<a:QuoteDetailID>168827021</a:QuoteDetailID>
+<a:QuoteNumber>2006342</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service>Guaranteed by 1/30/2019 12:00 PM</a:Service>
+<a:TariffDesc>Estes - Liftgate one piece can't exceed 1700lbs -or 60*72*64 Inches. Quote valid up to 95 inches - Up to 400 CBF - Up to 9999 lbs - 1 piece can't exceed 3500 lbs - Correct dimensions and weight must be entered to have an accurate rate. - GLT (Guaranteed by 1/30/2019 12:00 PM)</a:TariffDesc>
+<a:TariffID>1012939</a:TariffID>
+<a:TransitTime>2</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>181.92</a:BaseCharge>
+<a:CarrierID>26</a:CarrierID>
+<a:CarrierLogo>RoadRunner.png</a:CarrierLogo>
+<a:CarrierName>Road Runner</a:CarrierName>
+<a:DestPhone>(800) 695-1699</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>18.67</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>181.92</a:NetCharge>
+<a:OriginPhone>(800) 695-1699</a:OriginPhone>
+<a:QuoteDetailID>168827026</a:QuoteDetailID>
+<a:QuoteNumber>9300966</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service/>
+<a:TariffDesc>Road Runner - Liftgate one piece can't exceed 1700lbs -or 60*72*64 Inches. HAZMAT shipments do not qualify for guaranteed service levels - Quote valid up to 95 inches - Correct dimensions and weight must be entered to have an accurate rate. - 1A Savings</a:TariffDesc>
+<a:TariffID>730426</a:TariffID>
+<a:TransitTime>4</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>187.99</a:BaseCharge>
+<a:CarrierID>26</a:CarrierID>
+<a:CarrierLogo>RoadRunner.png</a:CarrierLogo>
+<a:CarrierName>Road Runner</a:CarrierName>
+<a:DestPhone>(800) 695-1699</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>20.06</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>187.99</a:NetCharge>
+<a:OriginPhone>(800) 695-1699</a:OriginPhone>
+<a:QuoteDetailID>168827027</a:QuoteDetailID>
+<a:QuoteNumber>9300968</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service/>
+<a:TariffDesc>Road Runner - Liftgate one piece can't exceed 1700lbs -or 60*72*64 Inches. HAZMAT shipments do not qualify for guaranteed service levels - Quote valid up to 95 inches - Correct dimensions and weight must be entered to have an accurate rate. - 1A</a:TariffDesc>
+<a:TariffID>687008</a:TariffID>
+<a:TransitTime>4</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>543.31</a:BaseCharge>
+<a:CarrierID>14</a:CarrierID>
+<a:CarrierLogo>YRC.png</a:CarrierLogo>
+<a:CarrierName>YRC</a:CarrierName>
+<a:DestPhone>(800) 610-6500</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>102.76</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>543.31</a:NetCharge>
+<a:OriginPhone>(800) 610-6500</a:OriginPhone>
+<a:QuoteDetailID>168827028</a:QuoteDetailID>
+<a:QuoteNumber>27432646</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service>Guaranteed by 5:00 p.m. on the standard delivery date</a:Service>
+<a:TariffDesc>YRC - Liftgate one piece can't exceed 1700lbs -or 60*72*64 Inches - HAZMAT shipments do not qualify for guaranteed service levels. Quote valid up to 95 inches - Correct dimensions and weight must be entered to have an accurate rate - up to 650 CBF - 1A (Guaranteed by 5:00 p.m. on the standard delivery date)</a:TariffDesc>
+<a:TariffID>688867</a:TariffID>
+<a:TransitTime>3</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>543.31</a:BaseCharge>
+<a:CarrierID>14</a:CarrierID>
+<a:CarrierLogo>YRC.png</a:CarrierLogo>
+<a:CarrierName>YRC</a:CarrierName>
+<a:DestPhone>(800) 610-6500</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>102.76</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>543.31</a:NetCharge>
+<a:OriginPhone>(800) 610-6500</a:OriginPhone>
+<a:QuoteDetailID>168827029</a:QuoteDetailID>
+<a:QuoteNumber>27432656</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service>Accelerated</a:Service>
+<a:TariffDesc>YRC - Liftgate one piece can't exceed 1700lbs -or 60*72*64 Inches - HAZMAT shipments do not qualify for guaranteed service levels. Quote valid up to 95 inches - Correct dimensions and weight must be entered to have an accurate rate - up to 650 CBF - 1A (Accelerated)</a:TariffDesc>
+<a:TariffID>688867</a:TariffID>
+<a:TransitTime>2</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>453.15</a:BaseCharge>
+<a:CarrierID>14</a:CarrierID>
+<a:CarrierLogo>YRC.png</a:CarrierLogo>
+<a:CarrierName>YRC</a:CarrierName>
+<a:DestPhone>(800) 610-6500</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>85.63</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>453.15</a:NetCharge>
+<a:OriginPhone>(800) 610-6500</a:OriginPhone>
+<a:QuoteDetailID>168827031</a:QuoteDetailID>
+<a:QuoteNumber>27432672</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service/>
+<a:TariffDesc>YRC - Liftgate one piece can't exceed 1700lbs -or 60*72*64 Inches - HAZMAT shipments do not qualify for guaranteed service levels. Quote valid up to 95 inches - Correct dimensions and weight must be entered to have an accurate rate - up to 650 CBF - 1A</a:TariffDesc>
+<a:TariffID>688867</a:TariffID>
+<a:TransitTime>3</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>3906.916</a:BaseCharge>
+<a:CarrierID>14</a:CarrierID>
+<a:CarrierLogo>YRC.png</a:CarrierLogo>
+<a:CarrierName>YRC</a:CarrierName>
+<a:DestPhone>(800) 610-6500</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>570.88</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>3906.92</a:NetCharge>
+<a:OriginPhone>(800) 610-6500</a:OriginPhone>
+<a:QuoteDetailID>168827032</a:QuoteDetailID>
+<a:QuoteNumber>27432645</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service>Guaranteed by 5:00 p.m. on the standard delivery date</a:Service>
+<a:TariffDesc>YRC - Dimensional carrier not an NMFC class carrier, only input the "estimated" class based on density and not NMFC class. Dimensions must be entered and MUST PRINT on the BOL. Please email quotes@exactdirect.com on shipments containing item(s) with an excessive/over length of 8' or greater. Rates do not apply for shipments more than 12ft - ExactDirect (Guaranteed by 5:00 p.m. on the standard delivery date)</a:TariffDesc>
+<a:TariffID>690062</a:TariffID>
+<a:TransitTime>3</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>3906.916</a:BaseCharge>
+<a:CarrierID>14</a:CarrierID>
+<a:CarrierLogo>YRC.png</a:CarrierLogo>
+<a:CarrierName>YRC</a:CarrierName>
+<a:DestPhone>(800) 610-6500</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>570.88</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>3906.92</a:NetCharge>
+<a:OriginPhone>(800) 610-6500</a:OriginPhone>
+<a:QuoteDetailID>168827033</a:QuoteDetailID>
+<a:QuoteNumber>27432658</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service>Accelerated</a:Service>
+<a:TariffDesc>YRC - Dimensional carrier not an NMFC class carrier, only input the "estimated" class based on density and not NMFC class. Dimensions must be entered and MUST PRINT on the BOL. Please email quotes@exactdirect.com on shipments containing item(s) with an excessive/over length of 8' or greater. Rates do not apply for shipments more than 12ft - ExactDirect (Accelerated)</a:TariffDesc>
+<a:TariffID>690062</a:TariffID>
+<a:TransitTime>2</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>3255.759</a:BaseCharge>
+<a:CarrierID>14</a:CarrierID>
+<a:CarrierLogo>YRC.png</a:CarrierLogo>
+<a:CarrierName>YRC</a:CarrierName>
+<a:DestPhone>(800) 610-6500</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>475.73</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>3255.76</a:NetCharge>
+<a:OriginPhone>(800) 610-6500</a:OriginPhone>
+<a:QuoteDetailID>168827035</a:QuoteDetailID>
+<a:QuoteNumber>27432673</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service/>
+<a:TariffDesc>YRC - Dimensional carrier not an NMFC class carrier, only input the "estimated" class based on density and not NMFC class. Dimensions must be entered and MUST PRINT on the BOL. Please email quotes@exactdirect.com on shipments containing item(s) with an excessive/over length of 8' or greater. Rates do not apply for shipments more than 12ft - ExactDirect</a:TariffDesc>
+<a:TariffID>690062</a:TariffID>
+<a:TransitTime>3</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>203.08</a:BaseCharge>
+<a:CarrierID>26</a:CarrierID>
+<a:CarrierLogo>RoadRunner.png</a:CarrierLogo>
+<a:CarrierName>Road Runner</a:CarrierName>
+<a:DestPhone>(800) 695-1699</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>28.08</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>203.08</a:NetCharge>
+<a:OriginPhone>(800) 695-1699</a:OriginPhone>
+<a:QuoteDetailID>168827036</a:QuoteDetailID>
+<a:QuoteNumber>9300967</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service/>
+<a:TariffDesc>Road Runner - Quote cannot be used for shipments with items over 10 feet in length. For shipments with items over 10 feet in length, For volume rates please contact JTS @ rates@jtsfreight.com - JTS Freight</a:TariffDesc>
+<a:TariffID>1065837</a:TariffID>
+<a:TransitTime>4</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+<a:Quote>
+<a:BaseCharge>209.112</a:BaseCharge>
+<a:CarrierID>26</a:CarrierID>
+<a:CarrierLogo>RoadRunner.png</a:CarrierLogo>
+<a:CarrierName>Road Runner</a:CarrierName>
+<a:DestPhone>(800) 695-1699</a:DestPhone>
+<a:ErrorMessage/>
+<a:FuelCharge>31.54</a:FuelCharge>
+<a:IsHybridQuote>false</a:IsHybridQuote>
+<a:NetCharge>209.11</a:NetCharge>
+<a:OriginPhone>(800) 695-1699</a:OriginPhone>
+<a:QuoteDetailID>168827037</a:QuoteDetailID>
+<a:QuoteNumber>9300969</a:QuoteNumber>
+<a:RequestXML i:nil="true"/>
+<a:ResponseXML i:nil="true"/>
+<a:Service/>
+<a:TariffDesc>Road Runner - Liftgate one piece can't exceed 1700lbs -or 60*72*64 Inches. Quote valid up to 95 inches - Up to 650 CBF - Up to 9999 lbs - Correct dimensions and weight must be entered to have an accurate rate - 1 piece can't exceed 3500 lbs. - GLT</a:TariffDesc>
+<a:TariffID>687153</a:TariffID>
+<a:TransitTime>4</a:TransitTime>
+<a:WGCarrierId>0</a:WGCarrierId>
+</a:Quote>
+</a:Quotes>
+<a:QuotesRequestedCount>38</a:QuotesRequestedCount>
+</GetQuotesResult>
+</GetQuotesResponse>
+</s:Body>
+</s:Envelope>

@@ -1,0 +1,35 @@
+{
+  "subRequests": [
+    {
+      "body": "{\n  \"customerAccountId\" : \"3667\",\n  \"transit\" : {\n    \"pickupDate\" : \"CurrentDateYYYYMMDD\"\n  },\n  \"commodities\" : [ {\n    \"classification\" : \"50\",\n    \"weight\" : 1500,\n    \"weightUnit\" : \"L\",\n    \"description\" : \"Material\",\n    \"length\" : 24,\n    \"width\" : 48,\n    \"height\" : 48,\n    \"dimensionsUnit\" : \"I\",\n    \"nmfc\" : \"3667\",\n    \"pieces\" : \"1\",\n    \"packagingType\" : \"PAT\",\n    \"stackable\" : \"N\",\n    \"po\" : \"3667\",\n    \"hazardous\" : \"Y\"\n  }, {\n    \"classification\" : \"92.5\",\n    \"weight\" : 4410,\n    \"weightUnit\" : \"L\",\n    \"description\" : \"Bananas\",\n    \"length\" : 12,\n    \"width\" : 24,\n    \"height\" : 26,\n    \"dimensionsUnit\" : \"I\",\n    \"pieces\" : \"2\",\n    \"packagingType\" : \"BCH\",\n    \"stackable\" : \"N\",\n    \"po\" : \"3667\",\n    \"hazardous\" : \"Y\"\n  } ],\n  \"shipmentTotals\" : {\n    \"dimensions\" : \"I\"\n  },\n  \"accessorials\" : {\n    \"codes\" : [ \"COD\", \"HAZ\" ],\n    \"hazardousDetails\" : {\n      \"description\" : \"Bananas\",\n      \"emergencyContact\" : {\n        \"phone\" : \"3129997777\"\n      }\n    }\n  },\n  \"origin\" : {\n    \"name\" : \"Chicago Bulls\",\n    \"address\" : \"1901 West Madison Street\",\n    \"city\" : \"Chicago\",\n    \"stateProvince\" : \"IL\",\n    \"postalCode\" : \"60612\",\n    \"country\" : \"USA\"\n  },\n  \"destination\" : {\n    \"name\" : \"Denver Deli Meats\",\n    \"address\" : \"1435 Fox St.\",\n    \"city\" : \"Denver\",\n    \"stateProvince\" : \"CO\",\n    \"postalCode\" : \"80204\",\n    \"country\" : \"USA\"\n  },\n  \"isTest\" : \"True\",\n  \"payment\" : {\n    \"terms\" : \"Third Party\"\n  },\n  \"requestor\" : {\n    \"contact\" : {\n      \"name\" : \"User User\",\n      \"phone\" : \"8002723425\",\n      \"email\" : \"mmishra@revenova.com\"\n    }\n  }\n}",
+      "headers": [
+        {
+          "name": "Accept",
+          "value": "subRequests[0].headers[0].value"
+        },
+        {
+          "name": "Authorization",
+          "value": "subRequests[0].headers[1].value"
+        },
+        {
+          "name": "X-Minor-Version",
+          "value": "subRequests[0].headers[2].value"
+        },
+        {
+          "name": "X-Demo-Instructions",
+          "value": "subRequests[0].headers[3].value"
+        },
+        {
+          "name": "X-EVA-Access-Id",
+          "value": "subRequests[0].headers[4].value"
+        },
+        {
+          "name": "X-Willing-To-Wait-Seconds",
+          "value": "subRequests[0].headers[5].value"
+        }
+      ],
+      "key": "broker-cust1-SMCA",
+      "url": "pricing/broker/v1/app/SMCA"
+    }
+  ]
+}

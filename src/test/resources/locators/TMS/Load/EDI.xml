@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+   <VerifyTableColumnData>//div[contains(@class,'active')]//*[@aria-label='{paramlink}']//tbody//tr//td[@data-label='{paramlink2}']//span[@Title='{paramlink3}']</VerifyTableColumnData>
+   <SelectEDIRecords>//div[contains(@class,'active')]//*[@aria-label='{paramlink}']//tbody//tr//td[@data-label='{paramlink2}']//span[@Title='{paramlink3}']/ancestor::tr//td[@data-label='{paramlink4}']//span[@Title='{paramlink5}']/ancestor::tr//*[@data-label='EDI ID']//a</SelectEDIRecords>
+   <GetRecordsFromTable>//div[contains(@class,'active')]//*[@aria-label='{paramlink}']//tbody//tr//td[@data-label='{paramlink2}']//span[@Title='{paramlink3}']/ancestor::tr//td[@data-label='{paramlink4}']//span[@Title]</GetRecordsFromTable>
+    <SelectEDIRecordsWithIndex>(//div[contains(@class,'active')]//*[@aria-label='{paramlink}']//tbody//tr//td[@data-label='{paramlink2}']//span[@Title='{paramlink3}']/ancestor::tr//td[@data-label='{paramlink4}']//span[@Title='{paramlink5}']/ancestor::tr//*[@data-label='EDI ID']//a)[{index}]</SelectEDIRecordsWithIndex>
+    <TotalRowforDelete>//div[contains(@class,'active')]//tr[@data-row-key-value and @data-row-number='{paramlink}']</TotalRowforDelete>
+    <TotalRowforcount>//div[contains(@class,'active')]//tbody//tr[@data-row-key-value]</TotalRowforcount>
+    <EDICreatedBy>//div[contains(@class,'active')]//div[contains(@data-target-selection-name, 'CreatedById')]//lightning-formatted-text</EDICreatedBy>
+     <EDI_Order>//div[contains(@class,'active')]//*[@aria-label="{paramlink}"]//a[contains(@class,'{paramlink1}')]</EDI_Order>
+     <EDIRefresh>//div[contains(@class,'active')]//*[@aria-label="{paramlink}"]//*[@title='Refresh']</EDIRefresh>
+    <TransactionPayloadTextArea>//div[contains(@class,'active')]//*[text()='{paramlink}']/../..//textarea</TransactionPayloadTextArea>
+    <EDITable>//div[contains(@class,'active')]//*[@aria-label='EDI Transactions']//table</EDITable>
+    <EDIRowValue>(//div[contains(@class,'active')]//*[@aria-label='EDI Transactions']//table//tbody//tr[td//span[normalize-space(text())='{paramlink1}'] and td//span[normalize-space(text())='{paramlink2}']])[1]/td</EDIRowValue>
+    <EDIRowValueLink>(//div[contains(@class,'active')]//*[@aria-label='EDI Transactions']//table//tbody//tr[td//span[normalize-space(text())='{paramlink1}'] and td//span[normalize-space(text())='{paramlink2}']])[1]/td//a//span</EDIRowValueLink>
+</locators>
+
+

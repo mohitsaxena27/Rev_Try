@@ -1,0 +1,9 @@
+{
+  "name": "Account 3227 Carrier",
+  "formattedAddress": "73 West Monroe Street, Chicago, Illinois 60603",
+  "geofence": {
+    "circle": {
+      "radiusMeters": 50
+    }
+  }
+}

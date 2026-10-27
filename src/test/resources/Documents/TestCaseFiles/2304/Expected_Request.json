@@ -1,0 +1,12 @@
+{
+  "proNumber" : "PRO2304",
+  "bol" : "BOL2304",
+  "po" : "A2304",
+  "pickup" : "2304#,.)(-/",
+  "pickupDate" : "{CurrentDateYYYYMMDD+5}",
+  "originPostalCode" : "60612",
+  "originCountry" : "USA",
+  "destinationPostalCode" : "80204",
+  "destinationCountry" : "USA",
+  "revenovaId" : "revenova_Id"
+}

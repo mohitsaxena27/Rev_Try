@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+  <CheckJobStatus>//div[contains(@class,'active')]//tr[.//td[text()='{paramlink1}'] and .//td[text()='{paramlink2}']]</CheckJobStatus>
+</locators>
+

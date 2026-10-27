@@ -1,0 +1,129 @@
+<getLoadInvoicesResponse>
+    <status>
+        <statusCode>OK</statusCode>
+        <messageCode>100</messageCode>
+        <message>abcdef</message>
+    </status>
+
+
+    <loadInvoices>
+		    <loadInvoice>
+			<carrierTradingPartnerId>REDIC1</carrierTradingPartnerId>
+			<shipmentId>Load-3036A</shipmentId>
+			<waybillNumber>WBN3036A</waybillNumber>
+			<invoiceNum>INV3036A</invoiceNum>
+			<currencyCode>USD</currencyCode>
+			<invoiceDate>2023-10-01</invoiceDate>
+			<invoiceDueDate>2023-10-15</invoiceDueDate>
+			<origin>
+				<originName>XYZ Shipper</originName>
+				<originStreet>2333 Waukegan Rd.</originStreet>
+				<originCity>Bannockburn</originCity>
+				<originState>IL</originState>
+				<originPostalCode>60045</originPostalCode>
+				<originCountry>US</originCountry>
+			</origin>
+			<destination>
+				<destinationName>ABC Consignee</destinationName>
+				<destinationStreet>526 Beacon Street</destinationStreet>
+				<destinationCity>Boston</destinationCity>
+				<destinationState>MA</destinationState>
+				<destinationPostalCode>02215</destinationPostalCode>
+				<destinationCountry>US</destinationCountry>
+			</destination>
+            <ultimateShipper>
+				<ultimateShipperName>ABC Shipper</ultimateShipperName>
+				<ultimateShipperStreet>526 Beacon Street</ultimateShipperStreet>
+				<ultimateShipperCity>Boston</ultimateShipperCity>
+				<ultimateShipperState>MA</ultimateShipperState>
+				<ultimateShipperPostalCode>02215</ultimateShipperPostalCode>
+				<ultimateShipperCountry>US</ultimateShipperCountry>
+			</ultimateShipper>
+			<ultimateConsignee>
+				<ultimateConsigneeName>ABC Consignee</ultimateConsigneeName>
+				<ultimateConsigneeStreet>100 Main Ct</ultimateConsigneeStreet>
+				<ultimateConsigneeCity>Springfield</ultimateConsigneeCity>
+				<ultimateConsigneeState>IL</ultimateConsigneeState>
+				<ultimateConsigneePostalCode>62702</ultimateConsigneePostalCode>
+                <ultimateConsigneeCountry>US</ultimateConsigneeCountry>
+			</ultimateConsignee>
+			<billTo>
+				<billToName>ABC Biilee</billToName>
+				<billToStreet>700 Place Leigh-Capreol</billToStreet>
+				<billToCity>Dorval</billToCity>
+				<billToState>QC</billToState>
+				<billToPostalCode>H4Y1G7</billToPostalCode>
+				<billToCountry>CA</billToCountry>
+			</billTo>
+			<charges>
+				<charge>
+					<type>Line Haul</type>
+					<desc>Net Line Haul</desc>
+					<qty>1200</qty>
+					<rate>1.00</rate>
+					<rateType>Per Mile</rateType>
+					<amount>1200.00</amount>
+				</charge>
+				<charge>
+					<type>Fuel</type>
+					<desc>Fuel Surcharge</desc>
+					<qty>1200</qty>
+					<rate>0.25</rate>
+					<rateType>Per Mile</rateType>
+					<amount>300.00</amount>
+				</charge>
+				<charge>
+					<type>Accessorial</type>
+					<desc>After Hours Delivery</desc>
+					<qty>1</qty>
+					<rate>75</rate>
+					<rateType>Fixed Cost</rateType>
+					<amount>75.00</amount>
+					<stopNum>2</stopNum>
+				</charge>
+				<charge>
+					<type>Accessorial</type>
+					<desc>Unknown Accessorial Name</desc>
+					<qty>5</qty>
+					<rate>75</rate>
+					<rateType>Per Handling Unit</rateType>
+					<amount>375.00</amount>
+				</charge>
+			</charges>
+			<freightChargeItems>
+				<freightChargeItem>
+					<desc>Commodity AAA</desc>
+					<freightClass>50</freightClass>
+					<qty>10</qty>
+					<rate>0.25</rate>
+					<rateType>Per Mile</rateType>									
+					<amount>100</amount>
+					<weight>100</weight>
+					<weightUnits>lbs</weightUnits>
+				</freightChargeItem>
+				<freightChargeItem>
+					<desc>60# Red Potato</desc>
+					<freightClass>55</freightClass>
+					<qty>20</qty>
+					<rate>1.25</rate>
+					<rateType>Per Mile</rateType>									
+					<amount>100</amount>
+					<weight>100</weight>
+					<weightUnits>lbs</weightUnits>
+				</freightChargeItem>
+				<freightChargeItem>
+					<desc>5/10 Poly Russet Potato</desc>
+					<freightClass>60</freightClass>
+					<qty>20</qty>
+					<rate>1.25</rate>
+					<rateType>Per Mile</rateType>									
+					<amount>100</amount>
+					<weight>100</weight>
+					<weightUnits>lbs</weightUnits>
+				</freightChargeItem>
+			</freightChargeItems>
+		</loadInvoice>
+
+
+	</loadInvoices>
+</getLoadInvoicesResponse>

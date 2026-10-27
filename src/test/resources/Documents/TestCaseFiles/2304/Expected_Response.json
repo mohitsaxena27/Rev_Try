@@ -1,0 +1,52 @@
+{
+  "transactionId": "transaction_Id",
+  "scac": "SMCA",
+  "referenceNumbers": {
+    "bol": "BOL2304",
+    "pickup": "2304#,.)(-/",
+    "po": "A2304",
+    "proNumber": "PRO2304"
+  },
+  "shipmentInfo": {
+    "weight": "{Weight}"
+  },
+  "origin": {
+    "postalCode": "30269"
+  },
+  "destination": {
+    "postalCode": "40213"
+  },
+  "transit": {
+    "pickupDate": "{pickup_Date}",
+    "delivery": {
+      "estimatedDate": "{estimated_Date}",
+      "estimatedTime": "{estimated_Time}",
+      "actualDate": "{actual_Date}",
+      "actualTime": "{actual_Time}",
+      "signature": "",
+      "appointment": {
+        "date": "{Date}",
+        "startTime": "{start_Time}",
+        "endTime": "{end_Time}",
+        "notes": ""
+      }
+    }
+  },
+  "status": {
+    "code": "{Status_Code}",
+    "date": "{CurrentDateYYYYMMDD}",
+    "time": "175500",
+    "utc": "{UTC}",
+    "carrierDescription": "Picked up from origin location at Peachtree City, GA",
+    "city": "Regina",
+    "stateProvince": "SK"
+  },
+  "messageStatus": {
+    "status": "PASS",
+    "code": "10000191",
+    "message": "Your transaction has been received and is currently being processed.",
+    "resolution": "Indicates that your request has been received and is currently being processed.",
+    "information": []
+  },
+  "matchedOn": "PRO Number"
+}

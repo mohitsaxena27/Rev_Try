@@ -1,0 +1,63 @@
+{
+  "integrationId": "revenova",
+  "accountId": "187947",
+  "loads": [
+    {
+      "status": "Available",
+      "equipmentType": "RV",
+      "loadNumber": "TEST_LOAD2937",
+      "externalId": "{Load_SFID}",
+      "pickup": {
+        "city": "Indianapolis",
+        "state": "IN",
+        "postalCode": "46254",
+        "sequence": 1,
+        "scheduledAtEarlyDateTime": "{CurrentDateMM} 07:00"
+      },
+      "delivery": {
+        "city": "Colorado Springs",
+        "state": "CO",
+        "postalCode": "80928",
+        "sequence": 4,
+        "scheduledAtEarlyDateTime": "{CurrentDateMM+3} 14:45"
+      },
+      "loadContact": {
+        "name": "User User",
+        "contactPhone": "",
+        "contactEmail": "{email}",
+        "phoneExtension": ""
+      },
+      "trucksCount": 1,
+      "length": 53,
+      "weight": 15000,
+      "quantity": 1,
+      "rate": 1800,
+      "hazmat": false,
+      "comments": "TEST POST 2937",
+      "numberOfAdditionalStops": 2,
+      "additionalStops": [
+        {
+          "city": "Chicago",
+          "state": "IL",
+          "postalCode": "60602",
+          "sequence": 2,
+          "scheduledAtEarlyDateTime": "{CurrentDateMM+1} 09:00"
+        },
+        {
+          "city": "Des Moines",
+          "state": "IA",
+          "postalCode": "50301",
+          "sequence": 3,
+          "scheduledAtEarlyDateTime": "{CurrentDateMM+2} 00:00"
+        }
+      ],
+      "shipperLoadNumber": "",
+      "tractorNumber": "",
+      "trailerNumber": "",
+      "publishToCarrier": true,
+      "bookItNowPrice": 1800.00,
+      "totalMiles": 1200.00,
+      "triggerTracking": false
+    }
+  ]
+}

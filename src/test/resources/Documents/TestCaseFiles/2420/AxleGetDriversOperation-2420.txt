@@ -1,0 +1,156 @@
+{
+    "fleet_id": {fleet_id},
+    "driver_ids": [
+        4444444,
+        5555555
+    ],
+    "details": [
+        {
+            "id": 4444444,
+            "fleet_id": {fleet_id},
+            "time": "2024-07-08T15:15:08.01547Z",
+            "tsp_source": "samsara",
+            "name": "Terry Trucker",
+            "username": "terrytrucker",
+            "phone": "3125551212",
+            "status": "active",
+            "external_ids": {},
+            "notes": "From TMS- Username: nill",
+            "created_at_time": "2024-05-30T14:51:32.947805Z",
+            "timezone": "",
+            "current_vehicle_id": 0,
+            "carrier": {
+                "carrier_name": "",
+                "dot_number": 0,
+                "home_terminal_address": "",
+                "home_terminal_name": "",
+                "main_office_address": ""
+            },
+            "license": {
+                "license_number": "PI3317",
+                "license_state": "IL",
+                "license_country": "US"
+            },
+            "work_rules": {
+                "break": "Property (off-duty/sleeper)",
+                "cycle": "USA 70 hour / 8 day",
+                "jurisdiction": "",
+                "restart": "36-hour Restart",
+                "shift": "US Interstate Property"
+            },
+            "hours_of_service": {
+                "date": "",
+                "off_duty_seconds": 0,
+                "on_duty_seconds": 0,
+                "sleeper_seconds": 0,
+                "driving_seconds": 0,
+                "waiting_seconds": 0,
+                "active_seconds": 0,
+                "personal_conveyance_seconds": 0,
+                "yard_move_seconds": 0
+            },
+            "vehicle_group": {
+                "id": "",
+                "name": ""
+            }
+        },
+        {
+            "id": 5555555,
+            "fleet_id": {fleet_id},
+            "time": "2024-07-08T15:15:08.04988Z",
+            "tsp_source": "samsara",
+            "name": "Tom Fleet Carrier Two",
+            "username": "tomfleetcarriertwo",
+            "phone": "3129998888",
+            "status": "active",
+            "external_ids": {},
+            "notes": "From TMS- Username: tester",
+            "created_at_time": "2024-05-30T14:51:32.978636Z",
+            "timezone": "America/Los_Angeles",
+            "current_vehicle_id": 0,
+            "carrier": {
+                "carrier_name": "Fleet Carrier Two",
+                "dot_number": 0,
+                "home_terminal_address": "",
+                "home_terminal_name": "",
+                "main_office_address": ""
+            },
+            "license": {
+                "license_number": "PI3317B",
+                "license_state": "CA",
+                "license_country": "US"
+            },
+            "work_rules": {
+                "break": "California Mealbreak (off-duty/sleeper)",
+                "cycle": "California Flammable Liquid 80 hour / 8 day",
+                "jurisdiction": "",
+                "restart": "34-hour Restart",
+                "shift": "US Interstate Property"
+            },
+            "hours_of_service": {
+                "date": "",
+                "off_duty_seconds": 0,
+                "on_duty_seconds": 0,
+                "sleeper_seconds": 0,
+                "driving_seconds": 0,
+                "waiting_seconds": 0,
+                "active_seconds": 0,
+                "personal_conveyance_seconds": 0,
+                "yard_move_seconds": 0
+            },
+            "vehicle_group": {
+                "id": "",
+                "name": ""
+            }
+        },
+        {
+            "id": 6666666,
+            "fleet_id": {fleet_id},
+            "time": "2024-07-08T15:15:08.01547Z",
+            "tsp_source": "samsara",
+            "name": "Trevor Trucker",
+            "username": "trevortrucker",
+            "phone": "7085551212",
+            "status": "inactive",
+            "external_ids": {},
+            "notes": "From TMS- Username: norecord",
+            "created_at_time": "2024-05-30T14:51:32.947805Z",
+            "timezone": "",
+            "current_vehicle_id": 0,
+            "carrier": {
+                "carrier_name": "",
+                "dot_number": 0,
+                "home_terminal_address": "",
+                "home_terminal_name": "",
+                "main_office_address": ""
+            },
+            "license": {
+                "license_number": "NOTAG",
+                "license_state": "IL",
+                "license_country": "US"
+            },
+            "work_rules": {
+                "break": "Property (off-duty/sleeper)",
+                "cycle": "USA 70 hour / 8 day",
+                "jurisdiction": "",
+                "restart": "36-hour Restart",
+                "shift": "US Interstate Property"
+            },
+            "hours_of_service": {
+                "date": "",
+                "off_duty_seconds": 0,
+                "on_duty_seconds": 0,
+                "sleeper_seconds": 0,
+                "driving_seconds": 0,
+                "waiting_seconds": 0,
+                "active_seconds": 0,
+                "personal_conveyance_seconds": 0,
+                "yard_move_seconds": 0
+            },
+            "vehicle_group": {
+                "id": "",
+                "name": ""
+            }
+}
+    ]
+}

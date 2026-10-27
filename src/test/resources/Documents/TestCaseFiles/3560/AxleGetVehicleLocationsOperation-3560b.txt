@@ -1,0 +1,35 @@
+{
+    "fleet_id": {fleet_id},
+    "vehicle_locations": [
+      {
+        "id": 3560,
+        "vehicle_id": 3560,
+        "date_time": "2024-07-09T08:10:00.001Z",
+        "latitude": 38.412279,
+        "longitude": -104.413179,
+        "address": "Tomahawk Truck Stop",
+        "course": 0,
+        "odometer": {
+          "value": 1398111,
+          "unit": "mi"
+        },
+        "speed": {
+          "value": 55,
+          "unit": "mph"
+        },
+        "fuel": null,
+        "vehicle": {
+          "id": 3560,
+          "name": "T THREESIXSIX-ZERO",
+          "oem": "Jeep",
+          "model": "Wrangler",
+          "model_year": "2016",
+          "vin": "",
+          "license_plate_state": "US-TN",
+          "license_plate_number": "GOVOLS",
+          "eld_device_id": ""
+        },
+        "driver": null
+      }
+    ]
+  }

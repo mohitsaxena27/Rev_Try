@@ -1,0 +1,37 @@
+{ "request" :
+	{ "shipmentProductTransactionId" : "Shipment Product Transaction Id",
+	   "shipmentOfferId" : "Shipment Offer Id",
+	   "shipment" : {
+		   			"originAddress" :
+						{ 
+						"address" : 
+							{ 
+							"addressLineList" : [ "1901 West Madison Street" ], 
+							"contactList" : [ { "firstName" : "Joe", "lastName" : "Chicago Bulls", "contactType" : "SENDER", "phone" : "3129997777", "email" : "{email}" } ], 
+							"phone" : "3129997777", 
+							"companyName" : "Chicago Bulls", 
+							"countryCode" : "US", 
+							"locality" : "Chicago", 	
+							"postalCode" : "60612", 
+							"region" : "IL" }
+						}, 
+					"destinationAddress" : 
+						{ 
+						"address" : 
+							{ 
+							"addressLineList" : [ "1435 Fox St." ], 
+							"contactList" : [ { "firstName" : "Joe", "lastName" : "Denver Deli Meats", "contactType" : "RECEIVER", "phone" : "3129997777", "email" : "{email}" } ], 
+							"phone" : "3129997777", 
+							"companyName" : "Denver Deli Meats", 
+							"countryCode" : "US", 
+							"locality" : "Denver", 
+							"postalCode" : "80204", 
+							"region" : "CO" } 
+						} 
+					}, 
+		"isSelfScheduled" : false,
+		"pickupDate" : "{CurrentData} 09:00:00",
+		"closeTime" : "22:00",
+		"readyTime" : "09:00"
+	}
+}

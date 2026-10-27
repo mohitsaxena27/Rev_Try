@@ -1,0 +1,35 @@
+{
+    "fleet_id": 165964,
+    "vehicle_locations": [
+      {
+        "id": 3560,
+        "vehicle_id": 3560,
+        "date_time": "2024-07-08T08:15:00.001Z",
+        "latitude": 41.257160,
+        "longitude": -95.995102,
+        "address": "Omaha, Nebraska, USA",
+        "course": 0,
+        "odometer": {
+          "value": 1397491,
+          "unit": "mi"
+        },        
+        "speed": {
+          "value": 112,
+          "unit": "kph"
+        },
+        "fuel": null,
+        "vehicle": {
+          "id": 3560,
+          "name": "T THREESIXSIX-ZERO",
+          "oem": "Jeep",
+          "model": "Wrangler",
+          "model_year": "2016",
+          "vin": "",
+          "license_plate_state": "US-TN",
+          "license_plate_number": "GOVOLS",
+          "eld_device_id": ""
+        },
+        "driver": null
+      }
+    ]
+  }

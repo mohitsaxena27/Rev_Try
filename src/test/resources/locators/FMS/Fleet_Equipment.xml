@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+  <IframeMap>//iframe[contains(@src, 'mapsloader')]</IframeMap>
+    <buttonTittle>//button[@title='{paramlink}' and @disabled]</buttonTittle>
+    <VerifyHeader>//th//span[text()='{paramlink}']</VerifyHeader>
+    <VerifyHeaderwithTab>//label[normalize-space(text())='{Sections}']/ancestor::c-revenova-row//th//span[text()='{paramlink}' and not(contains(@class,'slds-assistive-text'))]</VerifyHeaderwithTab>
+    <VerifyHeaderRecordsIcon>//label[normalize-space(text())='{Sections}']/ancestor::c-revenova-row//th//span[text()='{paramlink}']</VerifyHeaderRecordsIcon>
+    <VerifyTableData>//div[contains(@class,'active ')]//*[@data-label="{paramlink1}"]//*[text()='{paramlink2}']</VerifyTableData>
+    <VerifyEquipmentTableData>//div[contains(@class,'active ')]//tr[.//td[@data-label="Number"]//*[text()='{paramlink}']]//th//a//*[contains(text(),'Equipment-')]</VerifyEquipmentTableData>
+    <VerifyEquipment>//div[@title='Equipment Type']/..//*[contains(@title,"{paramlink}")]</VerifyEquipment>
+    <CloseModalIcon>//div[@role="dialog"]//button[@title='Close']</CloseModalIcon>
+    <VerifyTableDataContains>//div[contains(@class,'active ')]//*[@data-label="{paramlink1}"]//*[contains(text(),'{paramlink2}')]</VerifyTableDataContains>
+    <SelectRecords>//tr[.//a[contains(text(), '{paramlink}')]]//input[@type='radio']</SelectRecords>
+    <SelectViewManager>//tr[.//*[contains(text(), '{paramlink}')]]//input[@type='checkbox']/..</SelectViewManager>
+    <ViewManagerInput>//tr[.//*[contains(text(), '{paramlink}')]]//input[@type='checkbox']</ViewManagerInput>
+    <LabelText>//div[contains(@class,'active ')]//c-fleet-equipment-map//label[text()='{paramlink}' or .='{paramlink}']</LabelText>
+    <VerifystaticValue>//div[contains(@class,'active ')]//*[text()='{paramlink1}' and @class='test-id__field-label']/../..//*[contains(@class,'test-id__field-value')]//*[@data-output-element-id="output-field"]//*[text()='{paramlink2}']</VerifystaticValue>
+    <MultiSelectContainer>//div[normalize-space(text())='{paramlink}']/following-sibling::div[contains(@class,'container')]</MultiSelectContainer>
+    <OptionSelect>//div[@title='{paramlink}']</OptionSelect>
+    <VerifySelected>//div[normalize-space(text())='{paramlink1}']/following-sibling::div//span[contains(@title,'{paramlink2}')]</VerifySelected>
+    <VerifyOption>//div[normalize-space(text())='{paramlink}']/following-sibling::div//span</VerifyOption>
+    <SelectValue>//div[contains(@class,'active ')]//div[normalize-space(text())='{paramlink}']/following-sibling::select</SelectValue>
+    <VerifyNoDataWithTable>//table[@data-num-rows="0"]//span[text()='{paramlink}']</VerifyNoDataWithTable>
+    <DisabledTitle>//div[contains(@class,'active ')]//*[@title='{paramlink}' and @disabled]</DisabledTitle>
+</locators>
+

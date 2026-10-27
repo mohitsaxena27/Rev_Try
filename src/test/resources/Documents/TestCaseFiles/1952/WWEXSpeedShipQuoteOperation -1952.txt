@@ -1,0 +1,1107 @@
+{
+  "apiVersion": "1",
+  "clientStatus": {
+    "apiVersion": "1",
+    "success": true,
+    "message": ""
+  },
+  "correlationId": "WWEX-M2M-shopFlow-ltl",
+  "response": {
+    "scacList": [
+      "",
+      "MTJG",
+      "CENF",
+      "EQXT",
+      "MIDW",
+      "OAKH",
+      "PITD",
+      "AACT",
+      "LAXV",
+      "CNWY",
+      "BTVP",
+      "TOTL",
+      "MGUL",
+      "CCQY",
+      "UPGF",
+      "PMLI",
+      "BRTC",
+      "GVKC",
+      "AVRT",
+      "DPHE",
+      "XGSI",
+      "MFRC",
+      "FWDA",
+      "ABFS",
+      "TAXA",
+      "RDWY",
+      "DLDS",
+      "MTVL",
+      "DUBL",
+      "PNII",
+      "MIHD",
+      "RLCA",
+      "SEFL",
+      "FTSC",
+      "SAIA",
+      "FCSY",
+      "VCTS",
+      "RXIC",
+      "EXLA",
+      "VALC",
+      "HRCF",
+      "RETL",
+      "CTII",
+      "FTQR",
+      "DTST",
+      "TONI",
+      "HMES",
+      "WARD",
+      "NMTF",
+      "RDFS",
+      "PENS",
+      "DBDE",
+      "DHRN",
+      "DAFG",
+      "FWRA",
+      "JPXS",
+      "CCYQ",
+      "PYLE",
+      "TWDW",
+      "LAEA",
+      "SMTL",
+      "ROSI",
+      "USRD",
+      "CLNI",
+      "DYLT",
+      "NPME",
+      "UPPN",
+      "ODFL"
+    ],
+    "manualShopFlow": false,
+    "cubicMinApplicable": false,
+    "offerList": [
+      {
+        "generalVendorContract": {
+          "id": "9d38f91a-ce2e-4ed9-8d17-2ac99b39d82a"
+        },
+        "primaryVendor": {
+          "vendorId": "SEFL",
+          "preferredName": "Southeastern Freight",
+          "contactList": [
+            {
+              "lastName": "NA",
+              "apiVersion": "2",
+              "preferredContactMethod": "Phone",
+              "phone": "800-762-5966",
+              "contactType": "ACCOUNT",
+              "id": "1781390127",
+              "email": "vendor@noemailprovided.com"
+            },
+            {
+              "lastName": "Phil Post",
+              "apiVersion": "2",
+              "preferredContactMethod": "Phone",
+              "phone": "2628844554",
+              "contactType": "ACCOUNT_PAYABLE",
+              "id": "422",
+              "email": "philpost@longgroup.com"
+            },
+            {
+              "lastName": "NA",
+              "apiVersion": "2",
+              "preferredContactMethod": "Email",
+              "contactType": "REMITTANCE",
+              "id": "51534426",
+              "email": "ACCOUNTING@ROSSEXPRESS.COM"
+            }
+          ],
+          "scac": "SEFL"
+        },
+        "offeredProductList": [
+          {
+            "offerPrice": {
+              "unit": "USD",
+              "apiVersion": "1",
+              "value": 206.18
+            },
+            "creationMode": "AUTO",
+            "linearFootCharge": {
+              "unit": "USD",
+              "apiVersion": "1"
+            },
+            "serviceDetail": {
+              "name": "DEFAULT"
+            },
+            "offeredProductId": "096653f8-fb24-4cab-9588-af67317a298f",
+            "linearFootWeight": {
+              "unit": "LB",
+              "apiVersion": "1"
+            },
+            "apiVersion": "1",
+            "chargeItemList": [
+              {
+                "matchOnRequestChargeItem": true,
+                "itemCode": "FRT",
+                "customerChargeCode": "FREIGHT",
+                "customerPrice": {
+                  "unit": "USD",
+                  "apiVersion": "1",
+                  "value": 117.98
+                },
+                "chargeCodeCategory": "FREIGHT",
+                "isIncludedInFuelSurcharge": true,
+                "chargeItemId": "1f8a9d08-b0ee-497b-9c22-689675e7296c",
+                "description": "FREIGHT",
+                "customerDescription": "FREIGHT",
+                "uplift": null,
+                "upliftPercent": null
+              },
+              {
+                "hideOnVendorInvoice": false,
+                "chargeType": "Fuel",
+                "customerPrice": {
+                  "unit": "USD",
+                  "apiVersion": "1",
+                  "value": 19.47
+                },
+                "customerChargeCode": "FSC",
+                "apiVersion": "4",
+                "chargeCodeCategory": "FUEL",
+                "chargeItemId": "82d50a37-7a6a-42d9-964d-52e786f2ca26",
+                "isIPMChargeItem": false,
+                "description": "FUEL SURCHARGE",
+                "customerDescription": "FUEL SURCHARGE"
+              },
+              {
+                "apiVersion": "4",
+                "hideOnVendorInvoice": true,
+                "chargeCodeCategory": "ACCESSORIAL",
+                "description": "CUSTOMER HANDLING CHARGE",
+                "customerDescription": "CUSTOMER HANDLING CHARGE",
+                "customerChargeCode": "CHC",
+                "customerPrice": {
+                  "unit": "USD",
+                  "apiVersion": "1",
+                  "value": 68.73
+                },
+                "isIPMChargeItem": false
+              }
+            ],
+            "shopRQShipment": {
+              "notifyBeforeDeliveryFlag": false,
+              "totalVolume": {
+                "unit": "CU_FT",
+                "apiVersion": "1",
+                "value": 72
+              },
+              "utilitySiteDeliveryFlag": false,
+              "totalDeclaredValue": {
+                "value": "10000",
+                "unit": "USD"
+              },
+              "militaryPickupFlag": false,
+              "insideDeliveryFlag": false,
+              "largestLinearFeet": {
+                "unit": "IN",
+                "apiVersion": "1",
+                "value": 36
+              },
+              "deliverySpecialInstructions": null,
+              "appointmentDeliveryFlag": false,
+              "originalTotalVolume": {
+                "unit": "CU_FT",
+                "apiVersion": "1",
+                "value": 27
+              },
+              "pierPortWarfPickupFlag": false,
+              "securedLocationDeliveryFlag": false,
+              "constructionSitePickupFlag": false,
+              "tradeshowDeliveryFlag": false,
+              "unspecifiedPickupFlag": false,
+              "totalLinearLength": {
+                "unit": "IN",
+                "apiVersion": "1",
+                "value": 36
+              },
+              "billedDestinationAddress": {
+                "address": {
+                  "addressLineList": [
+                    ""
+                  ],
+                  "contactList": [
+                    {
+                      "phone": "8669447447"
+                    }
+                  ],
+                  "phone": "8669447447",
+                  "countryCode": "US",
+                  "postalCode": "06824",
+                  "companyName": "UNISHIPPERS",
+                  "latitude": "41.1626",
+                  "locality": "fairfield",
+                  "region": "CT",
+                  "longitude": "-73.2633"
+                }
+              },
+              "containerFreightStationDeliveryFlag": false,
+              "callPCMilerApi": true,
+              "constructionSiteDeliveryFlag": false,
+              "pierPortWarfDeliveryFlag": false,
+              "cemeteryDeliveryFlag": false,
+              "carrierTerminalDeliveryFlag": false,
+              "totalHandlingUnitCount": 1,
+              "sourceShipment": "WWEXM2M",
+              "isInternationalShipment": false,
+              "billToInfoList": [
+                {
+                  "billToCountryCode": "US",
+                  "billToAccountNbr": "2RY229",
+                  "shipmentChargeType": "Transportation",
+                  "billToType": "SENDER",
+                  "companyName": "WWEX GROUP",
+                  "billToPostalCode": "02134"
+                }
+              ],
+              "pickupSpecialInstructions": null,
+              "totalPcsCount": 1,
+              "maxWeightOnHUPerPLT": 250,
+              "parkPickupFlag": false,
+              "commercialDeliveryFlag": false,
+              "totalNewLimitsOfLiability": {
+                "unit": "USD",
+                "apiVersion": "1",
+                "value": 1250
+              },
+              "insuranceRequestFlag": true,
+              "securedLocationPickupFlag": false,
+              "mallShoppingCenterDeliveryFlag": false,
+              "minePickupFlag": false,
+              "directDeliveryOnlyFlag": false,
+              "tradeshowDeliveryName": null,
+              "containerFreightStationPickupFlag": false,
+              "shipperReleaseFlag": false,
+              "limitedAccessAirportDeliveryFlag": false,
+              "distributionCenterPickupFlag": false,
+              "isSignatureRequired": true,
+              "insuredCommodityCategory": "400",
+              "insidePickupFlag": false,
+              "carrierTerminalPickupFlag": false,
+              "tradeshowPickupFlag": false,
+              "liftgateDeliveryFlag": false,
+              "limitedAccessPickupFlag": false,
+              "limitedAccessGovernmentFacilityDeliveryFlag": false,
+              "commercialPickupFlag": false,
+              "protectionFromColdFlag": false,
+              "isMultiClass": false,
+              "mallShoppingCenterPickupFlag": false,
+              "billedOriginAddress": {
+                "address": {
+                  "postalCode": "02134",
+                  "companyName": "WWEX GROUP",
+                  "latitude": "42.3528",
+                  "locality": "BOSTON",
+                  "timeZone": "America/New_York",
+                  "addressLineList": [
+                    ""
+                  ],
+                  "contactList": [
+                    {
+                      "phone": "+18007587447"
+                    }
+                  ],
+                  "phone": "+18007587447",
+                  "countryCode": "US",
+                  "region": "MA",
+                  "longitude": "-71.1328"
+                }
+              },
+              "packageTypes": "PLT",
+              "shipmentReferenceList": [
+                {
+                  "type": "Shipment Reference 1",
+                  "value": "12345",
+                  "isPrintAsBarCode": true
+                },
+                {
+                  "type": "Shipment Reference 2",
+                  "value": "alpha numeric 123",
+                  "isPrintAsBarCode": false
+                }
+              ],
+              "insuredMarksNumbers": "1234A",
+              "timeInTransit": {
+                "apiVersion": "2",
+                "scac": "SEFL",
+                "milesInTransit": "159.517",
+                "transitDays": 1,
+                "serviceLevel": "STANDARD",
+                "estimatedDeliveryDate": "2023-12-05",
+                "productType": "LTL",
+                "originTerminal": {
+                  "apiVersion": "3",
+                  "terminal": {
+                    "apiVersion": "1",
+                    "terminalCode": "RXSUT"
+                  },
+                  "service": "Direct"
+                },
+                "destTerminal": {
+                  "apiVersion": "3",
+                  "terminal": {
+                    "apiVersion": "1",
+                    "terminalCode": "RXEGR"
+                  },
+                  "service": "Direct"
+                }
+              },
+              "protectionFromHeatFlag": false,
+              "shipmentDate": "2023-12-02 11:08:07",
+              "handlingUnitList": [
+                {
+                  "handlingUnitId": "d9a896f7-89c4-4d8a-a6ec-76da9fcf1476",
+                  "quantity": 1,
+                  "billedDimension": {
+                    "length": {
+                      "value": "36",
+                      "unit": "IN"
+                    },
+                    "width": {
+                      "value": "36",
+                      "unit": "IN"
+                    },
+                    "height": {
+                      "value": "36",
+                      "unit": "IN"
+                    }
+                  },
+                  "isStackable": false,
+                  "weight": {
+                    "value": "250",
+                    "unit": "LB"
+                  },
+                  "isMixedClass": false,
+                  "class": "55",
+                  "packagingType": "PLT",
+                  "shippedItemList": [
+                    {
+                      "NMFCDescription": null,
+                      "quantity": 1,
+                      "updatedCommodityClass": "55",
+                      "commodityDescription": "12121",
+                      "NMFCNbr": null,
+                      "weight": {
+                        "value": "250",
+                        "unit": "LB"
+                      },
+                      "commodityType": null,
+                      "hazMatItemInfo": [
+                        {
+                          "hazClassType": "1.1A, 6.1",
+                          "hazPlacardRequiredFlag": false,
+                          "hazIdentificationNbr": "UN1234",
+                          "hazERR": "ERR Number",
+                          "hazAdditionalDetails": "Additional Haz Details",
+                          "hazProperShippingName": "Proper Commodity Name",
+                          "hazFlashpointTemperature": {
+                            "value": 1,
+                            "unit": "F"
+                          },
+                          "hazEmergencyPhoneNbr": "2132342312",
+                          "hazPlacardDetails": "Placard Details",
+                          "hazPackingGroupType": "PGI",
+                          "hazEmergencyName": "Emergency Contact"
+                        }
+                      ],
+                      "itemId": "38400057-bc95-44a3-a6b4-c4ea49415293",
+                      "name": null,
+                      "commodityClass": "55",
+                      "isHazMat": false,
+                      "packagingType": null,
+                      "dimensions": {
+                        "length": {
+                          "value": "36",
+                          "unit": "in"
+                        },
+                        "width": {
+                          "value": "36",
+                          "unit": "in"
+                        },
+                        "height": {
+                          "value": "36",
+                          "unit": "in"
+                        }
+                      }
+                    }
+                  ],
+                  "sortAndSegregateFlag": true
+                }
+              ],
+              "limitedAccessAirportPickupFlag": false,
+              "liftgatePickupFlag": false,
+              "cemeteryPickupFlag": false,
+              "averageDensity": {
+                "unit": "LB_PER_CU_FT",
+                "apiVersion": "1",
+                "value": 3.47
+              },
+              "countryGolfDeliveryFlag": false,
+              "holdAtTerminalFlag": false,
+              "distributionCenterDeliveryFlag": false,
+              "limitedAccessGovernmentFacilityPickupFlag": false,
+              "tradeshowPickupName": null,
+              "totalOldLimitsOfLiability": {
+                "unit": "USD",
+                "apiVersion": "1",
+                "value": 125
+              },
+              "parkDeliveryFlag": false,
+              "countryGolfPickupFlag": false,
+              "limitedAccessDeliveryFlag": false,
+              "handlingCharge": {
+                "value": 50,
+                "unit": "PERCENT"
+              },
+              "mineDeliveryFlag": false,
+              "utilitySitePickupFlag": false,
+              "specialInstructions": "Do Not Stack Some Items - See Descriptions",
+              "militaryDeliveryFlag": false,
+              "vendorBasePriceQualified": true,
+              "totalWeight": {
+                "unit": "LB",
+                "apiVersion": "1",
+                "value": 250
+              },
+              "insuredItemConditions": "USED",
+              "residentialPickupFlag": false,
+              "deliveryConfirmationFlag": false,
+              "unspecifiedDeliveryFlag": false,
+              "sortAndSegregateFlag": false,
+              "residentialDeliveryFlag": false
+            },
+            "productType": "LTL"
+          }
+        ],
+        "totalOfferPrice": {
+          "unit": "USD",
+          "apiVersion": "1",
+          "value": 206.18
+        },
+        "apiVersion": "3",
+        "offerDate": "2023-11-29 17:42:44",
+        "offerId": "2f6d0f66-6802-4c40-8dec-554707fd118a",
+        "customerUserId": "8h94TCp0N6fg09ipP3yyJmfPPv5l1mCD",
+        "totalHandlingCharge": {
+          "unit": "USD",
+          "apiVersion": "1",
+          "value": 68.73
+        },
+        "status": "Created",
+        "expirationDate": "2024-02-27 17:42:44",
+        "productTransactionId": "86989f4a-f9eb-41da-9c64-44fe979cbe54"
+      },
+      {
+        "generalVendorContract": {
+          "id": "da4d480f-2aae-44c6-90de-59cbcc52fdfc"
+        },
+        "primaryVendor": {
+          "vendorId": "SAIA",
+          "preferredName": "SAIA MOTOR FREIGHT LINE LLC",
+          "contactList": [
+            {
+              "lastName": "NA",
+              "apiVersion": "2",
+              "preferredContactMethod": "Phone",
+              "phone": "7702324051",
+              "contactType": "ACCOUNT",
+              "id": "794037166",
+              "email": "vendor@noemailprovided.com"
+            },
+            {
+              "lastName": "NA",
+              "apiVersion": "2",
+              "preferredContactMethod": "Email",
+              "contactType": "REMITTANCE",
+              "id": "-689755555",
+              "email": "ACHREMIT@SAIA.COM"
+            }
+          ],
+          "scac": "SAIA"
+        },
+        "offeredProductList": [
+          {
+            "offerPrice": {
+              "unit": "USD",
+              "apiVersion": "1",
+              "value": 1087.61
+            },
+            "creationMode": "AUTO",
+            "linearFootCharge": {
+              "unit": "USD",
+              "apiVersion": "1"
+            },
+            "serviceDetail": {
+              "name": "DEFAULT",
+              "destZipGroup": "NHC",
+              "originZipGroup": "NBN"
+            },
+            "offeredProductId": "29f952e1-bca8-45c8-ae06-3de35d79b786",
+            "linearFootWeight": {
+              "unit": "LB",
+              "apiVersion": "1"
+            },
+            "apiVersion": "1",
+            "chargeItemList": [
+              {
+                "matchOnRequestChargeItem": true,
+                "itemCode": "FRT",
+                "customerChargeCode": "FREIGHT",
+                "customerPrice": {
+                  "unit": "USD",
+                  "apiVersion": "1",
+                  "value": 370.43
+                },
+                "chargeCodeCategory": "FREIGHT",
+                "isIncludedInFuelSurcharge": true,
+                "chargeItemId": "a5a192da-80ba-4eb9-8f0e-abb27afff276",
+                "description": "FREIGHT",
+                "customerDescription": "FREIGHT",
+                "uplift": null,
+                "upliftPercent": null
+              },
+              {
+                "hideOnVendorInvoice": false,
+                "chargeType": "Fuel",
+                "customerPrice": {
+                  "unit": "USD",
+                  "apiVersion": "1",
+                  "value": 128.24
+                },
+                "customerChargeCode": "FSC",
+                "apiVersion": "4",
+                "chargeCodeCategory": "FUEL",
+                "chargeItemId": "2ec80b90-f336-4932-9f3f-04b854b78bfe",
+                "isIPMChargeItem": false,
+                "description": "FUEL SURCHARGE",
+                "customerDescription": "FUEL SURCHARGE"
+              },
+              {
+                "hideOnVendorInvoice": false,
+                "matchOnRequestChargeItem": true,
+                "customerChargeCode": "GUR",
+                "customerPrice": {
+                  "unit": "USD",
+                  "apiVersion": "1",
+                  "value": 98.75
+                },
+                "apiVersion": "4",
+                "chargeCodeCategory": "ACCESSORIAL",
+                "chargeItemId": "1e1aac16-9095-497a-bf3f-271970021818",
+                "isIPMChargeItem": false,
+                "description": "GUARANTEED DELIVERY",
+                "customerDescription": "GUARANTEED DELIVERY"
+              },
+              {
+                "hideOnVendorInvoice": false,
+                "matchOnRequestChargeItem": true,
+                "customerChargeCode": "SINGSHIP",
+                "customerPrice": {
+                  "unit": "USD",
+                  "apiVersion": "1",
+                  "value": 10
+                },
+                "apiVersion": "4",
+                "chargeCodeCategory": "ACCESSORIAL",
+                "chargeItemId": "b45d4548-8f05-4213-83a1-daddaeca6537",
+                "isIPMChargeItem": false,
+                "description": "SINGLE SHIPMENT",
+                "customerDescription": "SINGLE SHIPMENT"
+              },
+              {
+                "hideOnVendorInvoice": false,
+                "description": "HIGH COST PICKUP",
+                "customerChargeCode": "HCP",
+                "customerPrice": {
+                  "unit": "USD",
+                  "apiVersion": "1",
+                  "value": 97.65
+                },
+                "apiVersion": "4",
+                "chargeCodeCategory": "ACCESSORIAL",
+                "chargeItemId": "b808185e-d0ee-4823-91bb-8b33ea26f345",
+                "isIPMChargeItem": false,
+                "customerDescription": "HIGH COST PICKUP"
+              },
+              {
+                "apiVersion": "4",
+                "hideOnVendorInvoice": true,
+                "chargeCodeCategory": "ACCESSORIAL",
+                "description": "CUSTOMER HANDLING CHARGE",
+                "customerDescription": "CUSTOMER HANDLING CHARGE",
+                "customerChargeCode": "CHC",
+                "customerPrice": {
+                  "unit": "USD",
+                  "apiVersion": "1",
+                  "value": 352.54
+                },
+                "isIPMChargeItem": false
+              }
+            ],
+            "shopRQShipment": {
+              "notifyBeforeDeliveryFlag": false,
+              "totalVolume": {
+                "unit": "CU_FT",
+                "apiVersion": "1",
+                "value": 72
+              },
+              "utilitySiteDeliveryFlag": false,
+              "totalDeclaredValue": {
+                "value": "10000",
+                "unit": "USD"
+              },
+              "militaryPickupFlag": false,
+              "insideDeliveryFlag": false,
+              "largestLinearFeet": {
+                "unit": "IN",
+                "apiVersion": "1",
+                "value": 36
+              },
+              "deliverySpecialInstructions": null,
+              "appointmentDeliveryFlag": false,
+              "originalTotalVolume": {
+                "unit": "CU_FT",
+                "apiVersion": "1",
+                "value": 27
+              },
+              "pierPortWarfPickupFlag": false,
+              "securedLocationDeliveryFlag": false,
+              "constructionSitePickupFlag": false,
+              "tradeshowDeliveryFlag": false,
+              "unspecifiedPickupFlag": false,
+              "totalLinearLength": {
+                "unit": "IN",
+                "apiVersion": "1",
+                "value": 36
+              },
+              "billedDestinationAddress": {
+                "address": {
+                  "addressLineList": [
+                    ""
+                  ],
+                  "contactList": [
+                    {
+                      "phone": "8669447447"
+                    }
+                  ],
+                  "phone": "8669447447",
+                  "countryCode": "US",
+                  "postalCode": "06824",
+                  "companyName": "UNISHIPPERS",
+                  "latitude": "41.1626",
+                  "locality": "fairfield",
+                  "region": "CT",
+                  "longitude": "-73.2633"
+                }
+              },
+              "containerFreightStationDeliveryFlag": false,
+              "callPCMilerApi": true,
+              "constructionSiteDeliveryFlag": false,
+              "pierPortWarfDeliveryFlag": false,
+              "cemeteryDeliveryFlag": false,
+              "carrierTerminalDeliveryFlag": false,
+              "totalHandlingUnitCount": 1,
+              "sourceShipment": "WWEXM2M",
+              "isInternationalShipment": false,
+              "billToInfoList": [
+                {
+                  "billToCountryCode": "US",
+                  "billToAccountNbr": "2RY229",
+                  "shipmentChargeType": "Transportation",
+                  "billToType": "SENDER",
+                  "companyName": "WWEX GROUP",
+                  "billToPostalCode": "02134"
+                }
+              ],
+              "pickupSpecialInstructions": null,
+              "totalPcsCount": 1,
+              "maxWeightOnHUPerPLT": 250,
+              "parkPickupFlag": false,
+              "commercialDeliveryFlag": false,
+              "totalNewLimitsOfLiability": {
+                "unit": "USD",
+                "apiVersion": "1",
+                "value": 1250
+              },
+              "insuranceRequestFlag": true,
+              "securedLocationPickupFlag": false,
+              "mallShoppingCenterDeliveryFlag": false,
+              "minePickupFlag": false,
+              "directDeliveryOnlyFlag": false,
+              "tradeshowDeliveryName": null,
+              "containerFreightStationPickupFlag": false,
+              "shipperReleaseFlag": false,
+              "limitedAccessAirportDeliveryFlag": false,
+              "distributionCenterPickupFlag": false,
+              "isSignatureRequired": true,
+              "insuredCommodityCategory": "400",
+              "insidePickupFlag": false,
+              "carrierTerminalPickupFlag": false,
+              "tradeshowPickupFlag": false,
+              "liftgateDeliveryFlag": false,
+              "limitedAccessPickupFlag": false,
+              "limitedAccessGovernmentFacilityDeliveryFlag": false,
+              "commercialPickupFlag": false,
+              "protectionFromColdFlag": false,
+              "isMultiClass": false,
+              "mallShoppingCenterPickupFlag": false,
+              "billedOriginAddress": {
+                "address": {
+                  "postalCode": "02134",
+                  "companyName": "WWEX GROUP",
+                  "latitude": "42.3528",
+                  "locality": "BOSTON",
+                  "timeZone": "America/New_York",
+                  "addressLineList": [
+                    ""
+                  ],
+                  "contactList": [
+                    {
+                      "phone": "+18007587447"
+                    }
+                  ],
+                  "phone": "+18007587447",
+                  "countryCode": "US",
+                  "region": "MA",
+                  "longitude": "-71.1328"
+                }
+              },
+              "packageTypes": "PLT",
+              "shipmentReferenceList": [
+                {
+                  "type": "Shipment Reference 1",
+                  "value": "12345",
+                  "isPrintAsBarCode": true
+                },
+                {
+                  "type": "Shipment Reference 2",
+                  "value": "alpha numeric 123",
+                  "isPrintAsBarCode": false
+                }
+              ],
+              "insuredMarksNumbers": "1234A",
+              "timeInTransit": {
+                "apiVersion": "2",
+                "scac": "SAIA",
+                "serviceDescription": "Saia Guaranteed 5",
+                "milesInTransit": "159.517",
+                "transitDays": 1,
+                "serviceLevel": "GUARANTEED",
+                "estimatedDeliveryDate": "2023-12-05",
+                "productType": "LTL",
+                "originTerminal": {
+                  "apiVersion": "3",
+                  "terminal": {
+                    "apiVersion": "1",
+                    "terminalCode": "NBN"
+                  },
+                  "service": "Direct"
+                },
+                "destTerminal": {
+                  "apiVersion": "3",
+                  "terminal": {
+                    "apiVersion": "1",
+                    "terminalCode": "NHC"
+                  },
+                  "service": "Direct"
+                }
+              },
+              "protectionFromHeatFlag": false,
+              "shipmentDate": "2023-12-02 11:08:07",
+              "handlingUnitList": [
+                {
+                  "handlingUnitId": "d9a896f7-89c4-4d8a-a6ec-76da9fcf1476",
+                  "quantity": 1,
+                  "billedDimension": {
+                    "length": {
+                      "value": "36",
+                      "unit": "IN"
+                    },
+                    "width": {
+                      "value": "36",
+                      "unit": "IN"
+                    },
+                    "height": {
+                      "value": "36",
+                      "unit": "IN"
+                    }
+                  },
+                  "isStackable": false,
+                  "weight": {
+                    "value": "250",
+                    "unit": "LB"
+                  },
+                  "isMixedClass": false,
+                  "class": "55",
+                  "packagingType": "PLT",
+                  "shippedItemList": [
+                    {
+                      "NMFCDescription": null,
+                      "quantity": 1,
+                      "updatedCommodityClass": "55",
+                      "commodityDescription": "12121",
+                      "NMFCNbr": null,
+                      "weight": {
+                        "value": "250",
+                        "unit": "LB"
+                      },
+                      "commodityType": null,
+                      "hazMatItemInfo": [
+                        {
+                          "hazClassType": "1.1A, 6.1",
+                          "hazPlacardRequiredFlag": false,
+                          "hazIdentificationNbr": "UN1234",
+                          "hazERR": "ERR Number",
+                          "hazAdditionalDetails": "Additional Haz Details",
+                          "hazProperShippingName": "Proper Commodity Name",
+                          "hazFlashpointTemperature": {
+                            "value": 1,
+                            "unit": "F"
+                          },
+                          "hazEmergencyPhoneNbr": "2132342312",
+                          "hazPlacardDetails": "Placard Details",
+                          "hazPackingGroupType": "PGI",
+                          "hazEmergencyName": "Emergency Contact"
+                        }
+                      ],
+                      "itemId": "38400057-bc95-44a3-a6b4-c4ea49415293",
+                      "name": null,
+                      "commodityClass": "55",
+                      "isHazMat": false,
+                      "packagingType": null,
+                      "dimensions": {
+                        "length": {
+                          "value": "36",
+                          "unit": "in"
+                        },
+                        "width": {
+                          "value": "36",
+                          "unit": "in"
+                        },
+                        "height": {
+                          "value": "36",
+                          "unit": "in"
+                        }
+                      }
+                    }
+                  ],
+                  "sortAndSegregateFlag": true
+                }
+              ],
+              "limitedAccessAirportPickupFlag": false,
+              "liftgatePickupFlag": false,
+              "cemeteryPickupFlag": false,
+              "averageDensity": {
+                "unit": "LB_PER_CU_FT",
+                "apiVersion": "1",
+                "value": 3.47
+              },
+              "countryGolfDeliveryFlag": false,
+              "holdAtTerminalFlag": false,
+              "distributionCenterDeliveryFlag": false,
+              "limitedAccessGovernmentFacilityPickupFlag": false,
+              "tradeshowPickupName": null,
+              "totalOldLimitsOfLiability": {
+                "unit": "USD",
+                "apiVersion": "1",
+                "value": 25
+              },
+              "parkDeliveryFlag": false,
+              "countryGolfPickupFlag": false,
+              "limitedAccessDeliveryFlag": false,
+              "handlingCharge": {
+                "value": 50,
+                "unit": "PERCENT"
+              },
+              "mineDeliveryFlag": false,
+              "utilitySitePickupFlag": false,
+              "specialInstructions": "Do Not Stack Some Items - See Descriptions",
+              "militaryDeliveryFlag": false,
+              "vendorBasePriceQualified": true,
+              "totalWeight": {
+                "unit": "LB",
+                "apiVersion": "1",
+                "value": 250
+              },
+              "insuredItemConditions": "USED",
+              "residentialPickupFlag": false,
+              "deliveryConfirmationFlag": false,
+              "unspecifiedDeliveryFlag": false,
+              "sortAndSegregateFlag": false,
+              "residentialDeliveryFlag": false
+            },
+            "productType": "LTL"
+          }
+        ],
+        "totalOfferPrice": {
+          "value": 1087.61,
+          "unit": "USD"
+        },
+        "apiVersion": "3",
+        "offerDate": "2023-11-29 17:42:44",
+        "offerId": "629116ec-1ea3-4fe7-bbf7-9593ca20eadd",
+        "customerUserId": "8h94TCp0N6fg09ipP3yyJmfPPv5l1mCD",
+        "totalHandlingCharge": {
+          "unit": "USD",
+          "apiVersion": "1",
+          "value": 352.54
+        },
+        "status": "Created",
+        "expirationDate": "2023-12-29 17:42:48",
+        "productTransactionId": "86989f4a-f9eb-41da-9c64-44fe979cbe54"
+      }
+    ],
+    "insuranceProvider": {
+      "scac": "UPSC",
+      "status": "Active",
+      "mcNumber": "00000",
+      "scacList": [
+        "UPSC"
+      ],
+      "vendorId": "UPSC",
+      "createdBy": "WWEX",
+      "legalName": "UPS Capital",
+      "namespace": "ss.wwex.vendor.upsc",
+      "orgUnitId": "9a754047-4d4b-38a8-a946-4bf6b92de208",
+      "createDate": "2012-07-30 13:22:57",
+      "pickupDays": [
+        "MONDAY",
+        "TUESDAY",
+        "WEDNESDAY",
+        "THURSDAY",
+        "FRIDAY"
+      ],
+      "vendorType": "Insurance",
+      "addressList": {
+        "ACCOUNT": {
+          "region": "TX",
+          "locality": "Dallas",
+          "addressId": 593361791205,
+          "apiVersion": "3",
+          "postalCode": "75219",
+          "addressType": "ACCOUNT",
+          "companyName": "Worldwide Express",
+          "countryCode": "US",
+          "addressLineList": [
+            "2323 Victory ave",
+            "suite 1600"
+          ]
+        },
+        "BILLING": {
+          "region": "TX",
+          "locality": "Dallas",
+          "addressId": 81531791205,
+          "apiVersion": "3",
+          "postalCode": "75219",
+          "addressType": "BILLING",
+          "companyName": "Worldwide Express",
+          "countryCode": "US",
+          "addressLineList": [
+            "2323 Victory ave",
+            "suite 1600"
+          ]
+        },
+        "REMITTANCE": {
+          "region": "TX",
+          "locality": "Dallas",
+          "addressId": 5949741205,
+          "apiVersion": "3",
+          "postalCode": "75219",
+          "addressType": "REMITTANCE",
+          "companyName": "Worldwide Express",
+          "countryCode": "US",
+          "addressLineList": [
+            "2323 Victory ave",
+            "suite 1600"
+          ]
+        }
+      },
+      "contactList": [
+        {
+          "id": "1919655560",
+          "email": "vendor@noemailprovided.com",
+          "phone": "214-720-2400",
+          "lastName": "NA",
+          "apiVersion": "2",
+          "contactType": "ACCOUNT",
+          "preferredContactMethod": "Phone"
+        }
+      ],
+      "orgUnitName": "UPSC",
+      "orgUnitType": "Vendor",
+      "pickupWindow": 60,
+      "businessHours": [
+        {
+          "endTime": "18:00:00",
+          "isClosed": false,
+          "beginTime": "08:00:00",
+          "dayOfWeek": "MONDAY",
+          "apiVersion": "1",
+          "isOpen24Hours": false
+        },
+        {
+          "endTime": "18:00:00",
+          "isClosed": false,
+          "beginTime": "08:00:00",
+          "dayOfWeek": "TUESDAY",
+          "apiVersion": "1",
+          "isOpen24Hours": false
+        },
+        {
+          "endTime": "18:00:00",
+          "isClosed": false,
+          "beginTime": "08:00:00",
+          "dayOfWeek": "WEDNESDAY",
+          "apiVersion": "1",
+          "isOpen24Hours": false
+        },
+        {
+          "endTime": "18:00:00",
+          "isClosed": false,
+          "beginTime": "08:00:00",
+          "dayOfWeek": "THURSDAY",
+          "apiVersion": "1",
+          "isOpen24Hours": false
+        },
+        {
+          "endTime": "18:00:00",
+          "isClosed": false,
+          "beginTime": "08:00:00",
+          "dayOfWeek": "FRIDAY",
+          "apiVersion": "1",
+          "isOpen24Hours": false
+        }
+      ],
+      "lastUpdatedBy": "SYS",
+      "preferredName": "UPSC",
+      "externalIdList": {
+        "GP_VENDOR_ID": {
+          "externalId": [
+            {
+              "value": "UPSC"
+            }
+          ]
+        }
+      },
+      "lastUpdateDate": "2023-10-12 19:02:07",
+      "latestPickupTime": "17:00:00",
+      "termsPayableDays": 30,
+      "corporateApproved": true,
+      "vendorProductList": [
+        "INSURANCE"
+      ],
+      "notificationWindow": 60,
+      "factoringCompanyList": null,
+      "version": "12"
+    },
+    "message": "Shop Offers created."
+  }
+}

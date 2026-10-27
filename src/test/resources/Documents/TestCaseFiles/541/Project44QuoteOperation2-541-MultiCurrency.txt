@@ -1,0 +1,219 @@
+{
+    "rateQuotes": [
+        {
+            "capacityProviderAccountGroup": {
+                "code": "Default",
+                "accounts": [
+                    {
+                        "code": "SEFL"
+                    }
+                ]
+            },
+            "carrierCode": "SEFL",
+            "mode": "LTL",
+            "capacityProviderQuoteNumber": "CXHGDC2ED",
+            "serviceLevel": {
+                "code": "STD",
+                "description": "Standard Rate"
+            },
+            "transitDays": 5,
+            "currencyCode": "USD",
+	"preferredCurrencyCode": "CAD",
+            "rateQuoteDetail": {
+                "total": 814.72,
+	"totalInPreferredCurrency": 814.72,
+                "charges": [
+                    {
+                        "code": "ITEM",
+                        "description": "Item Charge",
+                        "amount": 2030.4,
+			"amountInPreferredCurrency": 2030.4,
+                        "rate": 101.52,
+                        "itemFreightClass": "55",
+                        "itemWeight": 2000,
+                        "itemWeightUnit": "LB"
+                    },
+                    {
+                        "stopNumber": 1,
+                        "code": "LGPU",
+                        "description": "LIFTGATE PICKUP",
+                        "amount": 137,
+			"amountInPreferredCurrency": 137
+                    },
+                    {
+                        "code": "LGDEL",
+                        "description": "LIFTGATE DELIVERY",
+                        "amount": 137,
+			"amountInPreferredCurrency": 137
+                    },
+                    {
+                        "code": "FSC",
+                        "description": "LTL FUEL SURCHARGE OF 21.05%",
+                        "amount": 94.03,
+			"amountInPreferredCurrency": 94.03
+                    },
+                    {
+                        "code": "DSC",
+                        "description": "Discount: 78.00% ",
+                        "amount": -1583.71,
+			"amountInPreferredCurrency": -1583.71,
+                        "rate": 1583.71
+                    }
+                ]
+            },
+            "laneType": "INTERLINE",
+            "requestedAccessorialServices": [
+                {
+                    "code": "LGPU",
+                    "status": "ACCEPTED"
+                },
+                {
+                    "code": "LGDEL",
+                    "status": "ACCEPTED"
+                }
+            ]
+        },
+
+        {
+            "capacityProviderAccountGroup": {
+                "code": "Default",
+                "accounts": [
+                    {
+                        "code": "XPOL"
+                    }
+                ]
+            },
+            "carrierCode": "XPOL",
+            "mode": "LTL",
+            "serviceLevel": {
+                "code": "STD",
+                "description": "Standard Rate"
+            },
+            "transitDays": 1,
+            "currencyCode": "USD",
+	"preferredCurrencyCode": "CAD",
+            "rateQuoteDetail": {
+                "total": 944.34,
+		"totalInPreferredCurrency": 944.34,
+                "subtotal": 936.6,
+                "charges": [
+                    {
+                        "code": "ITEM",
+                        "description": "Item Charge",
+                        "amount": 936.6,
+			"amountInPreferredCurrency": 936.6,
+                        "rate": 46.83,
+                        "itemFreightClass": "55",
+                        "itemWeight": 2000,
+                        "itemWeightUnit": "LB"
+                    },
+                    {
+                        "code": "LGPU",
+                        "description": "ORIG LIFTGATE SERVICE",
+                        "amount": 160,
+			"amountInPreferredCurrency": 160
+                    },
+                    {
+                        "code": "LGDEL",
+                        "description": "DEST LIFTGATE SERVICE",
+                        "amount": 160,
+			"amountInPreferredCurrency": 160
+                    },
+                    {
+                        "code": "FSC",
+                        "description": "FUEL SURCHARGE 21.20%",
+                        "amount": 109.21,
+			"amountInPreferredCurrency": 109.21
+                    },
+                    {
+                        "code": "DSC",
+                        "description": "Discount",
+                        "amount": -421.47,
+			"amountInPreferredCurrency": -421.47,
+                        "rate": 45
+                    }
+                ]
+            },
+            "laneType": "UNSPECIFIED",
+            "requestedAccessorialServices": [
+                {
+                    "code": "LGPU",
+                    "status": "ACCEPTED"
+                },
+                {
+                    "code": "LGDEL",
+                    "status": "ACCEPTED"
+                }
+            ],
+            "quoteEffectiveDateTime": "2017-08-08T00:00:00",
+            "infoMessages": [
+                {
+                    "severity": "INFO",
+                    "message": "This XPO Logistics shipping price quote is based on information entered into this query including pickup and delivery locations, commodities, weights, appropriate discounts, and accessorial services. Routing by a different freight company may result in different charges. This quote may not include additional accessorial service charges (e.g. Inside Delivery, Liftgate Truck, etc.) that could be required at delivery. XPO Logistics authorizes you to use XPO Logistics rate quote and tracking systems solely for the purpose of conducting business with XPO Logistics and for no other purpose. Your use shall be limited to only those shipments in which you are the shipper, consignee or authorized agent. Any other use of the XPO Logistics systems and information is strictly prohibited. (c) 2017 XPO Logistics. All Rights Reserved. XPO Logistics's logos, trademarks and company names may not be used without prior permission. Email us at LTLinfo@xpo.com. Terms and Conditions at www.con-way.com/Help/terms.html. Privacy Policy at www.con-way.com/Help/privacy.html?dest=privacy.",
+                    "source": "CAPACITY_PROVIDER"
+                }
+            ]
+        },
+
+        {
+            "capacityProviderAccountGroup": {
+                "code": "Default",
+                "accounts": [
+                    {
+                        "code": "RDWY"
+                    }
+                ]
+            },
+            "carrierCode": "RDWY",
+            "mode": "LTL",
+            "capacityProviderQuoteNumber": "",
+            "serviceLevel": {
+                "code": "STD",
+                "description": "Standard Rate"
+            },
+            "transitDays": 2,
+            "deliveryDateTime": "2017-08-10T00:00:00",
+            "currencyCode": "USD",
+	"preferredCurrencyCode": "CAD",
+            "rateQuoteDetail": {
+                "total": 1738.48,
+		"totalInPreferredCurrency": 1738.48,
+                "charges": [
+                    {
+                        "code": "GFC",
+                        "description": "Gross Freight Charge",
+                        "amount": 1580.44,
+			"amountInPreferredCurrency": 1580.44
+                    },
+ {
+                        "code": "FSC",
+                        "description": "FUEL SURCHARGE 10.00%",
+                        "amount": 158.04,
+			"amountInPreferredCurrency": 158.04
+                    }
+
+                ]
+            },
+            "laneType": "DIRECT",
+            "requestedAccessorialServices": [
+                {
+                    "code": "LGPU",
+                    "status": "ACCEPTED_UNITEMIZED"
+                },
+                {
+                    "code": "LGDEL",
+                    "status": "ACCEPTED_UNITEMIZED"
+                }
+            ],
+            "quoteEffectiveDateTime": "2017-08-07T15:13:05",
+            "infoMessages": [
+                {
+                    "severity": "INFO",
+                    "message": "Some services not computed",
+                    "source": "CAPACITY_PROVIDER"
+                }
+            ]
+        }
+
+    ]
+ }

@@ -1,0 +1,77 @@
+<loadStatusMessage>
+<tradingPartnerId>KLIQA</tradingPartnerId>
+<shipmentId>{shipmentId}</shipmentId>
+<loadNum>{shipmentId}</loadNum>
+<referenceNums></referenceNums>
+<currentLocation>
+<status>In Transit</status>
+<stopNum>2</stopNum>
+<reason></reason>
+<statusDate>{CurrentDateMM/dd/yyyy}</statusDate>
+<statusTime>{CurrentTime-2}</statusTime>
+<timeZone>LT</timeZone>
+<city>Bannockburn</city>
+<state>IL</state>
+<country>US</country>
+<lat>42.195650</lat>
+<lon>-87.859529</lon>
+</currentLocation>
+<stops>
+<stop>
+<stopNum>1</stopNum>
+<stopType>Pickup</stopType>
+<stopInstructions>Pickup Instructions</stopInstructions>
+<referenceNums></referenceNums>
+<apptRequired>N</apptRequired>
+<expectedDate>{CurrentDate}</expectedDate>
+<expectedTimeStart>09:00</expectedTimeStart>
+<expectedTimeEnd>22:00</expectedTimeEnd>
+<timeZone>LT</timeZone>
+<company>
+<companyName>Revenova HQ</companyName>
+  <addr>2333 Waukegan Rd. </addr>
+  <city>Bannockburn </city>
+ <state>IL</state>
+   <zip>60015</zip>
+<country>US</country>
+</company>
+<events></events>
+</stop>
+<stop>
+<stopNum>2</stopNum>
+<stopType>Dropoff</stopType>
+<stopInstructions>Delivery Instructions</stopInstructions>
+<referenceNums></referenceNums>
+<apptRequired>N</apptRequired>
+<expectedDate>{CurrentDate+3}</expectedDate>
+<expectedTimeStart>09:00</expectedTimeStart>
+<expectedTimeEnd>22:00</expectedTimeEnd>
+<timeZone>LT</timeZone>
+<company>
+<companyName>Denver Deli Meats</companyName>
+  <addr>1435 Fox St.</addr>
+  <city>Denver </city>
+ <state>CO</state>
+   <zip>80204</zip>
+<country>US</country>
+</company>
+<events></events>
+</stop>
+</stops>
+<items>
+<item>
+<pickupStopNum>1</pickupStopNum>
+<dropoffStopNum>2</dropoffStopNum>
+<itemNum>Item 1</itemNum>
+<desc>Banana</desc>
+<handlingUnitCount></handlingUnitCount>
+<handlingUnits></handlingUnits>
+<packagingUnitCount></packagingUnitCount>
+<packagingUnits></packagingUnits>
+<weight>15000</weight>
+<weightUnits>lbs</weightUnits>
+<dimensionUnits>in</dimensionUnits>
+<isHazardousMaterials>N</isHazardousMaterials>
+</item>
+</items>
+</loadStatusMessage>

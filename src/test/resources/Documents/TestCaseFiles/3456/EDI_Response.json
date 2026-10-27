@@ -1,0 +1,1403 @@
+[
+
+  {
+
+    "inbound": false,
+
+    "ediTransactionId": "{204_EDI_Transaction_Id}",
+
+    "ediProviderRetrievalDatetime": "{RetrievableDataTime}",
+
+    "ediCode": 204,
+
+    "payload": {
+
+      "weightUnits": "lbs",
+
+      "totalWeight": 16200,
+
+      "timeZone": "LT",
+
+      "stops": [
+
+        {
+
+          "timeZone": "LT",
+
+          "stopType": "Pickup",
+
+          "stopNum": 1,
+
+          "stopInstructions": [
+
+            "Pickup Instructions"
+
+          ],
+
+          "referenceNums": [],
+
+          "expectedTimeStart": "09:00",
+
+          "expectedTimeEnd": "22:00",
+
+          "expectedDate": "2028-12-24",
+
+          "contacts": [
+
+            {
+
+              "Phone": "312-999-7777",
+
+              "Fax": "312-222-3333",
+
+              "Email": "Email@email.com",
+
+              "ContactName": "Joe Chicago Pizza"
+
+            }
+
+          ],
+
+          "company": {
+
+            "zip": "60602",
+
+            "state": "IL",
+
+            "country": "US",
+
+            "companyName": "Chicago Pizza",
+
+            "companyId": "{ChicagoPizzaAccountID}",
+
+            "city": "Chicago",
+
+            "addr": "181 W. Madison St."
+
+          },
+
+          "apptRequired": false,
+
+          "accessorials": []
+
+        },
+
+        {
+
+          "timeZone": "LT",
+
+          "stopType": "Dropoff",
+
+          "stopNum": 2,
+
+          "stopInstructions": [
+
+            "Delivery Instructions"
+
+          ],
+
+          "referenceNums": [],
+
+          "expectedTimeStart": "09:00",
+
+          "expectedTimeEnd": "22:00",
+
+          "expectedDate": "1996-06-20",
+
+          "contacts": [
+
+            {
+
+              "Phone": "312-999-7777",
+
+              "Fax": "312-222-3333",
+
+              "Email": "email@email.com",
+
+              "ContactName": "Joe Los Angeles Lighting"
+
+            }
+
+          ],
+
+          "company": {
+
+            "zip": "90023",
+
+            "state": "CA",
+
+            "country": "US",
+
+            "companyName": "Los Angeles Lighting",
+
+            "companyId": "{LosAngelesLightingAccountID}",
+
+            "city": "Los Angeles",
+
+            "addr": "2765 E Olympic Blvd"
+
+          },
+
+          "apptRequired": false,
+
+          "accessorials": []
+
+        },
+
+        {
+
+          "timeZone": "LT",
+
+          "stopType": "Pickup",
+
+          "stopNum": 3,
+
+          "stopInstructions": [
+
+            "Pickup Instructions"
+
+          ],
+
+          "referenceNums": [],
+
+          "expectedTimeStart": "09:00",
+
+          "expectedTimeEnd": "22:00",
+
+          "expectedDate": "1996-06-26",
+
+          "contacts": [
+
+            {
+
+              "Phone": "312-999-7777",
+
+              "Fax": "312-222-3333",
+
+              "Email": "email@email.com",
+
+              "ContactName": "Joe Los Angeles Lighting"
+
+            }
+
+          ],
+
+          "company": {
+
+            "zip": "90023",
+
+            "state": "CA",
+
+            "country": "US",
+
+            "companyName": "Los Angeles Lighting",
+
+            "companyId": "{LosAngelesLightingAccountID}",
+
+            "city": "Los Angeles",
+
+            "addr": "2765 E Olympic Blvd"
+
+          },
+
+          "apptRequired": false,
+
+          "accessorials": []
+
+        },
+
+        {
+
+          "timeZone": "LT",
+
+          "stopType": "Dropoff",
+
+          "stopNum": 4,
+
+          "stopInstructions": [
+
+            "Delivery Instructions"
+
+          ],
+
+          "referenceNums": [],
+
+          "expectedTimeStart": "09:00",
+
+          "expectedTimeEnd": "22:00",
+
+          "expectedDate": "1996-06-30",
+
+          "contacts": [
+
+            {
+
+              "Phone": "312-999-7777",
+
+              "Fax": "312-222-3333",
+
+              "Email": "email@email.com",
+
+              "ContactName": "Joe Chicago Pizza"
+
+            }
+
+          ],
+
+          "company": {
+
+            "zip": "60602",
+
+            "state": "IL",
+
+            "country": "US",
+
+            "companyName": "Chicago Pizza",
+
+            "companyId": "{ChicagoPizzaAccountID}",
+
+            "city": "Chicago",
+
+            "addr": "181 W. Madison St."
+
+          },
+
+          "apptRequired": false,
+
+          "accessorials": []
+
+        }
+
+      ],
+
+      "shipmentId": "Load1A2",
+
+      "respondByTime": "1600",
+
+      "respondByDate": "1996-06-20",
+
+      "referenceNums": [],
+
+      "purpose": "Original",
+
+      "paymentTerms": "Third Party",
+
+      "notifyParty": {
+
+        "zip": "02215",
+
+        "state": "MA",
+
+        "country": "US",
+
+        "contact": {
+
+          "Phone": "312-999-7777",
+
+          "Fax": "312-222-3333",
+
+          "Email": "email@email.com",
+
+          "ContactName": "Joe Boston Beans"
+
+        },
+
+        "companyName": "Boston Beans",
+
+        "city": "Boston",
+
+        "addr": "526 Beacon Street"
+
+      },
+
+      "mode": "Truckload",
+
+      "mileage": 500,
+
+      "items": [
+
+        {
+
+          "weightUnits": "lbs",
+
+          "weight": 15000,
+
+          "referenceNums": [],
+
+          "pickupStopNum": 1,
+
+          "itemNum": "Item 1",
+
+          "isHazMat": false,
+
+          "dropoffStopNum": 2,
+
+          "dimensionUnits": "in",
+
+          "description": "Bananas"
+
+        },
+
+        {
+
+          "weightUnits": "lbs",
+
+          "weight": 1200,
+
+          "referenceNums": [],
+
+          "pickupStopNum": 3,
+
+          "itemNum": "Item 2",
+
+          "isHazMat": true,
+
+          "hazMatContactPhone": "312-999-7777",
+
+          "hazMatContactName": "Joe Los Angeles Lighting",
+
+          "hazMatContactEmail": "email@email.com",
+
+          "dropoffStopNum": 4,
+
+          "dimensionUnits": "in",
+
+          "description": "Grapes"
+
+        }
+
+      ],
+
+      "equipmentWeightUnits": "lbs",
+
+      "equipmentType": "Dry Van 53'",
+
+      "customerBillTo": {
+
+        "zip": "60015",
+
+        "state": "IL",
+
+        "country": "US",
+
+        "contact": {
+
+          "Phone": "312-999-7777",
+
+          "Fax": "312-222-3333",
+
+          "Email": "email@email.com",
+
+          "ContactName": "Joe Revenova HQ"
+
+        },
+
+        "companyName": "Revenova HQ",
+
+        "city": "Bannockburn",
+
+        "addr": "2333 Waukegan Rd."
+
+      },
+
+      "currencyCode": "USD",
+
+      "contractId": "777666555",
+
+      "charges": [
+
+        {
+
+          "type": "Line Haul",
+
+          "description": "Line Haul",
+
+          "amount": 300
+
+        },
+
+        {
+
+          "type": "Fuel",
+
+          "description": "Fuel Surcharge",
+
+          "amount": 200
+
+        },
+
+        {
+
+          "type": "Accessorial",
+
+          "description": "Expedited",
+
+          "amount": 100
+
+        },
+
+        {
+
+          "type": "Accessorial",
+
+          "description": "Hazardous Material Handling",
+
+          "amount": 0
+
+        }
+
+      ],
+
+      "carrierTradingPartnerId": "EDIC1",
+
+      "carrierScac": "SCAC1",
+
+      "carrierQuoteId": "22311322",
+
+      "carrierBillTo": {
+
+        "zip": "60015",
+
+        "state": "IL",
+
+        "country": "US",
+
+        "contact": {
+
+          "Phone": "312-999-7777",
+
+          "Fax": "312-222-3333",
+
+          "Email": "email@email.com",
+
+          "ContactName": "Joe Revenova HQ"
+
+        },
+
+        "companyName": "Revenova HQ",
+
+        "companyId": "{RevenovaHQAccountID}",
+
+        "city": "Bannockburn",
+
+        "addr": "2333 Waukegan Rd."
+
+      }
+
+    }
+
+  },
+
+  {
+
+    "inbound": false,
+
+    "ediTransactionId": "{210_EDI_Transaction_Id}",
+
+    "ediProviderRetrievalDatetime": "{RetrievableDataTime}",
+
+    "ediCode": 210,
+
+    "payload": {
+
+      "weightUnits": "lbs",
+
+      "tradingPartnerId": "KLIQA",
+
+      "totalWeight": 35000,
+
+      "taxes": [
+
+        {
+
+          "taxType": "HST",
+
+          "taxRatePct": 13,
+
+          "taxName": "Ontario HST",
+
+          "taxIdNumber": "",
+
+          "taxAmount": 39
+
+        }
+
+      ],
+
+      "stops": [
+
+        {
+
+          "stopType": "Pickup",
+
+          "stopNum": 1,
+
+          "stopInstructions": [
+
+            "Pickup Instructions"
+
+          ],
+
+          "referenceNums": [],
+
+          "contacts": [],
+
+          "company": {
+
+            "zip": "V6B 1A1",
+
+            "state": "BC",
+
+            "country": "CA",
+
+            "companyName": "Vancouver Vans",
+
+            "city": "Vancouver",
+
+            "addr": "408, 55 Water Street Office 8036"
+
+          }
+
+        },
+
+        {
+
+          "stopType": "Dropoff",
+
+          "stopNum": 2,
+
+          "stopInstructions": [
+
+            "Delivery Instructions"
+
+          ],
+
+          "referenceNums": [],
+
+          "contacts": [],
+
+          "company": {
+
+            "zip": "P9A 3X8",
+
+            "state": "ON",
+
+            "country": "CA",
+
+            "companyName": "Canada Border Services Agency",
+
+            "city": "Fort Frances",
+
+            "addr": "101 Church Street"
+
+          }
+
+        }
+
+      ],
+
+      "shipmentId": "L-12",
+
+      "referenceNums": [],
+
+      "pickupDate": "2026-02-20",
+
+      "paymentTerms": "Third Party",
+
+      "loadNum": "L-12",
+
+      "items": [
+
+        {
+
+          "weightUnits": "lbs",
+
+          "weight": 35000,
+
+          "referenceNums": [],
+
+          "pickupStopNum": 1,
+
+          "itemNum": "Item 1",
+
+          "isHazMat": false,
+
+          "dropoffStopNum": 2,
+
+          "dimensionUnits": "in",
+
+          "description": "mixed"
+
+        }
+
+      ],
+
+      "invoiceNum": "L-12",
+
+      "invoiceDate": "2026-02-25",
+
+      "deliveryDate": "2026-02-20",
+
+      "customerBillTo": {
+
+        "zip": "60015",
+
+        "state": "IL",
+
+        "country": "US",
+
+        "companyName": "Revenova HQ",
+
+        "city": "Bannockburn",
+
+        "addr": "2333 Waukegan Rd."
+
+      },
+
+      "currencyCode": "USD",
+
+      "charges": [
+
+        {
+
+          "type": "Line Haul",
+
+          "rateType": "Fixed Cost",
+
+          "rate": 250,
+
+          "qty": 1,
+
+          "ltlCharge": false,
+
+          "description": "Net Line Haul",
+
+          "amount": 250
+
+        },
+
+        {
+
+          "type": "Fuel",
+
+          "rateType": "Fixed Cost",
+
+          "rate": 50,
+
+          "qty": 1,
+
+          "description": "Fuel Surcharge",
+
+          "amount": 50
+
+        }
+
+      ]
+
+    }
+
+  },
+
+  {
+
+    "inbound": false,
+
+    "ediTransactionId": "{214_EDI_Transaction_Id}",
+
+    "ediProviderRetrievalDatetime": "{RetrievableDataTime}",
+
+    "ediCode": 214,
+
+    "payload": {
+
+      "weightUnits": "lbs",
+
+      "tradingPartnerId": "KLIQA",
+
+      "totalWeight": 27000,
+
+      "stops": [
+
+        {
+
+          "timeZone": "LT",
+
+          "stopType": "Pickup",
+
+          "stopNum": 1,
+
+          "stopInstructions": [
+
+            "Pickup Instructions"
+
+          ],
+
+          "referenceNums": [],
+
+          "expectedTimeStart": "09:00",
+
+          "expectedTimeEnd": "22:00",
+
+          "expectedDate": "2026-01-20",
+
+          "events": [
+
+            {
+
+              "timeZone": "LT",
+
+              "statusTime": "12:00",
+
+              "statusDate": "2026-02-03",
+
+              "status": "Arrived",
+
+              "lon": -87.859529,
+
+              "lat": 42.19565
+
+            }
+
+          ],
+
+          "contacts": [],
+
+          "company": {
+
+            "zip": "60015",
+
+            "state": "IL",
+
+            "country": "US",
+
+            "companyName": "Revenova HQ",
+
+            "city": "Bannockburn",
+
+            "addr": "2333 Waukegan Rd."
+
+          },
+
+          "apptRequired": true
+
+        },
+
+        {
+
+          "timeZone": "LT",
+
+          "stopType": "Dropoff",
+
+          "stopNum": 2,
+
+          "stopInstructions": [
+
+            "Delivery Instructions"
+
+          ],
+
+          "referenceNums": [],
+
+          "expectedTimeStart": "09:00",
+
+          "expectedTimeEnd": "22:00",
+
+          "expectedDate": "2026-01-20",
+
+          "events": [],
+
+          "contacts": [],
+
+          "company": {
+
+            "zip": "90023",
+
+            "state": "CA",
+
+            "country": "US",
+
+            "companyName": "Los Angeles Lighting",
+
+            "city": "Los Angeles",
+
+            "addr": "2765 E Olympic Blvd"
+
+          },
+
+          "apptRequired": false
+
+        },
+
+        {
+
+          "timeZone": "LT",
+
+          "stopType": "Pickup",
+
+          "stopNum": 3,
+
+          "stopInstructions": [
+
+            "Pickup Instructions"
+
+          ],
+
+          "referenceNums": [],
+
+          "expectedTimeStart": "09:00",
+
+          "expectedTimeEnd": "22:00",
+
+          "expectedDate": "2026-01-21",
+
+          "events": [],
+
+          "contacts": [],
+
+          "company": {
+
+            "zip": "90023",
+
+            "state": "CA",
+
+            "country": "US",
+
+            "companyName": "Los Angeles Lighting",
+
+            "city": "Los Angeles",
+
+            "addr": "2765 E Olympic Blvd"
+
+          },
+
+          "apptRequired": false
+
+        },
+
+        {
+
+          "timeZone": "LT",
+
+          "stopType": "Dropoff",
+
+          "stopNum": 4,
+
+          "stopInstructions": [
+
+            "Delivery Instructions"
+
+          ],
+
+          "referenceNums": [],
+
+          "expectedTimeStart": "09:00",
+
+          "expectedTimeEnd": "22:00",
+
+          "expectedDate": "2026-01-23",
+
+          "events": [],
+
+          "contacts": [],
+
+          "company": {
+
+            "zip": "60015",
+
+            "state": "IL",
+
+            "country": "US",
+
+            "companyName": "Revenova HQ",
+
+            "city": "Bannockburn",
+
+            "addr": "2333 Waukegan Rd."
+
+          },
+
+          "apptRequired": false
+
+        }
+
+      ],
+
+      "shipmentId": "L-26",
+
+      "referenceNums": [],
+
+      "loadNum": "L-26",
+
+      "items": [
+
+        {
+
+          "weightUnits": "lbs",
+
+          "weight": 15000,
+
+          "referenceNums": [],
+
+          "pickupStopNum": 1,
+
+          "itemNum": "Item 1",
+
+          "isHazMat": false,
+
+          "dropoffStopNum": 2,
+
+          "dimensionUnits": "in",
+
+          "description": "Bananas"
+
+        },
+
+        {
+
+          "weightUnits": "lbs",
+
+          "weight": 12000,
+
+          "referenceNums": [],
+
+          "pickupStopNum": 3,
+
+          "itemNum": "Item 2",
+
+          "isHazMat": false,
+
+          "dropoffStopNum": 4,
+
+          "dimensionUnits": "in",
+
+          "description": "Grapes"
+
+        }
+
+      ],
+
+      "customerBillTo": {
+
+        "zip": "60015",
+
+        "state": "IL",
+
+        "country": "US",
+
+        "companyName": "Revenova HQ",
+
+        "city": "Bannockburn",
+
+        "addr": "2333 Waukegan Rd."
+
+      }
+
+    }
+
+  },
+
+  {
+
+    "inbound": false,
+
+    "ediTransactionId": "{404_EDI_Transaction_Id}",
+
+    "ediProviderRetrievalDatetime": "{RetrievableDataTime}",
+
+    "ediCode": 404,
+
+    "payload": {
+
+      "weightUnits": "lbs",
+
+      "ultimateShipper": {
+
+        "zip": "90802",
+
+        "timeZone": "LT",
+
+        "state": "CA",
+
+        "expectedTimeStart": "04:00",
+
+        "expectedTimeEnd": "04:00",
+
+        "expectedDate": "2030-09-18",
+
+        "country": "US",
+
+        "contact": {
+
+          "Phone": "312-999-7777",
+
+          "Fax": "312-222-3333",
+
+          "Email": "email@email.com",
+
+          "ContactName": "Joe Port of Long Beach"
+
+        },
+
+        "companyName": "Port of Long Beach",
+
+        "city": "Long Beach",
+
+        "apptRequired": true,
+
+        "addr": "415 W. Ocean Blvd"
+
+      },
+
+      "ultimateConsignee": {
+
+        "zip": "31408",
+
+        "timeZone": "LT",
+
+        "state": "GA",
+
+        "expectedTimeStart": "12:00",
+
+        "expectedTimeEnd": "18:30",
+
+        "expectedDate": "2030-09-23",
+
+        "country": "US",
+
+        "contact": {
+
+          "Phone": "312-999-7777",
+
+          "Fax": "312-222-3333",
+
+          "Email": "email@email.com",
+
+          "ContactName": "Joe Port of Savannah"
+
+        },
+
+        "companyName": "Port of Savannah",
+
+        "city": "Garden City",
+
+        "apptRequired": false,
+
+        "addr": "2 Main St"
+
+      },
+
+      "totalWeight": 14000,
+
+      "timeZone": "LT",
+
+      "stops": [
+
+        {
+
+          "timeZone": "LT",
+
+          "stopType": "Pickup",
+
+          "stopNum": 1,
+
+          "stopInstructions": [
+
+            "Pickup Instructions"
+
+          ],
+
+          "referenceNums": [],
+
+          "expectedTimeStart": "04:00",
+
+          "expectedTimeEnd": "04:00",
+
+          "expectedDate": "2030-09-18",
+
+          "contacts": [
+
+            {
+
+              "Phone": "312-999-7777",
+
+              "Fax": "312-222-3333",
+
+              "Email": "email@email.com",
+
+              "ContactName": "Joe Port of Long Beach"
+
+            }
+
+          ],
+
+          "company": {
+
+            "zip": "90802",
+
+            "state": "CA",
+
+            "country": "US",
+
+            "companyName": "Port of Long Beach",
+
+            "companyId": "{PortOfLong_BeachAccountID}",
+
+            "city": "Long Beach",
+
+            "addr": "415 W. Ocean Blvd"
+
+          },
+
+          "apptRequired": true,
+
+          "accessorials": []
+
+        },
+
+        {
+
+          "timeZone": "LT",
+
+          "stopType": "Dropoff",
+
+          "stopNum": 2,
+
+          "stopInstructions": [
+
+            "Delivery Instructions"
+
+          ],
+
+          "referenceNums": [],
+
+          "expectedTimeStart": "09:00",
+
+          "expectedTimeEnd": "22:00",
+
+          "expectedDate": "2030-09-20",
+
+          "contacts": [
+
+            {
+
+              "Phone": "312-999-7777",
+
+              "Fax": "312-222-3333",
+
+              "Email": "email@email.com",
+
+              "ContactName": "Joe Illinois Terminal"
+
+            }
+
+          ],
+
+          "company": {
+
+            "zip": "60428",
+
+            "state": "IL",
+
+            "country": "US",
+
+            "companyName": "Illinois Terminal",
+
+            "companyId": "{Illinois_TerminalAccountID}",
+
+            "city": "Markham",
+
+            "addr": "2900 166th St"
+
+          },
+
+          "apptRequired": false,
+
+          "accessorials": []
+
+        }
+
+      ],
+
+      "shipmentId": "Load-12ab",
+
+      "respondByTime": "1800",
+
+      "respondByDate": "2030-09-18",
+
+      "referenceNums": [],
+
+      "purpose": "Original",
+
+      "paymentTerms": "Third Party",
+
+      "mode": "Intermodal",
+
+      "mileage": 404,
+
+      "items": [
+
+        {
+
+          "weightUnits": "lbs",
+
+          "weight": 14000,
+
+          "referenceNums": [],
+
+          "pickupStopNum": 1,
+
+          "itemNum": "Item 1",
+
+          "isHazMat": false,
+
+          "handlingUnits": "Pallets",
+
+          "handlingUnitCount": 8,
+
+          "dropoffStopNum": 2,
+
+          "dimensionUnits": "in",
+
+          "description": "Material"
+
+        }
+
+      ],
+
+      "equipmentWeightUnits": "lbs",
+
+      "equipmentType": "Container 45'",
+
+      "customerBillTo": {
+
+        "zip": "60015",
+
+        "state": "IL",
+
+        "country": "US",
+
+        "contact": {
+
+          "Phone": "312-999-7777",
+
+          "Fax": "312-222-3333",
+
+          "Email": "email@email.com",
+
+          "ContactName": "Joe Revenova HQ"
+
+        },
+
+        "companyName": "Revenova HQ",
+
+        "city": "Bannockburn",
+
+        "addr": "2333 Waukegan Rd."
+
+      },
+
+      "currencyCode": "USD",
+
+      "contractId": "Load-12ab",
+
+      "charges": [
+
+        {
+
+          "type": "Line Haul",
+
+          "description": "Line Haul",
+
+          "amount": 300
+
+        },
+
+        {
+
+          "type": "Fuel",
+
+          "description": "Fuel Surcharge",
+
+          "amount": 200
+
+        },
+
+        {
+
+          "type": "Accessorial",
+
+          "description": "Carrier Terminal Drop Off",
+
+          "amount": 100
+
+        }
+
+      ],
+
+      "carrierTradingPartnerId": "REDIC1",
+
+      "carrierScac": "EDC1",
+
+      "carrierQuoteId": "34062942",
+
+      "carrierBillTo": {
+
+        "zip": "60015",
+
+        "state": "IL",
+
+        "country": "US",
+
+        "contact": {
+
+          "Phone": "312-999-7777",
+
+          "Fax": "312-222-3333",
+
+          "Email": "email@email.com",
+
+          "ContactName": "Joe Revenova HQ"
+
+        },
+
+        "companyName": "Revenova HQ",
+
+        "companyId": "{RevenovaHQAccountID}",
+
+        "city": "Bannockburn",
+
+        "addr": "2333 Waukegan Rd."
+
+      }
+
+    }
+
+  },
+
+  {
+
+    "inbound": false,
+
+    "ediTransactionId": "{990_EDI_Transaction_Id}",
+
+    "ediProviderRetrievalDatetime": "{RetrievableDataTime}",
+
+    "ediCode": 990,
+
+    "payload": {
+
+      "tradingPartnerId": "KLIQA",
+
+      "status": "Accept",
+
+      "shipmentId": "Load-Name-1",
+
+      "referenceNums": [],
+
+      "loadNum": "Load-Name-1"
+
+    }
+
+  }
+
+]

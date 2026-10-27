@@ -1,0 +1,27 @@
+<s:Envelope
+        xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <CreateShipmentResponse
+                xmlns="http://tempuri.org/">
+            <CreateShipmentResult
+                    xmlns:a="http://schemas.datacontract.org/2004/07/accufRATE.accufRATE"
+                    xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+                <a:BolID>{BolID}</a:BolID>
+                <a:ErrorMessages
+                        xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                    <b:string/>
+                </a:ErrorMessages>
+                <a:InsuranceCertificateNumber i:nil="true"/>
+                <a:IsRequestValid>true</a:IsRequestValid>
+                <a:LabelImageData i:nil="true"/>
+                <a:PRONumber/>
+                <a:PickUpNumber>{PickUpNumber}</a:PickUpNumber>
+                <a:TmsOrderNumber i:nil="true"/>
+                <a:TmwOrderNumber i:nil="true"/>
+                <a:WGAgentAddress i:nil="true"/>
+                <a:WGTrackingNumber/>
+            </CreateShipmentResult>
+        </CreateShipmentResponse>
+    </s:Body>
+</s:Envelope>
+

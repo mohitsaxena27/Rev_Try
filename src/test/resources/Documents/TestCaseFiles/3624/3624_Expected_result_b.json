@@ -1,0 +1,35 @@
+{
+  "subRequests": [
+    {
+      "body": "{\n  \"carriers\" : [ {\n    \"scac\" : \"SMCA\",\n    \"evaAccessId\" : \"Revenova-126351\",\n    \"billTo\" : {\n      \"account\" : \"0123456789\",\n      \"name\" : \"Revenova HQ\",\n      \"address\" : \"2333 Waukegan Rd.\",\n      \"address2\" : \"\",\n      \"city\" : \"Bannockburn\",\n      \"stateProvince\" : \"IL\",\n      \"postalCode\" : \"60015\",\n      \"country\" : \"USA\",\n      \"contact\" : {\n        \"name\" : \"Joe Revenova HQ\",\n        \"phone\" : \"3129997777\",\n        \"email\" : \"{email}\"\n      }\n    },\n    \"payment\" : {\n      \"terms\" : \"Prepaid\",\n      \"payer\" : \"Shipper\"\n    }\n  } ],\n  \"pricingTypes\" : [ \"DYNAMIC\" ],\n  \"serviceLevels\" : [ \"All\" ],\n  \"transit\" : {\n    \"pickupDate\" : \"{CurrentDateYYYYMMDD}\"\n  },\n  \"unitOfMeasure\" : {\n    \"weight\" : \"Pounds\",\n    \"dimensions\" : \"Inches\"\n  },\n  \"commodities\" : [ {\n    \"classification\" : \"50\",\n    \"weight\" : \"15000\",\n    \"description\" : \"Material\",\n    \"length\" : 24,\n    \"width\" : 48,\n    \"height\" : 48,\n    \"pieces\" : \"1\",\n    \"packagingType\" : \"PAT\",\n    \"stackable\" : \"N\"\n  }, {\n    \"classification\" : \"92.5\",\n    \"weight\" : \"4410\",\n    \"description\" : \"Bananas\",\n    \"length\" : 12,\n    \"width\" : 24,\n    \"height\" : 26,\n    \"pieces\" : \"2\",\n    \"packagingType\" : \"BCH\",\n    \"stackable\" : \"Y\"\n  }, {\n    \"classification\" : \"400\",\n    \"weight\" : \"500\",\n    \"description\" : \"Kiwi\",\n    \"length\" : 36,\n    \"width\" : 72,\n    \"height\" : 48,\n    \"pieces\" : \"26\",\n    \"packagingType\" : \"PCS\",\n    \"stackable\" : \"N\"\n  } ],\n  \"shipmentInfo\" : {\n    \"linearLength\" : 972,\n    \"totalWidth\" : 144,\n    \"totalHeight\" : 122,\n    \"totalWeight\" : 19909\n  },\n  \"accessorials\" : {\n    \"codes\" : [ \"EBP\", \"HAZ\", \"PSC\" ],\n    \"hazardousContact\" : {\n      \"name\" : \"Joe Chicago Bulls\",\n      \"phone\" : \"3129997777\"\n    }\n  },\n  \"origin\" : {\n    \"name\" : \"Chicago Bulls\",\n    \"address\" : \"1901 West Madison Street\",\n    \"city\" : \"Chicago\",\n    \"stateProvince\" : \"IL\",\n    \"postalCode\" : \"60612\",\n    \"country\" : \"USA\"\n  },\n  \"destination\" : {\n    \"name\" : \"Denver Deli Meats\",\n    \"address\" : \"1435 Fox St.\",\n    \"city\" : \"Denver\",\n    \"stateProvince\" : \"CO\",\n    \"postalCode\" : \"80204\",\n    \"country\" : \"USA\"\n  },\n  \"requestor\" : {\n    \"name\" : \"{Company_Name}\",\n    \"contact\" : {\n      \"name\" : \"User User\",\n      \"email\" : \"{email}\"\n    }\n  }\n}",
+      "headers": [
+        {
+          "name": "Accept",
+          "value": "subRequests[0].headers[0].value"
+        },
+        {
+          "name": "Authorization",
+          "value": "subRequests[0].headers[1].value"
+        },
+        {
+          "name": "X-Minor-Version",
+          "value": "subRequests[0].headers[2].value"
+        },
+        {
+          "name": "X-Demo-Instructions",
+          "value": "subRequests[0].headers[3].value"
+        },
+        {
+          "name": "X-EVA-Access-Id",
+          "value": "subRequests[0].headers[4].value"
+        },
+        {
+          "name": "X-Willing-To-Wait-Seconds",
+          "value": "subRequests[0].headers[5].value"
+        }
+      ],
+      "key": "dynamic-cust1-chunk0",
+      "url": "pricing/aggregate/v1/app/"
+    }
+  ]
+}

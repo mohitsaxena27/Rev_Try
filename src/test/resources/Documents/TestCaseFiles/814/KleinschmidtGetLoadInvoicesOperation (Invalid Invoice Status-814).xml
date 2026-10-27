@@ -1,0 +1,52 @@
+<getLoadInvoicesResponse>
+	<status>
+        <statusCode>OK</statusCode>
+        <messageCode></messageCode>
+        <message></message>
+    </status>
+	<loadInvoices>
+		<loadInvoice>
+			<carrierTradingPartnerId>EDIC1</carrierTradingPartnerId>
+			<shipmentId>Load-814</shipmentId>
+			<proNumber>PRO814</proNumber>
+			<invoiceNum>INV814</invoiceNum>
+			<currencyCode>USD</currencyCode>
+			<invoiceDate>2023-08-01</invoiceDate>
+			<invoiceDueDate>2023-08-15</invoiceDueDate>
+			<charges>
+				<charge>
+					<type>Line Haul</type>
+					<desc>Net Line Haul</desc>
+					<qty>1200</qty>
+					<rate>1.00</rate>
+					<rateType>Per Mile</rateType>
+					<amount>1200.00</amount>
+				</charge>
+				<charge>
+					<type>Fuel</type>
+					<desc>Fuel Surcharge</desc>
+					<qty>1200</qty>
+					<rate>0.25</rate>
+					<rateType>Per Mile</rateType>
+					<amount>300.00</amount>
+				</charge>
+				<charge>
+					<type>Accessorial</type>
+					<desc>After Hours Delivery</desc>
+					<qty>1</qty>
+					<rate>75</rate>
+					<rateType>Fixed Cost</rateType>
+					<amount>75.00</amount>
+				</charge>
+				<charge>
+					<type>Accessorial</type>
+					<desc>Unknown Accessorial Name</desc>
+					<qty>5</qty>
+					<rate>75</rate>
+					<rateType>Per Handling Unit</rateType>
+					<amount>375.00</amount>
+				</charge>
+			</charges>
+		</loadInvoice>
+	</loadInvoices>
+</getLoadInvoicesResponse>

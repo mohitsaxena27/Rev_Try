@@ -1,0 +1,129 @@
+{
+  "hos_logs": [
+    {
+      "id": {id},
+      "fleet_id": {fleet_id},
+      "time": "2024-07-14T07:06:25.000Z",
+      "tsp_source": "samsara",
+      "driver_id": {driver_id},
+      "name": "Driver Three Five Nine Zero",
+      "date": "2024-07-15",
+      "work_rules": {
+        "break": "Property (off-duty/sleeper)",
+        "cycle": "USA 60 hour / 7 day",
+        "jurisdiction": "AR",
+        "restart": "34-hour Restart",
+        "shift": "US Interstate Property",
+        "deferral": "Day 1"
+      },
+      "exemptions": {
+        "adverse_driving": true,
+        "short_haul": true,
+        "wait_time": false,
+        "restart_24_hour": false,
+        "break_8_hour": false
+      },
+      "hours_of_service": {
+        "date": "2024-07-15",
+        "off_duty_seconds": 33200,
+        "on_duty_seconds": 17200,
+        "sleeper_seconds": 25200,
+        "driving_seconds": 31600,
+        "waiting_seconds": 2640,
+        "active_seconds": 16500,
+        "personal_conveyance_seconds": 3600,
+        "yard_move_seconds": 5700,
+        "deferral_seconds": 0
+      },
+      "distance": {
+        "drive_distance": {
+          "value": 421,
+          "unit": "kilometers"
+        },
+        "personal_conveyance_distance": {
+          "value": 100,
+          "unit": "mi"
+        },
+        "yard_move_distance": {
+          "value": 1000,
+          "unit": "m"
+        }
+      },
+      "certified": false,
+      "certified_time": "2024-07-15T09:06:41.000Z",
+      "shipping_docs": "Delivery to warehouse 10",
+      "events": [
+        {
+          "id": 26464,
+          "type": "Yard Move",
+          "notes": "In the yard, waiting on shunt",
+          "location": {
+            "latitude": 41.257160,
+            "longitude": -95.995102,
+            "address": "Omaha, Nebraska, USA"
+          },
+          "start_time": "2024-07-15T20:18:35.000Z",
+          "end_time": "2024-07-15T20:48:45.000Z",
+          "deferral_seconds": 0,
+          "vehicle": {
+            "id": 103,
+            "oem": "Freightliner",
+            "model": "Cascadia",
+            "model_year": "2018",
+            "vin": "3AKJHHDR9JSJV5535"
+          },
+          "co_driver": {
+            "id": 621,
+            "name": "Sammy Simpson"
+          }
+        },
+        {
+          "id": 26465,
+          "type": "No Status",
+          "notes": "",
+          "location": {
+            "latitude": 38.412279,
+            "longitude": -104.413179,
+            "address": "Tomahawk Truck Stop"
+          },
+          "start_time": "2024-07-16T11:06:31.000Z",
+          "end_time": "2024-07-16T11:41:05.000Z",
+          "deferral_seconds": 0,
+          "vehicle": {
+            "id": 103,
+            "oem": "Freightliner",
+            "model": "Cascadia",
+            "model_year": "2018",
+            "vin": "3AKJHHDR9JSJV5535"
+          },
+          "co_driver": {
+            "id": 621,
+            "name": "Sammy Simpson"
+          }
+        }
+      ],
+      "vehicles": [
+        {
+          "id": 103,
+          "oem": "Freightliner",
+          "model": "Cascadia",
+          "model_year": "2018",
+          "vin": "3AKJHHDR9JSJV5535"
+        }
+      ],
+      "trailer_info": null,
+      "co_drivers": [
+        {
+          "id": 621,
+          "name": "Sammy Simpson"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "results_per_page": 50,
+    "next_page_cursor": "",
+    "has_next_page": false
+  }
+}

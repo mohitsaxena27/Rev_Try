@@ -1,0 +1,138 @@
+{
+"transactionId": "210-WARD-781799411-159-001590002-6113232613",
+"scac": "SCAC1",
+"paymentTerms": "Prepaid",
+"invoice": {
+"number": "New Invoice 1",
+"date": "2026-04-14",
+"correctionIndicator": ""
+},
+"transit": {
+"pickupDate": "2026-04-06",
+"delivery": {
+"date": "2026-04-08",
+"signature": "",
+"time": ""
+}
+},
+"shipmentInfo": {
+"totalWeight": 431,
+"totalPieces": 1,
+"currency": "USD",
+"totalCharge": "258.83",
+"totalChargeDetails": {
+"lineHaulGrossCharge": "1752.92",
+"minimumCharge": "N",
+"discountPercent": "91.80",
+"discountAmount": "1609.18",
+"lineHaulNetCharge": "143.74",
+"fuelSurcharge": "73.59",
+"accessorialsTotal": "41.50"
+},
+"comments": [
+"NMFC# 153900 S4",
+"STRAWS NMFC 153900 S5",
+"STC 36 CS",
+"48X40X62 (1)",
+"ATTN AK RONFELDT 918 755 2455",
+"DEL HRS 8AM-4PM",
+"EMAIL 48 HRS BEFORE DELIVERY",
+"TO BE SET UP AS CARRIER EXTRA FEES",
+"FOR LATE & OR MISSED APPT WILL",
+"APPLY EXTRA SVCS AT DELV NEED ON-",
+"SITE APPROVAL FROM SHIPPER",
+"OTHERWISE WONT BE PAID",
+"DROPOFF# 17531410 OG8338",
+"SHIPMENT CHANGED PER INSPECTION"
+]
+},
+"referenceNumbers": [
+{
+"referenceType": "pro",
+"referenceValue": "523454"
+}
+],
+"origin": {
+"name": "SOUTHERN MOTOR CARRIERS",
+"address1": "653 LEXINGTON CIRCLE",
+"address2": "",
+"city": "PEACHTREE CITY",
+"stateProvince": "GA",
+"postalCode": "30269",
+"country": "USA",
+"account": ""
+},
+"destination": {
+"name": "SOUTHERN MOTOR CARRIERS",
+"address1": "200 HIGH RISE DRIVE",
+"address2": "SUITE 200",
+"city": "LOUISVILLE",
+"stateProvince": "KY",
+"postalCode": "40213",
+"country": "USA",
+"account": ""
+},
+"billTo": {
+"name": "SOUTHERN MOTOR CARRIERS GRP - 3PTY",
+"address1": "653 LEXINGTON CIRCLE",
+"address2": "",
+"city": "PEACHTREE CITY",
+"stateProvince": "GA",
+"postalCode": "30269",
+"country": "USA",
+"account": ""
+},
+"unitOfMeasure": {
+"weight": "Pounds",
+"dimensions": "Not Specified/Unknown"
+},
+"commodities": [
+{
+"packagingType": "Pallet",
+"pieces": 1,
+"classification": 175,
+"nmfc": "",
+"nmfcSub": "",
+"weight": 431,
+"charges": {
+"rate": "406.71",
+"rateType": "Per Hundred",
+"total": "1752.92",
+"tariffCode": "",
+"tariffDate": ""
+},
+"description": "DURABLE BLUE & WHITE 5.76 PCF",
+"length": 0,
+"width": 0,
+"height": 0
+}
+],
+"accessorials": [
+{
+"code": "MNC",
+"description": "NOTIFY FEE SP",
+"chargeAmount": "15.00",
+"smc3Code": "MISC",
+"smc3Description": "NOTIFY FEE SP"
+},
+{
+"code": "WTV",
+"description": "REWEIGHT AND INSPECTION",
+"chargeAmount": "26.50",
+"smc3Code": "MISC",
+"smc3Description": "REWEIGHT AND INSPECTION"
+}
+],
+"messageStatus": {
+"status": "PASS",
+"code": "10000000",
+"message": "Transaction was successful.",
+"resolution": "",
+"information": [
+{
+"type": "carrierMessage",
+"message": "Currency is missing from EDI file. Hardcoded 'USD'"
+}
+]
+}
+}

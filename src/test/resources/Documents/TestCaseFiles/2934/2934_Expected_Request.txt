@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PostLoads.Many>
+	<LoadDO>
+		<phone>1234567890</phone>
+		<postAction>A</postAction>
+		<importRef>{Load_Number}</importRef>
+		<originCity>Boston</originCity>
+		<originState>MA</originState>
+		<pickupDate>{CurrentDate}</pickupDate>
+		<destCity>Denver</destCity>
+		<destState>CO</destState>
+		<deliveryDate>{CurrentDate+3}</deliveryDate>
+		<truckType>V</truckType>
+		<fullOrPartial>Full</fullOrPartial>
+		<length>48</length>
+		<weight>23000</weight>
+		<rate>1</rate>
+        <comment>testing</comment>
+	</LoadDO>
+</PostLoads.Many>

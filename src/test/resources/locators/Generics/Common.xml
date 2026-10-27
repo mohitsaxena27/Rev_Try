@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <UserName>id=username</UserName>
+    <Password>id=password</Password>
+    <Passwordxpath>//input[@id='password']</Passwordxpath>
+    <LoginButton>//input[@id='Login']</LoginButton>
+    <VerifyAppName>//h1[contains(@class,'appName')]/span</VerifyAppName>
+    <MenuObject>//span[contains(text(),'{paramlink}') and not(@class='slds-truncate')]</MenuObject>
+    <LinkTitle>//*[@title='{paramlink}']</LinkTitle>
+    <AppLauncher>//*[@title='App Launcher']</AppLauncher>
+    <SearchBox>//*[@placeholder='{paramlink}']</SearchBox>
+    <TitleContains>//div[contains(@class,'active ')]//*[contains(@title,'{paramlink}')]</TitleContains>
+    <SearchList>//div[contains(@class,'active ')]//div[@class='searchResultList']/child::*</SearchList>
+    <ProfileIcon>//div[contains(@class,'profile-image-small')]/span</ProfileIcon>
+    <View_List>//div[contains(@class,'active ')]//span[contains(text(),'Recently Viewed')]/../..//button</View_List>
+    <Global_Text>//div[contains(@class,'active ')]//*[text()='{paramlink}']</Global_Text>
+    <ContainerLinkWithScac>(//tr[.//*[normalize-space(.)='{paramlink1}'] and .//*[normalize-space(.)='{paramlink2}']]//*[self::a or @role='link'][normalize-space(.)='{paramlink1}'])[1]</ContainerLinkWithScac>
+    <Global_href>//div[contains(@class,'active ')]//*[contains(@href,'{paramlink}')]</Global_href>
+    <GlobalPlaceholder>//div[contains(@class,'active ')]//*[@placeholder="{paramlink}"]</GlobalPlaceholder>
+    <Global_Text_Contains>//div[contains(@class,'active ')]//*[contains(text(),'{paramlink}')]</Global_Text_Contains>
+    <Label_Button>//div[contains(@class,'active ')]//*[text()='{paramlink}']/../..//button</Label_Button>
+    <Label_Button_2>(//div[contains(@class,'active ')]//*[text()='{paramlink}']/../..//button)[2]</Label_Button_2>
+    <Label_Edit_Icon>//div[contains(@class,'active ')]//*[text()='{paramlink}']/../..//button[contains(@title,'Edit {paramlink}')]</Label_Edit_Icon>
+    <Field_Edit_Icon>//div[contains(@class,'active ')]//*[text()='{paramlink}']/../../../../../../..//*[contains(@title,'Edit')]</Field_Edit_Icon>
+    <InputField>//div[contains(@class,'active ')]//label[contains(text(),'{paramlink}')]/../..//input</InputField>
+    <InputFieldTextArea>//div[contains(@class,'active ')]//label[contains(text(),'{paramlink}')]/../..//textarea</InputFieldTextArea>
+    <InputInfoButton>//div[contains(@class,'active ')]//label[contains(text(),'{paramlink}')]/../..//button</InputInfoButton>
+    <Button_Name_Cotains>//div[contains(@class,'active ')]//*[contains(@name,'{paramlink}')]</Button_Name_Cotains>
+    <Verify_Label_Text_Value>//div[contains(@class,'active ')]//*[contains(text(),'{paramlink1}')]/../..//*[contains(normalize-space(text()),"{paramlink2}")]</Verify_Label_Text_Value>
+    <Verify_Label_Text_Value2>//div[contains(@class,'active ')]//*[contains(text(),'{paramlink1}')]/../..//lightning-formatted-text[contains(normalize-space(.),"{paramlink2}")]</Verify_Label_Text_Value2>
+    <Global_Text_Link>//div[contains(@class,'active ')]//*[contains(text(),'{paramlink}')]/..//a</Global_Text_Link>
+    <ButtonIconTitle>//div[contains(@class,'active ')]//*[@title='{paramlink}']</ButtonIconTitle>F
+    <ButtonIconLegendTitle>//div[contains(@class,'active ')]//legend[text()='{paramlink1}']/..//*[@title='{paramlink2}']</ButtonIconLegendTitle>
+    <ToolTip>//div[contains(@class,'active ')]//button[contains(@aria-describedby,"salesforce-lightning-tooltip")]</ToolTip>
+    <ToolTipAriaDescription>//div[contains(@class,'active ')]//button[contains(@aria-description,"{paramlink}")]</ToolTipAriaDescription>
+    <ButtonIconTitleWithLabel>//div[contains(@class,'active ')]//label[text()='{paramlink}' or .='{paramlink}' or .//span[normalize-space(text())='{paramlink}']]/../..//*[@title="{paramlink2}"]</ButtonIconTitleWithLabel>
+    <ButtonIconTitleContains>//div[contains(@class,'active ')]//*[contains(@title,'{paramlink}')]</ButtonIconTitleContains>
+    <LabelClearIcon>//div[contains(@class,'active ')]//label[text()='{paramlink}']/..//button[@title='Clear Selection' or @data-element-id='searchClear' or contains(@title,'Clear {paramlink}')]</LabelClearIcon>
+    <LabelClearIcon_2>(//div[contains(@class,'active ')]//label[text()='{paramlink}']/..//button[@title='Clear Selection' or @data-element-id='searchClear' or contains(@title,'Clear {paramlink}')])[2]</LabelClearIcon_2>
+    <Div_aria_Label>//div[contains(@class,'active ')]//div[@aria-label="{paramlink}"]</Div_aria_Label>
+    <Div_aria_Label_Span_Text>//div[contains(@class,'active ')]//div[@aria-label="{paramlink1}"]//span[text()='{paramlink2}']</Div_aria_Label_Span_Text>
+    <Div_id_span_text>//div[contains(@class,'active ')]//div[@id="{paramlink1}"]//span[text()='{paramlink2}']</Div_id_span_text>
+    <CheckRequiredLabel>//div[contains(@class,'active ')]//label[contains(text(),'{paramlink}')]/../..//div[text()='Complete this field.']</CheckRequiredLabel>
+    <InputFiledRequired>//div[contains(@class,'active ')]//label[contains(text(),'{paramlink}')]/../..//input[@required]</InputFiledRequired>
+    <PickListRequired>//div[contains(@class,'active ')]//label[contains(text(),'{paramlink}')]/../..//button[@aria-required='true']</PickListRequired>
+     <SpanCheckbox>//div[contains(@class,'active ')]//span[text()='{paramlink}']/../..//input</SpanCheckbox>
+     <Verify_Deatils_Field>//div[contains(@class,'active ')]//*[text()='{paramlink1}' and @class='test-id__field-label']/../..//*[text()='{paramlink2}']</Verify_Deatils_Field>
+     <DetailsFieldValue>//div[contains(@class,'active ')]//*[text()='{paramlink1}' and @class='test-id__field-label']/../..//*[contains(@class,'test-id__field-value')]//*[@data-output-element-id="output-field"]</DetailsFieldValue>
+     <DetailsFieldValueAssistive>//div[contains(@class,'active ')]//*[text()='{paramlink1}' and @class='test-id__field-label']/../..//*[contains(@class,'test-id__field-value')]//*[@data-output-element-id="output-field"]//*[text() and not(contains(@class,'slds-assistive-text'))]</DetailsFieldValueAssistive>
+     <VerifyStopDetails>//div[contains(@class,'active ')]//abbr[normalize-space(text())='{paramlink1}']/ancestor::div[@rtms-stopdetail_stopdetail]//*[text()='{paramlink2}']/../../..//lightning-formatted-text</VerifyStopDetails>
+     <BannerFieldValue>//div[contains(@class,'active ')]//span[text()='{paramlink}']/..//*[@class='slds-form-element__static']</BannerFieldValue>
+     <VerifyCheckBox>//div[contains(@class,'active ')]//*[text()='{paramlink}']/..//input</VerifyCheckBox>
+    <LogoutText>//a[.='{paramlink}']</LogoutText>
+     <LabelTextLegend>//div[contains(@class,'active ')]//legend[text()='{paramlink1}']/..//label[text()='{paramlink2}']</LabelTextLegend>
+    <LinkText>//div[contains(@class,'active')]//a[normalize-space(text())='{paramlink}'or .='{paramlink}']</LinkText>
+    <LinkText1>//div[contains(@class,'active')]//a/*[@title='{paramlink}']</LinkText1>
+    <WithTitle>//div[contains(@class,'active')]//*[@title='{paramlink}']</WithTitle>
+    <WithTitleContains>//div[contains(@class,'active')]//*[contains(@title,'{paramlink}')]</WithTitleContains>
+    <WithTitleModal>//div[contains(@class,'active')]//div[contains(@class,'slds-modal__content') or contains(@class,'slds-modal__footer')]//*[@title='{paramlink}']</WithTitleModal>
+    <WithTitleModalFooter>//div[contains(@class,'active')]//div[contains(@class,'slds-modal__content') or contains(@class,'slds-modal__footer')]//lightning-modal-footer//*[@title='{paramlink}']</WithTitleModalFooter>
+    <TabLink>//*[@id='{Paramlink2}']//*[@class='revenovaHeader1 revenovaLink' and contains(text(),'{Paramlink3}')]</TabLink>>
+    <InputName>//div[contains(@class,'active ')]//input[contains(@name,'{paramlink}')]</InputName>
+    <VerifyInputText>//div[contains(@class,'active ')]//span[contains(text(),'{paramlink1}')]/../..//*[contains(text(),'{paramlink2}')]</VerifyInputText>
+    <Button_Div>//div[contains(@class,'active ')]//div[text()='{paramlink}']</Button_Div>
+    <Search_Result>//div[contains(@class,'active ')]//div[@class='searchResultList']//*[contains(text(),'{paramlink}')]</Search_Result>
+    <Field_Button>//div[contains(@class,'active ')]//button[@aria-label='{paramlink}']</Field_Button>
+    <SpanText>//div[contains(@class,'active ')]//span[contains(text(),'{paramlink}')]</SpanText>
+    <SpanTitle>//div[contains(@class,'active ')]//span[@title='{paramlink}']</SpanTitle>
+    <SelectValueFromComboBox>//div[contains(@class,'active ')]//label[contains(text(),'{paramlink1}')]/../..//span[text()='{paramlink2}']</SelectValueFromComboBox>
+    <TextField>//div[contains(@class,'active ')]//*[text()='{paramlink}']</TextField>
+    <ButtonText>//div[contains(@class,'active ')]//button[text()='{paramlink}']</ButtonText>
+    <ButtonTitle>//div[contains(@class,'active ')]//button[@title='{paramlink}']</ButtonTitle>
+    <!--ButtonTitle1>//button[@title='{paramlink}' or .='{paramlink}']</ButtonTitle1-->
+    <DivText>//div[contains(@class,'active ')]//div[contains(text(),'{paramlink}')]</DivText>
+    <LabelText>//div[contains(@class,'active ')]//label[text()='{paramlink}' or .='{paramlink}' or .//span[normalize-space(text())='{paramlink}']]</LabelText>
+    <LabelTextUsingdatafieldname>//div[contains(@class,'active ')]//*[@data-field-name="{paramlink}"]//Label</LabelTextUsingdatafieldname>
+    <LabelTextWithIndex2>(//div[contains(@class,'active ')]//label[text()='{paramlink}' or .='{paramlink}'])[{index}]</LabelTextWithIndex2>
+
+    <LabelTextUnderSection>//div[contains(@class,'active ')]//label[normalize-space(text())='{SectionName}']/ancestor::c-revenova-row//label[text()='{paramlink}' or .='{paramlink}' or .//span[normalize-space(text())='{paramlink}']]</LabelTextUnderSection>
+    <LabelTextUnderSectionWithIndex>(//div[contains(@class,'active ')]//label[normalize-space(text())='{SectionName}']/ancestor::c-revenova-row//label[text()='{paramlink}' or .='{paramlink}' or .//span[normalize-space(text())='{paramlink}']])[2]</LabelTextUnderSectionWithIndex>
+    <LayoutDetailsLabelText>//div[contains(@class,'active ')]//lightning-layout-item//label[text()='{paramlink}' or .='{paramlink}' or .//span[normalize-space(text())='{paramlink}']]</LayoutDetailsLabelText>
+    <LabelCheckboxValue>//div[contains(@class,'active ')]//span[text()='{paramlink}']/..//lightning-icon</LabelCheckboxValue>
+    <LabelCheckboxValueWithIndex>(//div[contains(@class,'active ')]//span[text()='{paramlink}']/..//lightning-icon)[2]</LabelCheckboxValueWithIndex>
+    <LabelTextWithIndex>(//div[contains(@class,'active ')]//label[text()='{paramlink}' or .='{paramlink}'])[2]</LabelTextWithIndex>
+    <LayoutDetailsLabelTextWithIndex>(//div[contains(@class,'active ')]//lightning-layout-item//label[text()='{paramlink}' or .='{paramlink}'])[2]</LayoutDetailsLabelTextWithIndex>
+    <FormFields>//div[contains(@class,'active ')]//*[@id='{paramlink}' and not(@type='hidden')]</FormFields>
+    <DropdownListBox>//div[contains(@class,'active ')]//*[@id='{paramlink}' and not(@type='hidden')]/../../../../../..//div[@role='listbox']</DropdownListBox>
+    <DropdownListBoxOptionList>//div[contains(@class,'active ')]//*[@id='{paramlink}' and not(@type='hidden')]/../../../../../..//div[@role='listbox']//span[text()='{paramlink2}']</DropdownListBoxOptionList>
+    <FormFieldsSpan>//div[contains(@class,'active ')]//*[@id='{paramlink}']/../..//*[@icon-name="utility:down"]</FormFieldsSpan>
+    <VerifyPlaceholder>//div[contains(@class,'active ')]//*[@placeholder="{paramlink}"]</VerifyPlaceholder>
+    <Edit_Field>//div[contains(@class,'active ')]//span[text()='{paramlink}']/../..//button</Edit_Field>
+    <SpanText1>//div[contains(@class,'active ')]//span[text()='{paramlink}']</SpanText1>
+    <SpanText2>(//div[contains(@class,'active ')]//a[contains(@class,'slds-truncate')]//span[contains(text(),'{paramlink}')])[{index}]</SpanText2>
+    <GlobalServicesHeader>//div[contains(@class,'active ')]//header//span[text()='{paramlink}']</GlobalServicesHeader>
+    <SpanLink>//div[contains(@class,'active ')]//*[contains(text(),'{paramlink1}')]/..//a</SpanLink>
+    <ButtonSpanText>//div[contains(@class,'active ')]//button[@aria-label="{paramlink}"]/span</ButtonSpanText>
+    <LegendSpanText>//div[contains(@class,'active ')]//*[text()='{paramlink1}']/..//span[text()='{paramlink2}']</LegendSpanText>
+    <VerifyLabelInputDataValue>//div[contains(@class,'active ')]//label[text()='{paramlink1}']/..//input[@data-value="{paramlink2}"]</VerifyLabelInputDataValue>
+    <VerifyLabelButtonDataValue>//div[contains(@class,'active ')]//label[text()='{paramlink1}']/..//input[@data-value="{paramlink2}"]</VerifyLabelButtonDataValue>
+    <ClearSection>//div[contains(@class,'active ')]//label[text()='{paramlink}']/..//button[@title='Clear Selection']</ClearSection>
+     <HandleTabRowValue>//div[contains(@class,'active ')]//*[@aria-label='{paramlink}']//tbody//tr//*[@data-label='{paramlink2}']//*[contains(text(),'{paramlink3}')]</HandleTabRowValue>
+     <TableName>//div[contains(@class,'active ')]//*[@aria-label='{paramlink}']//table</TableName>
+     <SortRow>//div[contains(@class,'active ')]//*[@title='{paramlink1}' and contains(@class,'{paramlink2}')]</SortRow>
+     <TableNameWithDataComponantID>//div[contains(@class,'active ')]//*[@data-component-id='{paramlink}']//table</TableNameWithDataComponantID>
+     <LocateTable>//div[contains(@class,'active ')]//div[.//*[text()='{paramlink1}']]//Table</LocateTable>
+     <IframeTitle>//div[contains(@class,'active ')]//iframe[contains(@title,'{paramlink}')]</IframeTitle>
+     <SpanLabel>//div[contains(@class,'active ')]//span[text()='{paramlink}']/../..//label</SpanLabel>
+     <FieldCheck>//div[contains(@class,'active ')]//span[text()='{paramlink1}']/..//*[@title='{paramlink2}']</FieldCheck>
+     <BtnClickOnPage>//div[contains(@class,'active ')]//*[contains(text(),'{paramlink2}')]/../..//input[@title='{paramlink1}']</BtnClickOnPage>
+     <ValueInput>//div[contains(@class,'active ')]//*[@value='{paramlink}']</ValueInput>
+    <JobStatus>//div[contains(@class,'active ')]//*[text()='{paramlink}']/../../../../../td[@data-label='Status']//lightning-base-formatted-text</JobStatus>
+    <Execute_button>//div[contains(@class,'active ')]//*[text()='{paramlink}']/../../../../../th//button</Execute_button>
+    <JobButton>//div[contains(@class,'active ')]//*[text()='{paramlink}']/../../../../../th//span[text()='{paramlink1}']</JobButton>
+     <OptionAvailableList>//div[contains(@class,'active')]//*[text()='{paramlink1}']/..//ul[@data-source-list]//span[@title='{paramlink2}']</OptionAvailableList>
+     <OptionChosenList>//div[contains(@class,'active')]//*[text()='{paramlink1}']/..//ul[@data-selected-list]//span[@title='{paramlink2}']</OptionChosenList>
+    <WithFieldNameAndTitle>//div[contains(@class,'active')]//*[text()='{paramlink1}']/..//*[@title='{paramlink2}']</WithFieldNameAndTitle>
+    <Spinner>//div[contains(@class,'active ')]//div[contains(@class,'slds-spinner__dot-b')]</Spinner>
+    <WithTextModal>//div[contains(@class,'active')]//div[contains(@class,'modal-container')]//button//span[text()='{paramlink}']</WithTextModal>
+    <VerifyNoRecords>//div[contains(@class,'active ')]//span[contains(@class,'countSortedByFilteredBy') and contains(text(),'0 items')]</VerifyNoRecords>
+    <SelectRowOnSearchResult>//div[contains(@class,'active ')]//span[text()='{paramlink}']/ancestor::*[self::th or self::td] /..//td//input</SelectRowOnSearchResult>
+    <CloseToastMsg>//button[contains(@class,'modal__close ') or contains(@class,'toastClose')]</CloseToastMsg>
+    <CloseSuccessToastMsg>//*[@data-key='success']//button[contains(@class,'modal__close ') or contains(@class,'toastClose')]</CloseSuccessToastMsg>
+    <CloseToastActMsg>//span[contains(text(),'{paramlink}')]/../../../../..//button[contains(@class,'modal__close ') or contains(@class,'toastClose')]</CloseToastActMsg>
+    <CloseToastMsg1>//button[contains(@class,'modal__close ') or contains(@class,'toastClose')]</CloseToastMsg1>
+    <ErrorCloseToastMsg>//span[contains(text(),'{paramlink}')]/ancestor::div[@data-key="error"]//button[contains(@class,'modal__close ') or contains(@class,'toastClose')]</ErrorCloseToastMsg>
+    <JobRundetails>//div[contains(@class,'active ')]//*[text()='{paramlink}']/ancestor::tr</JobRundetails>
+    <CloseModal>//button[contains(@class,'toastClose') or contains(@class,'modal__close')]</CloseModal>
+    <VerifyMessage>//*[contains(text(),'{paramlink}')]</VerifyMessage>
+    <VerifyMessage1>//*[contains(@class,'toastMessage') and contains(text(),'{paramlink}')]</VerifyMessage1>
+    <ErrorMessage>//div[@data-key='error']//*[@icon-name='utility:error']/..//span[contains(@class,'toastMessage')]</ErrorMessage>
+    <SpanTextTab>//span[contains(text(),'{paramlink}')]</SpanTextTab>
+    <SpanTextObject>//span[text()='{paramlink}']</SpanTextObject>
+    <HitSnag>//h2[text()='We hit a snag.']</HitSnag>
+    <SearchApp>//*[@placeholder='Search apps and items...']</SearchApp>
+    <AppLink>//div[contains(@class,'appLauncherMenu')]//*[@data-label='{paramlink}']</AppLink>
+    <SetUpLink>//ul[@class='scrollable']//span[text()='{paramlink}']</SetUpLink>
+    <SelectTextRadio>//*[contains(text(),'{paramlink}')]/../../../../..//label/span</SelectTextRadio>
+    <GlobalText2>//*[text()='{paramlink}']</GlobalText2>
+    <Toastmessage>//div[@data-key='info']//span[@data-aura-class="forceActionsText"]</Toastmessage>
+    <toastclose>(//*[@data-key='info']//button[contains(@class,'toastClose')])[last()]</toastclose>
+    <ToastLabel>//div[@data-key='success']//div[contains(@id,'toastLabel')]</ToastLabel>
+    <ToastDescription>//div[@data-key='success']//div[contains(@id,'toastDescription')]/span</ToastDescription>
+    <warningToastLabel>//div[@data-key='warning']//div[contains(@id,'toastLabel')]</warningToastLabel>
+    <warningToastDescription>//div[@data-key='warning']//div[contains(@id,'toastDescription')]/span</warningToastDescription>
+    <EntityAttributeDetail>//*[contains(@class,'windowViewMode-normal')]//*[@id='{paramlink1}']//*[text()='{paramlink2}']/parent::*/following-sibling::*//*[@slot='output']</EntityAttributeDetail>
+    <CustomSelect>//*[normalize-space(text())='{paramlink}']/parent::*/parent::*//select</CustomSelect>
+    <Div_id_span_text>//div[contains(@class,'active ')]//div[@id="{paramlink1}"]//span[text()='{paramlink2}']</Div_id_span_text>
+    <ModalButtons>//div[@class='modal-container slds-modal__container']/.//span[text()='{paramlink}']</ModalButtons>
+    <SectionName>//*[text()='{paramlink}']/parent::*[contains(@class,'pbSubheader')]/parent ::*</SectionName>
+    <Selectlist>//select[contains(@name,'{paramlink}')]</Selectlist>
+    <ButtonValue>//*[@value='{paramlink}']</ButtonValue>
+    <TableRowCount>//div[contains(@class,'active')]//*[@aria-label='{paramlink}']//tbody//tr</TableRowCount>
+    <ButtonwithType>//div[contains(@class,'active')]//button[text()='{paramlink1}' and @type='{paramlink2}']</ButtonwithType>
+    <GettingOriginalUrlfromEmbed>//*[@id='document-container']//*[@id='plugin']</GettingOriginalUrlfromEmbed>
+    <DeleteJob>(//th[text()='{paramlink}']/../td[1]/a)[1]</DeleteJob>
+    <DeleteJob2>//th[text()='{paramlink}']/../td[1]/a[text()='Del']</DeleteJob2>
+    <AvaialbleField>//ul[@data-source-list]//span[@title='{paramlink}']</AvaialbleField>
+    <VisibleField>//ul[@data-selected-list]//span[@title='{paramlink}']</VisibleField>
+    <WithoutActiveTitle>//*[@title='{paramlink}']</WithoutActiveTitle>
+    <Preview_file>//div[contains(@class,'active ')]//*[contains(text(),'Preview Attachments')]/../../..//lightning-button-icon</Preview_file>
+    <SelectFieldToDisplaySave>//*[contains(text(),'Select Fields to Display')]/../../..//*[text()='Save']</SelectFieldToDisplaySave>
+    <RelatedButton>//div[contains(@class,'active ')]//*[contains(text(),'{paramlink1}')]/../../../../../..//*[text()="{paramlink2}"]</RelatedButton>
+    <VerifyDebuggingMessage>//*[@data-key='info']//button[contains(@class,'toastClose')]</VerifyDebuggingMessage>
+    <TableRowDropDown>//*[@aria-label="{paramlink}"]//button[.//span[normalize-space(text())='Show Actions']]</TableRowDropDown>
+    <TooltipMessage>//div[contains(@class,'tooltip')]//*[contains(text(),'{paramlink}')]</TooltipMessage>
+    <PreviewAttachmentContent>//iframe[contains(@src,'lightning.force.com') or contains(@src,'.my.salesforce.com')]</PreviewAttachmentContent>
+    <SpanCheckBoxInput>//span[text()='{paramlink}']/..//input</SpanCheckBoxInput>
+    <LabelLink>//div[contains(@class,'active ')]//span[text()='{paramlink}']/../..//a//span[text()]</LabelLink>
+    <VerifyCombobox>//div[contains(@class,'active ')]//*[@title='{paramlink1}' and @{paramlink2}]//label</VerifyCombobox>
+    <VerifyButtonTitlewithCustom>//div[contains(@class,'active ')]//*[@{paramlink2}]//*[@title='{paramlink1}']</VerifyButtonTitlewithCustom>
+    <VerifyUpdatewithCustom>//div[contains(@class,'active ')]//*[@{paramlink2}]//*[contains(text(),'Updated ')]</VerifyUpdatewithCustom>
+    <WithTitleButton>//div[contains(@class,'active ')]//*[@title='{paramlink}']//button</WithTitleButton>
+    <IconName>//div[contains(@class,'active ')]//lightning-icon[@icon-name='{paramlink}']</IconName>
+    <IconClassName>//div[contains(@class,'active ')]//button[contains(@class,'{paramlink}')]</IconClassName>
+    <IconClassNameWithRow>//div[contains(@class,'active ')]//tr[.//*[text()='{paramlink1}']]//button[contains(@class,'{paramlink}')]</IconClassNameWithRow>
+
+    <ColumnBorderColor>//div[contains(@class,'active ')]//tr[.//*[text()='{paramlink}']]//td[@data-label="{paramlink1}"]</ColumnBorderColor>
+    <VerifyButton>//div[contains(@class,'active')]//button[text()='{paramlink1}' and @aria-disabled='{paramlink2}']</VerifyButton>
+    <InputFieldValue>//div[contains(@class,'active')]//input[@{paramlink1}='{paramlink2}']</InputFieldValue>
+    <TableRowValue>//*[@data-label='{paramlink1}']//span[text()='{paramlink2}']</TableRowValue>
+    <radioButtonWithoutLabe>//div[contains(@class,'active')]//tr[@role='row']//input[@type='radio']</radioButtonWithoutLabe>
+    <CarrierQuoteListButton>//*[@rtms-carrierquotelist_carrierquotelist]//button[normalize-space()='{paramlink}']</CarrierQuoteListButton>
+    <DropdownLabel>//label[normalize-space(text())='{paramlink}']/following::button[@role='combobox'][1]</DropdownLabel>
+    <DropdownList>//label[normalize-space(text())='{paramlink}'] /following::div[@role='listbox'][1]//span[@title]</DropdownList>
+    <Verify_Label_Input_Value>//div[contains(@class,'active')]//label[normalize-space()='{paramlink}']/following::input[1]</Verify_Label_Input_Value>
+    <PopUp>//div[contains(@class,'active')]//div[contains(@class,'forceHighlightsPreviewStencil')]</PopUp>
+    <ButtonOnModal>//div[contains(@class,'slds-modal')]//button[text()='{paramlink}']</ButtonOnModal>
+    <LabelFieldInput>//div[contains(@class,'slds-modal')]//label[.//*[text()='{paramlink}']]/..//input</LabelFieldInput>
+    <Div_Dropdown>//div[contains(@class,'dropdown')]/..//*[text()='{paramlink}']</Div_Dropdown>
+    <ToastMessagesList>//div[@data-aura-class='forceToastMessage']</ToastMessagesList>
+    <SetupFieldsByLabel>//tr[.//label[normalize-space()='{paramlink}']]//input</SetupFieldsByLabel>
+    <EpaymetsDropdown>//span[text()='{paramlink}']/ancestor::th/..//td/..//lightning-button-menu/button</EpaymetsDropdown>
+    <EpaymetEditRow>//span[text()='{paramlink1}']/following::div//a[@title='{paramlink2}']</EpaymetEditRow>
+    <ModalSearchBox>//*[contains(@class,'modal') or contains(@role,'dialog')]//*[@placeholder='{paramlink}']</ModalSearchBox>
+    <ModalButtonText>//*[contains(@class,'modal') or contains(@role,'dialog') or contains(@class,'slds-modal')]//button[normalize-space()='{paramlink}' or .//span[normalize-space()='{paramlink}']] | //lightning-modal-footer//button[normalize-space()='{paramlink}' or .//span[normalize-space()='{paramlink}']]</ModalButtonText>
+</locators>

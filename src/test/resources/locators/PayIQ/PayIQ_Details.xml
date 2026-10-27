@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <AccessorialRemoveIcon>//lightning-icon[@icon-name='{paramlink2}' and @data-accessorial-index='{paramlink1}']</AccessorialRemoveIcon>
+    <ClickOnRecordsWithThree>//div[contains(@class,'active')]//tr[.//td[@data-label="{paramlink1}"]//*[contains(normalize-space(),'{paramlink2}')] and .//td[@data-label="{paramlink3}"]//*[contains(normalize-space(),'{paramlink4}')] and .//td[@data-label="{paramlink5}"]//*[contains(normalize-space(),'{paramlink6}')]]//*[contains(text(),'{paramlink7}')]</ClickOnRecordsWithThree>
+    <ClickOnRecordsWithFour>//div[contains(@class,'active')]//tr[.//td[@data-label="{paramlink1}"]//*[text()='{paramlink2}'] and .//td[@data-label="{paramlink3}"]//*[text()='{paramlink4}']  and .//td[@data-label="{paramlink5}"]//*[text()='{paramlink6}']and .//td[@data-label="{paramlink7}"]//*[text()='{paramlink8}']]//*[contains(text(),'{paramlink9}')]</ClickOnRecordsWithFour>
+    <ClickonRecord>//div[contains(@class,'active')]//tr[.//td[@data-label='{paramlink1}']//*[text()='{paramlink2}']]//*[contains(text(),'{paramlink3}')]</ClickonRecord>
+    <LogsDetail>//div[contains(@class,'active ')]//*[normalize-space(.)='{paramlink}']</LogsDetail>
+<!--    <Unloaded>//div[contains(@class,'active ')]//*[@data-segment-number='{paramlink2}']/../../..//lightning-layout[contains(@class,'mileageBox')]//lightning-layout-item[.//*[text()='{paramlink1}']]/following-sibling::lightning-layout-item[1]//lightning-formatted-number</Unloaded>-->
+    <Unloaded>//div[contains(@class,'active ')]//*[@data-segment-number='{paramlink2}']/../../..//lightning-layout[contains(@class,'mileageBox')]//lightning-layout-item[.//*[text()='{paramlink1}']]/following-sibling::lightning-layout-item[1]//lightning-formatted-number</Unloaded>
+    <Unloaded_1>//div[contains(@class,'active ')]//*[@data-segment-number='{paramlink2}']/../../..//lightning-layout[contains(@class,'mileageBox')]//lightning-layout-item[.//*[text()='{paramlink1}']]/following-sibling::lightning-layout-item[2]//lightning-formatted-number</Unloaded_1>
+
+<!--    <TableRecordsWithThree>//div[contains(@class,'active')]//tr[.//td[@data-label='{paramlink1}']//*[normalize-space(.)='{paramlink2}'] and .//td[@data-label='{paramlink3}']//*[normalize-space(.)='{paramlink4}'] and .//td[@data-label='{paramlink5}']//*[normalize-space(.)='{paramlink6}'] ]-->
+<!--    </TableRecordsWithThree>-->
+    <TableRecordsWithThree>//div[contains(@class,'active')]//tr[.//*[self::td or self::th][@data-label='{paramlink1}']//*[normalize-space(.)='{paramlink2}'] and .//*[self::td or self::th][@data-label='{paramlink3}']//*[normalize-space(.)='{paramlink4}'] and .//*[self::td or self::th][@data-label='{paramlink5}']//*[normalize-space(.)='{paramlink6}']]
+    </TableRecordsWithThree>
+
+    <TableName>//div[contains(@class,'active ')]//*[@aria-label='{paramlink}']//table</TableName>
+    <LogsDetailContains>//div[contains(@class,'active ')]//*[contains(normalize-space(.), "{paramlink}")]</LogsDetailContains>
+    <LogsDetailContainsValue>(//div[contains(@class,'active')]//span[contains(normalize-space(.),'{paramlink1}')and contains(normalize-space(.),'{paramlink2}') and contains(normalize-space(.),'{paramlink3}')and contains(normalize-space(.),'{paramlink4}')])[1]</LogsDetailContainsValue>
+    <EstimateInputField>(//*[contains(@class,'estimateBox') and .//*[text()='{paramlink1}']]//*[contains(@class,'estimateDetailBox')]//label)[{index}]</EstimateInputField>
+    <EstimatedPayAmountByRow>(//*[contains(@class,'estimateBox') and .//*[text()='{paramlink1}']]//*[contains(@class,'estimateDetailBox')]//input[@inputmode= 'decimal'])[index]</EstimatedPayAmountByRow>
+    <EstimatedPayEditButtonByRow>(//*[contains(@class,'estimateBox') and .//*[text()='{paramlink1}']]//*[contains(@class,'estimateDetailBox')]//input[@inputmode='decimal'])[index]/ancestor::lightning-layout-item[1]/following-sibling::lightning-layout-item[1]//button[@title='Edit']</EstimatedPayEditButtonByRow>
+</locators>
+

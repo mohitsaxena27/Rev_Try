@@ -1,0 +1,59 @@
+{
+  "accessorialServices": [
+  ],
+  "apiConfiguration": {
+    "accessorialServiceConfiguration": {
+      "allowUnacceptedAccessorials": false,
+      "fetchAllGuaranteed": true,
+      "fetchAllInsideDelivery": false,
+      "fetchAllServiceLevels": true
+    },
+    "enableUnitConversion": true,
+    "timeout": 40
+  },
+  "capacityProviderAccountGroup": {
+    "code": "HYBRID"
+  },
+  "destinationAddress": {
+    "addressLines": [
+      "526 Beacon Street"
+    ],
+    "city": "Boston",
+    "country": "US",
+    "postalCode": "02215",
+    "state": "MA"
+  },
+  "lengthUnit": "FT",
+  "lineItems": [
+    {
+      "description": "Material",
+      "freightClass": "50",
+      "packageDimensions": {
+        "height": 3,
+        "length": 1,
+        "width": 3
+      },
+      "packageType": "DRUM",
+      "stackable": false,
+      "totalPackages": 2,
+      "totalWeight": 1500
+    }
+  ],
+  "originAddress": {
+    "addressLines": [
+      "2333 Waukegan Rd."
+    ],
+    "city": "Bannockburn",
+    "country": "US",
+    "postalCode": "60015",
+    "state": "IL"
+  },
+  "pickupWindow": {
+    "date": "{CurrentData}",
+    "endTime": "22:00",
+    "startTime": "09:00"
+  },
+  "preferredCurrency": "USD",
+  "totalLinearFeet": 1,
+  "weightUnit": "KG"
+}

@@ -1,0 +1,2 @@
+{"statusCode":200,"message":"Tracking records submitted for deletion",
+  "deletedTrackingIds":[{TrackingID}]}

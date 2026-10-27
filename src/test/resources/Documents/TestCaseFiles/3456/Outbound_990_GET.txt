@@ -1,0 +1,8 @@
+{
+"tradingPartnerId": "KLIQA",
+"status": "Accept",
+"shipmentId": "Load-Name-1",
+"referenceNums": [
+],
+"loadNum": "Load-Name-1"
+}

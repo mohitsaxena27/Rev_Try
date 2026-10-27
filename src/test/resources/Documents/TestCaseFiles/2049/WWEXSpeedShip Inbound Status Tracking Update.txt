@@ -1,0 +1,183 @@
+{
+  "apiVersion": "1",
+  "clientStatus": {
+    "apiVersion": "1",
+    "success": true,
+    "message": ""
+  },
+  "correlationId": "NG-577c21f0-f3fb-456c-8420-6eefab88bc38",
+  "executionId": "NG-577c21f0-f3fb-456c-8420-6eefab88bc38",
+  "response": {
+    "apiVersion": "1",
+    "orderedItemFulfillmentStatusList": [
+      {
+        "status": "DELIVERED",
+        "apiVersion": "1",
+        "orderedItemId": "e337b2f8-e126-4185-abfc-6c2601ff7b09",
+        "fulfillmentStatusList": [
+          {
+            "code": "DELIVERED",
+            "stop": {
+              "address": {
+                "region": "DC",
+                "locality": "WASHINGTON",
+                "countryCode": "US"
+              },
+              "stopWindow": {
+                "actualEndTime": "2024-02-02 09:38:00",
+                "actualStartTime": "2024-02-02 09:38:00"
+              }
+            },
+            "reasonCode": "NS",
+            "description": "Carrier Departed Delivery Location",
+            "eventDateTime": "2024-02-02 09:38:00",
+            "vendorStatusCode": "CD"
+          },
+          {
+            "code": "AT_DELIVERY",
+            "stop": {
+              "address": {
+                "region": "DC",
+                "locality": "WASHINGTON",
+                "countryCode": "US"
+              },
+              "stopWindow": {
+                "actualEndTime": "2024-02-02 09:32:00",
+                "actualStartTime": "2024-02-02 09:32:00"
+              }
+            },
+            "reasonCode": "NS",
+            "description": "Arrived at Delivery Location",
+            "eventDateTime": "2024-02-02 09:32:00",
+            "vendorStatusCode": "X1"
+          },
+          {
+            "code": "OUT_FOR_DELIVERY",
+            "stop": {
+              "address": {
+                "region": "MD",
+                "locality": "GLEN BURNIE",
+                "countryCode": "US"
+              },
+              "stopWindow": {
+                "actualEndTime": "2024-02-02 08:10:00",
+                "actualStartTime": "2024-02-02 08:10:00"
+              }
+            },
+            "reasonCode": "NS",
+            "description": "En Route to Delivery Location",
+            "eventDateTime": "2024-02-02 08:10:00",
+            "vendorStatusCode": "X6"
+          },
+          {
+            "code": "IN_TRANSIT",
+            "stop": {
+              "address": {
+                "region": "MD",
+                "locality": "GLEN BURNIE",
+                "countryCode": "US"
+              },
+              "stopWindow": {
+                "actualEndTime": "2024-02-02 01:35:00",
+                "actualStartTime": "2024-02-02 01:35:00"
+              }
+            },
+            "reasonCode": "NS",
+            "description": "Arrived at Terminal Location",
+            "eventDateTime": "2024-02-02 01:35:00",
+            "vendorStatusCode": "X4"
+          },
+          {
+            "code": "IN_TRANSIT",
+            "stop": {
+              "address": {
+                "region": "VA",
+                "locality": "RICHMOND",
+                "countryCode": "US"
+              },
+              "stopWindow": {
+                "actualEndTime": "2024-02-01 22:54:00",
+                "actualStartTime": "2024-02-01 22:54:00"
+              }
+            },
+            "reasonCode": "NS",
+            "description": "Departed Terminal Location",
+            "eventDateTime": "2024-02-01 22:54:00",
+            "vendorStatusCode": "P1"
+          },
+          {
+            "code": "IN_TRANSIT",
+            "stop": {
+              "address": {
+                "region": "VA",
+                "locality": "RICHMOND",
+                "countryCode": "US"
+              },
+              "stopWindow": {
+                "actualEndTime": "2024-02-01 18:30:00",
+                "actualStartTime": "2024-02-01 18:30:00"
+              }
+            },
+            "reasonCode": "NS",
+            "description": "Arrived at Terminal Location",
+            "eventDateTime": "2024-02-01 18:30:00",
+            "vendorStatusCode": "X4"
+          },
+          {
+            "code": "IN_TRANSIT",
+            "stop": {
+              "address": {
+                "region": "VA",
+                "locality": "VIRGINIA BEACH",
+                "countryCode": "US"
+              },
+              "stopWindow": {
+                "actualEndTime": "2024-02-01 15:35:00",
+                "actualStartTime": "2024-02-01 15:35:00"
+              }
+            },
+            "reasonCode": "NS",
+            "description": "Arrived at Pick-up Location",
+            "eventDateTime": "2024-02-01 15:35:00",
+            "vendorStatusCode": "X3"
+          },
+          {
+            "code": "PENDING_PICKUP",
+            "apiVersion": "2",
+            "eventDateTime": "2024-02-01 14:20:00"
+          },
+          {
+            "code": "CREATED",
+            "apiVersion": "2",
+            "eventDateTime": "2024-02-01 14:19:46"
+          }
+        ]
+      }
+    ],
+    "secondaryTxnIdV2List": [
+      {
+        "type": "BILL_OF_LADING",
+        "value": "NUD10802076"
+      },
+      {
+        "type": "PRO",
+        "value": "123456",
+        "source": "VENDOR_TRACKING"
+      },
+      {
+        "type": "CARRIER_QUOTE_NUMBER",
+        "value": "456"
+      },
+      {
+        "type": "CERTIFICATE_NBR",
+        "value": "657",
+        "apiVersion": "2"
+      },
+      {
+        "type": "TRACKING_ID",
+        "value": "123",
+        "apiVersion": "2"
+      }
+    ]
+  }
+}

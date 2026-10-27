@@ -1,0 +1,67 @@
+{
+  "data": {
+    "id": "data.id",
+    "driver": {
+      "id": "6855466",
+      "name": "Dave Jones"
+    },
+    "name": "Trip_Plan_ID",
+    "settings": {
+      "routeStartingCondition": "arriveFirstStop",
+      "routeCompletionCondition": "departLastStop",
+      "sequencingMethod": "scheduledArrivalTime"
+    },
+    "stops": [
+      {
+        "id": "data.stops[0].id",
+        "scheduledArrivalTime": "{CurrentDate+1}T12:00:00.000Z",
+        "sequenceNumber": 1,
+        "singleUseLocation": {
+          "address": "",
+          "latitude": 33.446306,
+          "longitude": -112.068422,
+          "radiusMeters": 300
+        },
+        "notes": "",
+        "orders": [],
+        "name": "Phoenix AZ",
+        "state": "scheduled",
+        "liveSharingUrl": "https://cloud.samsara.com/o/82103/fleet/viewer/job/CuUV9GCmTAyLnpOu6sNl"
+      },
+      {
+        "id": "data.stops[1].id",
+        "scheduledDepartureTime": "{CurrentDate+2}T18:00:00.000Z",
+        "sequenceNumber": 2,
+        "scheduledArrivalTime": "{CurrentDate+2}T18:00:00.000Z",
+        "notes": "",
+        "orders": [],
+        "address": {
+          "id": "256496082",
+          "name": "1-800-Pack-Rat (Chattanooga)"
+        },
+        "name": "Kansas City Chiefs",
+        "state": "scheduled",
+        "liveSharingUrl": "https://cloud.samsara.com/o/82103/fleet/viewer/job/Vrsr8EKXNLrXCHi7P4d5"
+      },
+      {
+        "id": "data.stops[2].id",
+        "scheduledDepartureTime": "{CurrentDate+7}T18:00:00.000Z",
+        "scheduledArrivalTime": "{CurrentDate+7}T18:00:00.000Z",
+        "singleUseLocation": {
+          "address": "",
+          "latitude": 37.557666,
+          "longitude": -92.789626,
+          "radiusMeters": 300
+        },
+        "notes": "",
+        "orders": [],
+        "sequenceNumber": 3,
+        "name": "Missouri Terminal",
+        "state": "scheduled",
+        "liveSharingUrl": "https://cloud.samsara.com/o/82103/fleet/viewer/job/nbAFRuHSdyJbjc7crgBZ"
+      }
+    ],
+    "scheduledRouteStartTime": "{CurrentDate+1}T12:00:00.000Z",
+    "scheduledRouteEndTime": "{CurrentDate+7}T18:00:00.000Z"
+  }
+}

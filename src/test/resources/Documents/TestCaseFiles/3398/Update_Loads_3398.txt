@@ -1,0 +1,138 @@
+[
+    {
+        "inbound": true,
+        "ediCode": 214,
+        "payload": {
+            "waybillNumber": "way3398A",
+            "stopNumber": 1,
+            "shipmentId": "Load-3398A",
+            "eventZip": "80465",
+            "eventState": "CO",
+            "eventDetail": "Arrived at Pickup Location",
+            "eventDate": "2018-12-23",
+            "eventCountry": "US",
+            "eventCode": "X3",
+            "eventCity": "Morrison",
+            "carrierTradingPartnerId": "REDIC1",
+            "bookingNumber": "3398BNA"
+        }
+    },
+    {
+        "inbound": true,
+        "ediCode": 214,
+        "payload": {
+            "stopNumber": 1,
+            "shipmentId": "Load-3398B",
+            "longitude": -117.9495,
+            "latitude": 34.02,
+            "eventTimeZone": "CST",
+            "eventTime": "08:00",
+            "eventDetail": "Departed Pickup Location with Shipment",
+            "eventDate": "2018-12-23",
+            "eventCode": "AF",
+            "carrierTradingPartnerId": "EDIC1"
+        }
+    },
+    {
+        "inbound": true,
+        "ediCode": 214,
+        "payload": {
+            "shipmentId": "Load-3398C",
+            "eventTime": "08:45",
+            "eventDetail": "Arrived at Delivery Location",
+            "eventDate": "2018-12-22",
+            "eventCode": "X1",
+            "carrierTradingPartnerId": "EDIC1"
+        }
+    },
+    {
+        "inbound": true,
+        "ediCode": 214,
+        "payload": {
+            "stopNumber": 2,
+            "shipmentId": "Load-3398D",
+            "eventTime": "08:00",
+            "eventDetail": "Carrier Departed Delivery Location",
+            "eventDate": "2018-12-23",
+            "eventCode": "CD",
+            "carrierTradingPartnerId": "EDIC1"
+        }
+    },
+    {
+        "inbound": true,
+        "ediCode": 214,
+        "payload": {
+            "stopNumber": 2,
+            "shipmentId": "Load-3398E",
+            "longitude": -117.9495,
+            "latitude": 34.02,
+            "eventZip": "66103",
+            "eventTime": "16:55",
+            "eventState": "KS",
+            "eventDetail": "Arrived at Pickup Location",
+            "eventDate": "2024-10-14",
+            "eventCountry": "US",
+            "eventCode": "X3",
+            "eventCity": "Kansas City",
+            "carrierTradingPartnerId": "EDIC1"
+        }
+    },
+    {
+        "inbound": true,
+        "ediCode": 214,
+        "payload": {
+            "shipmentId": "Load-3398F",
+            "longitude": -117.9495,
+            "latitude": 34.02,
+            "eventZip": "62702",
+            "eventTimeZone": "CST",
+            "eventTime": "12:55",
+            "eventState": "IL",
+            "eventDetail": "En Route to Delivery Location",
+            "eventDate": "2024-10-14",
+            "eventCountry": "US",
+            "eventCode": "X6",
+            "eventCity": "Springfield",
+            "carrierTradingPartnerId": "EDIC1"
+        }
+    },
+    {
+        "inbound": true,
+        "ediCode": 214,
+        "payload": {
+            "waybillNumber": "way3398G",
+            "shipmentId": "Load-3398G",
+            "sealNumber": "SNG3398",
+            "longitude": -87.63,
+            "latitude": 41.88,
+            "eventZip": "80465",
+            "eventState": "CO",
+            "eventDetail": "Rail Arrived at Destination Ramp",
+            "eventDate": "2018-12-23",
+            "eventCountry": "US",
+            "eventCode": "AR",
+            "eventCity": "Morrison",
+            "carrierTradingPartnerId": "REDIC1"
+        }
+    },
+    {
+        "inbound": true,
+        "ediCode": 214,
+        "payload": {
+            "waybillNumber": "way3398H",
+            "shipmentId": "Load-3398H",
+            "sealNumber": "SNH3398",
+            "longitude": -87.63,
+            "latitude": 41.88,
+            "eventZip": "80465",
+            "eventState": "CO",
+            "eventDetail": "Rail Departure from Somewhere",
+            "eventDate": "2018-12-23",
+            "eventCountry": "US",
+            "eventCode": "RL",
+            "eventCity": "Morrison",
+            "carrierTradingPartnerId": "REDIC1",
+            "bookingNumber": "3398BNH"
+        }
+    }
+]

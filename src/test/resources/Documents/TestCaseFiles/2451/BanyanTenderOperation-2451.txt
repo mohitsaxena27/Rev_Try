@@ -1,0 +1,265 @@
+{
+  "Success": true,
+  "Error": null,
+  "request": {
+    "AuthenticationData": {
+      "Username": "_",
+      "Password": "_",
+      "ClientRefNum": "_"
+    },
+    "Loadinfo": {
+      "LoadID": 24512451,
+      "ManifestID": "",
+      "BOLNumber": "REVBOL2451",
+      "CustomerPO": "",
+      "InvoiceID": "",
+      "BillingID": "",
+      "IncoTermID": null,
+      "UltimateDestinationCountryCode": "",
+      "PickupNumber": "",
+      "EstimatedDeliveryDate": "2020-02-03T17:38:00",
+      "EstimatedPickupDate": "2020-01-29T07:10:00",
+      "ActualPickupDate": "2020-01-31T09:25:00",
+      "ActualDeliveryDate": "2020-02-05T06:30:00"
+    },
+    "BillTo": {
+      "Name": "Revenova",
+      "Note": "",
+      "ShipType": 2,
+      "PayType": 1,
+      "UseDefaultBillTo": false,
+      "AddressInfo": {
+        "Address1": "2333 Waukegan Rd",
+        "Address2": "",
+        "City": "Bannockburn",
+        "CountryName": null,
+        "CountryCode": "United States",
+        "State": "IL",
+        "Zipcode": "60015",
+        "LocationName": "Revenova"
+      },
+      "ContactInfo": {
+        "FirstName": "",
+        "LastName": "",
+        "ContactName": "",
+        "Phone": "",
+        "PhoneExt": "",
+        "Fax": "",
+        "Email": "noreply@revenova.com"
+      },
+      "UseDefaultShipType": false,
+      "UseDefaultPayType": false
+    },
+    "InsuranceInfo": null,
+    "RateServices": [
+      {
+        "ServiceCode": 1,
+        "ShippingQty": 2,
+        "PackageType": 29,
+        "EquipmentType": 5,
+        "AdditionalWeight": 0,
+        "SpecialInstructions": "",
+        "Length": null,
+        "Width": null,
+        "Height": null,
+        "WeightUom": 1,
+        "SizeUom": 1
+      }
+    ],
+    "Shipper": {
+      "ContactInfo": {
+        "FirstName": "Dave",
+        "LastName": "TMKB",
+        "ContactName": "Dave TMKB",
+        "Phone": "(312) 777-8888",
+        "PhoneExt": "",
+        "Fax": "",
+        "Email": "dcraigmile@revenova.com"
+      },
+      "AddressInfo": {
+        "Address1": "6880 Parkway Drive",
+        "Address2": "",
+        "City": "Brookfield",
+        "CountryName": null,
+        "CountryCode": "United States",
+        "State": "OH",
+        "Zipcode": "44403",
+        "LocationName": "TMK Brookfield"
+      },
+      "CompanyName": "",
+      "Note": "",
+      "CompanyID": "",
+      "LocationName": null,
+      "VendorID": "",
+      "DCRefNum": null,
+      "Dock": {
+        "Name": "Dock",
+        "Note": "",
+        "OpenTime": "2020-01-29T08:00:00",
+        "ShipmentDateTime": "2020-01-29T08:00:00",
+        "CloseTime": "2020-01-29T23:00:00",
+        "ConfirmationNumber": "",
+        "FCFS": false
+      }
+    },
+    "Consignee": {
+      "ContactInfo": {
+        "FirstName": "Dave",
+        "LastName": "TMKH",
+        "ContactName": "Dave TMKH",
+        "Phone": "(312) 888-9999",
+        "PhoneExt": "",
+        "Fax": "",
+        "Email": "dcraigmile@revenova.com"
+      },
+      "AddressInfo": {
+        "Address1": "8216 Miller Road",
+        "Address2": "",
+        "City": "Houston",
+        "CountryName": null,
+        "CountryCode": "United States",
+        "State": "TX",
+        "Zipcode": "77049",
+        "LocationName": "TMK Houston"
+      },
+      "CompanyName": "",
+      "Note": "",
+      "CompanyID": "",
+      "LocationName": null,
+      "VendorID": "",
+      "DCRefNum": null,
+      "Dock": {
+        "Name": "Dock",
+        "Note": "",
+        "OpenTime": "2020-02-03T08:00:00",
+        "ShipmentDateTime": "2020-02-03T12:00:00",
+        "CloseTime": "2020-02-03T17:00:00",
+        "ConfirmationNumber": "",
+        "FCFS": false
+      }
+    },
+    "ReturnLocation": null,
+    "PackageInfo": {
+      "CODAmount": 0,
+      "DeclaredLiability": 0,
+      "RouteNumber": ""
+    },
+    "Products": [
+      {
+        "Quantity": 2,
+        "PackageType": 29,
+        "Weight": 1000,
+        "Class": 1,
+        "NMFC": "",
+        "SKU": "Item",
+        "IsHazmat": false,
+        "HazmatPhoneNumber": "",
+        "HazmatPhoneExt": "",
+        "Description": "Fooda",
+        "Length": 0,
+        "Width": 0,
+        "Height": 0,
+        "UOM": 0,
+        "SortOrder": 1,
+        "ReferenceNumber": "",
+        "ParcelOptions": {
+          "DeliveryConfirmation": 0,
+          "COD": 0,
+          "CODAmount": 0,
+          "AdditionalHandling": false,
+          "LargePackage": false,
+          "DeclaredValue": 0,
+          "UnitValue": null,
+          "UnitWeight": null,
+          "UnitType": null
+        },
+        "UnNumber": "",
+        "HazMatShippingName": "",
+        "HazMatPkgGroup": "",
+        "HazMatClass": "",
+        "InternationalOptions": {
+          "ScheduleBCode": null,
+          "HarmonizedSystemCode": null,
+          "ECCN": null,
+          "UnitOriginCountryCode": null
+        },
+        "HazMatContact": "",
+        "HazMatPoison": false
+      }
+    ],
+    "ShipperAccessorials": {
+      "AppointmentRequired": false,
+      "InsidePickup": false,
+      "SortSegregate": false,
+      "PalletJack": false,
+      "ResidentialPickup": false,
+      "LiftgatePickup": true,
+      "MarkingTagging": false,
+      "TradeShowPickup": false,
+      "NYCMetro": false,
+      "NonBusinessHourPickup": false,
+      "LimitedAccessType": ""
+    },
+    "ConsigneeAccessorials": {
+      "AppointmentRequired": false,
+      "InsideDelivery": false,
+      "SortSegregate": false,
+      "PalletJack": false,
+      "ResidentialDelivery": false,
+      "LiftgateDelivery": true,
+      "MarkingTagging": false,
+      "TradeShowDelivery": false,
+      "NYCMetro": false,
+      "DeliveryNotification": false,
+      "TwoHourSpecialDelivery": false,
+      "NonBusinessHourDelivery": false,
+      "LimitedAccessType": ""
+    },
+    "LoadAccessorials": {
+      "Guaranteed": false,
+      "TimeDefinite": false,
+      "Expedited": false,
+      "HolidayPickup": false,
+      "HolidayDelivery": false,
+      "WeightDetermination": false,
+      "BlindShipment": false,
+      "BlanketService": false,
+      "ProtectFromFreezing": false,
+      "SingleShipment": false,
+      "CustomsInBond": false,
+      "OverDimension": false,
+      "Stackable": false,
+      "Turnkey": false,
+      "FoodGradeProducts": false,
+      "TSA": false,
+      "Bulkhead": false,
+      "SignatureRequired": false,
+      "BlanketServiceChilled": false,
+      "BlanketServiceFrozen": false,
+      "SaturdayDelivery": false,
+      "SecondMan": false,
+      "ReturnReceipt": false,
+      "ShipmentHold": false,
+      "ProactiveResponse": false,
+      "ShipperRelease": false,
+      "WhiteGlove": false,
+      "RestrictedDelivery": false
+    },
+    "UserDefined": [],
+    "ReferenceField": []
+  },
+  "DispatchResponse": {
+    "LoadID": 28079563,
+    "Success": true,
+    "PickupNumber": "1234567",
+    "CarrierName": "Estes Express Lines (LTL Standard Transit)",
+    "QuoteNumber": "L89BV5W",
+    "EstimatedDeliveryDate": "2020-02-03T12:00:00",
+    "ProNumber": "PRO2451",
+    "UserMessage": null,
+    "BOLLink": null,
+    "Errors": null,
+    "Warnings": null
+  },
+  "ProNumber": null
+}

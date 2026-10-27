@@ -1,0 +1,227 @@
+[
+    {
+        "inbound": true,
+        "ediCode": 204,
+        "payload": {
+            "tradingPartnerId": "KLIQA",
+            "totalCharge": 2500,
+            "stops": [
+                {
+                    "stopType": "pickup",
+                    "stopNum": 1,
+                    "stopInstructions": [
+                        "go to dock 122"
+                    ],
+                    "referenceNums": [
+                        {
+                            "value": "02240044",
+                            "type": "PO",
+                            "text": "PO Number"
+                        }
+                    ],
+                    "expectedTimeStart": "13:00",
+                    "expectedTimeEnd": "15:00",
+                    "expectedDate": "2028-08-24",
+                    "contacts": [
+                        {
+                            "Phone": "312-888-9999",
+                            "Fax": "312-888-9999",
+                            "Email": "gsmiley@mi6.org",
+                            "ContactName": "George Smiley"
+                        }
+                    ],
+                    "company": {
+                        "zip": "85004",
+                        "state": "AZ",
+                        "country": "US",
+                        "companyName": "Arizona Diamondbacks",
+                        "companyId": "AZD1",
+                        "city": "Phoenix",
+                        "addr": "401 E Jefferson St"
+                    },
+                    "apptRequired": false
+                },
+                {
+                    "stopType": "dropoff",
+                    "stopNum": 2,
+                    "referenceNums": [
+                        {
+                            "value": "04022401275315659",
+                            "type": "BM",
+                            "text": "BOL Number"
+                        },
+                        {
+                            "value": "LD000461060",
+                            "type": "CR",
+                            "text": "Customer Reference Number"
+                        }
+                    ],
+                    "expectedTimeStart": "06:00",
+                    "expectedTimeEnd": "08:00",
+                    "expectedDate": "2028-08-26",
+                    "contacts": [],
+                    "company": {
+                        "zip": "85284",
+                        "state": "AZ",
+                        "country": "US",
+                        "companyName": "Arizona Cardinals",
+                        "companyId": "AZC1",
+                        "city": "Tempe",
+                        "addr": "8701 S Hardy Dr"
+                    },
+                    "apptRequired": true
+                },
+                {
+                    "stopType": "dropoff",
+                    "stopNum": 3,
+                    "referenceNums": [
+                        {
+                            "value": "02240044",
+                            "type": "PO",
+                            "text": "PO Number"
+                        }
+                    ],
+                    "expectedTimeStart": "06:30",
+                    "expectedTimeEnd": "08:30",
+                    "expectedDate": "2028-08-26",
+                    "contacts": [],
+                    "company": {
+                        "zip": "75039",
+                        "state": "TX",
+                        "country": "US",
+                        "companyName": "NeimanMarcus - Irving",
+                        "companyId": "OG-0044",
+                        "city": "Irving",
+                        "addr": "123 Customer Way"
+                    },
+                    "apptRequired": false
+                },
+                {
+                    "stopType": "dropoff",
+                    "stopNum": 4,
+                    "referenceNums": [],
+                    "expectedTimeStart": "16:30",
+                    "expectedTimeEnd": "18:30",
+                    "expectedDate": "2028-08-27",
+                    "contacts": [],
+                    "company": {
+                        "zip": "76011",
+                        "state": "TX",
+                        "country": "US",
+                        "companyName": "Texas Rangers",
+                        "companyId": "TXR1",
+                        "city": "Arlington",
+                        "addr": "1000 Ballpark Way Ste 400"
+                    },
+                    "apptRequired": false
+                }
+            ],
+            "specialInstructions": [
+                "Hello",
+                "World"
+            ],
+            "shipmentId": "Load-3380",
+            "respondByTime": "19:30",
+            "respondByDate": "2028-12-23",
+            "referenceNums": [],
+            "purpose": "Original",
+            "poNum": "3380",
+            "paymentTerms": "Collect",
+            "orderNum": "ON3380",
+            "mode": "Truckload",
+            "mileage": 250,
+            "items": [
+                {
+                    "width": 48,
+                    "weightUnits": "lbs",
+                    "weight": 20000,
+                    "volumeUnits": "Cubic Feet",
+                    "volume": 200,
+                    "referenceNums": [],
+                    "pickupStopNum": 1,
+                    "packagingUnits": "Pieces",
+                    "packagingUnitCount": 10,
+                    "nmfcNum": "122270",
+                    "nmfcClass": "70",
+                    "length": 48,
+                    "itemNum": "MG000520788",
+                    "isHazMat": true,
+                    "height": 48,
+                    "hazMatPackagingGroup": "III",
+                    "hazMatNumberType": "UN",
+                    "hazMatNumber": "1234",
+                    "hazMatContactPhone": "775-441-9985",
+                    "hazMatContactName": "QA Arizona Cardinals",
+                    "hazMatContactEmail": "HFord@revenova.com",
+                    "hazMatClassDivision": "1.1",
+                    "handlingUnits": "Pallets",
+                    "handlingUnitCount": 10,
+                    "dropoffStopNum": 2,
+                    "dimensionUnits": "in",
+                    "description": "CLOTHING LT/12 PCF"
+                },
+                {
+                    "weightUnits": "lbs",
+                    "weight": 300,
+                    "referenceNums": [],
+                    "pickupStopNum": 1,
+                    "packagingUnits": "Pieces",
+                    "packagingUnitCount": 10,
+                    "nmfcNum": "049880-03",
+                    "itemNum": "MG000520789",
+                    "isHazMat": false,
+                    "hazMatContactPhone": "741-778-7741",
+                    "hazMatContactName": "QA Arizona Diamondbacks 3380",
+                    "hazMatContactEmail": "qa@revenova.com",
+                    "handlingUnits": "Pallets",
+                    "handlingUnitCount": 3,
+                    "dropoffStopNum": 3,
+                    "description": "CLOTHING LT/12 PCF"
+                },
+                {
+                    "weightUnits": "lbs",
+                    "weight": 1300,
+                    "referenceNums": [],
+                    "pickupStopNum": 1,
+                    "nmfcNum": "123774-01",
+                    "itemNum": "Item5789",
+                    "isHazMat": false,
+                    "hazMatContactPhone": "775-441-9981",
+                    "hazMatContactName": "QA Hazmat Not Found",
+                    "hazMatContactEmail": "qa@revenova.com",
+                    "handlingUnits": "Pallets",
+                    "handlingUnitCount": 1,
+                    "dropoffStopNum": 4,
+                    "description": "Hangers"
+                }
+            ],
+            "insuranceAmount": 250,
+            "equipmentType": "53' van **#Dry",
+            "currencyCode": "USD",
+            "charges": [
+                {
+                    "type": "Line Haul",
+                    "description": "Line Haul",
+                    "amount": 5000
+                },
+                {
+                    "type": "Fuel",
+                    "description": "Fuel Surcharge",
+                    "amount": 200
+                },
+                {
+                    "type": "Accessorial",
+                    "description": "Lift Gate",
+                    "amount": 100
+                },
+                {
+                    "type": "Accessorial",
+                    "description": "Lumper ",
+                    "amount": 200
+                }
+            ],
+            "cargoValue": 50000,
+            "bolNum": "3380BOL"
+        }
+    }
+]

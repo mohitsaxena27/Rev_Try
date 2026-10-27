@@ -1,0 +1,20 @@
+{
+  "Address": null,
+  "Coords": null,
+  "Region": 0,
+  "Label": null,
+  "PlaceName": null,
+  "TimeZone": null,
+  "Errors": [
+    {
+      "Type": 1,
+      "Code": 88,
+      "LegacyErrorCode": 400,
+      "Description": "No matching city found"
+    }
+  ],
+  "SpeedLimitInfo": null,
+  "ConfidenceLevel": null,
+  "DistanceFromRoad": null,
+  "CrossStreet": null
+}

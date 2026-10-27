@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Order xmlns:ns0="http://macropoint-lite.com/xml/1.0">
+	<ns0:TrackVia>
+		<ns0:Number Type="Mobile">2179721878</ns0:Number>
+	</ns0:TrackVia>
+	<ns0:TrackStartDateTime>{CurrentDate+1} 08:30 CT</ns0:TrackStartDateTime>
+	<ns0:Notifications>
+		<ns0:Notification>
+			<ns0:PartnerMPID>5313778</ns0:PartnerMPID>
+			<ns0:IDNumber>{LoadNumber}</ns0:IDNumber>
+			<ns0:TrackDurationInHours>120</ns0:TrackDurationInHours>
+			<ns0:TrackIntervalInMinutes>720</ns0:TrackIntervalInMinutes>
+		</ns0:Notification>
+	</ns0:Notifications>
+	<ns0:Carrier>
+		<ns0:Name>Email Carrier Two</ns0:Name>
+
+		<ns0:CarrierID>{EmailCarrierTwo}</ns0:CarrierID>
+		<ns0:DotNumber>987654123</ns0:DotNumber>
+	</ns0:Carrier>
+	<ns0:TripSheet>
+		<ns0:StopSequencingRequired>True</ns0:StopSequencingRequired>
+		<ns0:Stops>
+			<ns0:Stop>
+				<ns0:StopID>Stop 1</ns0:StopID>
+				<ns0:SequenceNumber>1</ns0:SequenceNumber>
+				<ns0:Name>Boston Beans</ns0:Name>
+				<ns0:StopType>Pickup</ns0:StopType>
+				<ns0:Address>
+					<ns0:Line1>526 Beacon Street</ns0:Line1>
+					<ns0:City>Boston</ns0:City>
+					<ns0:StateOrProvince>MA</ns0:StateOrProvince>
+					<ns0:PostalCode>02215</ns0:PostalCode>
+				</ns0:Address>
+				<ns0:StartDateTime>{CurrentDate+1}T07:30:00-0500</ns0:StartDateTime>
+				<ns0:EndDateTime>{CurrentDate+1}T07:30:00-0500</ns0:EndDateTime>
+				<ns0:LastStopEventCompleted>Arrived</ns0:LastStopEventCompleted>
+				<ns0:LastStopEventCompletedDateTime>{CurrentDate+1}T07:15:00-0500</ns0:LastStopEventCompletedDateTime>
+			</ns0:Stop>
+			<ns0:Stop>
+				<ns0:StopID>Stop 2</ns0:StopID>
+				<ns0:SequenceNumber>2</ns0:SequenceNumber>
+				<ns0:Name>Los Angeles Lighting</ns0:Name>
+				<ns0:StopType>Pickup</ns0:StopType>
+				<ns0:Address>
+					<ns0:Line1>2765 E Olympic Blvd</ns0:Line1>
+					<ns0:City>Los Angeles</ns0:City>
+					<ns0:StateOrProvince>CA</ns0:StateOrProvince>
+					<ns0:PostalCode>90023</ns0:PostalCode>
+				</ns0:Address>
+				<ns0:StartDateTime>{CurrentDate+1}T15:00:00-0500</ns0:StartDateTime>
+				<ns0:EndDateTime>{CurrentDate+1}T21:50:00-0500</ns0:EndDateTime>
+			</ns0:Stop>
+			<ns0:Stop>
+				<ns0:StopID>Stop 3</ns0:StopID>
+				<ns0:SequenceNumber>3</ns0:SequenceNumber>
+				<ns0:Name>Boston Beans</ns0:Name>
+				<ns0:StopType>DropOff</ns0:StopType>
+				<ns0:Address>
+					<ns0:Line1>526 Beacon Street</ns0:Line1>
+					<ns0:City>Boston</ns0:City>
+					<ns0:StateOrProvince>MA</ns0:StateOrProvince>
+					<ns0:PostalCode>02215</ns0:PostalCode>
+				</ns0:Address>
+				<ns0:StartDateTime>{CurrentDate+3}T08:00:00-0500</ns0:StartDateTime>
+				<ns0:EndDateTime>{CurrentDate+3}T21:00:00-0500</ns0:EndDateTime>
+			</ns0:Stop>
+		</ns0:Stops>
+	</ns0:TripSheet>
+	<ns0:Customer>Boston Beans</ns0:Customer>
+	<ns0:EmailCopiesOfUpdatesTo>QA@revenova.com, test@revenova.com</ns0:EmailCopiesOfUpdatesTo>
+	<ns0:Notes>Customer required POD at time of delivery</ns0:Notes>
+</ns0:Order>

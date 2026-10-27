@@ -1,0 +1,713 @@
+{
+    "rtmsType":"NewAlert",
+    "id": 2739,
+    "processed_at": null,
+    "created_at": "2023-02-28T12:55:12.565-06:00",
+    "updated_at": "2023-02-28T12:55:12.565-06:00",
+    "read_at": null,
+    "event": {
+        "id": 12328535,
+        "is_type": "insurance_policy",
+        "message": "New commercial_general_liability policy active as of 2022-12-20",
+        "eventable_id": 6070,
+        "eventable_type": "InsurancePolicy",
+        "carrier_id": 1667,
+        "created_at": "2023-02-28T12:55:12.537-06:00",
+        "updated_at": "2023-02-28T12:55:12.563-06:00",
+        "is_type_display_format": "Insurance Policy"
+    },
+    "carrier_detail": {
+        "id": 23839,
+        "legal_name": "QA Trans LLC 2739",
+"dba_name": "QA TRAN",
+        "connection": {
+            "status": "needs_to_onboard",
+            "external_id": "a1954000004IbvPAAS",
+            "is_monitored": true
+        },
+        "dot_number": 1136499,
+        "mc_number": 454699,
+        "identifiers": [
+            {
+                "is_type": "DOT",
+                "value": "01136499"
+            },
+            {
+                "is_type": "MC",
+                "value": "454699"
+            }
+        ],
+        "tax_identifiers": [
+            {
+                "is_type": "ein",
+                "value": "571164400",
+                "source": "fmcsa",
+                "first_seen_at": "2022-01-31T00:01:37.096-06:00",
+                "last_seen_at": "2023-04-14T09:26:14.502-05:00"
+            }
+        ],
+        "authority_assessment": {
+            "rating": "Authorized Carrier",
+            "carrier_interstate_authority_check": "Active",
+            "broker_interstate_authority_check": "Inactive",
+            "is_active_insurance": true,
+            "no_out_of_service_order": true,
+            "is_satisfactory_safety_rating": true,
+            "is_operating_status_active": true,
+            "is_inspection_history_greater_than_zero": true,
+            "latest_safety_rating": "Unrated"
+        },
+        "authority": {
+            "authorities": {
+                "common_authority_status": "Active",
+                "continuous_authority_grant_date_common": "2008-06-12",
+                "original_authority_grant_date_common": "2008-06-12",
+                "contract_authority_status": null,
+                "continuous_authority_grant_date_contract": null,
+                "original_authority_grant_date_contract": null,
+                "broker_authority_status": null,
+                "continuous_authority_grant_date_broker": null,
+                "original_authority_grant_date_broker": null
+            },
+            "licensed_capabilities": [
+                "Property"
+            ],
+            "latest_li_authority": {
+                "mx_type": null,
+"rfc_number": null,
+"common_authority": "Inactive Authority",
+"pending_common_authority": "Application Pending",
+"common_authority_revocation": "In Revocation",
+"contract_authority": "Inactive Authority",
+"pending_contract_authority": "Application Pending",
+"contract_authority_revocation": "Not in Revocation",
+"broker_authority": "No Authority",
+"pending_broker_authority": "Application Pending",
+"broker_authority_revocation": "Not in Revocation",
+"is_freight": true,
+"is_passenger": false,
+"is_household_goods": false,
+"is_private_check": false,
+"is_enterprise_check": false,
+"is_bipd_required": false,
+"is_cargo_required": false,
+"is_bond_surety_required": false,
+"bipd_on_file": 1000,
+"is_cargo_on_file": false,
+"is_bond_surety_on_file": false,
+"is_address_deliverable": true,
+"file_date": "2022-12-19"
+}
+        },
+        "addresses": [
+            {
+                "is_type": "physical",
+                "street1": "914 JILL MARIE LN",
+                "street2": "",
+                "city": "FERNLEY",
+                "postal_code": "89408",
+                "state": "NV",
+                "nationality": "US",
+                "last_seen_at": "2023-05-23T00:42:04.354-05:00"
+            },
+            {
+                "is_type": "mailing",
+                "street1": "1741 ART CT",
+                "street2": "",
+                "city": "FERNLEY",
+                "postal_code": "89408",
+                "state": "NV",
+                "nationality": "US",
+                "last_seen_at": "2022-07-20T15:12:19.151-05:00"
+            },
+            {
+                "is_type": "physical",
+                "street1": "1741 ART CT",
+                "street2": "",
+                "city": "FERNLEY",
+                "postal_code": "89408",
+                "state": "NV",
+                "nationality": "US",
+                "last_seen_at": "2022-07-20T15:12:19.151-05:00"
+            }
+        ],
+        "rules_assessment": {
+            "overall_result": "fail",
+            "summary": {
+                "overall_result": "fail"
+            },
+            "classifications": [
+                {
+                    "name": "General Freight",
+                    "result": "pass",
+                    "rules": {
+                        "has_verified_physical_location_activity": {
+                            "display_name": "Carrier has verified physical location or asset activity",
+                            "result": "pass",
+                            "overrides": []
+                        },
+                        "has_verified_manually_entered_identifier": {
+                            "display_name": "Carrier has provided an identifier that requires verification by Highway",
+                            "result": "pass",
+                            "overrides": []
+                        },
+                        "has_been_inspected_in_the_last_twenty_four_months": {
+                            "display_name": "Carrier has been inspected at least once in the last 24 months",
+                            "result": "pass",
+                            "overrides": []
+                        },
+                        "has_no_published_identity_alerts": {
+                            "display_name": "Carrier has one or more published Identity Alerts",
+                            "result": "pass",
+                            "overrides": []
+                        },
+                        "has_mc_number": {
+                            "display_name": "Carrier has an MC number",
+                            "result": "pass",
+                            "overrides": []
+                        },
+                        "is_authorized_for_property": {
+                            "display_name": "Carrier has an operating status authorized for property",
+                            "result": "pass",
+                            "overrides": []
+                        },
+                        "interstate_carrier_authority_is_active": {
+                            "display_name": "Interstate carrier authority is active for property",
+                            "result": "pass",
+                            "overrides": []
+                        },
+                        "no_active_oos_orders": {
+                            "display_name": "Carrier has not active Out-Of-Service Orders",
+                            "result": "pass",
+                            "overrides": []
+                        },
+                        "safety_rating_satisfactory_or_unrated": {
+                            "display_name": "Safety Rating is one of Satisfactory or Unrated",
+                            "result": "pass",
+                            "overrides": []
+                        },
+                        "safer_operating_status_active": {
+                            "display_name": "Operating Status is Active or Authorized",
+                            "result": "pass",
+                            "overrides": []
+                        },
+                        "authority_age_requirement": {
+                            "display_name": "Minimum operating authority age of 90 days",
+                            "result": "pass",
+                            "overrides": []
+                        },
+                        "multi_currency_bipd_requirement": {
+                            "display_name": "Minimum auto liability coverage of $1,000,000 USD",
+                            "result": "pass",
+                            "overrides": []
+                        },
+                        "multi_currency_cargo_requirement": {
+                            "display_name": "Minimum cargo insurance coverage of $100,000 USD",
+                            "result": "pass",
+                            "overrides": []
+                        },
+                        "sets_requiring_override_file": {
+                            "display_name": "translation missing: en.rules.sets_requiring_override_file",
+                            "result": "",
+                            "overrides": []
+                        }
+                    }
+                }
+            ]
+        },
+        "safety": {
+            "safety_rating": "Unrated",
+            "safety_rating_effective_date": null,
+            "safety_rating_review_date": null,
+            "safety_rating_review_type": null,
+            "latest_sms_basic": {
+                "file_date": "2023-04-01",
+                "driver_fitness_measure": "0.0",
+                "is_driver_fitness_acute_critical": false,
+                "driver_fitness_percentile": null,
+                "driver_fitness_over_threshold": null,
+                "hos_compliance_measure": "0.0",
+                "is_hos_compliance_acute_critical": false,
+                "hos_compliance_percentile": null,
+                "hos_compliance_over_threshold": null,
+                "substance_alcohol_measure": "0.0",
+                "is_substance_alcohol_acute_critical": false,
+                "substance_alcohol_percentile": null,
+                "substance_alcohol_over_threshold": null,
+                "unsafe_driving_measure": "0.0",
+                "is_unsafe_driving_acute_critical": false,
+                "unsafe_driving_percentile": null,
+                "unsafe_driving_over_threshold": null,
+                "vehicle_maintenance_measure": "9.0",
+                "is_vehicle_maintenance_acute_critical": false,
+                "vehicle_maintenance_percentile": null,
+                "vehicle_maintenance_over_threshold": null
+            },
+            "sms_basics": [
+                {
+                    "file_date": "2023-04-01",
+                    "driver_fitness_measure": "0.0",
+                    "is_driver_fitness_acute_critical": false,
+                    "hos_compliance_measure": "0.0",
+                    "is_hos_compliance_acute_critical": false,
+                    "substance_alcohol_measure": "0.0",
+                    "is_substance_alcohol_acute_critical": false,
+                    "unsafe_driving_measure": "0.0",
+                    "is_unsafe_driving_acute_critical": false,
+                    "vehicle_maintenance_measure": "9.0",
+                    "is_vehicle_maintenance_acute_critical": false
+                },
+                {
+                    "file_date": "2023-03-01",
+                    "driver_fitness_measure": "0.0",
+                    "is_driver_fitness_acute_critical": false,
+                    "hos_compliance_measure": "0.0",
+                    "is_hos_compliance_acute_critical": false,
+                    "substance_alcohol_measure": "0.0",
+                    "is_substance_alcohol_acute_critical": false,
+                    "unsafe_driving_measure": "0.0",
+                    "is_unsafe_driving_acute_critical": false,
+                    "vehicle_maintenance_measure": "9.0",
+                    "is_vehicle_maintenance_acute_critical": false
+                },
+                {
+                    "file_date": "2022-12-01",
+                    "driver_fitness_measure": "0.0",
+                    "is_driver_fitness_acute_critical": false,
+                    "hos_compliance_measure": "0.0",
+                    "is_hos_compliance_acute_critical": false,
+                    "substance_alcohol_measure": "0.0",
+                    "is_substance_alcohol_acute_critical": false,
+                    "unsafe_driving_measure": "0.0",
+                    "is_unsafe_driving_acute_critical": false,
+                    "vehicle_maintenance_measure": "9.0",
+                    "is_vehicle_maintenance_acute_critical": false
+                },
+                {
+                    "file_date": "2022-11-01",
+                    "driver_fitness_measure": "0.0",
+                    "is_driver_fitness_acute_critical": false,
+                    "hos_compliance_measure": "0.0",
+                    "is_hos_compliance_acute_critical": false,
+                    "substance_alcohol_measure": "0.0",
+                    "is_substance_alcohol_acute_critical": false,
+                    "unsafe_driving_measure": "0.0",
+                    "is_unsafe_driving_acute_critical": false,
+                    "vehicle_maintenance_measure": "9.0",
+                    "is_vehicle_maintenance_acute_critical": false
+                },
+                {
+                    "file_date": "2022-10-01",
+                    "driver_fitness_measure": "0.0",
+                    "is_driver_fitness_acute_critical": false,
+                    "hos_compliance_measure": "0.0",
+                    "is_hos_compliance_acute_critical": false,
+                    "substance_alcohol_measure": "0.0",
+                    "is_substance_alcohol_acute_critical": false,
+                    "unsafe_driving_measure": "0.0",
+                    "is_unsafe_driving_acute_critical": false,
+                    "vehicle_maintenance_measure": "9.0",
+                    "is_vehicle_maintenance_acute_critical": false
+                },
+                {
+                    "file_date": "2022-09-01",
+                    "driver_fitness_measure": "0.0",
+                    "is_driver_fitness_acute_critical": false,
+                    "hos_compliance_measure": "0.0",
+                    "is_hos_compliance_acute_critical": false,
+                    "substance_alcohol_measure": "0.0",
+                    "is_substance_alcohol_acute_critical": false,
+                    "unsafe_driving_measure": "0.0",
+                    "is_unsafe_driving_acute_critical": false,
+                    "vehicle_maintenance_measure": "9.0",
+                    "is_vehicle_maintenance_acute_critical": false
+                }
+            ]
+        },
+        "certifications": {
+            "all": [
+                {
+                    "is_type": "TWIC",
+                    "external_id": null,
+                    "file_date": "2023-02-28",
+                    "is_verified": false
+                },
+                {
+                    "is_type": "Veteran-Owned Business",
+                    "external_id": null,
+                    "file_date": "2023-02-28",
+                    "is_verified": false
+                },
+		{
+                    "is_type": "TSA",
+                    "external_id": null,
+                    "file_date": "2023-02-28",
+                    "is_verified": false
+                }
+            ],
+            "verified": {
+                "carb": false,
+                "carb_number": null,
+                "carb_start": null,
+                "carb_end": null,
+                "carb_tru": false,
+                "carb_tru_number": null,
+                "carb_tru_start": null,
+                "carb_tru_end": null,
+                "hazmat": false,
+                "hazmat_number": null,
+                "hazmat_start": null,
+                "hazmat_end": null,
+                "smart_way": false,
+                "smart_way_number": null,
+                "smart_way_start": null,
+                "smart_way_end": null
+            }
+        },
+        "contact_information": {
+            "dispatch_contact": {
+                "name": "VICTOR TORRES",
+                "phone": "(775) 420-9877",
+                "email_address": "topotransport@hotmail.com"
+            },
+            "line_item_contacts": [
+                {
+                    "is_type": "dispatch",
+                    "name": "VICTOR TORRES",
+                    "email_address": "topotransport@hotmail.com",
+                    "phone": "(775) 420-9877"
+                },
+                {
+                    "is_type": "billing",
+                    "name": "VICTOR TORRES",
+                    "email_address": "topotransport@hotmail.com",
+                    "phone": "(775) 420-9877"
+                },
+                {
+                    "is_type": "claims",
+                    "name": "VICTOR TORRES",
+                    "email_address": "topotransport@hotmail.com",
+                    "phone": "(775) 420-9877"
+                },
+                {
+                    "is_type": null,
+                    "name": "VICTOR TORRES",
+                    "email_address": null,
+                    "phone": null
+                }
+            ],
+            "contacts": [
+                {
+                    "is_type": "dispatch",
+                    "name": "VICTOR TORRES"
+                },
+                {
+                    "is_type": "billing",
+                    "name": "VICTOR TORRES"
+                },
+                {
+                    "is_type": "claims",
+                    "name": "VICTOR TORRES"
+                },
+                {
+                    "is_type": "census",
+                    "name": "VICTOR TORRES"
+                }
+            ],
+            "phones": [
+                {
+                    "is_type": "dispatch",
+                    "value": "(775) 420-9877"
+                },
+                {
+                    "is_type": "billing",
+                    "value": "(775) 420-9877"
+                },
+                {
+                    "is_type": "claims",
+                    "value": "(775) 420-9877"
+                },
+                {
+                    "is_type": "census_fax",
+                    "value": "(775) 575-5278"
+                },
+                {
+                    "is_type": "census_cell",
+                    "value": "(775) 420-9877"
+                },
+                {
+                    "is_type": "census_main",
+                    "value": "(775) 420-9877"
+                }
+            ],
+            "email_addresses": [
+                {
+                    "is_type": "billing",
+                    "value": "topotransport@hotmail.com"
+                },
+                {
+                    "is_type": "census",
+                    "value": "ralove60@hotmail.com"
+                },
+                {
+                    "is_type": "census",
+                    "value": "topotransport@hotmail.com"
+                },
+                {
+                    "is_type": "claims",
+                    "value": "topotransport@hotmail.com"
+                },
+                {
+                    "is_type": "dispatch",
+                    "value": "topotransport@hotmail.com"
+                }
+            ]
+        },
+        "inspections": {
+            "total_inspections": 1,
+            "driver_fitness_inspections": 1,
+            "driver_fitness_oos_inspections": 0,
+            "hazmat_inspections": 0,
+            "hazmat_oos_inspections": 0,
+            "vehicle_maintenance_inspections": 1,
+            "vehicle_maintenance_oos_inspections": 1
+        },
+        "crashes": {
+            "total": 0,
+            "fatal_crashes_total": 0,
+            "injury_crashes_total": 0,
+            "tow_away_crashes_total": 0
+        },
+        "insurance": {
+            "bipd_required": 750,
+            "insurance_policies": [
+                {
+                    "status": "active",
+                    "is_type": "commercial_general_liability",
+                    "number": "337457CE36E1007D11A878D2A5BC705B",
+                    "limit": "1000000.0",
+                    "effective_date": "2022-12-20",
+                    "expiration_date": "2032-01-01",
+                    "cancellation_date": null,
+                    "insurance_certificate_id": 5342,
+                    "insurance_insurer": {
+                        "name": "STEWART TITLE GUARANTY COMPANY",
+                        "short_name": "STEWART TITLE GUAR CO",
+                        "naic": "50121",
+                        "street1": "1360 POST OAK BOULEVARD",
+                        "street2": null,
+                        "city": "HOUSTON",
+                        "state": "TX",
+                        "phone": "7136258044",
+                        "postal_code": "77056",
+                        "website": "www.stewart.com"
+                    }
+                },
+                {
+                    "status": "active",
+                    "is_type": "workers_compensation",
+                    "number": "CB83BB66830B66C67058C80BBEFB49A7",
+                    "limit": "1000000.0",
+                    "effective_date": "2022-09-01",
+                    "expiration_date": "2032-01-01",
+                    "cancellation_date": null,
+                    "insurance_certificate_id": 5342,
+                    "statutory_limits": false,
+                    "insurance_insurer": {
+                        "name": "NATIONAL INTERSTATE INSURANCE COMPANY",
+                        "short_name": "NATIONAL INTERSTATE INS CO",
+                        "naic": "32620",
+                        "street1": "3250 INTERSTATE DRIVE",
+                        "street2": null,
+                        "city": "RICHFIELD",
+                        "state": "OH",
+                        "phone": "3306598900",
+                        "postal_code": "44286",
+                        "website": "www.natl.com"
+                    }
+                }
+            ],
+            "insurance_certificates": [
+                {
+                    "id": 5342,
+                    "file": {
+                        "id": 34946,
+                        "filename": "Highway - Sprinter.pdf",
+                        "content_type": "application/pdf",
+                        "url": "https://test.s3.amazonaws.com/insurance_incoming_mails/4826/f49e5dcb85ad2105d0a65c2c"
+                    }
+                }
+            ],
+            "exclusions": [
+                {
+                    "id": 1420,
+                    "is_type": "garments",
+                    "carrier_id": 1667,
+                    "file_date": "2023-02-28",
+                    "created_at": "2023-02-28T12:55:35.614-06:00",
+                    "updated_at": "2023-02-28T12:55:35.614-06:00"
+                },
+                {
+                    "id": 1421,
+                    "is_type": "precious_metals",
+                    "carrier_id": 1667,
+                    "file_date": "2023-02-28",
+                    "created_at": "2023-02-28T12:55:35.619-06:00",
+                    "updated_at": "2023-02-28T12:55:35.619-06:00"
+                }
+            ]
+        },
+        "pending_active_insurance": {
+            "bipd_required": 750,
+            "insurance_policies": [],
+            "insurance_certificates": []
+        },
+        "carrier_modes": [
+            {
+                "is_type": "truckload"
+            }
+        ],
+        "operations": {
+            "mcs150_form_date": "2022-07-22",
+            "mcs150_year": 2021,
+            "mcs150_mileage": 93355,
+            "mcsip_step_description": null,
+            "mcsip_date": null,
+            "classifications": [
+                "Authorized For Hire"
+            ],
+            "operating_status": "AUTHORIZED FOR Property",
+            "operating_status_date": "2023-05-31",
+            "fleet_size": "50-150",
+            "cargo_carried": [
+                {
+                    "id": 3,
+                    "name": "Metal: Sheets, Coils, Rolls"
+                },
+                {
+                    "id": 7,
+                    "name": "Building Materials"
+                },
+                {
+                    "id": 9,
+                    "name": "Machinery, Large Objects"
+                },
+                {
+                    "id": 29,
+                    "name": "Water-Well"
+                }
+            ],
+            "entity_types": [
+                {
+                    "id": 1,
+                    "name": "Carrier"
+                }
+            ],
+            "total_power_units": 12,
+            "owned_tractors": 1,
+            "owned_trailers": 0,
+            "term_leased_tractors": 0,
+            "term_leased_trailers": 1,
+            "total_drivers": 1
+        },
+        "equipment": {
+            "summary": {
+                "van_trailers": 0,
+                "reefer_trailers": 0,
+                "flatbed_trailers": 1,
+                "tanker_trailers": 0,
+                "intermodal_trailers": 0,
+                "pneumatic_trailers": 0,
+                "dumps_trailers": 0,
+                "car_hauler_trailers": 0,
+                "double_drop_trailers": 0,
+                "lowboy_trailers": 0,
+                "grain_trailers": 0,
+                "livestock_trailers": 0,
+                "heavy_haul_trailers": 0,
+                "drop_deck_trailers": 0,
+                "refuse_transfer_trailers": 0,
+                "forestry_trailers": 0,
+                "uncategorized_trailers": 0,
+                "total_observed_trailers": 1,
+                "truck_tractors": 1,
+                "cargo_vans": 0,
+                "straight_box_trucks": 0,
+                "buses": 0,
+                "uncategorized_trucks": 0,
+                "total_observed_power_units": 1
+            }
+        },
+        "lane_preferences": {
+            "by_state": {
+                "preferred_areas": [
+                    {
+                        "id": 29,
+                        "code": "ND",
+                        "name": "NORTH DAKOTA",
+                        "is_type": "state"
+                    },
+                    {
+                        "id": 43,
+                        "code": "SD",
+                        "name": "SOUTH DAKOTA",
+                        "is_type": "state"
+                    }
+                ],
+                "terminal_or_headquarter_areas": [
+                    {
+                        "id": 34,
+                        "code": "NV",
+                        "name": "NEVADA",
+                        "is_type": "state"
+                    }
+                ],
+                "historical_presence_areas": [
+                    {
+                        "id": 27,
+                        "code": "MT",
+                        "name": "MONTANA",
+                        "is_type": "state",
+                        "number_of_touches": "1.0"
+                    }
+                ],
+                "headquarter_areas": [
+                    {
+                        "id": 34,
+                        "code": "NV",
+                        "name": "NEVADA",
+                        "is_type": "state"
+                    }
+                ],
+                "inspection_areas": [
+                    {
+                        "id": 27,
+                        "code": "MT",
+                        "name": "MONTANA",
+                        "is_type": "state",
+                        "number_of_touches": "1.0"
+                    }
+                ]
+            },
+            "by_country": {
+                "preferred_areas": [],
+                "terminal_or_headquarter_areas": [
+                    {
+                        "id": 55113,
+                        "code": "US",
+                        "name": "UNITED STATES",
+                        "is_type": "country"
+                    }
+                ],
+                "historical_presence_areas": []
+            }
+        },
+        "integrations": [],
+        "insights": [
+            {
+                "title": "Authority History Gap",
+                "message": "This carrier has four gaps in authority history of more than one year."
+            }
+        ]
+    }
+}

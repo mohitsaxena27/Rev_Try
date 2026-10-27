@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+   <Expandsection>(//div[contains(@class,'active ')]//button[text()='{paramlink}'])[index]</Expandsection>
+    <Add_Line_Item_Button>//button[@title='Add Line Item']</Add_Line_Item_Button>
+   <VerifyTable>//div[contains(@class,'active ')]//*[contains(text(),"{paramlink}")]/../..//*[contains(text(),"{paramlink1}")]</VerifyTable>
+   <VerifyTableWithRef>//div[contains(@class,'active ')]//tr[ .//*[@data-label='{paramlink1}' and contains(.,'{paramlink2}')] and .//*[@data-label='{paramlink3}' and normalize-space(.)='{paramlink4}']]</VerifyTableWithRef>
+    <GetAgeMinValue>//div[contains(@class,'active ')]//tr[ .//*[@data-label='{paramlink1}' and contains(.,'{paramlink2}')]]//*[@data-label='{paramlink3}' ]//lightning-formatted-number</GetAgeMinValue>
+   <LoadTrackinglogDetails>//div[contains(@class,'active ')]//*[contains(text(),'{paramlink}') and @rtms-loadtrackinglog_loadtrackinglog]/../following-sibling::td[{index}]</LoadTrackinglogDetails>
+   <VerifyTextWithStop>//abbr[normalize-space(text())='{paramlink1}']/ancestor::div[@rtms-stopdetail_stopdetail]//*[contains(text(),'{paramlink2}')]</VerifyTextWithStop>
+   <chevronButton>//div[contains(@class,'active ')]//abbr[normalize-space(text())='{paramlink1}']/ancestor::div[@rtms-stopdetail_stopdetail]//*[text()='{paramlink2}']</chevronButton>
+   <Stop_One_Link>//div[contains(@class,'active ')]//lightning-layout[@rtms-stopdetail_stopdetail][.//abbr[normalize-space()='{paramlink1}']][.//span[contains(@class,'revenovaHeader1') and normalize-space()='{paramlink2}']]</Stop_One_Link>
+   <chevron>//abbr[normalize-space(text())='{paramlink1}']/ancestor::div[@rtms-stopdetail_stopdetail]//a[.//span[@class='slds-path__title' and normalize-space()='{paramlink2}']]/..</chevron>
+   <VerifyShipmentStage>//abbr[normalize-space(text())='{paramlink1}']/ancestor::div[@rtms-stopdetail_stopdetail]//*[text()='{paramlink2}']/parent::*[@aria-selected='true']</VerifyShipmentStage>
+    <VerifyItemDetails>//lightning-formatted-text[text()='{paramlink1}' and'{paramlink2}']/ancestor::lightning-layout-item[2]/following-sibling::lightning-layout-item[{index}]//lightning-formatted-text</VerifyItemDetails>
+    <AssosirialCheckBox>//lightning-layout-item[@rtms-stopdetail_stopdetail]//input[@type='checkbox']</AssosirialCheckBox>
+    <ButtonIconWithTitle>(//*[@rtms-stopdetail_stopdetail]//button[@title='{paramlink}'])[index]</ButtonIconWithTitle>
+    <StopTextLink>(//*[@rtms-stopdetail_stopdetail]//*[text()='{paramlink}'])[index]</StopTextLink>
+    <LoadPostingIntegration>//div[contains(@class,'active ')]//*[@data-load-board='{paramlink}']//button[@title='Post']</LoadPostingIntegration>
+    <LoadRemovePostingIntegration>//div[contains(@class,'active ')]//*[@data-load-board='{paramlink}']//button[@title='Remove']</LoadRemovePostingIntegration>
+    <LoadPostingNumber>//td[@data-label='{paramlink1}']//span[normalize-space()='{paramlink2}']/ancestor::tr//th[@data-label='{paramlink3}']//a//span</LoadPostingNumber>
+    <ShipmentStatus>//div[contains(@class,'active ')]//lightning-progress-step[.//span[text()='{paramlink} - Stage Complete']]</ShipmentStatus>
+    <ButtonIcon>//div[contains(@class,'active')]//*[@title='{paramlink}']</ButtonIcon>
+    <UpdateLocation>//div[contains(@class,'active')]//input[@placeholder='Search Locations']</UpdateLocation>
+    <ClearLocation>//div[contains(@class,'active')]//input[@placeholder='Search Locations']/../../../../../..//button</ClearLocation>
+    <SelectLocation>//div[contains(@class,'active')]//*[@class='searchResult' and contains(text(),'{paramlink}')]</SelectLocation>
+    <SelectMoveStop>//div[contains(@class,'active')]//*[@data-stop-name='{paramlink1}']/..//button[@title='{paramlink2}']</SelectMoveStop>
+    <VerifyStopName>//abbr[normalize-space(text())='{paramlink1}']/ancestor::div[@rtms-stopdetail_stopdetail]//span[@class='revenovaHeader1' and text()='{paramlink2}']</VerifyStopName>
+    <VerifyStopDetails>//abbr[normalize-space(text())='{paramlink1}']/ancestor::div[@rtms-stopdetail_stopdetail]//span[text()='{paramlink2}']/..//lightning-formatted-text</VerifyStopDetails>
+    <LoadMapDistance>//div[contains(@class,'active ')]//div[@rtms-loadmap_loadmap]/p</LoadMapDistance>
+    <Stop_Field_Edit_Icon>//div[contains(@class,'active ')]//abbr[normalize-space(text())='{paramlink1}']/ancestor::div[@rtms-stopdetail_stopdetail]//*[@class='stopDetailForm']//*[text()='{paramlink2}']/../../../../../../..//*[contains(@title,'Edit')]</Stop_Field_Edit_Icon>
+    <BannerDetails>//div[contains(@class,'active ')]//span[text()='{paramlink}']/ancestor::lightning-layout-item[@{paramlink2}][1]//*[contains(@class,'static')]</BannerDetails>
+    <CarrierTrackingStatus>//*[@rtms-carrierbanner_carrierbanner and contains(text(),'Carrier Tracking Status:')]/..</CarrierTrackingStatus>
+    <LoadPostingAction>(//div[contains(@class,'active ')]//*[@data-load-board="{paramlink}"]//label)[{index}]</LoadPostingAction>
+    <LoadPostingDropdown>//div[contains(@class,'active ')]//*[@data-load-board="{paramlink}"]//div[@role='listbox']</LoadPostingDropdown>
+    <LoadPostingDropdownText>//div[contains(@class,'active ')]//*[@data-load-board="{paramlink1}"]//div[@role='listbox']//span[text()='{paramlink2}']</LoadPostingDropdownText>
+    <LoadPostingLink>//div[contains(@class,'active ')]//tr[.//td[@data-label="{paramlink1}"] and .//td//*[text()='{paramlink2}']]//*[contains(text(),'Posting-')]</LoadPostingLink>
+    <TrackingLogRecords>//div[contains(@class,'active ')]//tbody[@rtms-loadtrackinglog_loadtrackinglog]/tr</TrackingLogRecords>
+    <LoadPosting>//div[contains(@class,'active ')]//*[@data-load-board='{paramlink1}']//span[@part='input-button-value' and normalize-space()='{paramlink2}']</LoadPosting>
+    <LoadPostingsSectionHeader>//div[contains(@class,'active ')]//*[text()='Load Postings ({paramlink})']</LoadPostingsSectionHeader>
+    <SamsaraPickupDeliveryStatus>//*[normalize-space()='Pickup/Delivery Status' and @class='test-id__field-label']/../..//*[contains(@class,'test-id__field-value')]//*[@data-output-element-id='output-field']</SamsaraPickupDeliveryStatus>
+
+</locators>

@@ -1,0 +1,2 @@
+"scheduled_departure": "{CurrentDate}T05:00:00.000Z"
+"scheduled_arrival": "{CurrentDate+1}T05:30:00.000Z"

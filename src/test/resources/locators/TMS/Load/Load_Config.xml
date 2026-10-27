@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <Button_Div>//div[text()='{paramlink}']</Button_Div>
+    <InputField>//label[contains(text(),'{paramlink}')]/../..//input</InputField>
+    <Search_Result>//div[@class='searchResultList']//*[contains(text(),"{paramlink}")]</Search_Result>
+    <Field_Button>//button[@aria-label='{paramlink}']</Field_Button>
+    <Div_aria_Label>//div[@aria-label="{paramlink}"]</Div_aria_Label>
+    <SpanText>//div[contains(@class,'active ')]//span[contains(text(),"{paramlink}")]</SpanText>
+    <SpanTextModal>//div[contains(@class,'active ')]//*[contains(@class,'slds-modal__content')]//span[text()="{paramlink}"]/..</SpanTextModal>
+    <SelectValueFromComboBox>//label[contains(text(),'{paramlink1}')]/../..//span[text()='{paramlink2}']</SelectValueFromComboBox>
+    <TextField>//*[text()='{paramlink}']</TextField>
+    <ButtonText>//button[text()='{paramlink}']</ButtonText>
+    <AddLocation>//*[@data-stop-number="index"]/button</AddLocation>
+    <MoveStop>//*[@data-stop-number="{index}"]/../..//button[@Title='Move Stops']</MoveStop>
+    <VerifyUpDownStop>//*[@data-index='{index}']//*[@title='{paramlink}']</VerifyUpDownStop>
+    <VerifyStopText>//*[@data-index='{index}']/ancestor::lightning-layout[1]//lightning-layout-item[2]</VerifyStopText>
+    <AddPickup>//*[@data-stop-number="index"]//span[text()='Add Pickup']</AddPickup>
+    <AddDelivery>//*[@data-stop-number="index"]//span[text()='Add Delivery']</AddDelivery>
+    <LocationField>//*[text()='{paramlink1}']/../../../../../../../../../../../../../..//input[contains(@name,'{paramlink2}')]</LocationField>
+    <Location_Menu>//*[text()='{paramlink}']/../../../../../../../../../../../../..//span[text()='Show menu']/..</Location_Menu>
+    <Select_Loc_Type>//*[text()='{paramlink1}']/../../../../../../../../../../../../..//span[text()='{paramlink2}']</Select_Loc_Type>
+    <Expected_Date>//*[text()='{paramlink}']/../../../../../../../../../../../../..//label[text()='Expected Date']/..//input</Expected_Date>
+    <LabelTextInput>//*[text()='{paramlink1}']/../../../../../../../../../../../../..//label[text()='{paramlink2}']/..//input</LabelTextInput>
+    <Select_Country>//*[text()='{paramlink}']/../../../../../../../../../../../../..//button[@aria-label="Country"]</Select_Country>
+    <Select_Country1>//*[text()='{paramlink}']/../../../../../../../../../../../../..//div[@aria-label="Country"]</Select_Country1>
+    <Select_Country1_Text>//*[text()='{paramlink}']/../../../../../../../../../../../../..//span[text()='{paramlink1}']</Select_Country1_Text>
+    <New_Btn>//h1[text()='Loads']/../../../../../../../..//div[text()='New']</New_Btn>
+    <Pickup>(//button[@aria-label='Pickup'])[index]</Pickup>
+    <Delivery>(//button[@aria-label='Delivery'])[index]</Delivery>
+    <Weight_Unit>(//button[@aria-label='Weight Units'])[index]</Weight_Unit>
+    <Handling_Unit>(//div[contains(@class,'active ')]//button[@aria-label='Handling Units'])[index]</Handling_Unit>
+    <Dimension_Unit>(//button[@aria-label='Dimension Units'])[index]</Dimension_Unit>
+    <NMFC_Class>(//button[@aria-label='NMFC Class'])[index]</NMFC_Class>
+    <Pickup_Stop>(//button[@aria-label='Pickup Stop'])[index]</Pickup_Stop>
+    <Delivery_Stop>(//button[@aria-label='Delivery Stop'])[index]</Delivery_Stop>
+
+    <SelectPickup>(//div[@aria-label='Pickup']//span[text()='{paramlink}'])[index]</SelectPickup>
+    <SelectDelivery>(//div[@aria-label='Delivery']//span[text()='{paramlink}'])[index]</SelectDelivery>
+    <SelectWUnit>(//div[@aria-label='Weight Units'])[index]//span[text()='{paramlink}']</SelectWUnit>
+    <SelectHandUnit1>(//div[contains(@class,'active ')]//div[@aria-label='Handling Units']/..//div[@aria-label='Handling Units'])[index]</SelectHandUnit1>
+    <SelectHandUnit>(//div[contains(@class,'active ')]//div[@aria-label='Handling Units'])[index]//span[text()='{paramlink}']</SelectHandUnit>
+    <SelectDimensionUnit>(//div[@aria-label='Dimension Units'])[index]//span[text()='{paramlink}']</SelectDimensionUnit>
+    <SelectNMFC_Class>(//div[@aria-label='NMFC Class'])[index]//span[text()='{paramlink}']</SelectNMFC_Class>
+    <SelectNMFC_Class1>(//div[@aria-label='NMFC Class']/..//div[@aria-label='NMFC Class'])[index]</SelectNMFC_Class1>
+    <SelectNMFC_Class2>(//div[@aria-label='NMFC Class'])[index]//span[text()='{paramlink}']</SelectNMFC_Class2>
+
+    <Select_Pickup_Stop>(//button[@aria-label='Pickup Stop'])[index]/../..//span[contains(text(),'{paramlink}')]</Select_Pickup_Stop>
+    <Select_Delivery_Stop>(//button[@aria-label='Delivery Stop'])[index]/../..//span[contains(text(),'{paramlink}')]</Select_Delivery_Stop>
+
+    <AddLineItem>//button[@title='Add Line Item']</AddLineItem>
+    <EnterDescription>(//label[text()='Description']/..//input)[index]</EnterDescription>
+    <EnterDescription1>(//label[text()='Item Description']/..//input)[index]</EnterDescription1>
+    <EnterWeight>(//label[text()='Weight']/..//input)[index]</EnterWeight>
+    <EnterHUCount>(//label[text()='HU Count']/..//input)[index]</EnterHUCount>
+    <Length>(//label[text()='Length']/..//input)[index]</Length>
+    <Width>(//label[text()='Width']/..//input)[index]</Width>
+    <Height>(//label[text()='Height']/..//input)[index]</Height>
+
+    <Button_Text>//button[text()='{paramlink}']</Button_Text>
+    <DivText>//div[contains(text(),'{paramlink}')]</DivText>
+    <GetLoadNumber>//div[contains(@class,'active')]//*[text()='Load']/../../..//*[@slot="primaryField"]</GetLoadNumber>
+    <SaveBtn>//div[contains(@class,'slds-card__footer')]//button[text()='Save']</SaveBtn>
+    <ReuiredDateError>//*[text()='Expected Date']/../../*[contains(text(),'Complete this field')]</ReuiredDateError>
+    <NoOfCopy>//label[contains(text(),'Number of Copies')]/following-sibling::input[1]</NoOfCopy>
+    <QuoteCheckbox>//*[text()='{paramlink}']/preceding-sibling::input</QuoteCheckbox>
+    <InputValue>//*[@value='{paramlink}']</InputValue>
+    <TotalCount>//tr[contains(@class,'dataRow')]</TotalCount>
+    <CloneLoad>(//tr[contains(@class,'dataRow')])[index]/td[1]/a</CloneLoad>
+    <TotalCloneLoad>//tr[contains(@class,'dataRow')]</TotalCloneLoad>
+    <IframeTitle>//div[contains(@class,'active ')]//iframe[contains(@title,'{paramlink}')]</IframeTitle>
+    <CloneButton>//div[contains(@class,'active ')]//*[text()='Clone']</CloneButton>
+    <PrimaryKeyField>//*[@slot='primaryField']</PrimaryKeyField>
+    <VerifyImage>//img[contains(@src,'{paramlink1}') and @title='{paramlink2}']</VerifyImage>
+    <VerifyButton>//div[contains(@class,'active')]//button[text()='{paramlink1}' and @aria-disabled='{paramlink2}']</VerifyButton>
+    <VerifyButtonIcon>//div[contains(@class,'active')]//button[@title='{paramlink2}']//*[@data-key='{paramlink1}']</VerifyButtonIcon>
+    <VerifyButtonIcon2>(//div[contains(@class,'active')]//button[@title='{paramlink2}']//*[@data-key='{paramlink1}'])[2]</VerifyButtonIcon2>
+    <GlobalText>//div[contains(@class,'active')]//*[text()='{paramlink}']</GlobalText>
+    <VerifyIcon>//div[contains(@class,'active')]//span[text()='{paramlink1}']/..//*[contains(@icon-name,'{paramlink2}')]</VerifyIcon>
+    <VerifyButtonOnModal>//div[contains(@class,'active')]//div[contains(@class,'slds-modal')]//button[text()='{paramlink}']</VerifyButtonOnModal>
+    <LabelTextLoadStop>//*[text()='{Stop}']/ancestor::lightning-layout[1]//label[text()='{paramlink}' or .='{paramlink}' or .//span[normalize-space(text())='{paramlink}']]</LabelTextLoadStop>
+    <FormFields>//div[contains(@class,'active ')]//*[@id='{paramlink}']</FormFields>
+    <LayOutText>//lightning-layout-item[.//*[contains(text(),'{paramlink}')]]</LayOutText>
+    <ContainersAddIcon>//div[contains(@class,'active ')]//*[text()='Containers']/../../../../../..//*[@title='{paramlink}']</ContainersAddIcon>
+    <GlobalTextContains>//div[contains(@class,'active')]//*[contains(text(),'{paramlink}')]</GlobalTextContains>
+</locators>
+

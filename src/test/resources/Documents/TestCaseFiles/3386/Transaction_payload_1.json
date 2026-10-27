@@ -1,0 +1,416 @@
+{
+  "weightUnits" : "lbs",
+
+  "totalWeight" : 16200,
+
+  "timeZone" : "LT",
+
+  "stops" : [ {
+
+    "timeZone" : "LT",
+
+    "stopType" : "Pickup",
+
+    "stopNum" : 1,
+
+    "stopInstructions" : [ "Pickup Instructions" ],
+
+    "referenceNums" : [ ],
+
+    "expectedTimeStart" : "09:00",
+
+    "expectedTimeEnd" : "22:00",
+
+    "expectedDate" : "{CurrentDateYYYY-MM-DD}",
+
+    "contacts" : [ {
+
+      "Phone" : "312-999-7777",
+
+      "Fax" : "312-222-3333",
+
+      "Email" : "{ScratchOrgEmail}",
+
+      "ContactName" : "Joe Chicago Pizza"
+
+    } ],
+
+    "company" : {
+
+      "zip" : "60602",
+
+      "state" : "IL",
+
+      "country" : "US",
+
+      "companyName" : "Chicago Pizza",
+
+      "companyId" : "{ChicagoPizzaAccountID}",
+
+      "city" : "Chicago",
+
+      "addr" : "181 W. Madison St."
+
+    },
+
+    "apptRequired" : false,
+
+    "accessorials" : [ ]
+
+  }, {
+
+    "timeZone" : "LT",
+
+    "stopType" : "Dropoff",
+
+    "stopNum" : 2,
+
+    "stopInstructions" : [ "Delivery Instructions" ],
+
+    "referenceNums" : [ ],
+
+    "expectedTimeStart" : "09:00",
+
+    "expectedTimeEnd" : "22:00",
+
+    "expectedDate" : "{CurrentDateYYYY-MM-DD}",
+
+    "contacts" : [ {
+
+      "Phone" : "312-999-7777",
+
+      "Fax" : "312-222-3333",
+
+      "Email" : "{ScratchOrgEmail}",
+
+      "ContactName" : "Joe Los Angeles Lighting"
+
+    } ],
+
+    "company" : {
+
+      "zip" : "90023",
+
+      "state" : "CA",
+
+      "country" : "US",
+
+      "companyName" : "Los Angeles Lighting",
+
+      "companyId" : "{LosAngelesLightingAccountID}",
+
+      "city" : "Los Angeles",
+
+      "addr" : "2765 E Olympic Blvd"
+
+    },
+
+    "apptRequired" : false,
+
+    "accessorials" : [ ]
+
+  }, {
+
+    "timeZone" : "LT",
+
+    "stopType" : "Pickup",
+
+    "stopNum" : 3,
+
+    "stopInstructions" : [ "Pickup Instructions" ],
+
+    "referenceNums" : [ ],
+
+    "expectedTimeStart" : "09:00",
+
+    "expectedTimeEnd" : "22:00",
+
+    "expectedDate" : "{CurrentDateYYYY-MM-DD+1}",
+
+    "contacts" : [ {
+
+      "Phone" : "312-999-7777",
+
+      "Fax" : "312-222-3333",
+
+      "Email" : "{ScratchOrgEmail}",
+
+      "ContactName" : "Joe Los Angeles Lighting"
+
+    } ],
+
+    "company" : {
+
+      "zip" : "90023",
+
+      "state" : "CA",
+
+      "country" : "US",
+
+      "companyName" : "Los Angeles Lighting",
+
+      "companyId" : "{LosAngelesLightingAccountID}",
+
+      "city" : "Los Angeles",
+
+      "addr" : "2765 E Olympic Blvd"
+
+    },
+
+    "apptRequired" : false,
+
+    "accessorials" : [ ]
+
+  }, {
+
+    "timeZone" : "LT",
+
+    "stopType" : "Dropoff",
+
+    "stopNum" : 4,
+
+    "stopInstructions" : [ "Delivery Instructions" ],
+
+    "referenceNums" : [ ],
+
+    "expectedTimeStart" : "09:00",
+
+    "expectedTimeEnd" : "22:00",
+
+    "expectedDate" : "{CurrentDateYYYY-MM-DD+3}",
+
+    "contacts" : [ {
+
+      "Phone" : "312-999-7777",
+
+      "Fax" : "312-222-3333",
+
+      "Email" : "{ScratchOrgEmail}",
+
+      "ContactName" : "Joe Chicago Pizza"
+
+    } ],
+
+    "company" : {
+
+      "zip" : "60602",
+
+      "state" : "IL",
+
+      "country" : "US",
+
+      "companyName" : "Chicago Pizza",
+
+      "companyId" : "{ChicagoPizzaAccountID}",
+
+      "city" : "Chicago",
+
+      "addr" : "181 W. Madison St."
+
+    },
+
+    "apptRequired" : false,
+
+    "accessorials" : [ ]
+
+  } ],
+
+  "shipmentId" : "{ShipmentId}",
+
+  "respondByTime" : "{RespondTime}",
+
+  "respondByDate" : "{CurrentDateYYYY-MM-DD}",
+
+  "referenceNums" : [ ],
+
+  "purpose" : "Original",
+
+  "paymentTerms" : "Prepaid",
+
+  "notifyParty" : {
+
+    "zip" : "02215",
+
+    "state" : "MA",
+
+    "country" : "US",
+
+    "contact" : {
+
+      "Phone" : "312-999-7777",
+
+      "Fax" : "312-222-3333",
+
+      "Email" : "{ScratchOrgEmail}",
+
+      "ContactName" : "Joe Boston Beans"
+
+    },
+
+    "companyName" : "Boston Beans",
+
+    "city" : "Boston",
+
+    "addr" : "526 Beacon Street"
+
+  },
+
+  "mode" : "Truckload",
+
+  "mileage" : {DistanceInMiles},
+
+  "items" : [ {
+
+    "weightUnits" : "lbs",
+
+    "weight" : 15000,
+
+    "referenceNums" : [ ],
+
+    "pickupStopNum" : 1,
+
+    "itemNum" : "Item 1",
+
+    "isHazMat" : false,
+
+    "dropoffStopNum" : 2,
+
+    "dimensionUnits" : "in",
+
+    "description" : "Bananas"
+
+  }, {
+
+    "weightUnits" : "lbs",
+
+    "weight" : 1200,
+
+    "referenceNums" : [ ],
+
+    "pickupStopNum" : 3,
+
+    "itemNum" : "Item 2",
+
+    "isHazMat" : true,
+
+    "hazMatContactPhone" : "312-999-7777",
+
+    "hazMatContactName" : "Joe Los Angeles Lighting",
+
+    "hazMatContactEmail" : "{ScratchOrgEmail}",
+
+    "dropoffStopNum" : 4,
+
+    "dimensionUnits" : "in",
+
+    "description" : "Grapes"
+
+  } ],
+
+  "equipmentWeightUnits" : "lbs",
+
+  "equipmentType" : "Dry Van 53'",
+
+  "customerBillTo" : {
+
+    "zip" : "60015",
+
+    "state" : "IL",
+
+    "country" : "US",
+
+    "contact" : {
+
+      "Phone" : "312-999-7777",
+
+      "Fax" : "312-222-3333",
+
+      "Email" : "{ScratchOrgEmail}",
+
+      "ContactName" : "Joe Revenova HQ"
+
+    },
+
+    "companyName" : "Revenova HQ",
+
+    "city" : "Bannockburn",
+
+    "addr" : "2333 Waukegan Rd."
+
+  },
+
+  "currencyCode" : "USD",
+
+  "contractId" : "777666555",
+
+  "charges" : [ {
+
+    "type" : "Line Haul",
+
+    "description" : "Line Haul",
+
+    "amount" : 2312.65
+
+  }, {
+
+    "type" : "Fuel",
+
+    "description" : "Fuel Surcharge",
+
+    "amount" : 200.00
+
+  }, {
+
+    "type" : "Accessorial",
+
+    "description" : "Expedited",
+
+    "amount" : 100.00
+
+  }, {
+
+    "type" : "Accessorial",
+
+    "description" : "Hazardous Material Handling",
+
+    "amount" : 0.00
+
+  } ],
+
+  "carrierTradingPartnerId" : "EDIC1",
+
+  "carrierScac" : "SCAC1",
+
+  "carrierQuoteId" : "22311322",
+
+  "carrierBillTo" : {
+
+    "zip" : "60015",
+
+    "state" : "IL",
+
+    "country" : "US",
+
+    "contact" : {
+
+      "Phone" : "312-999-7777",
+
+      "Fax" : "312-222-3333",
+
+      "Email" : "{ScratchOrgEmail}",
+
+      "ContactName" : "Joe Revenova HQ"
+
+    },
+
+    "companyName" : "Revenova HQ",
+
+    "companyId" : "{RevenovaHQAccountID}",
+
+    "city" : "Bannockburn",
+
+    "addr" : "2333 Waukegan Rd."
+
+  }
+
+}

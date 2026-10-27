@@ -1,0 +1,73 @@
+{
+
+"eventType": "DocumentUpdate",
+
+"partnerId": 20,
+
+"accountId": "blptiVdO6tZ/kQ6sFrNCtg==",
+
+"driverPhone": "2025551234",
+
+"loadNumber": "{loadNumber}",
+
+"loadTrackExternalId": "{loadTrackExternalId}",
+
+"latestLocation": {
+
+"accuracy": 85.5,
+
+"city": "Washington",
+
+"country": "USA",
+
+"lat": "38.880029218784",
+
+"lon": "-77.00543319213574",
+
+"state": "DC",
+
+"timestamp": "1/15/2025 13:45 EST",
+
+"timestampSec": "1/15/2025 13:45:30 EST"
+
+},
+
+"latestStatus": {
+
+"name": "Not Started",
+
+"code": "NS",
+
+"timestamp": "1/15/2025 13:45 EST",
+
+"timestampSec": "1/15/2025 13:45:30 EST"
+
+},
+
+"document": {
+
+"timestamp": "1/15/2025 13:45:30 EST",
+
+"type": "Bill of Ladings",
+
+"url": "https://assets.truckertools.com/images/tt-scan-docs/scanImageuploads/filename.jpg",
+
+"location": {
+
+"accuracy": 85.5,
+
+"city": "Washington",
+
+"state": "DC",
+
+"country": "USA",
+
+"lat": "38.880029218784",
+
+"lon": "-77.00543319213574"
+
+}
+
+}
+
+}

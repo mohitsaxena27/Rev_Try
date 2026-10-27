@@ -1,0 +1,67 @@
+{
+  "equipmentAttributes": {
+    "equipmentTypeId": 43,
+    "equipmentOptions": [],
+    "transportationModeId": 1
+  },
+  "loadStops": [
+    {
+      "type": 1,
+      "sequence": 1,
+      "earlyDateTime": "{CurrentDate}T08:30:00",
+      "lateDateTime": "{CurrentDate}T12:00:00",
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "countryCode": "USA",
+        "postalCode": "02215"
+      }
+    },
+    {
+      "type": 1,
+      "sequence": 2,
+      "earlyDateTime": "{CurrentDate+1}T09:00:00",
+      "lateDateTime": "{CurrentDate+1}T22:00:00",
+      "location": {
+        "city": "Chicago",
+        "state": "IL",
+        "countryCode": "USA",
+        "postalCode": "60602"
+      }
+    },
+    {
+      "type": 2,
+      "sequence": 3,
+      "location": {
+        "city": "Denver",
+        "state": "CO",
+        "countryCode": "USA",
+        "postalCode": "80204"
+      }
+    },
+    {
+      "type": 2,
+      "sequence": 4,
+      "location": {
+        "city": "Denver",
+        "state": "CO",
+        "countryCode": "USA",
+        "postalCode": "80204"
+      }
+    }
+  ],
+  "note": "testing",
+  "loadNumber": "{Load_Number}",
+  "rateAttributes": {
+    "postedAllInRate": {
+      "amount": 1,
+      "currencyCode": "USD"
+    }
+  },
+  "dimensional": {
+    "weight": 23000
+  },
+  "loadActionAttributes": {
+    "loadActionId": "4"
+  }
+}

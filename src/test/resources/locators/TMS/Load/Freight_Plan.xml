@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+   <CarrierLoadLink>(//div[contains(@class,'active ')]//*[text()='Carrier Loads']/ancestor::lightning-layout-item[2]//lightning-formatted-text[@data-load-id])[index]</CarrierLoadLink>
+   <CustomerLoadLink>(//div[contains(@class,'active ')]//*[text()='User Selected Load(s) - Load View']/ancestor::lightning-layout-item[2]//lightning-formatted-text[@data-load-id])[index]</CustomerLoadLink>
+   <FreightPlanFinancialSummaryText>//div[contains(@class,'active ')]//lightning-layout-item[contains(@class,'rowDetail')]</FreightPlanFinancialSummaryText>
+   <FreightPlanFinancialFooterSummaryText>//div[contains(@class,'active ')]//lightning-layout-item[contains(@class,'financialFooter')]//lightning-formatted-number</FreightPlanFinancialFooterSummaryText>
+   <SelectFirstFreightPlan>//div[contains(@class,'active ')]//button[@title='Go to Freight Plan']/..//*[contains(text(),'Plan')]</SelectFirstFreightPlan>
+    <InputFieldValue>(//div[contains(@class,'active')]//input[@{paramlink1}='{paramlink2}'])[{index}]</InputFieldValue>
+   <Template_Panel_Icon>(//div[contains(@class,'active')]//*[@title='Show Filter/Template Panel'])[2]</Template_Panel_Icon>
+    <LocationCheckbox>(//div[contains(@class,'active')]//*[contains(text(),'{paramlink}')]/ancestor::lightning-layout-item[1]/preceding-sibling::lightning-layout-item//input[@type='checkbox'])[{index}]</LocationCheckbox>
+    <LocationDropdown>//div[contains(@class,'active')]//*[contains(text(),'{paramlink}')]/ancestor::lightning-layout-item[1]/preceding-sibling::lightning-layout-item//button[@title='Create/Add To Carrier Load']</LocationDropdown>
+    <LocationDropdownWithSelectedCheckbox>//div[contains(@class,'active')]//tr[.//*[contains(text(),'{paramlink1}')] and .//*[contains(text(),'{paramlink2}')]]//lightning-button-menu//button</LocationDropdownWithSelectedCheckbox>
+    <FP_WithTitleButton>(//div[contains(@class,'active')]//*[string()='{paramlink1}']/parent::*/parent::*/following-sibling::*//button[@title='{paramlink2}'])[{index}]</FP_WithTitleButton>
+    <FP_Tabs>//div[contains(@class,'active ')]//ul[@part='tab-bar']//li[@data-tab]//a</FP_Tabs>
+    <FP_MoreOptionLink>//div[contains(@class,'active ')]//span[text()='{paramlink}']//parent::a</FP_MoreOptionLink>
+    <FP_FilterSection>//lightning-button//button[normalize-space()='{paramlink1}']</FP_FilterSection>
+    <FP_Action>//div[contains(@class,'active')]//*[text()='{paramlink1}']/ancestor::lightning-tab[@tabindex='-1']//*[@title='{paramlink2}']</FP_Action>>
+    <FP_Table_Checkbox>//div[contains(@class,'active')]//tr[.//lightning-formatted-text[contains(.,'{paramlink}')] ]/td['{colIndex}']//input[@type='checkbox']</FP_Table_Checkbox>>
+    <SelectCloneCheckbox>(//div[contains(@class,'active')]//*[contains(@class,'loadNumberCell')]/ancestor::td[1]/preceding-sibling::td//input[@type='checkbox'])[{index}]</SelectCloneCheckbox>
+    <GetFreightPlanNumberFromLoad>//div[contains(@class,'active ')]//span[contains(text(),'Plan-')]</GetFreightPlanNumberFromLoad>
+    <FreightPlanDropdownOption>//div[contains(@class,'active')]//lightning-button-menu//div[contains(@class,'slds-dropdown')]//*[contains(text(),'{paramlink}')]</FreightPlanDropdownOption>
+
+</locators>
+

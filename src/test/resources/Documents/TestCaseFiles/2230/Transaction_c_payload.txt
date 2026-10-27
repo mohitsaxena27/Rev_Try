@@ -1,0 +1,219 @@
+<loadStatusMessage>
+    <tradingPartnerId>KLIQA</tradingPartnerId>
+    <shipmentId>{shipmentId}</shipmentId>
+    <loadNum>{shipmentId}</loadNum>
+    <referenceNums></referenceNums>
+<stops>
+
+<stop>
+
+<stopNum>1</stopNum>
+
+<stopType>Pickup</stopType>
+
+<stopInstructions>Pickup Instructions</stopInstructions>
+
+<referenceNums></referenceNums>
+
+<apptRequired>Y</apptRequired>
+
+<expectedDate>{CurrentDate}</expectedDate>
+
+<expectedTimeStart>09:00</expectedTimeStart>
+
+<expectedTimeEnd>22:00</expectedTimeEnd>
+
+<timeZone>LT</timeZone>
+
+<company>
+
+<companyName>Revenova HQ</companyName>
+
+<addr>2333 Waukegan Rd. </addr>
+
+<city>Bannockburn </city>
+
+<state>IL</state>
+
+<zip>60015 </zip>
+
+<country>US</country>
+
+</company>
+
+<events>
+</events>
+</stop>
+
+<stop>
+
+<stopNum>2</stopNum>
+
+<stopType>Dropoff</stopType>
+
+<stopInstructions>Delivery Instructions</stopInstructions>
+
+<referenceNums></referenceNums>
+
+<apptRequired>N</apptRequired>
+
+<expectedDate>{CurrentDate}</expectedDate>
+
+<expectedTimeStart>18:50</expectedTimeStart>
+
+<expectedTimeEnd>18:50</expectedTimeEnd>
+
+<timeZone>LT</timeZone>
+
+<company>
+
+<companyName>Los Angeles Lighting</companyName>
+
+<addr>2765 E Olympic Blvd </addr>
+
+<city>Los Angeles </city>
+
+<state>CA</state>
+
+<zip>90023 </zip>
+
+<country>US</country>
+
+</company>
+
+<events>
+
+<event>
+
+<status>Appointment </status>
+
+<reason> </reason>
+
+<statusDate>{CurrentDateMM/dd/yyyy}</statusDate>
+
+<statusTime>18:50</statusTime>
+
+<timeZone>LT</timeZone>
+
+<lat>34.023788</lat>
+
+<lon>-118.218265</lon>
+
+</event>
+
+</events>
+
+</stop>
+
+<stop>
+
+<stopNum>3</stopNum>
+
+<stopType>Pickup</stopType>
+
+<stopInstructions>Pickup Instructions</stopInstructions>
+
+<referenceNums></referenceNums>
+
+<apptRequired>N</apptRequired>
+
+<expectedDate>{CurrentDate+1}</expectedDate>
+
+<expectedTimeStart>09:00</expectedTimeStart>
+
+<expectedTimeEnd>22:00</expectedTimeEnd>
+
+<timeZone>LT</timeZone>
+
+<company>
+
+<companyName>Los Angeles Lighting</companyName>
+
+<addr>2765 E Olympic Blvd </addr>
+
+<city>Los Angeles </city>
+
+<state>CA</state>
+
+<zip>90023 </zip>
+
+<country>US</country>
+
+</company>
+
+<events></events>
+
+</stop>
+
+<stop>
+
+<stopNum>4</stopNum>
+
+<stopType>Dropoff</stopType>
+
+<stopInstructions>Delivery Instructions</stopInstructions>
+
+<referenceNums></referenceNums>
+
+<apptRequired>N</apptRequired>
+
+<expectedDate>{CurrentDate+3}</expectedDate>
+
+<expectedTimeStart>09:00</expectedTimeStart>
+
+<expectedTimeEnd>22:00</expectedTimeEnd>
+
+<timeZone>LT</timeZone>
+
+<company>
+
+<companyName>Revenova HQ</companyName>
+
+<addr>2333 Waukegan Rd. </addr>
+
+<city>Bannockburn </city>
+
+<state>IL</state>
+
+<zip>60015 </zip>
+
+<country>US</country>
+
+</company>
+
+<events></events>
+
+</stop>
+
+</stops>
+<items>
+        <item>
+            <pickupStopNum>1</pickupStopNum>
+            <dropoffStopNum>2</dropoffStopNum>
+            <itemNum>Item 1</itemNum>
+            <desc>Bananas</desc>
+            <handlingUnitCount></handlingUnitCount>
+            <handlingUnits></handlingUnits>
+            <packagingUnitCount></packagingUnitCount>
+            <packagingUnits></packagingUnits>
+            <weight>15000</weight>
+            <weightUnits>lbs</weightUnits>
+            <dimensionUnits>in</dimensionUnits>
+            <isHazardousMaterials>N</isHazardousMaterials>
+        </item>
+        <item>
+            <pickupStopNum>3</pickupStopNum>
+            <dropoffStopNum>4</dropoffStopNum>
+            <itemNum>Item 2</itemNum>
+            <desc>Grapes</desc>
+            <handlingUnitCount></handlingUnitCount>
+            <handlingUnits></handlingUnits>
+            <packagingUnitCount></packagingUnitCount>
+            <packagingUnits></packagingUnits>
+            <weight>12000</weight>
+            <weightUnits>lbs</weightUnits>
+            <dimensionUnits>in</dimensionUnits>
+            <isHazardousMaterials>N</isHazardousMaterials>
+        </item>
+    </items>
+</loadStatusMessage>

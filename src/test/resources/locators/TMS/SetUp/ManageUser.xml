@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <LoginUser>//a[contains(@title,'{paramlink}') and text()='Login']</LoginUser>
+    <LoginBtn2>(//*[@value=' Login '])[2]</LoginBtn2>
+    <ApexJobELDDownloadCheck>//tr[.//*[text()='{paramlink1}'] and .//*[text()='Completed']]//*[text()='{paramlink2}']</ApexJobELDDownloadCheck>
+
+</locators>
+

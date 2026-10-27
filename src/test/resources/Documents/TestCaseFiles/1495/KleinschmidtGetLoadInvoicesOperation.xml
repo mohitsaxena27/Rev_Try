@@ -1,0 +1,305 @@
+<getLoadInvoicesResponse>
+    <status>
+        <statusCode>OK</statusCode>
+        <messageCode>100</messageCode>
+        <message>abcdef</message>
+    </status>
+
+
+    <loadInvoices>
+		    <loadInvoice>
+			<carrierTradingPartnerId>EDIC1</carrierTradingPartnerId>
+			<shipmentId>Load-1496A</shipmentId>
+			<proNumber>PRO1496A</proNumber>
+			<invoiceNum>INV1496A</invoiceNum>
+			<currencyCode>USD</currencyCode>
+			<invoiceDate>2023-10-01</invoiceDate>
+			<invoiceDueDate>2023-10-15</invoiceDueDate>
+			<origin>
+				<originName>XYZ Shipper</originName>
+				<originStreet>2333 Waukegan Rd.</originStreet>
+				<originCity>Bannockburn</originCity>
+				<originState>IL</originState>
+				<originPostalCode>60045</originPostalCode>
+				<originCountry>US</originCountry>
+			</origin>
+			<destination>
+				<destinationName>ABC Consignee</destinationName>
+				<destinationStreet>526 Beacon Street</destinationStreet>
+				<destinationCity>Boston</destinationCity>
+				<destinationState>MA</destinationState>
+				<destinationPostalCode>02215</destinationPostalCode>
+				<destinationCountry>US</destinationCountry>
+			</destination>
+			<charges>
+				<charge>
+					<type>Line Haul</type>
+					<desc>Net Line Haul</desc>
+					<qty>1200</qty>
+					<rate>1.00</rate>
+					<rateType>Per Mile</rateType>
+					<amount>1200.00</amount>
+				</charge>
+				<charge>
+					<type>Fuel</type>
+					<desc>Fuel Surcharge</desc>
+					<qty>1200</qty>
+					<rate>0.25</rate>
+					<rateType>Per Mile</rateType>
+					<amount>300.00</amount>
+				</charge>
+				<charge>
+					<type>Accessorial</type>
+					<desc>After Hours Delivery</desc>
+					<qty>1</qty>
+					<rate>75</rate>
+					<rateType>Fixed Cost</rateType>
+					<amount>75.00</amount>
+					<stopNum>2</stopNum>
+				</charge>
+				<charge>
+					<type>Accessorial</type>
+					<desc>Unknown Accessorial Name</desc>
+					<qty>5</qty>
+					<rate>75</rate>
+					<rateType>Per Handling Unit</rateType>
+					<amount>375.00</amount>
+				</charge>
+			</charges>
+			<freightChargeItems>
+				<freightChargeItem>
+					<desc>Commodity AAA</desc>
+					<freightClass>50</freightClass>
+					<qty>10</qty>
+					<rate>0.25</rate>
+					<rateType>Per Mile</rateType>									
+					<amount>100</amount>
+					<weight>100</weight>
+					<weightUnits>lbs</weightUnits>
+				</freightChargeItem>
+				<freightChargeItem>
+					<desc>60# Red Potato</desc>
+					<freightClass>55</freightClass>
+					<qty>20</qty>
+					<rate>1.25</rate>
+					<rateType>Per Mile</rateType>									
+					<amount>100</amount>
+					<weight>100</weight>
+					<weightUnits>lbs</weightUnits>
+				</freightChargeItem>
+				<freightChargeItem>
+					<desc>5/10 Poly Russet Potato</desc>
+					<freightClass>60</freightClass>
+					<qty>20</qty>
+					<rate>1.25</rate>
+					<rateType>Per Mile</rateType>									
+					<amount>100</amount>
+					<weight>100</weight>
+					<weightUnits>lbs</weightUnits>
+				</freightChargeItem>
+			</freightChargeItems>
+		</loadInvoice>
+
+		<loadInvoice>
+			<carrierTradingPartnerId>EDIC1</carrierTradingPartnerId>
+			<shipmentId>Load-1496B</shipmentId>
+			<proNumber>PRO1496B</proNumber>
+			<invoiceNum>INV1496B</invoiceNum>
+			<currencyCode>USD</currencyCode>
+			<invoiceDate>2023-11-01</invoiceDate>
+			<invoiceDueDate>2023-11-15</invoiceDueDate>
+			<origin>
+				<originName>123 Shipper</originName>
+				<originStreet>2333 Waukegan Rd.</originStreet>
+				<originCity>Bannockburn</originCity>
+				<originState>IL</originState>
+				<originPostalCode>60045</originPostalCode>
+				<originCountry>US</originCountry>
+			</origin>
+			<destination>
+				<destinationName>456 Shipper</destinationName>
+				<destinationStreet>526 Beacon Street</destinationStreet>
+				<destinationCity>Boston</destinationCity>
+				<destinationState>MA</destinationState>
+				<destinationPostalCode>02215</destinationPostalCode>
+				<destinationCountry>US</destinationCountry>
+			</destination>
+			<charges>
+				<charge>
+					<type>Line Haul</type>
+					<desc>Net Line Haul</desc>
+					<qty>1300</qty>
+					<rate>1.00</rate>
+					<rateType>Per Mile</rateType>
+					<amount>1300.00</amount>
+				</charge>
+				<charge>
+					<type>Fuel</type>
+					<desc>Fuel Surcharge</desc>
+					<qty>1300</qty>
+					<rate>0.25</rate>
+					<rateType>Per Mile</rateType>
+					<amount>325.00</amount>
+				</charge>
+				<charge>
+					<type>Accessorial</type>
+					<desc>After Hours Delivery</desc>
+					<qty>1</qty>
+					<rate>80</rate>
+					<rateType>Fixed Cost</rateType>
+					<amount>80.00</amount>
+					<stopNum>2</stopNum>
+				</charge>
+				<charge>
+					<type>Accessorial</type>
+					<desc>Unknown Accessorial Name</desc>
+					<qty>5</qty>
+					<rate>75</rate>
+					<rateType>Per Handling Unit</rateType>
+					<amount>375.00</amount>
+				</charge>
+			</charges>
+			<freightChargeItems>
+				<freightChargeItem>
+					<desc>Grapes</desc>
+					<freightClass>50</freightClass>
+					<qty>10</qty>
+					<rate>0.25</rate>
+					<rateType>Per Mile</rateType>									
+					<amount>100</amount>
+					<weight>100</weight>
+					<weightUnits>lbs</weightUnits>
+				</freightChargeItem>
+				<freightChargeItem>
+					<desc>Cucumbers</desc>
+					<freightClass>55</freightClass>
+					<qty>20</qty>
+					<rate>1.25</rate>
+					<rateType>Per Mile</rateType>									
+					<amount>100</amount>
+					<weight>100</weight>
+					<weightUnits>lbs</weightUnits>
+				</freightChargeItem>
+				<freightChargeItem>
+					<desc>Oranges</desc>
+					<freightClass>60</freightClass>
+					<qty>20</qty>
+					<rate>1.25</rate>
+					<rateType>Per Mile</rateType>									
+					<amount>100</amount>
+					<weight>100</weight>
+					<weightUnits>lbs</weightUnits>
+				</freightChargeItem>
+			</freightChargeItems>
+		</loadInvoice>
+
+
+
+
+		<loadInvoice>
+			<carrierTradingPartnerId>EDIC2</carrierTradingPartnerId>
+			<shipmentId>Load-1496C</shipmentId>
+			<proNumber>PRO1496C</proNumber>
+			<invoiceNum>INV1496C</invoiceNum>
+			<currencyCode>USD</currencyCode>
+			<invoiceDate>2023-10-03</invoiceDate>
+			<invoiceDueDate>2023-10-18</invoiceDueDate>
+			<origin>
+				<originName>Shipper A</originName>
+				<originStreet>2333 Waukegan Rd.</originStreet>
+				<originCity>Bannockburn</originCity>
+				<originState>IL</originState>
+				<originPostalCode>60045</originPostalCode>
+				<originCountry>US</originCountry>
+			</origin>
+			<destination>
+				<destinationName>Shipper B</destinationName>
+				<destinationStreet>526 Beacon Street</destinationStreet>
+				<destinationCity>Boston</destinationCity>
+				<destinationState>MA</destinationState>
+				<destinationPostalCode>02215</destinationPostalCode>
+				<destinationCountry>US</destinationCountry>
+			</destination>
+			<charges>
+				<charge>
+					<type>Line Haul</type>
+					<desc>Net Line Haul</desc>
+					<qty>1100</qty>
+					<rate>1.00</rate>
+					<rateType>Per Mile</rateType>
+					<amount>1100.00</amount>
+				</charge>
+				<charge>
+					<type>Fuel</type>
+					<desc>Fuel Surcharge</desc>
+					<qty>1100</qty>
+					<rate>0.25</rate>
+					<rateType>Per Mile</rateType>
+					<amount>275.00</amount>
+				</charge>
+			</charges>
+			<freightChargeItems>
+				<freightChargeItem>
+					<desc>Kiwi</desc>
+					<freightClass>50</freightClass>
+					<qty>10</qty>
+					<rate>0.25</rate>
+					<rateType>Per Mile</rateType>									
+					<amount>120</amount>
+					<weight>100</weight>
+					<weightUnits>lbs</weightUnits>
+				</freightChargeItem>
+				<freightChargeItem>
+					<desc>Strawberries</desc>
+					<freightClass>55</freightClass>
+					<qty>20</qty>
+					<rate>1.25</rate>
+					<rateType>Per Mile</rateType>									
+					<amount>100</amount>
+					<weight>100</weight>
+					<weightUnits>lbs</weightUnits>
+				</freightChargeItem>
+				<freightChargeItem>
+					<desc>Lemons</desc>
+					<freightClass>60</freightClass>
+					<qty>20</qty>
+					<rate>1.25</rate>
+					<rateType>Per Mile</rateType>									
+					<amount>100</amount>
+					<weight>100</weight>
+					<weightUnits>lbs</weightUnits>
+				</freightChargeItem>
+			</freightChargeItems>
+		</loadInvoice>
+
+		<loadInvoice>
+			<carrierTradingPartnerId>EDIC2</carrierTradingPartnerId>
+			<shipmentId>Load-1496D</shipmentId>
+			<proNumber>PRO1496D</proNumber>
+			<invoiceNum>INV1496D</invoiceNum>
+			<currencyCode>USD</currencyCode>
+			<invoiceDate>2023-11-03</invoiceDate>
+			<invoiceDueDate>2023-11-18</invoiceDueDate>
+			<charges>
+				<charge>
+					<type>Line Haul</type>
+					<desc>Net Line Haul</desc>
+					<qty>1100</qty>
+					<rate>1.00</rate>
+					<rateType>Per Mile</rateType>
+					<amount>1100.00</amount>
+				</charge>
+				<charge>
+					<type>Fuel</type>
+					<desc>Fuel Surcharge</desc>
+					<qty>1100</qty>
+					<rate>0.25</rate>
+					<rateType>Per Mile</rateType>
+					<amount>275.00</amount>
+				</charge>
+			</charges>
+		</loadInvoice>
+
+
+	</loadInvoices>
+</getLoadInvoicesResponse>

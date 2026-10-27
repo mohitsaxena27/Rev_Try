@@ -1,0 +1,28 @@
+{
+  "fleet_id": 85788,
+  "vehicle_ids": [
+      3018513
+  ],
+  "details": [
+      {
+          "id": "ELD2409VIN",
+          "fleet_id": 56618,
+          "tsp_source": "motive",
+          "driver": null,
+          "oem": "Volvo",
+          "model": "VNL 760",
+          "model_year": "2023",
+          "vin": "VIN022420260812VN",
+          "license_plate_state": "US-PA",
+          "license_plate_number": "T234599",
+          "status": "active",
+          "name": "SCENARIO2",
+          "eld_device_id": "DEVICE2",
+          "location": null,
+          "time": "0001-01-01T00:00:00Z",
+          "speed": null,
+          "odometer": null,
+          "fuel": null
+      }
+  ]
+}

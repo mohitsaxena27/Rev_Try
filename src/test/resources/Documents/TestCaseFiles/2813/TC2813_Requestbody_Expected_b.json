@@ -1,0 +1,62 @@
+{
+  "equipmentAttributes" : {
+    "equipmentTypeId" : 43,
+    "equipmentOptions" : [ ],
+    "transportationModeId" : 2
+  },
+  "loadStops" : [ {
+    "type" : 1,
+    "sequence" : 1,
+    "earlyDateTime" : "{CurrentDate}T07:00:00",
+    "lateDateTime" : "{CurrentDate}T11:00:00",
+    "location" : {
+      "city" : "Indianapolis",
+      "state" : "IN",
+      "countryCode" : "USA",
+      "postalCode" : "46254"
+    }
+  }, {
+    "type" : 1,
+    "sequence" : 2,
+    "earlyDateTime" : "{CurrentDate+1}T09:00:00",
+    "lateDateTime" : "{CurrentDate+1}T22:00:00",
+    "location" : {
+      "city" : "Chicago",
+      "state" : "IL",
+      "countryCode" : "USA",
+      "postalCode" : "60602"
+    }
+  }, {
+    "type" : 2,
+    "sequence" : 3,
+    "location" : {
+      "city" : "Des Moines",
+      "state" : "IA",
+      "countryCode" : "USA",
+      "postalCode" : "50301"
+    }
+  }, {
+    "type" : 2,
+    "sequence" : 4,
+    "location" : {
+      "city" : "Colorado Springs",
+      "state" : "CO",
+      "countryCode" : "USA",
+      "postalCode" : "80928"
+    }
+  } ],
+  "note" : "testing",
+  "loadNumber" : "{LoadNum}",
+  "rateAttributes" : {
+    "postedAllInRate" : {
+      "amount" : {amt},
+      "currencyCode" : "USD"
+    }
+  },
+  "dimensional" : {
+    "weight" : 15000
+  },
+  "loadActionAttributes" : {
+    "loadActionId" : "4"
+  }
+}

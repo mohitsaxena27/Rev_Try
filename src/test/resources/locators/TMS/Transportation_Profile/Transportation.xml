@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+<MoreTab>//div[contains(@class,'active ')]//li[@title='Customer Operations']/following-sibling::li//button[@title='More Tabs']</MoreTab>
+<RateEntryRecords>//div[contains(@class,'active ')]//td[ .='{paramlink}']/..//th//a//*[contains(text(),'Rate Entry')]</RateEntryRecords>
+<MoreTab>//li[@title='{paramlink}']/..//li[@role='tab']//button</MoreTab>
+    <MoreMenu>//div[contains(@class,'active ')]//*[.//*[normalize-space(text())='{paramlink}']]//th[.//*[normalize-space(text())='{paramlink1}']]/..//button[.//span[normalize-space(text())='Show Actions']]</MoreMenu>
+ <TableWiththeirData>//table[.//*[normalize-space(text())='{paramlink}']]</TableWiththeirData>
+    <ViewAllWithTable>//*[@aria-label="{paramlink}"]//span[text()='View All']</ViewAllWithTable>
+ <TableDataWithValue>//div[contains(@class,'active ')]//tbody//td[@data-label="{paramlink1}"]//*[text()='{paramlink2}']</TableDataWithValue>
+ <ClickOnRecordsWithRef>//div[contains(@class,'active ')]//tr[.//td[@data-label='{paramlink1}' and .//text()='{paramlink2}']]//*[@data-label='{paramlink3}']//a</ClickOnRecordsWithRef>
+  <More_Tab_LRP>//div[contains(@class,'active ')]//li[@title='{paramlink}']/following-sibling::li//button[@title='More Tabs']</More_Tab_LRP>
+</locators>
+

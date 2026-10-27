@@ -1,0 +1,1217 @@
+{
+  "shipment": {
+    "id": "9cdb4c14-a6a7-4c4d-b6dc-a93fe946482f",
+    "createdDateTime": "2025-10-14T16:58:27+0000",
+    "identifiers": [
+      {
+        "type": "CARRIER_MASTER_ID",
+        "value": "YZDGPTA0"
+      },
+      {
+        "type": "CONTAINER_ID",
+        "value": "BSIU9701111"
+      },
+      {
+        "type": "CONTAINER_ID",
+        "value": "BSIU9702222"
+      },
+      {
+        "type": "CONTAINER_ID",
+        "value": "BSIU9703333"
+      },
+      {
+        "type": "CONTAINER_ID",
+        "value": "BSIU9704444"
+      },
+      {
+        "type": "BILL_OF_LADING",
+        "value": "MBOL3575"
+      },
+      {
+        "type": "CONTAINER_TYPE",
+        "value": "45GP"
+      }
+    ],
+    "shipmentShareLink": "https://movement.project44.com/share/2a83330d-cda5-4dee-bc05-86d5ac7290f3",
+    "lastModifiedDateTime": "2025-10-24T15:13:34+0000",
+    "routeInfo": {
+      "stops": [
+        {
+          "id": "6760aefa-6681-3578-b73d-23236ebde145",
+          "type": "PICKUP",
+          "location": {
+            "id": "60e8e1cf-377c-4f3a-843f-7a81d49c8284",
+            "name": "Shanghai International Terminal (QA)",
+            "identifiers": [
+              {
+                "type": "PORT_UN_LOCODE",
+                "value": "CNSHG"
+              }
+            ],
+            "address": {
+              "city": "Ho Chi Minh City",
+              "state": "Ho Chi Minh",
+              "country": "VN"
+            },
+            "coordinates": {
+              "latitude": 10.773278,
+              "longitude": 106.70746
+            },
+            "timeZone": "Asia/Ho_Chi_Minh"
+          }
+        },
+        {
+          "id": "2057de44-b9aa-3f19-a84c-014ebeea37f8",
+          "type": "ORIGIN",
+          "location": {
+            "id": "44e0218a-3eb3-4775-9b9e-5f980260f3bd",
+            "name": "Binh Duong Port",
+            "identifiers": [
+              {
+                "type": "PORT_UN_LOCODE",
+                "value": "VNBDG"
+              }
+            ],
+            "address": {
+              "city": "Thủ Dầu Một",
+              "state": "Bình Dương",
+              "country": "VN"
+            },
+            "coordinates": {
+              "latitude": 10.899075,
+              "longitude": 106.83891
+            },
+            "timeZone": "Asia/Ho_Chi_Minh"
+          }
+        },
+        {
+          "id": "816e36fe-5f10-3f0d-bd52-ac02c9a7e48e",
+          "type": "PORT_OF_LOADING",
+          "location": {
+            "id": "64c1634b-be30-484e-a7f3-855f6f2f81d9",
+            "name": "Shanghai International Terminal (QA)",
+            "identifiers": [
+              {
+                "type": "PORT_UN_LOCODE",
+                "value": "CNSHG"
+              }
+            ],
+            "address": {
+              "country": "VN"
+            },
+            "coordinates": {
+              "latitude": 10.506716,
+              "longitude": 107.01112
+            },
+            "timeZone": "Asia/Shanghai"
+          }
+        },
+        {
+          "id": "44b484f7-8759-34ce-a1aa-bdddc6c350bb",
+          "type": "PORT_OF_DISCHARGE",
+          "location": {
+            "id": "674f5160-2395-469b-8ce3-700d4daf5e1c",
+            "name": "Savannah",
+            "identifiers": [
+              {
+                "type": "PORT_UN_LOCODE",
+                "value": "USSAV"
+              },
+              {
+                "type": "FACILITY_ID",
+                "value": "L737"
+              }
+            ],
+            "address": {
+              "addressLines": [
+                "Garden City Terminals"
+              ],
+              "city": "Savannah",
+              "state": "Georgia",
+              "country": "US"
+            },
+            "coordinates": {
+              "latitude": 32.098675,
+              "longitude": -81.10994
+            },
+            "timeZone": "America/New_York",
+            "masterLocationId": "88728d1b-85f5-438d-9080-280fa1fb67a8"
+          }
+        }
+      ],
+      "routeSegments": [
+        {
+          "id": "8dd2c961-8ea3-33a3-81ce-ee33d8967801",
+          "fromStopId": "6760aefa-6681-3578-b73d-23236ebde145",
+          "toStopId": "2057de44-b9aa-3f19-a84c-014ebeea37f8",
+          "transportationMode": "UNKNOWN"
+        },
+        {
+          "id": "dc29520d-e390-3720-a4c0-40399e914a1c",
+          "fromStopId": "2057de44-b9aa-3f19-a84c-014ebeea37f8",
+          "toStopId": "816e36fe-5f10-3f0d-bd52-ac02c9a7e48e",
+          "transportationMode": "UNKNOWN"
+        },
+        {
+          "id": "a20aab0c-decd-3cf5-a947-db3a8fa942e6",
+          "fromStopId": "816e36fe-5f10-3f0d-bd52-ac02c9a7e48e",
+          "toStopId": "44b484f7-8759-34ce-a1aa-bdddc6c350bb",
+          "transportationMode": "OCEAN",
+          "identifiers": [
+            {
+              "type": "CARRIER_MASTER_ID",
+              "value": "YZDGPTA0"
+            },
+            {
+              "type": "CARRIER_NAME",
+              "value": "ZIM Integrated Shipping"
+            },
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "VESSEL_IMO",
+              "value": "9967976"
+            },
+            {
+              "type": "VESSEL_NAME",
+              "value": "ZIM EMERALD"
+            },
+            {
+              "type": "VESSEL_P44_ID",
+              "value": "2e55c9e5-2a2c-44ba-81cb-759a21d7ed69"
+            },
+            {
+              "type": "VOYAGE_NUMBER",
+              "value": "9E"
+            }
+          ]
+        }
+      ]
+    },
+    "relatedShipments": [
+      {
+        "id": "828fd6ba-f531-4c21-ad22-926725455cee",
+        "createdDateTime": "2025-10-14T16:58:27+0000",
+        "identifiers": [
+          {
+            "type": "CONTAINER_ID",
+            "value": "ZCSU7954910"
+          },
+          {
+            "type": "CONTAINER_TYPE",
+            "value": "45GP"
+          },
+          {
+            "type": "CARRIER_SCAC",
+            "value": "ZIMU"
+          },
+          {
+            "type": "CARRIER_NAME",
+            "value": "ZIM Integrated Shipping"
+          },
+          {
+            "type": "CARRIER_MASTER_ID",
+            "value": "YZDGPTA0"
+          }
+        ],
+        "shipmentShareLink": "https://movement.project44.com/share/3440c193-aa60-4f92-b432-71517d95ab5b",
+        "lastModifiedDateTime": "2025-10-24T13:23:30+0000"
+      },
+      {
+        "id": "f4eafc48-dd23-4703-b5d0-6b1efced324e",
+        "createdDateTime": "2025-10-14T17:09:51+0000",
+        "identifiers": [
+          {
+            "type": "CONTAINER_ID",
+            "value": "ZCSU7260530"
+          },
+          {
+            "type": "CONTAINER_TYPE",
+            "value": "45GP"
+          },
+          {
+            "type": "CARRIER_SCAC",
+            "value": "ZIMU"
+          },
+          {
+            "type": "CARRIER_NAME",
+            "value": "ZIM Integrated Shipping"
+          },
+          {
+            "type": "CARRIER_MASTER_ID",
+            "value": "YZDGPTA0"
+          }
+        ],
+        "shipmentShareLink": "https://movement.project44.com/share/096f6c8f-5c80-4d60-8114-126c14d8a9d5",
+        "lastModifiedDateTime": "2025-10-24T13:23:30+0000"
+      }
+    ]
+  },
+  "states": [],
+  "events": [
+    {
+      "dateTime": "2025-09-05T10:16:00+0000",
+      "plannedDateTime": "2025-09-10T18:36:00+0000",
+      "estimateDateTime": "2025-09-11T18:36:00+0000",  
+      "receivedDateTime": "2025-10-14T17:27:00+0000",
+      "id": "f429e19c-4dc9-4de8-bdac-a8a1fac63941",
+      "type": "GATE_OUT_EMPTY",
+      "stopId": "816e36fe-5f10-3f0d-bd52-ac02c9a7e48e",
+      "description": "qa is cool",
+      "routeSegmentId": "8dd2c961-8ea3-33a3-81ce-ee33d8967801",
+      "dateTimes": [
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-09-06T07:42:00+0000",
+          "lastModifiedDateTime": "2025-10-14T17:27:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHUX563575"
+            }
+          ],
+          "selected": false,
+          "sequence": 1
+        },
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-09-05T10:16:00+0000",
+          "lastModifiedDateTime": "2025-10-14T17:27:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU4563575"
+            }
+          ],
+          "selected": true,
+          "sequence": 2
+        }
+      ],
+      "details": {
+        "ocean": {
+          "code": "GATE_OUT_EMPTY_CONTAINER_AT_TERMINAL"
+        }
+      }
+    },
+    {
+      "dateTime": "2025-09-08T10:18:00+0000",
+      "plannedDateTime": "2025-09-13T18:36:00+0000",
+      "estimateDateTime": "2025-08-11T18:36:00+0000",
+      "receivedDateTime": "2025-10-14T17:27:00+0000",
+      "id": "628da9e6-dad7-4594-a2be-5bc2a6b97b0b",
+      "type": "GATE_OUT_FULL",
+      "description": "qa is cool x2",
+      "stopId": "44b484f7-8759-34ce-a1aa-bdddc6c350bb",
+      "routeSegmentId": "dc29520d-e390-3720-a4c0-40399e914a1c",
+      "dateTimes": [
+        {
+          "type": "PLANNED",
+          "dateTime": "2025-09-09T14:18:00+0000",
+          "lastModifiedDateTime": "2025-10-14T17:27:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHUX563575"
+            }
+          ],
+          "selected": false,
+          "sequence": 1
+        },
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-09-08T10:18:00+0000",
+          "lastModifiedDateTime": "2025-10-14T17:27:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU5563575"
+            }
+          ],
+          "selected": true,
+          "sequence": 2
+        }
+      ],
+      "details": {
+        "ocean": {
+          "code": "PICKED_UP_AT_ORIGIN"
+        }
+      }
+    },
+    {
+      "dateTime": "2025-09-10T14:34:00+0000",
+      "receivedDateTime": "2025-10-14T17:27:00+0000",
+      "plannedDateTime": "2025-09-09T18:36:00+0000",
+      "estimateDateTime": "2025-09-11T18:36:00+0000",
+      "id": "40d5c4d8-7e21-4c8f-8990-9047fdca64d7",
+      "type": "GATE_IN_FULL",
+      "stopId": "816e36fe-5f10-3f0d-bd52-ac02c9a7e48e",
+      "routeSegmentId": "dc29520d-e390-3720-a4c0-40399e914a1c",
+      "dateTimes": [
+        {
+          "type": "ESTIMATED",
+          "dateTime": "2025-06-09T12:07:00+0000",
+          "lastModifiedDateTime": "2025-10-14T17:27:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHUX563575"
+            }
+          ],
+          "selected": true,
+          "sequence": 1
+        },
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-09-10T14:34:00+0000",
+          "lastModifiedDateTime": "2025-10-14T17:27:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU6563575"
+            }
+          ],
+          "selected": true,
+          "sequence": 2
+        }
+      ],
+      "details": {
+        "ocean": {
+          "code": "GATE_IN_FULL_AT_PORT_OF_LOADING"
+        }
+      }
+    },
+    {
+      "dateTime": "2025-09-10T16:45:00+0000",
+      "plannedDateTime": "2025-09-13T18:36:00+0000",
+      "estimateDateTime": "2025-09-11T18:36:00+0000",
+      "receivedDateTime": "2025-10-14T17:27:00+0000",
+      "id": "bd494d96-4f54-44c5-ae10-1647125787e0",
+      "type": "DEPARTURE_FROM_STOP",
+      "description": "dept from stop event type comment",
+      "stopId": "816e36fe-5f10-3f0d-bd52-ac02c9a7e48e",
+      "routeSegmentId": "a20aab0c-decd-3cf5-a947-db3a8fa942e6",
+      "dateTimes": [
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-09-10T16:45:00+0000",
+          "lastModifiedDateTime": "2025-10-14T17:27:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU8563575"
+            }
+          ],
+          "selected": false,
+          "sequence": 1
+        },
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-09-10T16:45:00+0000",
+          "lastModifiedDateTime": "2025-10-14T17:27:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU8563575"
+            }
+          ],
+          "selected": false,
+          "sequence": 2
+        },
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-09-10T16:45:00+0000",
+          "lastModifiedDateTime": "2025-10-14T20:05:00+0000",
+          "source": "GEOFENCE",
+          "sourceIdentifiers": [
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU8563575"
+            }
+          ],
+          "selected": false,
+          "sequence": 1
+        },
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-09-10T16:45:00+0000",
+          "lastModifiedDateTime": "2025-10-14T20:06:00+0000",
+          "source": "GEOFENCE",
+          "sourceIdentifiers": [
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU8563575"
+            }
+          ],
+          "selected": true,
+          "sequence": 2
+        },
+        {
+          "type": "PLANNED",
+          "dateTime": "2025-09-10T18:36:00+0000",
+          "lastModifiedDateTime": "2025-10-14T17:27:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU8563575"
+            }
+          ],
+          "selected": false,
+          "sequence": 1
+        },
+        {
+          "type": "PLANNED",
+          "dateTime": "2025-09-12T18:36:00+0000",
+          "lastModifiedDateTime": "2025-10-14T17:27:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU7563575"
+            }
+          ],
+          "selected": true,
+          "sequence": 2
+        },
+        {
+          "type": "PLANNED",
+          "dateTime": "2025-09-10T18:36:00+0000",
+          "lastModifiedDateTime": "2025-10-14T17:27:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU8563575"
+            }
+          ],
+          "selected": false,
+          "sequence": 3
+        },
+        {
+          "type": "PLANNED",
+          "dateTime": "2025-09-10T18:36:00+0000",
+          "lastModifiedDateTime": "2025-10-14T17:27:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU8563575"
+            }
+          ],
+          "selected": false,
+          "sequence": 4
+        }
+      ],
+      "details": {
+        "ocean": {
+          "code": "VESSEL_DEPARTURE_FROM_PORT_OF_LOADING"
+        }
+      }
+    },
+    {
+      "dateTime": "2025-09-10T07:59:00+0000",
+      "plannedDateTime": "2025-09-13T18:36:00+0000",
+      "estimateDateTime": "2025-09-11T18:36:00+0000",
+      "receivedDateTime": "2025-10-14T17:27:00+0000",
+      "id": "0e4e92ee-c8a4-4ce3-88fc-3c766295b73f",
+      "type": "LOAD",
+      "stopId": "816e36fe-5f10-3f0d-bd52-ac02c9a7e48e",
+      "description": "load event type comment",
+      "routeSegmentId": "a20aab0c-decd-3cf5-a947-db3a8fa942e6",
+      "dateTimes": [
+        {
+          "type": "ESTIMATED",
+          "dateTime": "2025-09-11T00:36:00+0000",
+          "lastModifiedDateTime": "2025-10-14T17:27:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU7563575"
+            }
+          ],
+          "selected": true,
+          "sequence": 1
+        },
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-09-10T07:59:00+0000",
+          "lastModifiedDateTime": "2025-10-14T17:27:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU7563575"
+            }
+          ],
+          "selected": true,
+          "sequence": 2
+        }
+      ],
+      "details": {
+        "ocean": {
+          "code": "LOAD_ONTO_VESSEL_AT_PORT_OF_LOADING"
+        }
+      }
+    },
+    {
+      "dateTime": "2025-10-21T11:55:00+0000",
+      "estimateDateTime": "2025-09-11T18:36:00+0000",
+      "plannedDateTime": "2025-10-18T18:18:00+0000",
+      "receivedDateTime": "2025-10-21T14:07:00+0000",
+      "id": "b375c9ba-2090-47ef-b812-d41f084e7ba9",
+      "type": "ARRIVAL_AT_STOP",
+      "stopId": "44b484f7-8759-34ce-a1aa-bdddc6c350bb",
+      "routeSegmentId": "a20aab0c-decd-3cf5-a947-db3a8fa942e6",
+      "dateTimes": [
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-10-21T11:55:00+0000",
+          "lastModifiedDateTime": "2025-10-21T14:07:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU9563575"
+            }
+          ],
+          "selected": false,
+          "sequence": 1
+        },
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-10-21T11:55:00+0000",
+          "lastModifiedDateTime": "2025-10-21T14:07:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU9563575"
+            }
+          ],
+          "selected": false,
+          "sequence": 2
+        },
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-10-21T11:55:00+0000",
+          "lastModifiedDateTime": "2025-10-21T14:59:00+0000",
+          "source": "GEOFENCE",
+          "sourceIdentifiers": [
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU9563575"
+            }
+          ],
+          "selected": false,
+          "sequence": 1
+        },
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-10-21T11:55:00+0000",
+          "lastModifiedDateTime": "2025-10-21T14:59:00+0000",
+          "source": "GEOFENCE",
+          "sourceIdentifiers": [
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU9563575"
+            }
+          ],
+          "selected": false,
+          "sequence": 2
+        },
+        {
+          "type": "PLANNED",
+          "dateTime": "2025-10-18T18:00:00+0000",
+          "lastModifiedDateTime": "2025-10-14T17:27:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU9563575"
+            }
+          ],
+          "selected": false,
+          "sequence": 1
+        },
+        {
+          "type": "PLANNED",
+          "dateTime": "2025-10-18T18:00:00+0000",
+          "lastModifiedDateTime": "2025-10-14T17:27:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU9563575"
+            }
+          ],
+          "selected": false,
+          "sequence": 2
+        },
+        {
+          "type": "PLANNED",
+          "dateTime": "2025-10-18T18:18:00+0000",
+          "lastModifiedDateTime": "2025-10-21T14:07:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU9563575"
+            }
+          ],
+          "selected": false,
+          "sequence": 3
+        },
+        {
+          "type": "PLANNED",
+          "dateTime": "2025-10-18T18:18:00+0000",
+          "lastModifiedDateTime": "2025-10-21T14:07:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU9563575"
+            }
+          ],
+          "selected": false,
+          "sequence": 4
+        },
+        {
+          "type": "PLANNED",
+          "dateTime": "2025-10-19T01:18:00+0000",
+          "lastModifiedDateTime": "2025-10-20T11:05:32+0000",
+          "source": "FACILITY",
+          "sourceIdentifiers": [
+            {
+              "type": "BILL_OF_LADING",
+              "value": "ZIMUHCM80568157"
+            },
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU9563575"
+            }
+          ],
+          "selected": false,
+          "sequence": 1
+        },
+        {
+          "type": "ESTIMATED",
+          "dateTime": "2025-10-19T01:18:00+0000",
+          "lastModifiedDateTime": "2025-10-20T11:05:51+0000",
+          "source": "FACILITY",
+          "sourceIdentifiers": [
+            {
+              "type": "BILL_OF_LADING",
+              "value": "ZIMUHCM80568157"
+            },
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU9563575"
+            }
+          ],
+          "selected": true,
+          "sequence": 2
+        },
+        {
+          "type": "ESTIMATED",
+          "dateTime": "2025-10-18T01:00:00+0000",
+          "lastModifiedDateTime": "2025-10-24T15:06:37+0000",
+          "source": "FACILITY",
+          "sourceIdentifiers": [
+            {
+              "type": "BILL_OF_LADING",
+              "value": "ZIMUHCM80568157"
+            },
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU9563575"
+            }
+          ],
+          "selected": true,
+          "sequence": 3
+        },
+        {
+          "type": "PLANNED",
+          "dateTime": "2025-10-19T01:18:00+0000",
+          "lastModifiedDateTime": "2025-10-24T15:06:37+0000",
+          "source": "FACILITY",
+          "sourceIdentifiers": [
+            {
+              "type": "BILL_OF_LADING",
+              "value": "ZIMUHCM80568157"
+            },
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU9563575"
+            }
+          ],
+          "selected": false,
+          "sequence": 4
+        },
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-10-21T11:55:25+0000",
+          "lastModifiedDateTime": "2025-10-21T17:06:13+0000",
+          "source": "FACILITY",
+          "sourceIdentifiers": [
+            {
+              "type": "BILL_OF_LADING",
+              "value": "ZIMUHCM80568157"
+            },
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU9563575"
+            }
+          ],
+          "selected": false,
+          "sequence": 1
+        },
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-10-21T11:55:25+0000",
+          "lastModifiedDateTime": "2025-10-24T15:06:37+0000",
+          "source": "FACILITY",
+          "sourceIdentifiers": [
+            {
+              "type": "BILL_OF_LADING",
+              "value": "ZIMUHCM80568157"
+            },
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU9563575"
+            }
+          ],
+          "selected": false,
+          "sequence": 2
+        }
+      ],
+      "details": {
+        "ocean": {
+          "code": "VESSEL_ARRIVAL_AT_PORT_OF_DISCHARGE"
+        }
+      }
+    },
+    {
+      "dateTime": "2025-10-22T15:38:00+0000",
+      "plannedDateTime": "2025-09-13T18:36:00+0000",
+      "estimateDateTime": "2025-09-11T18:36:00+0000",
+      "receivedDateTime": "2025-10-22T15:26:00+0000",
+      "id": "e67b8e9c-6f44-4f2c-adb8-00ff9695e3b6",
+      "type": "DISCHARGE",
+      "stopId": "44b484f7-8759-34ce-a1aa-bdddc6c350bb",
+      "routeSegmentId": "a20aab0c-decd-3cf5-a947-db3a8fa942e6",
+      "dateTimes": [
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-10-22T14:15:00+0000",
+          "lastModifiedDateTime": "2025-10-22T15:26:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU1063575"
+            }
+          ],
+          "selected": false,
+          "sequence": 1
+        },
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-10-22T15:38:00+0000",
+          "lastModifiedDateTime": "2025-10-22T20:03:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU1063575"
+            }
+          ],
+          "selected": true,
+          "sequence": 2
+        },
+        {
+          "type": "PLANNED",
+          "dateTime": "2025-10-22T07:09:36+0000",
+          "lastModifiedDateTime": "2025-10-16T01:05:18+0000",
+          "source": "FACILITY",
+          "sourceIdentifiers": [
+            {
+              "type": "BILL_OF_LADING",
+              "value": "ZIMUHCM80568157"
+            },
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU1063575"
+            }
+          ],
+          "selected": true,
+          "sequence": 1
+        },
+        {
+          "type": "PLANNED",
+          "dateTime": "2025-10-22T06:55:12+0000",
+          "lastModifiedDateTime": "2025-10-16T21:05:32+0000",
+          "source": "FACILITY",
+          "sourceIdentifiers": [
+            {
+              "type": "BILL_OF_LADING",
+              "value": "ZIMUHCM80568157"
+            },
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU1063575"
+            }
+          ],
+          "selected": false,
+          "sequence": 2
+        },
+        {
+          "type": "PLANNED",
+          "dateTime": "2025-10-23T04:52:28+0000",
+          "lastModifiedDateTime": "2025-10-24T15:06:37+0000",
+          "source": "FACILITY",
+          "sourceIdentifiers": [
+            {
+              "type": "BILL_OF_LADING",
+              "value": "ZIMUHCM80568157"
+            },
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU1063575"
+            }
+          ],
+          "selected": true,
+          "sequence": 3
+        },
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-10-22T15:38:00+0000",
+          "lastModifiedDateTime": "2025-10-22T18:05:52+0000",
+          "source": "FACILITY",
+          "sourceIdentifiers": [
+            {
+              "type": "BILL_OF_LADING",
+              "value": "ZIMUHCM80568157"
+            },
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU1063575"
+            }
+          ],
+          "selected": false,
+          "sequence": 1
+        },
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-10-22T14:15:00+0000",
+          "lastModifiedDateTime": "2025-10-22T18:06:14+0000",
+          "source": "FACILITY",
+          "sourceIdentifiers": [
+            {
+              "type": "BILL_OF_LADING",
+              "value": "ZIMUHCM80568157"
+            },
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU1063575"
+            }
+          ],
+          "selected": false,
+          "sequence": 2
+        },
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-10-22T15:43:00+0000",
+          "lastModifiedDateTime": "2025-10-24T15:06:37+0000",
+          "source": "FACILITY",
+          "sourceIdentifiers": [
+            {
+              "type": "BILL_OF_LADING",
+              "value": "ZIMUHCM80568157"
+            },
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU1063575"
+            }
+          ],
+          "selected": false,
+          "sequence": 3
+        }
+      ],
+      "details": {
+        "ocean": {
+          "code": "DISCHARGE_FROM_VESSEL_AT_PORT_OF_DISCHARGE"
+        }
+      }
+    },
+    {
+      "dateTime": "2025-10-14T16:58:27+0000",
+      "receivedDateTime": "2025-10-14T16:58:27+0000",
+      "id": "7df9abb1-823d-4441-8101-1d75f90e97fb",
+      "type": "TRACKING_STOP",
+      "description": "Tracking not active.",
+      "dateTimes": [
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-10-14T16:58:27+0000",
+          "lastModifiedDateTime": "2025-10-14T16:58:27+0000",
+          "source": "P44",
+          "sourceIdentifiers": [
+            {
+              "type": "BILL_OF_LADING",
+              "value": "ZIMUHCM80568157"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU1163575"
+            }
+          ],
+          "selected": true,
+          "sequence": 1
+        }
+      ]
+    },
+    {
+      "dateTime": "2025-10-20T15:38:00+0000",
+      "plannedDateTime": "2025-09-13T18:36:00+0000",
+      "estimateDateTime": "2025-09-11T18:36:00+0000",
+      "receivedDateTime": "2025-10-22T18:05:52+0000",
+      "id": "14f3c656-2abc-426e-bf75-bd7794b5a872",
+      "type": "AVAILABLE",
+      "stopId": "44b484f7-8759-34ce-a1aa-bdddc6c350bb",
+      "dateTimes": [
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-10-22T14:15:00+0000",
+          "lastModifiedDateTime": "2025-10-23T08:06:20+0000",
+          "source": "FACILITY",
+          "sourceIdentifiers": [
+            {
+              "type": "BILL_OF_LADING",
+              "value": "ZIMUHCM80568157"
+            },
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU1163575"
+            }
+          ],
+          "selected": false,
+          "sequence": 1
+        },
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-10-22T19:58:00+0000",
+          "lastModifiedDateTime": "2025-10-23T14:06:35+0000",
+          "source": "FACILITY",
+          "sourceIdentifiers": [
+            {
+              "type": "BILL_OF_LADING",
+              "value": "ZIMUHCM80568157"
+            },
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU1163575"
+            }
+          ],
+          "selected": true,
+          "sequence": 2
+        },
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-10-22T14:15:00+0000",
+          "lastModifiedDateTime": "2025-10-22T15:26:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU1163575"
+            }
+          ],
+          "selected": false,
+          "sequence": 1
+        },
+        {
+          "type": "ACTUAL",
+          "dateTime": "2025-10-22T15:38:00+0000",
+          "lastModifiedDateTime": "2025-10-22T20:03:00+0000",
+          "source": "CARRIER",
+          "sourceIdentifiers": [
+            {
+              "type": "CARRIER_SCAC",
+              "value": "ZIMU"
+            },
+            {
+              "type": "CONTAINER_ID",
+              "value": "TRHU1163575"
+            }
+          ],
+          "selected": false,
+          "sequence": 2
+        }
+      ],
+      "details": {
+        "ocean": {
+          "code": "IMPORT_AVAILABLE"
+        }
+      }
+    }
+  ]
+}

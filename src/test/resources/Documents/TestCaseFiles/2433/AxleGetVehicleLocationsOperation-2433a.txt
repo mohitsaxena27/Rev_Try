@@ -1,0 +1,35 @@
+{
+    "fleet_id": {fleet_id},
+    "vehicle_locations": [
+      {
+        "id": 2433,
+        "vehicle_id": 2433,
+        "date_time": "2024-07-08T08:15:00.001Z",
+        "latitude": 41.257160,
+        "longitude": -95.995102,
+        "address": "Omaha, Nebraska, USA",
+        "course": 0,
+        "odometer": {
+          "value": 1397491,
+          "unit": "mi"
+        },        
+        "speed": {
+          "value": 112,
+          "unit": "kph"
+        },
+        "fuel": null,
+        "vehicle": {
+          "id": 2433,
+          "name": "Tractor Two Thousand Four Hundred Thirty Three",
+          "oem": "Jeep",
+          "model": "Wrangler",
+          "model_year": "2016",
+          "vin": "",
+          "license_plate_state": "US-TN",
+          "license_plate_number": "GOVOLS",
+          "eld_device_id": ""
+        },
+        "driver": null
+      }
+    ]
+  }

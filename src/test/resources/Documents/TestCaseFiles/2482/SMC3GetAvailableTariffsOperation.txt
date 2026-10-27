@@ -1,0 +1,25 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Body>
+<ns2:AvailableTariffsResponse xmlns:ns18_="http://smallpackageinfo.v2.density.ratewarexl.smc.com" xmlns:ns17="http://sprateshipment.v2.density.ratewarexl.smc.com" xmlns:ns13="http://availabletariffs.v2.ltl.ratewarexl.smc.com" xmlns:ns18="http://tariffcurrency.v2.currency.ratewarexl.smc.com" xmlns:ns6="http://isready.v2.webservice.ratewarexl.smc.com" xmlns:ns10="http://ltlpointlist.v2.ltl.ratewarexl.smc.com" xmlns:ns4="http://pojos.webservice.ratewarexl.smc.com" xmlns:ns0="http://webservices.smc.com" xmlns:ns5="http://errorcodelookup.v2.webservice.ratewarexl.smc.com" xmlns:ns9="http://ltlclassesandweights.v2.ltl.ratewarexl.smc.com" xmlns:ns11="http://ltlrateshipment.v2.ltl.ratewarexl.smc.com" xmlns:ns14="http://smallpackageinfo.v2.smallpackage.ratewarexl.smc.com" xmlns:ns3="http://enums.webservice.ratewarexl.smc.com" xmlns:ns2="http://v2.webservice.ratewarexl.smc.com" xmlns:ns12="http://ltlrateblock.v2.ltl.ratewarexl.smc.com" xmlns:ns15="http://sprateshipment.v2.smallpackage.ratewarexl.smc.com" xmlns:ns7="http://densityrateshipment.v2.density.ratewarexl.smc.com">
+<ns2:AvailableTariffsResponse>
+<ns13:messageStatus>
+<ns4:status>PASS</ns4:status>
+</ns13:messageStatus>
+<ns13:tariffs>
+<description>RatewareXL Density Demo</description>
+<effectiveDate>20070703</effectiveDate>
+<productNumber>12007-RWD</productNumber>
+<release>01</release>
+<tariffName>DEMODENA</tariffName>
+</ns13:tariffs>
+<ns13:tariffs>
+<description>Rateware XL LTL Demo</description>
+<effectiveDate>20070703</effectiveDate>
+<productNumber>11990-RWM</productNumber>
+<release>01</release>
+<tariffName>DEMOLTLA</tariffName>
+</ns13:tariffs>
+</ns2:AvailableTariffsResponse>
+</ns2:AvailableTariffsResponse>
+</soap:Body>
+</soap:Envelope>

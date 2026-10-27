@@ -1,0 +1,6 @@
+{
+  "id": "{Transactional}",
+  "trip": {
+    "id": "{Transactional}"
+  }
+}

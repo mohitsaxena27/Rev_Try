@@ -1,0 +1,1168 @@
+<RMISCarrierStatusExpanded>
+   <Header>
+      <TimeStamp>5/1/2023 3:29:12 PM</TimeStamp>
+      <TimeStampUTC>5/1/2023 10:29:12 PM</TimeStampUTC>
+      <API>SingleCarrierExpanded</API>
+      <Version>13</Version>
+      <Result>SUCCESS</Result>
+   </Header>
+   <Carrier>
+      <CompanyName>Almas Express Inc</CompanyName>
+      <RMISCarrierID>3463610</RMISCarrierID>
+      <TaxID />
+      <MCNumber>MC1382925</MCNumber>
+      <DOTNumber>3821393</DOTNumber>
+      <Address1>10900 Bustleton Ave Apt C4</Address1>
+      <Address2 />
+      <City>Philadelphia</City>
+      <St>PA</St>
+      <Zip>19116</Zip>
+      <Contact>Mason Sardor</Contact>
+      <Title>Manager</Title>
+      <Phone>2159876970</Phone>
+      <Fax />
+      <Email>almasdispatch@gmail.com</Email>
+      <Payto>RTS Financial Service Inc</Payto>
+      <PaytoAddress>PO Box 840267</PaytoAddress>
+      <PaytoCity>Dallas</PaytoCity>
+      <PaytoSt>TX</PaytoSt>
+      <PaytoZip>75284-0267</PaytoZip>
+      <ClientsCarrierID AttachDate="4/26/2023 3:03:40 PM" />
+      <insdIntraStateNumber />
+      <insdIntraStateState />
+      <DUNs />
+      <PaytoAddress2 />
+      <PaytoCountry>USA</PaytoCountry>
+      <Country>USA</Country>
+      <IsFactoring>No</IsFactoring>
+      <Contacts>
+         <Contact Type="AFTERHOURS">
+            <Type>AFTERHOURS</Type>
+            <CompanyName>Almas Express Inc</CompanyName>
+            <Name>Jeff Beks</Name>
+            <Title />
+            <Phone>2159876970</Phone>
+            <Fax />
+            <Cell />
+            <Email>almasdispatch@gmail.com</Email>
+            <PhoneExt />
+            <Date>4/26/2023 2:57:39 PM</Date>
+         </Contact>
+         <Contact Type="DISPATCH">
+            <Type>DISPATCH</Type>
+            <CompanyName>Almas Express Inc</CompanyName>
+            <Name>Jeff Beks</Name>
+            <Title />
+            <Phone>2159876970</Phone>
+            <Fax />
+            <Cell />
+            <Email>almasdispatch@gmail.com</Email>
+            <PhoneExt />
+            <Date>4/26/2023 2:57:39 PM</Date>
+         </Contact>
+         <Contact Type="SALES">
+            <Type>SALES</Type>
+            <CompanyName>Almas Express Inc</CompanyName>
+            <Name>Jeff Beks</Name>
+            <Title />
+            <Phone>2159876970</Phone>
+            <Fax />
+            <Cell />
+            <Email>almasdispatch@gmail.com</Email>
+            <PhoneExt />
+            <Date>4/26/2023 2:57:39 PM</Date>
+         </Contact>
+         <Contact Type="CORPORATE">
+            <Type>CORPORATE</Type>
+            <CompanyName>Almas Express Inc</CompanyName>
+            <Name>Jeff Beks</Name>
+            <Title>Manager</Title>
+            <Phone>2159876970</Phone>
+            <Fax />
+            <Cell />
+            <Email>almasdispatch@gmail.com</Email>
+            <PhoneExt />
+            <Date>4/26/2023 2:57:39 PM</Date>
+         </Contact>
+      </Contacts>
+      <ClientsCarrierIDs>
+         <ClientsCarrierID AttachDate="4/26/2023 3:03:40 PM" />
+      </ClientsCarrierIDs>
+      <PayToEmail />
+      <PhoneExt>1</PhoneExt>
+   </Carrier>
+   <Agreement>
+      <Date>4/26/2023 2:59:39 PM</Date>
+      <Contact>Mason Sardor</Contact>
+      <Title>Manager</Title>
+      <Agree>Yes</Agree>
+      <AgreementID>5837585</AgreementID>
+   </Agreement>
+   <ClientCarrierAgreements />
+   <W9>
+      <TimeStamp>4/26/2023 3:00:22 PM</TimeStamp>
+      <TaxID>83-1916269</TaxID>
+      <CoName>Almas Express Inc</CoName>
+      <BusinessName>Almas Express Inc</BusinessName>
+      <CompanyType>S Corporation</CompanyType>
+      <IsLimitedLiabCo>False</IsLimitedLiabCo>
+      <LimitedLiabTaxClass />
+      <IsExemptPayee>False</IsExemptPayee>
+      <Address>10900 Bustleton Ave Apt C4</Address>
+      <City>Philadelphia</City>
+      <St>PA</St>
+      <Zip>19116</Zip>
+      <ContactName>Jeff Beks</ContactName>
+      <TINIsValid>True</TINIsValid>
+      <TINValidationReason>TIN and Name combination matches IRS records.</TINValidationReason>
+      <TINCheckedDate>4/26/2023 4:30:23 PM</TINCheckedDate>
+      <TINCheckedBy>RMIS Bulk Automation</TINCheckedBy>
+      <TaxClassOther />
+      <TaxID-EIN>83-1916269</TaxID-EIN>
+      <TaxID-SSN />
+      <ExemptPayeeCode />
+      <ExemptFATCAcode />
+      <W9ID>13926236</W9ID>
+   </W9>
+   <CarrierProfile>
+      <YearsInBusiness />
+      <FlatBeds />
+      <DryVans />
+      <RefrigeratedVans />
+      <RGN />
+      <StepDecks />
+      <Maxi />
+      <DoubleDrops />
+      <PayeeType />
+      <PaymentMethod />
+      <AccountsPayableContact />
+      <AccountsPayablePhone />
+      <DispatchContact />
+      <DispatchPhone />
+      <DrAfterHrsContact />
+      <DrAfterHrsPhone />
+      <OtherContact />
+      <OtherPhone />
+      <ExpectFirstMoveTime />
+      <EmailReceived>False</EmailReceived>
+      <PreferredOrigins />
+      <PreferredDestinations />
+      <DifficultiesLoadsState />
+      <PreferredLanes />
+      <CompanyRep />
+      <IsSpecialContract>False</IsSpecialContract>
+      <PrimaryEquipmentType />
+      <DaysToPay />
+      <IsFactoring>Yes</IsFactoring>
+      <SCAC>ALMS</SCAC>
+      <HasSmartwayCert>False</HasSmartwayCert>
+      <HasFastCert>False</HasFastCert>
+      <HasCarbCert>False</HasCarbCert>
+      <HasTwicCert>False</HasTwicCert>
+      <HazMatCertified>False</HazMatCertified>
+      <HazMatExpirationDate />
+      <HazMatCertVerifiedByRMIS>False</HazMatCertVerifiedByRMIS>
+      <HasSafetyPermitHM232>False</HasSafetyPermitHM232>
+      <TractorCount>6</TractorCount>
+      <IntermodalTrailerCount />
+      <TankerTrailerCount />
+      <BulkTrailerCount />
+      <OtherTrailerCount />
+      <MinorityWomanOwned />
+      <SmallBusinessType />
+      <DiversityCertAgency />
+      <SafetyMsgAgreement>False</SafetyMsgAgreement>
+      <NoW9>False</NoW9>
+      <WcWaiverDate />
+      <WcWaiverContact />
+      <Vans48foot />
+      <Reefer48foot />
+      <Vans53foot />
+      <Reefer53foot />
+      <CompanyDrivers>6</CompanyDrivers>
+      <Teams>6</Teams>
+      <OwnerOperators>6</OwnerOperators>
+      <HasMexInterchange>False</HasMexInterchange>
+      <HasCanAuth>False</HasCanAuth>
+      <PadWrap />
+      <Straps />
+      <TriAxleVans />
+      <VentedVans />
+      <HeatedVans />
+      <GarmentTrailer />
+      <SuperVan />
+      <WalkingFloor />
+      <OpenTop />
+      <StraightTrucks />
+      <CargoVan />
+      <Hopper />
+      <Dump />
+      <HasCTPATCert>False</HasCTPATCert>
+      <FlatBed48foot />
+      <FlatBed53foot />
+      <HasTSACert />
+      <AddedDate>4/26/2023 3:00:50 PM</AddedDate>
+      <OperatingArea>
+         <Area Description="Minnesota" Description1="Central North" Description2="United States" Description3="Truck">TCNMIN</Area>
+         <Area Description="North Dakota" Description1="Central North" Description2="United States" Description3="Truck">TCNNDA</Area>
+         <Area Description="Nebraska" Description1="Central North" Description2="United States" Description3="Truck">TCNNEB</Area>
+         <Area Description="South Dakota" Description1="Central North" Description2="United States" Description3="Truck">TCNSDA</Area>
+         <Area Description="Arkansas" Description1="Central South" Description2="United States" Description3="Truck">TCSARK</Area>
+         <Area Description="Kansas" Description1="Central South" Description2="United States" Description3="Truck">TCSKAN</Area>
+         <Area Description="Louisiana" Description1="Central South" Description2="United States" Description3="Truck">TCSLOU</Area>
+         <Area Description="Oklahoma" Description1="Central South" Description2="United States" Description3="Truck">TCSOKL</Area>
+         <Area Description="Texas" Description1="Central South" Description2="United States" Description3="Truck">TCSTEX</Area>
+         <Area Description="Delaware" Description1="Mid Atlantic" Description2="United States" Description3="Truck">TMADEL</Area>
+         <Area Description="District of Columbia" Description1="Mid Atlantic" Description2="United States" Description3="Truck">TMADIS</Area>
+         <Area Description="Maryland" Description1="Mid Atlantic" Description2="United States" Description3="Truck">TMAMAR</Area>
+         <Area Description="Virginia" Description1="Mid Atlantic" Description2="United States" Description3="Truck">TMAVIR</Area>
+         <Area Description="West Virginia" Description1="Mid Atlantic" Description2="United States" Description3="Truck">TMAWVI</Area>
+         <Area Description="Colorado" Description1="Mountain" Description2="United States" Description3="Truck">TMTCOL</Area>
+         <Area Description="Montana" Description1="Mountain" Description2="United States" Description3="Truck">TMTMON</Area>
+         <Area Description="Utah" Description1="Mountain" Description2="United States" Description3="Truck">TMTUTA</Area>
+         <Area Description="Wyoming" Description1="Mountain" Description2="United States" Description3="Truck">TMTWYO</Area>
+         <Area Description="Illinois" Description1="Midwest" Description2="United States" Description3="Truck">TMWILL</Area>
+         <Area Description="Indiana" Description1="Midwest" Description2="United States" Description3="Truck">TMWIND</Area>
+         <Area Description="Iowa" Description1="Midwest" Description2="United States" Description3="Truck">TMWIOW</Area>
+         <Area Description="Michigan" Description1="Midwest" Description2="United States" Description3="Truck">TMWMIC</Area>
+         <Area Description="Missouri" Description1="Midwest" Description2="United States" Description3="Truck">TMWMIS</Area>
+         <Area Description="Ohio" Description1="Midwest" Description2="United States" Description3="Truck">TMWOHI</Area>
+         <Area Description="Wisconsin" Description1="Midwest" Description2="United States" Description3="Truck">TMWWIS</Area>
+         <Area Description="Connecticut" Description1="Northeast" Description2="United States" Description3="Truck">TNECON</Area>
+         <Area Description="Maine" Description1="Northeast" Description2="United States" Description3="Truck">TNEMAI</Area>
+         <Area Description="Massachusetts" Description1="Northeast" Description2="United States" Description3="Truck">TNEMAS</Area>
+         <Area Description="New Hampshire" Description1="Northeast" Description2="United States" Description3="Truck">TNENHA</Area>
+         <Area Description="New Jersey" Description1="Northeast" Description2="United States" Description3="Truck">TNENJE</Area>
+         <Area Description="New York" Description1="Northeast" Description2="United States" Description3="Truck">TNENYO</Area>
+         <Area Description="Pennsylvania" Description1="Northeast" Description2="United States" Description3="Truck">TNEPEN</Area>
+         <Area Description="Rhode Island" Description1="Northeast" Description2="United States" Description3="Truck">TNERHO</Area>
+         <Area Description="Vermont" Description1="Northeast" Description2="United States" Description3="Truck">TNEVER</Area>
+         <Area Description="Idaho" Description1="Pacific NW" Description2="United States" Description3="Truck">TNWIDA</Area>
+         <Area Description="Oregon" Description1="Pacific NW" Description2="United States" Description3="Truck">TNWORE</Area>
+         <Area Description="Washington" Description1="Pacific NW" Description2="United States" Description3="Truck">TNWWAS</Area>
+         <Area Description="Alabama" Description1="Southeast" Description2="United States" Description3="Truck">TSEALA</Area>
+         <Area Description="Florida" Description1="Southeast" Description2="United States" Description3="Truck">TSEFLO</Area>
+         <Area Description="Georgia" Description1="Southeast" Description2="United States" Description3="Truck">TSEGEO</Area>
+         <Area Description="Kentucky" Description1="Southeast" Description2="United States" Description3="Truck">TSEKEN</Area>
+         <Area Description="Mississippi" Description1="Southeast" Description2="United States" Description3="Truck">TSEMIS</Area>
+         <Area Description="North Carolina" Description1="Southeast" Description2="United States" Description3="Truck">TSENCA</Area>
+         <Area Description="South Carolina" Description1="Southeast" Description2="United States" Description3="Truck">TSESCA</Area>
+         <Area Description="Tennessee" Description1="Southeast" Description2="United States" Description3="Truck">TSETEN</Area>
+         <Area Description="Arizona" Description1="Southwest" Description2="United States" Description3="Truck">TSWARI</Area>
+         <Area Description="New Mexico" Description1="Southwest" Description2="United States" Description3="Truck">TSWNME</Area>
+         <Area Description="California" Description1="West" Description2="United States" Description3="Truck">TWECAL</Area>
+         <Area Description="Nevada" Description1="West" Description2="United States" Description3="Truck">TWENEV</Area>
+      </OperatingArea>
+      <Modes>
+         <Mode Description="LTL" ClientModeID="5">MOLTLT</Mode>
+      </Modes>
+      <Commodities>
+         <Commodity Description="Agriculture" ClientCommID="1">COMM03</Commodity>
+         <Commodity Description="Automotive" ClientCommID="3">COMM36</Commodity>
+         <Commodity Description="Chemicals" ClientCommID="4">COMM20</Commodity>
+      </Commodities>
+      <CorrectiveActionPlans />
+      <AdditionalFields>
+         <AdditionalField>
+            <Description>hasAEO</Description>
+            <Value>false</Value>
+         </AdditionalField>
+         <AdditionalField>
+            <Description>hasPIP</Description>
+            <Value>false</Value>
+         </AdditionalField>
+         <AdditionalField>
+            <Description>AllowAcquirePolicyExclusions</Description>
+            <Value>True</Value>
+         </AdditionalField>
+         <AdditionalField>
+            <Description>ELDProvider</Description>
+            <Value>e-Infospectrum Inc.</Value>
+         </AdditionalField>
+         <AdditionalField>
+            <Description>HasActiveShipmentAtTimeOfReg</Description>
+            <Value>Yes</Value>
+         </AdditionalField>
+         <AdditionalField>
+            <Description>HasNonOwnedAuto</Description>
+            <Value>No</Value>
+         </AdditionalField>
+         <AdditionalField>
+            <Description>HasReferBreakdown</Description>
+            <Value>No</Value>
+         </AdditionalField>
+         <AdditionalField>
+            <Description>AuthorizedToHaulElectronics</Description>
+            <Value>Yes</Value>
+         </AdditionalField>
+         <AdditionalField>
+            <Description>CountryServiceType</Description>
+            <Value>Domestic US</Value>
+         </AdditionalField>
+      </AdditionalFields>
+      <EquipmentTypes>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Straight Truck</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Straight Truck Lift / Tail Gate</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Dry Vans 53'</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>6</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Dry Vans 48'</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Tri Axle Van</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Quad Axle Van</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Logistics Van</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Vented Van</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Heated Van</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Flat Bed 48'</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Flat Bed 53'</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Multi Axle Flat Bed</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Refrigerated</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Multi Axle Reefer</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>IMDL</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Flat Bed Extendable / Stretch</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Step Deck</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Double Drop</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Lowboy</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Conastoga / Rolltite</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Curtain Van</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Super B / B-Train</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>RGN</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Chassis</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Chassis with Generator</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Dry Bulk</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Liquid Bulk</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Tail / Lift Gate Van (48/53)</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Garment Trailers</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Auto Carrier</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Tanker</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Asphalt Tanker</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Open Top</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Livestock</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Hopper</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Dump</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Cargo Van</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Walking Floor</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+         <EquipmentType>
+            <EquipmentTypeDescrip>Hot Shop</EquipmentTypeDescrip>
+            <EquipmentTypeCode />
+            <EquipmentTypeCount>0</EquipmentTypeCount>
+            <EquipmentTypeAddedDate>4/26/2023 3:00:58 PM</EquipmentTypeAddedDate>
+         </EquipmentType>
+      </EquipmentTypes>
+   </CarrierProfile>
+   <Coverages>
+      <Coverage CoverageDescription="CARGO" Status="Valid">
+         <CoverageDescription>CARGO</CoverageDescription>
+         <Status>Valid</Status>
+         <EffectiveDate>9/15/2022</EffectiveDate>
+         <ExpirationDate>4/1/2024</ExpirationDate>
+         <CancelDate />
+         <PolicyNumber>IMC H25549053</PolicyNumber>
+         <Producer>Transtar Insurance Brokers, Inc.</Producer>
+         <ProducerPhone>4805792500</ProducerPhone>
+         <ProducerFax>4805792404</ProducerFax>
+         <ProducerEmail>certs@mohaveinsco.com</ProducerEmail>
+         <Underwriter>Ace American Insurance Company</Underwriter>
+         <Confidence>High</Confidence>
+         <RMISCertID>3992795</RMISCertID>
+         <RMISCovgID>11508001</RMISCovgID>
+         <LastCertUpdate>4/3/2023 2:55:59 PM</LastCertUpdate>
+         <ConfidenceMsg>This coverage information was received by Registry Monitoring Insurance Services, Inc. from the insurance company on 4/3/2023 2:55:59 PM.</ConfidenceMsg>
+         <RMISImageID>9894935</RMISImageID>
+         <Limit LimitDescription="Cargo Limit" LimitAmount="250000" IsCargoSynonym="True" IsAutoSynonym="False">
+            <LimitDescription>Cargo Limit</LimitDescription>
+            <LimitAmount>250000</LimitAmount>
+            <RMISLimitID>29246801</RMISLimitID>
+            <LimitCurrency>USD</LimitCurrency>
+         </Limit>
+         <Limit LimitDescription="Deductible" LimitAmount="2500" IsCargoSynonym="False" IsAutoSynonym="False">
+            <LimitDescription>Deductible</LimitDescription>
+            <LimitAmount>2500</LimitAmount>
+            <RMISLimitID>29246802</RMISLimitID>
+            <LimitCurrency>USD</LimitCurrency>
+         </Limit>
+         <CoverageDetail>
+            <Description>Reefer Breakdown</Description>
+            <Description>See Additional Pages</Description>
+            <Description>See Description Section</Description>
+         </CoverageDetail>
+         <UnderwriterRating>A++</UnderwriterRating>
+         <NAICCompanyNumber>22667</NAICCompanyNumber>
+         <AMBestCompanyNumber>2257</AMBestCompanyNumber>
+         <RenewalInfo />
+         <ProducerAddress>5450 E. High Street, Suite 230</ProducerAddress>
+         <ProducerCity>Phoenix</ProducerCity>
+         <ProducerState>AZ</ProducerState>
+         <ProducerZip>85054</ProducerZip>
+      </Coverage>
+      <Coverage CoverageDescription="AUTO" Status="Valid">
+         <CoverageDescription>AUTO</CoverageDescription>
+         <Status>Valid</Status>
+         <EffectiveDate>9/15/2022</EffectiveDate>
+         <ExpirationDate>4/1/2024</ExpirationDate>
+         <CancelDate />
+         <PolicyNumber>MMT H25549090</PolicyNumber>
+         <Producer>Transtar Insurance Brokers, Inc.</Producer>
+         <ProducerPhone>4805792500</ProducerPhone>
+         <ProducerFax>4805792404</ProducerFax>
+         <ProducerEmail>certs@mohaveinsco.com</ProducerEmail>
+         <Underwriter>Indemnity Insurance Company of North America</Underwriter>
+         <Confidence>High</Confidence>
+         <RMISCertID>3992795</RMISCertID>
+         <RMISCovgID>11508000</RMISCovgID>
+         <LastCertUpdate>4/3/2023 2:55:59 PM</LastCertUpdate>
+         <ConfidenceMsg>This coverage information was received by Registry Monitoring Insurance Services, Inc. from the insurance company on 4/3/2023 2:55:59 PM.</ConfidenceMsg>
+         <RMISImageID>9894935</RMISImageID>
+         <Limit LimitDescription="Combined Single Limit (Ea Accident)" LimitAmount="1000000" IsCargoSynonym="False" IsAutoSynonym="True">
+            <LimitDescription>Combined Single Limit (Ea Accident)</LimitDescription>
+            <LimitAmount>1000000</LimitAmount>
+            <RMISLimitID>29246800</RMISLimitID>
+            <LimitCurrency>USD</LimitCurrency>
+         </Limit>
+         <CoverageDetail>
+            <Description>Hired Autos</Description>
+            <Description>Scheduled Autos</Description>
+            <Description>Non-Owned Autos</Description>
+         </CoverageDetail>
+         <UnderwriterRating>A++</UnderwriterRating>
+         <NAICCompanyNumber>43575</NAICCompanyNumber>
+         <AMBestCompanyNumber>1793</AMBestCompanyNumber>
+         <RenewalInfo />
+         <ProducerAddress>5450 E. High Street, Suite 230</ProducerAddress>
+         <ProducerCity>Phoenix</ProducerCity>
+         <ProducerState>AZ</ProducerState>
+         <ProducerZip>85054</ProducerZip>
+      </Coverage>
+      <Coverage CoverageDescription="GENERAL" Status="Valid">
+         <CoverageDescription>GENERAL</CoverageDescription>
+         <Status>Valid</Status>
+         <EffectiveDate>9/15/2022</EffectiveDate>
+         <ExpirationDate>4/1/2024</ExpirationDate>
+         <CancelDate />
+         <PolicyNumber>CGO G72486183</PolicyNumber>
+         <Producer>Transtar Insurance Brokers, Inc.</Producer>
+         <ProducerPhone>4805792500</ProducerPhone>
+         <ProducerFax>4805792404</ProducerFax>
+         <ProducerEmail>certs@mohaveinsco.com</ProducerEmail>
+         <Underwriter>Indemnity Insurance Company of North America</Underwriter>
+         <Confidence>High</Confidence>
+         <RMISCertID>3992795</RMISCertID>
+         <RMISCovgID>11507999</RMISCovgID>
+         <LastCertUpdate>4/3/2023 2:55:59 PM</LastCertUpdate>
+         <ConfidenceMsg>This coverage information was received by Registry Monitoring Insurance Services, Inc. from the insurance company on 4/3/2023 2:55:59 PM.</ConfidenceMsg>
+         <RMISImageID>9894935</RMISImageID>
+         <Limit LimitDescription="General Aggregate" LimitAmount="2000000" IsCargoSynonym="False" IsAutoSynonym="False">
+            <LimitDescription>General Aggregate</LimitDescription>
+            <LimitAmount>2000000</LimitAmount>
+            <RMISLimitID>29246798</RMISLimitID>
+            <LimitCurrency>USD</LimitCurrency>
+         </Limit>
+         <Limit LimitDescription="Each Occurrence" LimitAmount="1000000" IsCargoSynonym="False" IsAutoSynonym="False">
+            <LimitDescription>Each Occurrence</LimitDescription>
+            <LimitAmount>1000000</LimitAmount>
+            <RMISLimitID>29246794</RMISLimitID>
+            <LimitCurrency>USD</LimitCurrency>
+         </Limit>
+         <Limit LimitDescription="Med Exp (Any One Person)" LimitAmount="5000" IsCargoSynonym="False" IsAutoSynonym="False">
+            <LimitDescription>Med Exp (Any One Person)</LimitDescription>
+            <LimitAmount>5000</LimitAmount>
+            <RMISLimitID>29246796</RMISLimitID>
+            <LimitCurrency>USD</LimitCurrency>
+         </Limit>
+         <Limit LimitDescription="Damage To Rented Premises (Ea Occurrence)" LimitAmount="100000" IsCargoSynonym="False" IsAutoSynonym="False">
+            <LimitDescription>Damage To Rented Premises (Ea Occurrence)</LimitDescription>
+            <LimitAmount>100000</LimitAmount>
+            <RMISLimitID>29246795</RMISLimitID>
+            <LimitCurrency>USD</LimitCurrency>
+         </Limit>
+         <Limit LimitDescription="Personal &amp; Adv Injury" LimitAmount="1000000" IsCargoSynonym="False" IsAutoSynonym="False">
+            <LimitDescription>Personal &amp; Adv Injury</LimitDescription>
+            <LimitAmount>1000000</LimitAmount>
+            <RMISLimitID>29246797</RMISLimitID>
+            <LimitCurrency>USD</LimitCurrency>
+         </Limit>
+         <Limit LimitDescription="Products Comp/Op Agg" LimitAmount="1000000" IsCargoSynonym="False" IsAutoSynonym="False">
+            <LimitDescription>Products Comp/Op Agg</LimitDescription>
+            <LimitAmount>1000000</LimitAmount>
+            <RMISLimitID>29246799</RMISLimitID>
+            <LimitCurrency>USD</LimitCurrency>
+         </Limit>
+         <CoverageDetail>
+            <Description>Commercial General Liability</Description>
+            <Description>Occur</Description>
+            <Description>Gen l Aggregate Limit Applies Per Policy</Description>
+         </CoverageDetail>
+         <UnderwriterRating>A++</UnderwriterRating>
+         <NAICCompanyNumber>43575</NAICCompanyNumber>
+         <AMBestCompanyNumber>1793</AMBestCompanyNumber>
+         <RenewalInfo />
+         <ProducerAddress>5450 E. High Street, Suite 230</ProducerAddress>
+         <ProducerCity>Phoenix</ProducerCity>
+         <ProducerState>AZ</ProducerState>
+         <ProducerZip>85054</ProducerZip>
+      </Coverage>
+      <Coverage CoverageDescription="NON-OWNED TRAILER/TRAILER INTERCHANGE" Status="Valid">
+         <CoverageDescription>NON-OWNED TRAILER/TRAILER INTERCHANGE</CoverageDescription>
+         <Status>Valid</Status>
+         <EffectiveDate>9/15/2022</EffectiveDate>
+         <ExpirationDate>8/1/2025</ExpirationDate>
+         <CancelDate />
+         <PolicyNumber>ICSA00001</PolicyNumber>
+         <Producer>Transtar Insurance Brokers, Inc.</Producer>
+         <ProducerPhone>4805792500</ProducerPhone>
+         <ProducerFax>4805792404</ProducerFax>
+         <ProducerEmail>certs@mohaveinsco.com</ProducerEmail>
+         <Underwriter>Harco National Insurance Company</Underwriter>
+         <Confidence>High</Confidence>
+         <RMISCertID>3992795</RMISCertID>
+         <RMISCovgID>11508002</RMISCovgID>
+         <LastCertUpdate>4/3/2023 2:55:59 PM</LastCertUpdate>
+         <ConfidenceMsg>This coverage information was received by Registry Monitoring Insurance Services, Inc. from the insurance company on 4/3/2023 2:55:59 PM.</ConfidenceMsg>
+         <RMISImageID>9894935</RMISImageID>
+         <Limit LimitDescription="Ded" LimitAmount="2500" IsCargoSynonym="False" IsAutoSynonym="False">
+            <LimitDescription>Ded</LimitDescription>
+            <LimitAmount>2500</LimitAmount>
+            <RMISLimitID>29246804</RMISLimitID>
+            <LimitCurrency>USD</LimitCurrency>
+         </Limit>
+         <Limit LimitDescription="Limit" LimitAmount="50000" IsCargoSynonym="False" IsAutoSynonym="False">
+            <LimitDescription>Limit</LimitDescription>
+            <LimitAmount>50000</LimitAmount>
+            <RMISLimitID>29246803</RMISLimitID>
+            <LimitCurrency>USD</LimitCurrency>
+         </Limit>
+         <CoverageDetail />
+         <UnderwriterRating>A-</UnderwriterRating>
+         <NAICCompanyNumber>26433</NAICCompanyNumber>
+         <AMBestCompanyNumber>960</AMBestCompanyNumber>
+         <RenewalInfo />
+         <ProducerAddress>5450 E. High Street, Suite 230</ProducerAddress>
+         <ProducerCity>Phoenix</ProducerCity>
+         <ProducerState>AZ</ProducerState>
+         <ProducerZip>85054</ProducerZip>
+      </Coverage>
+   </Coverages>
+   <RenewalCoverages />
+   <DOT>
+      <dot_DocketNumber>MC1382925</dot_DocketNumber>
+      <dot_USDOTNumber>3821393</dot_USDOTNumber>
+      <dot_CommonAuthority>A</dot_CommonAuthority>
+      <dot_ContractAuthority>N</dot_ContractAuthority>
+      <dot_BrokerAuthority>N</dot_BrokerAuthority>
+      <dot_PendingCommonAuthority>N</dot_PendingCommonAuthority>
+      <dot_PendingContractAuthority>N</dot_PendingContractAuthority>
+      <dot_PendingBrokerAuthority>N</dot_PendingBrokerAuthority>
+      <dot_CommonAuthRevocation>N</dot_CommonAuthRevocation>
+      <dot_ContractAuthRevocation>N</dot_ContractAuthRevocation>
+      <dot_BrokerAuthorityRevocation>N</dot_BrokerAuthorityRevocation>
+      <dot_Freight>Y</dot_Freight>
+      <dot_Passenger>N</dot_Passenger>
+      <dot_HouseholdGoods>N</dot_HouseholdGoods>
+      <dot_BIPDRequired>750</dot_BIPDRequired>
+      <dot_CargoRequired>N</dot_CargoRequired>
+      <dot_BondSuretyRequired>N</dot_BondSuretyRequired>
+      <dot_BIPDOnFile>1000</dot_BIPDOnFile>
+      <dot_CargoOnFile>N</dot_CargoOnFile>
+      <dot_BondSuretyOnFile>N</dot_BondSuretyOnFile>
+      <dot_AddressStatus>Y</dot_AddressStatus>
+      <dot_DBAName />
+      <dot_LegalName>ALMAS EXPRESS INC</dot_LegalName>
+      <dot_Business_Addr>10900 BUSTLETON AVE APT C4</dot_Business_Addr>
+      <dot_Business_City>PHILADELPHIA</dot_Business_City>
+      <dot_Business_St>PA</dot_Business_St>
+      <dot_Business_Country>US</dot_Business_Country>
+      <dot_Business_Zip>19116</dot_Business_Zip>
+      <dot_Business_Phone>2153569401</dot_Business_Phone>
+      <dot_Business_Fax />
+      <dot_Mailing_Addr />
+      <dot_Mailing_City />
+      <dot_Mailing_St />
+      <dot_Mailing_Country />
+      <dot_Mailing_Zip />
+      <dot_Mailing_Phone />
+      <dot_Mailing_Fax />
+      <dot_dateLastUpdated>3/7/2023 4:30:14 AM</dot_dateLastUpdated>
+   </DOT>
+   <DOTTestingInfo>
+      <SafetyRatingDate />
+      <SafetyRating>None</SafetyRating>
+      <SafetyReviewDate />
+      <SafetyReviewType>None</SafetyReviewType>
+      <OperatingStatus>AUTHORIZED FOR Property</OperatingStatus>
+      <OutOfServiceDate />
+      <Safer_ActiveInactiveStatus>ACTIVE</Safer_ActiveInactiveStatus>
+      <Safer_ActiveInactiveLastCheckedDate>5/1/2023 9:12:37 AM</Safer_ActiveInactiveLastCheckedDate>
+      <OriginalAuthorityGrantDate>3/4/2022</OriginalAuthorityGrantDate>
+      <LatestAuthorityGrantDate>3/4/2022</LatestAuthorityGrantDate>
+      <LatestAuthorityReinstatedDate />
+      <Tot_Trucks>8</Tot_Trucks>
+      <Tot_Pwr>8</Tot_Pwr>
+   </DOTTestingInfo>
+   <DOTCensusCollection>
+      <DOTCensus>
+         <Act_Stat>A</Act_Stat>
+         <Carship>C</Carship>
+         <Census_Num>3821393</Census_Num>
+         <Name>ALMAS EXPRESS INC</Name>
+         <Name_DBA />
+         <DBNum />
+         <Phy_Natn>US</Phy_Natn>
+         <Reg />
+         <Phy_Str>10900 BUSTLETON AVE APT C4</Phy_Str>
+         <Phy_City>PHILADELPHIA</Phy_City>
+         <Phy_Cnty>101</Phy_Cnty>
+         <Phy_St>PA</Phy_St>
+         <Phy_ZIP>19116</Phy_ZIP>
+         <UnDeliv_Phy />
+         <Tel_Num>2153569401</Tel_Num>
+         <CellNum />
+         <Fax_Num />
+         <Mai_Natn>US</Mai_Natn>
+         <Mai_Str>10900 BUSTLETON AVE APT C4</Mai_Str>
+         <Mai_City>PHILADELPHIA</Mai_City>
+         <Mai_Cnty>101</Mai_Cnty>
+         <Mai_St>PA</Mai_St>
+         <Mai_ZIP>19116</Mai_ZIP>
+         <UnDeliv_Mai />
+         <Oic>42</Oic>
+         <Terr />
+         <IccDocket1>MC</IccDocket1>
+         <Icc1>1382925</Icc1>
+         <IccDocket2 />
+         <Icc2 />
+         <IccDocket3 />
+         <Icc3 />
+         <Classification>A</Classification>
+         <ClassDef />
+         <CrrInter>A</CrrInter>
+         <CrrHmIntra />
+         <CrrIntra />
+         <ShpInter />
+         <ShpIntra />
+         <VehicleRegistrant />
+         <Org />
+         <GenFreight>X</GenFreight>
+         <Household />
+         <MetalSheet />
+         <MotorVeh />
+         <DriveTow />
+         <LogPole />
+         <BldgMat />
+         <MobileHome />
+         <MachLrg />
+         <Produce />
+         <LiqGas />
+         <Intermodal />
+         <Passengers />
+         <OilField />
+         <LiveStock />
+         <Grainfeed />
+         <CoalCoke />
+         <Meat />
+         <Garbage />
+         <USMail />
+         <Chem />
+         <DryBulk />
+         <ColdFood />
+         <Beverages />
+         <PaperProd />
+         <Utility />
+         <FARMSUPP />
+         <Construct />
+         <WaterWell />
+         <CargoOthr />
+         <OtherCargo />
+         <Hm_Ind>N</Hm_Ind>
+         <OwnTruck>0</OwnTruck>
+         <OwnTract>8</OwnTract>
+         <OwnTrail>6</OwnTrail>
+         <OwnCoach>0</OwnCoach>
+         <OwnSchool_1_8>0</OwnSchool_1_8>
+         <OwnSchool_9_15>0</OwnSchool_9_15>
+         <OwnSchool_16>0</OwnSchool_16>
+         <OwnBus_16>0</OwnBus_16>
+         <OwnVan_1_8>0</OwnVan_1_8>
+         <OwnVan_9_15>0</OwnVan_9_15>
+         <OwnLimo_1_8>0</OwnLimo_1_8>
+         <OwnLimo_9_15>0</OwnLimo_9_15>
+         <OwnLimo_16>0</OwnLimo_16>
+         <TrmTruck>0</TrmTruck>
+         <TrmTract>0</TrmTract>
+         <TrmTrail>0</TrmTrail>
+         <TrmCoach>0</TrmCoach>
+         <TrmSchool_1_8>0</TrmSchool_1_8>
+         <TrmSchool_9_15>0</TrmSchool_9_15>
+         <TrmSchool_16>0</TrmSchool_16>
+         <TrmBus_16>0</TrmBus_16>
+         <TrmVan_1_8>0</TrmVan_1_8>
+         <TrmVan_9_15>0</TrmVan_9_15>
+         <TrmLimo_1_8>0</TrmLimo_1_8>
+         <TrmLimo_9_15>0</TrmLimo_9_15>
+         <TrmLimo_16>0</TrmLimo_16>
+         <TrpTruck>0</TrpTruck>
+         <TrpTract>0</TrpTract>
+         <TrpTrail>0</TrpTrail>
+         <TrpCoach>0</TrpCoach>
+         <TrpSchool_1_8>0</TrpSchool_1_8>
+         <TrpSchool_9_15>0</TrpSchool_9_15>
+         <TrpSchool_16>0</TrpSchool_16>
+         <TrpBus_16>0</TrpBus_16>
+         <TrpVan_1_8>0</TrpVan_1_8>
+         <TrpVan_9_15>0</TrpVan_9_15>
+         <TrpLimo_1_8>0</TrpLimo_1_8>
+         <TrpLimo_9_15>0</TrpLimo_9_15>
+         <TrpLimo_16>0</TrpLimo_16>
+         <Tot_Trucks>8</Tot_Trucks>
+         <Tot_Buses>0</Tot_Buses>
+         <Tot_Pwr>8</Tot_Pwr>
+         <FleetSize>D</FleetSize>
+         <INTERLT100>0</INTERLT100>
+         <INTERGT100>8</INTERGT100>
+         <INTER_DRS>8</INTER_DRS>
+         <INTRALT100>0</INTRALT100>
+         <INTRAGT100>0</INTRAGT100>
+         <INTRA_DRS>0</INTRA_DRS>
+         <Avg_Tld>0</Avg_Tld>
+         <Tot_Drs>8</Tot_Drs>
+         <Cdl_Drs>8</Cdl_Drs>
+         <RevType>N</RevType>
+         <RevDocNum />
+         <RevDate />
+         <Acc_Rate />
+         <REPPREVRAT />
+         <MLG150>686999</MLG150>
+         <MileTot />
+         <Rating>N</Rating>
+         <RateDate />
+         <Phy_Barrio />
+         <Mai_Barrio />
+         <MCSIPStep />
+         <MCSIPDate />
+         <UserID>MCMIS_PUBLIC</UserID>
+         <AddCode />
+         <Upd_Reas>2</Upd_Reas>
+         <DelCode />
+         <MCS150MileageYear>2022</MCS150MileageYear>
+         <AddDate>20220214</AddDate>
+         <ChngDate>3/20/2023 12:00:00 AM</ChngDate>
+         <DelDate />
+         <Tot_Cars>0</Tot_Cars>
+         <Version />
+         <CreateDate>4/9/2023 12:00:00 AM</CreateDate>
+         <AddUserID>CIE</AddUserID>
+         <DelUserID />
+         <MCS150_DATE>3/20/2023 12:00:00 AM</MCS150_DATE>
+         <Rec_Updated_Flag />
+         <Email_Address>ALMASEXPRESSS2022@GMAIL.COM</Email_Address>
+         <USDOT_Revoked_Flag />
+         <USDOT_Revoked_Number />
+         <Company_Rep1>KHASAN SAYDAKHMEDOV</Company_Rep1>
+         <Company_Rep2 />
+         <LastUpdated>4/9/2023 12:00:00 AM</LastUpdated>
+      </DOTCensus>
+   </DOTCensusCollection>
+   <DOTInsuredCollection>
+      <DOTInsured>
+         <dot_DocketNumber>MC1382925</dot_DocketNumber>
+         <dot_InsCoCode>2625</dot_InsCoCode>
+         <dot_InsType>1</dot_InsType>
+         <dot_InsSubType>P</dot_InsSubType>
+         <dot_HiCoverage>1000</dot_HiCoverage>
+         <dot_LowCoverage />
+         <dot_Policy>MMT H25549090</dot_Policy>
+         <dot_EffectiveDate>9/15/2022 12:00:00 AM</dot_EffectiveDate>
+         <dot_FormNum>91X</dot_FormNum>
+         <dot_dateLastUpdated>3/7/2023 4:30:14 AM</dot_dateLastUpdated>
+         <DOTInsuranceCos>
+            <dot_InsCoCode>2625</dot_InsCoCode>
+            <dot_InsContact>VIRGINIA BOYLES</dot_InsContact>
+            <dot_InsCoName>INDEMNITY INSURANCE CO. OF NORTH AMERICA</dot_InsCoName>
+            <dot_InsAddr>436 WALNUT STREET</dot_InsAddr>
+            <dot_InsCity>PHILADELPHIA</dot_InsCity>
+            <dot_InsSt>PA</dot_InsSt>
+            <dot_InsCountry>US</dot_InsCountry>
+            <dot_InsZip>19106</dot_InsZip>
+            <dot_InsPhone>8004330385</dot_InsPhone>
+            <dot_InsFax>2156404986</dot_InsFax>
+            <dot_dateLastUpdated>4/28/2023 12:00:00 AM</dot_dateLastUpdated>
+         </DOTInsuranceCos>
+      </DOTInsured>
+   </DOTInsuredCollection>
+   <DOTActPendInsCollection>
+      <DOTActPendIns>
+         <dot_DocketNumber>MC1382925</dot_DocketNumber>
+         <dot_USDotNumber>3821393</dot_USDotNumber>
+         <dot_FormCode>91X</dot_FormCode>
+         <dot_InsType>BIPD/Primary</dot_InsType>
+         <dot_BIPDClass>P</dot_BIPDClass>
+         <dot_ActPolicy>MMT H25549090</dot_ActPolicy>
+         <dot_EffDate>9/15/2022 12:00:00 AM</dot_EffDate>
+         <dot_CancelDate />
+         <dot_dateLastUpdated>3/7/2023 4:30:14 AM</dot_dateLastUpdated>
+      </DOTActPendIns>
+   </DOTActPendInsCollection>
+   <DOTInspectionCollection>
+      <DOTInspections>
+         <Census_Num>3821393</Census_Num>
+         <US_TotalInspections>15</US_TotalInspections>
+         <US_TotalIEPInspections>0</US_TotalIEPInspections>
+         <US_VehicleInspections>7</US_VehicleInspections>
+         <US_DriverInspections>15</US_DriverInspections>
+         <US_HazmatInspections>0</US_HazmatInspections>
+         <US_IEPInspections>0</US_IEPInspections>
+         <US_VehicleOOS>2</US_VehicleOOS>
+         <US_DriverOOS>0</US_DriverOOS>
+         <US_HazmatOOS>0</US_HazmatOOS>
+         <US_IEPOOS>0</US_IEPOOS>
+         <US_VehicleOOSRatio>28.6%</US_VehicleOOSRatio>
+         <US_DriverOOSRatio>0%</US_DriverOOSRatio>
+         <US_HazmatOOSRatio>%</US_HazmatOOSRatio>
+         <US_IEPOOSRatio>0%</US_IEPOOSRatio>
+         <US_VehicleNatlAvgRatio>22.14%</US_VehicleNatlAvgRatio>
+         <US_DriverNatlAvgRatio>6.65%</US_DriverNatlAvgRatio>
+         <US_HazmatNatlAvgRatio>4.48%</US_HazmatNatlAvgRatio>
+         <US_IEPNatlAvgRatio>N/A</US_IEPNatlAvgRatio>
+         <CAN_TotalInspections>0</CAN_TotalInspections>
+         <CAN_VehicleInspections>0</CAN_VehicleInspections>
+         <CAN_DriverInspections>0</CAN_DriverInspections>
+         <CAN_VehicleOOS>0</CAN_VehicleOOS>
+         <CAN_DriverOOS>0</CAN_DriverOOS>
+         <CAN_VehicleOOSRatio>0%</CAN_VehicleOOSRatio>
+         <CAN_DriverOOSRatio>0%</CAN_DriverOOSRatio>
+         <LastUpdated>4/30/2023 4:26:47 AM</LastUpdated>
+      </DOTInspections>
+   </DOTInspectionCollection>
+   <DOTCrashCollection>
+      <DOTCrashes>
+         <Census_Num>3821393</Census_Num>
+         <US_Fatal>0</US_Fatal>
+         <US_Injury>0</US_Injury>
+         <US_Tow>0</US_Tow>
+         <US_Total>0</US_Total>
+         <CAN_Fatal>0</CAN_Fatal>
+         <CAN_Injury>0</CAN_Injury>
+         <CAN_Tow>0</CAN_Tow>
+         <CAN_Total>0</CAN_Total>
+         <LastUpdated>3/30/2022 11:00:47 AM</LastUpdated>
+      </DOTCrashes>
+   </DOTCrashCollection>
+   <RMIS_CompCSA>
+      <SMS_RawData>
+         <DOT_Number>3821393</DOT_Number>
+         <Insp_Total>14</Insp_Total>
+         <Driver_Insp_Total>14</Driver_Insp_Total>
+         <Driver_OOS_Insp_Total>0</Driver_OOS_Insp_Total>
+         <Vehicle_Insp_Total>6</Vehicle_Insp_Total>
+         <Vehicle_OOS_Insp_Total>2</Vehicle_OOS_Insp_Total>
+         <UnsafeDriving_Insp_w_Viol>3</UnsafeDriving_Insp_w_Viol>
+         <UnsafeDriving_Measure>3.3100</UnsafeDriving_Measure>
+         <UnsafeDriving_Acute_Critical>N</UnsafeDriving_Acute_Critical>
+         <HOS_Insp_w_Viol>0</HOS_Insp_w_Viol>
+         <HOS_Measure>0.0000</HOS_Measure>
+         <HOS_Acute_Critical>N</HOS_Acute_Critical>
+         <DriverFitness_Insp_w_Viol>0</DriverFitness_Insp_w_Viol>
+         <DriverFitness_Measure>0.0000</DriverFitness_Measure>
+         <DriverFitness_Acute_Critical>N</DriverFitness_Acute_Critical>
+         <ControlledSubstance_Insp_w_Viol>0</ControlledSubstance_Insp_w_Viol>
+         <ControlledSubstance_Measure>0.0000</ControlledSubstance_Measure>
+         <ControlledSubstance_Acute_Critical>N</ControlledSubstance_Acute_Critical>
+         <VehicleMaint_Insp_w_Viol>4</VehicleMaint_Insp_w_Viol>
+         <VehicleMaint_Measure>5.3000</VehicleMaint_Measure>
+         <VehicleMaint_Acute_Critical>N</VehicleMaint_Acute_Critical>
+         <DataEffectiveDate>3/31/2023 12:00:00 AM</DataEffectiveDate>
+      </SMS_RawData>
+      <SMS_Calculated>
+         <sms_SafetyEventGroup_UnsafeDriving>3-8</sms_SafetyEventGroup_UnsafeDriving>
+         <sms_UnsafeDriving_Percentile>0.3600</sms_UnsafeDriving_Percentile>
+         <sms_SafetyEventGroup_HOS />
+         <sms_HOS_Percentile />
+         <sms_SafetyEventGroup_VehicleMaint>5-10</sms_SafetyEventGroup_VehicleMaint>
+         <sms_VehicleMaint_Percentile>0.0000</sms_VehicleMaint_Percentile>
+         <sms_SafetyEventGroup_CS />
+         <sms_CS_Percentile />
+         <sms_SafetyEventGroup_DriverFitness />
+         <sms_DriverFitness_Percentile />
+         <sms_UnsafeDriving_Threshold_General>False</sms_UnsafeDriving_Threshold_General>
+         <sms_UnsafeDriving_Threshold_Hazmat>False</sms_UnsafeDriving_Threshold_Hazmat>
+         <sms_HOS_Threshold_General>False</sms_HOS_Threshold_General>
+         <sms_HOS_Threshold_Hazmat>False</sms_HOS_Threshold_Hazmat>
+         <sms_VehicleMaint_Threshold_General>False</sms_VehicleMaint_Threshold_General>
+         <sms_VehicleMaint_Threshold_Hazmat>False</sms_VehicleMaint_Threshold_Hazmat>
+         <sms_CS_Threshold_General>False</sms_CS_Threshold_General>
+         <sms_CS_Threshold_Hazmat />
+         <sms_DriverFitness_Threshold_General>False</sms_DriverFitness_Threshold_General>
+         <sms_DriverFitness_Threshold_Hazmat>False</sms_DriverFitness_Threshold_Hazmat>
+      </SMS_Calculated>
+   </RMIS_CompCSA>
+   <CertificationStatus>
+      <StatusDate>5/1/2023 3:32:00 AM</StatusDate>
+      <IsCertified>True</IsCertified>
+      <NonCertifiedReasons />
+      <EntitiesCertified>1</EntitiesCertified>
+      <EntitiesNOTCertified>0</EntitiesNOTCertified>
+      <EntityCertification>
+         <Entity EntityDescrip="Traffic Tech" IsCertified="True">
+            <EntityDescrip>Traffic Tech</EntityDescrip>
+            <IsCertified>True</IsCertified>
+            <EntityCode />
+            <EntityID>19808</EntityID>
+         </Entity>
+      </EntityCertification>
+   </CertificationStatus>
+   <TradeReferences>
+      <TradeReference>
+         <TradeReferenceCompanyName>10 roads</TradeReferenceCompanyName>
+         <TradeReferenceContactName>Forsythia Pezel</TradeReferenceContactName>
+         <TradeReferencePhone>8669872077</TradeReferencePhone>
+         <TradeReferenceEmail>ops@10roadslogistics.com</TradeReferenceEmail>
+         <TradeReferenceDateStamp>4/26/2023 3:03:21 PM</TradeReferenceDateStamp>
+      </TradeReference>
+      <TradeReference>
+         <TradeReferenceCompanyName>Forward Air</TradeReferenceCompanyName>
+         <TradeReferenceContactName>Maggie Morris</TradeReferenceContactName>
+         <TradeReferencePhone>6144911085</TradeReferencePhone>
+         <TradeReferenceEmail>Maggie_Morris@forwardair.com</TradeReferenceEmail>
+         <TradeReferenceDateStamp>4/26/2023 3:03:21 PM</TradeReferenceDateStamp>
+      </TradeReference>
+      <TradeReference>
+         <TradeReferenceCompanyName>Nolan</TradeReferenceCompanyName>
+         <TradeReferenceContactName>Youssef Salameh</TradeReferenceContactName>
+         <TradeReferencePhone>6786721283</TradeReferencePhone>
+         <TradeReferenceEmail>Joseph.Salameh@ntgfreight.com</TradeReferenceEmail>
+         <TradeReferenceDateStamp>4/26/2023 3:03:21 PM</TradeReferenceDateStamp>
+      </TradeReference>
+   </TradeReferences>
+   <Overrides>
+      <Override>
+         <OverrideType>W9 Not Required</OverrideType>
+         <OverrideCreateDate>4/26/2023 3:20:27 PM</OverrideCreateDate>
+         <OverrideExpirationDate>4/21/2032 12:00:00 AM</OverrideExpirationDate>
+         <OverrideAuthorizedBy />
+         <OverrideCreatedBy>SanMau</OverrideCreatedBy>
+      </Override>
+   </Overrides>
+   <Documents>
+      <Document>
+         <DocumentID>4229809</DocumentID>
+         <Description>Notice of Assignment</Description>
+         <CreateDatePST>4/26/2023 2:57:57 PM</CreateDatePST>
+         <FileType>PDF</FileType>
+         <FileSize>328.91 KB</FileSize>
+         <UploadBy>Jeff Beks</UploadBy>
+         <UploadMode>Framework-Registration</UploadMode>
+         <IndexData />
+      </Document>
+   </Documents>
+   <ClientCarrierAgreementRuleOverrides />
+   <PHMSA />
+   <eW8BEN />
+   <eW8BENE />
+   <IntrastateAuthority />
+   <TXIntrastateAuthority />
+   <CARB_TruckAndBus>
+      <ID>510535</ID>
+      <InsdID>3463610</InsdID>
+      <TrucrsID />
+      <ComplianceType />
+      <CertIssuedToName />
+      <CertDateValidUntil>12/31/2023 12:00:00 AM</CertDateValidUntil>
+      <CertVehiclesReported>0</CertVehiclesReported>
+      <DeclaredNonCompliant>True</DeclaredNonCompliant>
+      <DeclaredNonCompliantReason>I operate in California, but am not currently CARB Truck and Bus compliant.</DeclaredNonCompliantReason>
+      <FileRepoCert_friID>0</FileRepoCert_friID>
+      <UpdateDate>1/11/2023 9:55:13 AM</UpdateDate>
+      <UpdateBy>RMIS_WebFramework</UpdateBy>
+      <RMISAuditDate />
+      <RMISAuditBy />
+      <RMISAuditOK>False</RMISAuditOK>
+      <RMISAuditNote />
+   </CARB_TruckAndBus>
+   <Invitation />
+</RMISCarrierStatusExpanded>

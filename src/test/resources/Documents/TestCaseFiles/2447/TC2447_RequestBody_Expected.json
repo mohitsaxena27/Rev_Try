@@ -1,0 +1,179 @@
+{
+  "Loadinfo": {},
+  "BillTo":  {
+    "Name": "Revenova HQ",
+    "ShipType": 0,
+    "PayType": 1,
+    "UseDefaultBillTo": true,
+    "AddressInfo":  {
+    "Address1": "2333 Waukegan Rd.",
+    "City": "Bannockburn",
+    "CountryCode": "US",
+    "State": "IL",
+    "Zipcode": "60015",
+    "LocationName": "Revenova HQ"
+    },
+    "ContactInfo": {},
+    "UseDefaultShipType": false,
+    "UseDefaultPayType": false
+  },
+  "RateServices": [
+   {
+  "ServiceCode": "1",
+  "ShippingQty": 2,
+  "PackageType": "29",
+  "EquipmentType": "5"
+  }
+  ],
+  "Shipper":  {
+    "ContactInfo":  {
+      "FirstName": "Joe",
+      "LastName": "SMC3 Customer",
+      "ContactName": "Joe SMC3 Customer",
+      "Phone": "312-999-7777",
+      "Fax": "312-222-3333",
+      "Email": "{email}"
+    },
+    "AddressInfo":  {
+      "Address1": "2333 Waukegan Rd.",
+      "Address2": "",
+      "City": "Bannockburn",
+      "CountryCode": "US",
+      "State": "IL",
+      "Zipcode": "60015",
+      "LocationName": "SMC3 Customer"
+    },
+    "CompanyName": "SMC3 Customer",
+    "LocationName": "SMC3 Customer",
+    "Dock": {
+      "Name": "Dock",
+      "Note": "Pickup Instructions",
+      "OpenTime": "{CurrentData}T09:00:00",
+      "ShipmentDateTime": "{CurrentData}T10:00:00",
+      "CloseTime": "{CurrentData}T22:00:00",
+      "ConfirmationNumber": ""
+    }
+  },
+  "Consignee":  {
+    "ContactInfo":    {
+      "FirstName": "Joe",
+      "LastName": "Boston Beans",
+      "ContactName": "Joe Boston Beans",
+      "Phone": "312-999-7777",
+      "Fax": "312-222-3333",
+      "Email": "{email}"
+    },
+  "AddressInfo":  {
+      "Address1": "526 Beacon Street",
+      "Address2": "",
+      "City": "Boston",
+      "CountryCode": "US",
+      "State": "MA",
+      "Zipcode": "02215",
+      "LocationName": "Boston Beans"
+    },
+  "CompanyName": "Boston Beans",
+  "LocationName": "Boston Beans",
+  "Dock":    {
+      "Name": "Dock",
+      "Note": "Delivery Instructions",
+      "OpenTime": "",
+      "ShipmentDateTime": "",
+      "CloseTime": "",
+      "ConfirmationNumber": ""
+    }
+  },
+  "Products": [
+   {
+  "Quantity": 2,
+  "PackageType": "29",
+  "Weight": 1200,
+  "Class": "6",
+  "NMFC": "",
+  "SKU": "Item 1",
+  "IsHazmat": false,
+  "Description": "Material",
+  "Length": 45.00,
+  "Width": 42.00,
+  "Height": 48.00,
+  "UOM": 0,
+  "SortOrder": 1
+  }
+],
+  "ShipperAccessorials": {
+  "AppointmentRequired": false,
+  "InsidePickup": false,
+  "SortSegregate": false,
+  "PalletJack": false,
+  "ResidentialPickup": false,
+  "LiftgatePickup": false,
+  "MarkingTagging": false,
+  "TradeShowPickup": false,
+  "NYCMetro": false,
+  "NonBusinessHourPickup": false,
+  "LimitedAccessType": "UNSPE"
+  },
+  "ConsigneeAccessorials": {
+  "AppointmentRequired": false,
+  "InsideDelivery": false,
+  "SortSegregate": false,
+  "PalletJack": false,
+  "ResidentialDelivery": false,
+  "LiftgateDelivery": false,
+  "MarkingTagging": false,
+  "TradeShowDelivery": false,
+  "NYCMetro": false,
+  "DeliveryNotification": false,
+  "TwoHourSpecialDelivery": false,
+  "NonBusinessHourDelivery": false,
+  "LimitedAccessType": ""
+  },
+  "LoadAccessorials": {
+  "Guaranteed": false,
+  "TimeDefinite": false,
+  "Expedited": false,
+  "HolidayPickup": false,
+  "HolidayDelivery": false,
+  "WeightDetermination": false,
+  "BlindShipment": false,
+  "BlanketService": false,
+  "SingleShipment": false,
+  "CustomsInBond": false,
+  "OverDimension": false,
+  "Stackable": false,
+  "Turnkey": false,
+  "FoodGradeProducts": false,
+  "TankerEndorsedDriverRequired": false,
+  "TSA": false,
+  "Bulkhead": false,
+  "SignatureRequired": false,
+  "BlanketServiceChilled": false,
+  "BlanketServiceFrozen": false,
+  "SaturdayDelivery": false,
+  "SecondMan": false,
+  "ReturnReceipt": false,
+  "ShipmentHold": false,
+  "ProactiveResponse": false,
+  "ShipperRelease": false,
+  "WhiteGlove": false,
+  "RestrictedDelivery": false
+  },
+  "PickupDateTime": "{CurrentData}T10:00:00",
+  "DispatchLoad": true,
+  "DispatchOverride": false,
+  "SubmitPickup": true,
+  "ActualCarrierName": "{Carrier Name}",
+  "QuoteInformation": {
+  "SCAC": "{SCAC_value}",
+  "TotalCharge": {Quote Total},
+  "FreightCharge": {Net Freight Charges},
+  "DiscountPercentage": 0.00,
+  "DiscountAmount": 0.00,
+  "AccessorialFees": 75.00,
+  "Interline": false,
+  "Miles": {Distance (Miles)},
+  "CurrencyID": 0,
+  "QuoteNumber" : "12345",
+  "CarrierName": "{Carrier Name}"
+  }
+}

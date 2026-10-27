@@ -1,0 +1,12 @@
+{
+  "identifiers" : [
+    {
+    "type" : "CARRIER_SCAC",
+    "value" : "TRHU"
+    },
+    {
+    "type" : "BILL_OF_LADING",
+    "value" : "MEDUI4733516"
+  }
+  ]
+}

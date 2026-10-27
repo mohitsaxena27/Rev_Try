@@ -1,0 +1,25 @@
+{
+  "driverId": "6855466",
+  "name": "Trip_Plan_ID",
+  "settings": {
+    "routeCompletionCondition": "departLastStop",
+    "routeStartingCondition": "arriveFirstStop"
+  },
+  "stops": [
+    {
+      "addressId": "256496082",
+      "name": "Kansas City Chiefs",
+      "scheduledArrivalTime": "{CurrentDate+2}T17:00:00.000Z",
+      "scheduledDepartureTime": "{CurrentDate+2}T17:00:00.000Z"
+    },
+    {
+      "name": "Missouri Terminal",
+      "scheduledArrivalTime": "{CurrentDate+7}T17:00:00.000Z",
+      "scheduledDepartureTime": "{CurrentDate+7}T17:00:00.000Z",
+      "singleUseLocation": {
+        "latitude": 37.557666000000000,
+        "longitude": -92.789626000000000
+      }
+    }
+  ]
+}

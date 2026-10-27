@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+  <EmailField>//input[@name='email']</EmailField>
+    <ContinueBtn>//span[text()='Continue']</ContinueBtn>
+    <SignInBtn>//button//span[text()='Sign in']</SignInBtn>
+    <Password>//input[@type='password']</Password>
+    <AddPlaceBtn>//span[text()='Add place']</AddPlaceBtn>
+    <SaveBtn>//span[text()='Save']</SaveBtn>
+    <SuccessMessage>//span[text()='Place created successfully']</SuccessMessage>
+    <AddName>//input[@placeholder='Enter place name']</AddName>
+    <LocationField>//div[text()='Enter address']</LocationField>
+    <AddLocation>//div[text()='Enter address']/..//input</AddLocation>
+    <SearchResult>//input[@class='KitSearchInput-input']</SearchResult>
+    <SamsaraRoutesSearchInput>//input[@placeholder='Search routes']</SamsaraRoutesSearchInput>
+    <SamsaraAddressesSearchInput>//input[@placeholder='Search' and @type='search']</SamsaraAddressesSearchInput>
+    <SamsaraAddressSearchResult>//*[normalize-space()='{Paramlink}']</SamsaraAddressSearchResult>
+    <SamsaraAddressesLastModifiedHeader>//th[contains(@class,'KitTable-th--sortable')][.//span[normalize-space()='Last Modified']]</SamsaraAddressesLastModifiedHeader>
+    <SamsaraAddressesLastModifiedButton>//th[contains(@class,'KitTable-th--sortable')][.//span[normalize-space()='Last Modified']]//button</SamsaraAddressesLastModifiedButton>
+    <SamsaraLatestAddressForName>(//table[contains(@class,'KitTable-table')]//tbody//tr[@role='row'][.//td[1]//*[normalize-space()='{Paramlink}']])[1]//td[2]//span[@data-notranslate='true']</SamsaraLatestAddressForName>
+    <SamsaraAddressForId>(//table[contains(@class,'KitTable-table')]//tbody//tr[@role='row'][.//td[3]//*[normalize-space()='{Paramlink}']])[1]//td[2]//span[@data-notranslate='true']</SamsaraAddressForId>
+    <SamsaraRouteNumberResult>//div[contains(@class,'GridTable')]//*[normalize-space()='{Paramlink}']</SamsaraRouteNumberResult>
+    <SamsaraScheduledStart>//div[contains(@class,'RouteDetailJobRow-container')][.//div[contains(@class,'RouteDetailJobRow-jobInfoName') and @data-notranslate='true' and normalize-space()='{Paramlink}']][.//span[@data-notranslate='true' and normalize-space()='START']][.//span[@data-notranslate='true' and normalize-space()='Scheduled']]//div[contains(@class,'RouteJobLabelV2-text')]</SamsaraScheduledStart>
+    <SamsaraEnRouteForLocation>//div[contains(@class,'RouteDetailJobRow-container')][.//div[contains(@class,'RouteDetailJobRow-jobInfoName') and normalize-space()='{Paramlink}']]//div[contains(@class,'RouteJobLabelV2-text')][.//span[@data-notranslate='true' and translate(normalize-space(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')='en route']]</SamsaraEnRouteForLocation>
+    <SamsaraViewDetailsForLocation>//div[contains(@class,'RouteDetailJobRow-container--selected')][.//div[contains(@class,'RouteDetailJobRow-jobInfoName') and @data-notranslate='true' and normalize-space()='{Paramlink}']]//a[@data-isolate='true' and .//span[@data-notranslate='true' and normalize-space()='View details']]</SamsaraViewDetailsForLocation>
+    <SamsaraRouteStopRow>//div[contains(@class,'RouteDetailJobRow-container')][.//div[contains(@class,'RouteDetailJobRow-jobInfoName') and normalize-space()='{Paramlink}']]</SamsaraRouteStopRow>
+    <SamsaraRouteBackButton>//button[.//span[@data-notranslate='true' and normalize-space()='Back']]</SamsaraRouteBackButton>
+    <SamsaraPickupDeliveryStatus>//*[normalize-space()='Pickup/Delivery Status' and @class='test-id__field-label']/../..//*[contains(@class,'test-id__field-value')]//*[@data-output-element-id='output-field']</SamsaraPickupDeliveryStatus>
+    <SamsaraScheduleEditButton>//*[@data-testid='dispatch-schedule-edit-button']</SamsaraScheduleEditButton>
+    <SamsaraActualArrivalDateTime>//span[translate(normalize-space(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')='arrived at']/ancestor::div[contains(@class,'RouteJobArrivalCompletionModal-datetime')][1]//div[@data-testid='ui-datetimepicker-end-text-value']</SamsaraActualArrivalDateTime>
+    <SamsaraActualDepartureDateTime>//span[translate(normalize-space(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')='departed at']/ancestor::div[contains(@class,'RouteJobArrivalCompletionModal-datetime')][1]//div[@data-testid='ui-datetimepicker-end-text-value']</SamsaraActualDepartureDateTime>
+    <SamsaraActualArrivalDateTimeInput>//div[contains(@class,'RouteJobArrivalCompletionModal-datetime')][.//span[normalize-space()='Arrived At']]//input[@data-testid='ui-datetimepicker-end-input']</SamsaraActualArrivalDateTimeInput>
+    <SamsaraActualDepartureDateTimeInput>//div[contains(@class,'RouteJobArrivalCompletionModal-datetime')][.//span[normalize-space()='Departed At']]//input[@data-testid='ui-datetimepicker-end-input']</SamsaraActualDepartureDateTimeInput>
+    <SamsaraTimeInput>//div[@data-testid='date-time-picker-dropdown-panel']//input[contains(@class,'DateTimePicker-timeInput')]</SamsaraTimeInput>
+    <SamsaraDateTimeApplyButton>//button[@data-testid='ui-datetimepicker-datetimerow-apply']</SamsaraDateTimeApplyButton>
+    <SamsaraDisplayedActualArrival>//div[contains(@class,'ScheduleCard-label')][normalize-space()='Actual Arrival']/following-sibling::span[1]/span</SamsaraDisplayedActualArrival>
+    <SamsaraDisplayedActualDeparture>//div[contains(@class,'ScheduleCard-label')][normalize-space()='Actual Departure']/following-sibling::span[1]/span</SamsaraDisplayedActualDeparture>
+    <SamsaraScheduleEditSaveButton>//div[@data-testid='dispatch-route-job-arrival-completion-modal']//div[contains(@class,'UIModal-footer')]//button[.//span[@data-notranslate='true' and normalize-space()='Save']]</SamsaraScheduleEditSaveButton>
+    <SamsaraScheduleEditModal>//div[@data-testid='dispatch-route-job-arrival-completion-modal']</SamsaraScheduleEditModal>
+    <SelectAddress>//div[contains(@class,'AddressAutocomplete-resultsItem')]//span[contains(normalize-space(.),'{Paramlink}')]</SelectAddress>
+    <GetRecordsID>//table[@class='KitTable-table']//tr[.//*[text()='{Paralink}']]//td[3]//span</GetRecordsID>
+    <NoPlaceFound>//*[text()='No places found']</NoPlaceFound>
+    <Delete_Place>//button[@aria-label="Delete place"]</Delete_Place>
+    <Remove>//button//span[text()='Remove']</Remove>
+    <Delete_Message>//span[text()='Place deleted']</Delete_Message>
+    <Verify_1P_Section_Field_Value>//records-record-layout-item[@field-label='{FieldLabel}']//*[contains(normalize-space(.),'{ExpectedValue}')]</Verify_1P_Section_Field_Value>
+    <Verify_1P_Carrier_Status_Field>//records-record-layout-item[@field-label='Carrier Status as of'] | //*[normalize-space()='Carrier Status as of']/ancestor::*[contains(@class,'slds-form-element')][1]</Verify_1P_Carrier_Status_Field>
+    <Verify_1P_Carrier_Status_As_Of>(//records-record-layout-item[@field-label='Carrier Status as of']//*[contains(normalize-space(.),'{ExpectedValue}')] | //*[normalize-space()='{FieldLabel}']/ancestor::*[contains(@class,'slds-form-element')][1]//*[contains(normalize-space(.),'{ExpectedValue}')])[1]</Verify_1P_Carrier_Status_As_Of>
+</locators>

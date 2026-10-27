@@ -1,0 +1,32 @@
+{
+    "id": 987654321,
+    "shipmentIdentifiers": [
+        {
+            "type": "PICKUP",
+            "value": " SAA9999"
+        },
+        {
+            "type": "PRO",
+            "value": " 51234234",
+            "primaryForType": false
+        },
+        {
+            "type": "EXTERNAL",
+            "value": "a0Z3600000FId7DEAT"
+        },
+        {
+            "type": "PRO",
+            "value": " 51222333",
+            "primaryForType": true
+        }
+    ],
+    "capacityProviderBolUrl": "https://s3-us-west-2.amazonaws.com/demo-p44uploads/bolPdfs/43225_180cfe47-fd96-41fe-be36-9e52de48f075.pdf",
+    "pickupNote": "Liftgate Pickup;44x44x44in;Delivery:Liftgate;",
+    "infoMessages": [
+        {
+            "severity": "INFO",
+            "message": "This is a response from the vendor's test mode. To send a live request, use cloud.p-44.com.",
+            "source": "SYSTEM"
+        }
+    ]
+}

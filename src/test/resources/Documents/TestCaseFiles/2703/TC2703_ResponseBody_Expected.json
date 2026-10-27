@@ -1,0 +1,105 @@
+{
+  "id": "{expID}",
+  "referenceId": "{Load_Number}",
+  "shipmentId": "92030a4f-6d01-4e26-84e1-11bbf0ebf0a6",
+  "ownership": {
+    "companyId": 754812,
+    "officeId": 863273,
+    "groupId": 143901,
+    "userId": 2891205,
+    "sourceApplication": "tms_integrator"
+  },
+  "ownershipV2": {
+    "userId": "17d9b712-a879-4df0-bbd0-58f93d59bf10",
+    "officeId": "60d04664-4462-4f0d-82b8-652e400b7404",
+    "headquartersId": "60d04664-4462-4f0d-82b8-652e400b7404",
+    "teamId": "2c681281-5c84-4243-8d4b-5c13fa05fdce"
+  },
+  "lifeCycleEvents": {
+    "created": {
+      "who": 2891205,
+      "whoV2": "17d9b712-a879-4df0-bbd0-58f93d59bf10",
+      "when": "2025-12-08T18:55:22.505Z"
+    },
+    "updated": {
+      "who": 2891205,
+      "whoV2": "17d9b712-a879-4df0-bbd0-58f93d59bf10",
+      "when": "2025-12-08T18:55:22.505Z"
+    },
+    "serviced": {
+      "who": 2891205,
+      "whoV2": "17d9b712-a879-4df0-bbd0-58f93d59bf10",
+      "when": "2025-12-08T18:55:22.505Z"
+    }
+  },
+  "exposure": {
+    "audience": {
+      "loadBoard": {
+        "transactionDetails": {
+          "loadOfferRateUsd": 1,
+          "transactionType": "NONBOOKABLE_OFFER_RATE"
+        },
+        "includesExtendedNetwork": true
+      }
+    },
+    "isExposed": true,
+    "startWhen": "2025-12-08T18:55:22.505Z",
+    "endWhen": "2025-12-09T07:59:59.999Z",
+    "earliestAvailabilityWhen": "2025-12-08T18:55:22.505Z",
+    "latestAvailabilityWhen": "2025-12-09T07:59:59.999Z",
+    "preferredContactMethod": "EMAIL"
+  },
+  "lane": {
+    "origin": {
+      "city": "Boston",
+      "county": "Suffolk",
+      "stateProv": "MA",
+      "postalCode": "02108",
+      "latitude": 42.3583,
+      "longitude": -71.0603,
+      "placeId": 15504
+    },
+    "destination": {
+      "city": "Denver",
+      "county": "Denver",
+      "stateProv": "CO",
+      "postalCode": "80201",
+      "latitude": 39.7392,
+      "longitude": -104.9842,
+      "placeId": 4948
+    }
+  },
+  "freight": {
+    "fullPartial": "FULL",
+    "equipmentType": "V",
+    "lengthFeet": 48,
+    "weightPounds": 23000,
+    "comments": [
+      {
+        "comment": "testing"
+      }
+    ],
+    "pickupHours": "12/8/2025 09:00-22:00",
+    "dropOffHours": "12/11/2025 09:00-22:00"
+  },
+  "isTrackingRequired": false,
+  "posterInfo": {
+    "contactMethods": [
+      {
+        "userId": "17d9b712-a879-4df0-bbd0-58f93d59bf10",
+        "method": "EMAIL",
+        "value": "csweeney@revenova.com"
+      }
+    ],
+    "company": {
+      "name": "Transcore Connexion Development Test 1",
+      "address": {
+        "city": "Beaverton",
+        "stateOrProvince": "OR",
+        "postalCode": "97008-7106",
+        "countryCode": "US"
+      },
+      "directoryLookupId": "S.149668.275247"
+    }
+  }
+}

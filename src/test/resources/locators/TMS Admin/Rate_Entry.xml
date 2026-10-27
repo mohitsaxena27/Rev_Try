@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <Rate_Value>//div[contains(@class,'active ')]//*[@slot='primaryField' and contains(text(),'Rate Entry')]</Rate_Value>
+</locators>

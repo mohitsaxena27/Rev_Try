@@ -1,0 +1,31 @@
+[
+  {
+    "lToken": 25405454,
+    "custCD": "PQ-FLST",
+    "dateAvail": "2026-08-06T00:00:00",
+    "srceCountry": 2,
+    "srceCity": "Hamilton",
+    "srceSt": "ON",
+    "srceLong": -79.84861,
+    "srceLat": 43.24639,
+    "destCountry": 1,
+    "destCity": "Chicago",
+    "destSt": "IL",
+    "destLong": -87.65139,
+    "destLat": 41.87444,
+    "vehicleSize": "U",
+    "vehicleType": "V",
+    "comment": "",
+    "dfo": 23.1,
+    "dirO": "SW",
+    "tcc": -1,
+    "tcus": -1,
+    "equifax": -1,
+    "postingAttrib": "A",
+    "company": "Deliveron Transport Ltd",
+    "phone": "(289) 801-1326",
+    "email": "deliverontransport.on@gmail.com",
+    "createdOn": "2026-08-06T14:00:00.000",
+    "dfd": 26.1
+    }
+]

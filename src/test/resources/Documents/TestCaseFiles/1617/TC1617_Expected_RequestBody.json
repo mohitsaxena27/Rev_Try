@@ -1,0 +1,81 @@
+{
+  "capacityProviderAccountGroup": {
+    "code": "Default",
+    "accounts": [
+      {
+        "code": "RDFS"
+      }
+    ]
+  },
+  "shipmentIdentifiers": [
+    {
+      "type": "BILL_OF_LADING",
+      "value": "{BOL}"
+    },
+    {
+      "type": "EXTERNAL",
+      "value": "{External_Value}"
+    }
+  ],
+  "shipmentStops": [
+    {
+      "stopType": "ORIGIN",
+      "location": {
+        "address": {
+          "postalCode": "60015",
+          "addressLines": [
+            "2333 Waukegan Rd."
+          ],
+          "city": "Bannockburn",
+          "state": "IL",
+          "country": "US"
+        },
+        "contact": {
+          "companyName": "Project44 Customer",
+          "contactName": "Joe Project44 Customer",
+          "phoneNumber": "312-999-7777",
+          "email": "{email}"
+        }
+      },
+      "appointmentWindow": {
+        "startDateTime": "{CurrentDate}T09:00:00",
+        "endDateTime": "{CurrentDate}T22:00:00"
+      }
+    },
+    {
+      "stopType": "DESTINATION",
+      "location": {
+        "address": {
+          "postalCode": "02215",
+          "addressLines": [
+            "526 Beacon Street"
+          ],
+          "city": "Boston",
+          "state": "MA",
+          "country": "US"
+        },
+        "contact": {
+          "companyName": "Boston Beans",
+          "contactName": "Joe Boston Beans",
+          "phoneNumber": "312-999-7777",
+          "email": "{email}"
+        }
+      },
+      "appointmentWindow": {
+        "startDateTime": "{CurrentDate+4}T09:00:00",
+        "endDateTime": "{CurrentDate+4}T22:00:00"
+      }
+    }
+  ],
+  "apiConfiguration": {
+    "fallBackToDefaultAccountGroup": true
+  },
+  "shipmentAttributes": [
+    {
+      "name": "loadId",
+      "values": [
+        "{sfid}"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "isTest": "true",
+  "origin": {
+    "city": "Chicago",
+    "stateProvince": "IL",
+    "postalCode": "60612",
+    "country": "USA"
+  },
+  "revenovaId": "{RevenovaId}"
+}

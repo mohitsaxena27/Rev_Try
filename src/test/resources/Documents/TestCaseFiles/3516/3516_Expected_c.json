@@ -1,0 +1,12 @@
+{
+  "identifiers" : [
+    {
+    "type" : "CARRIER_SCAC",
+    "value" : "TRHU"
+    },
+    {
+    "type" : "BOOKING_NUMBER",
+    "value" : "BN3516"
+    }
+  ]
+}

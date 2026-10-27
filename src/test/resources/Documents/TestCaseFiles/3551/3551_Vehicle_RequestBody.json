@@ -1,0 +1,23 @@
+{
+
+  "fleet_id": {Customer_Number},
+  "axle_tsp_id": {AxleID},
+  "name": "{Name}",
+  "external_id": "",
+  "oem": "Peterbilt",
+  "model": "389",
+  "year": "2021",
+  "vin": "{VIN}",
+  "eld_device_id": "",
+  "license_plate_number": "{License_plate_number}",
+  "license_plate_state": "IL",
+  "active_from": "2022-11-12T01:32:45Z",
+  "active_to": "2023-11-12T00:00:00Z",
+  "status": "active",
+  "speed_unit": "mph",
+  "odometer_unit": "miles",
+  "fuel_unit": "gallons",
+  "num_axles": 3,
+  "timezone": "America/Chicago",
+  "notes": "Best for QA"
+}

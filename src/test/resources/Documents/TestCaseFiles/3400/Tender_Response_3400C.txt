@@ -1,0 +1,8 @@
+{
+    "waybillNumber": "3400C",
+    "status": "Accept",
+    "shipmentId": "Load-3400C",
+    "loadAccepted": true,
+    "ediProvider": "Kleinschmidt",
+    "carrierTradingPartnerId": "REDIC1"
+}

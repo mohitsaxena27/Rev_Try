@@ -1,0 +1,904 @@
+{
+  "shipment": {
+    "id": "90c6489c-b033-47c2-9603-40b46145d70b",
+    "identifiers": [
+      {
+        "type": "CONTAINER_ID",
+        "value": "TRHU1233537"
+      },
+      {
+        "type": "VESSEL_NAME",
+        "value": "USS Enterprise"
+      }
+    ],
+    "attributes": [],
+    "shipmentShareLink": "https://na12.voc.project44.com/portal/v2/public/ma/tracking-details?shipmentShareToken=fd07baca-bc11-4a28-a55e-605df66d51f9",
+    "routeInfo": {
+      "stops": [
+        {
+          "id": "23eca143-716a-3c87-9fab-bea98cb53fa7",
+          "type": "PORT_OF_LOADING",
+          "location": {
+            "name": "Navi Mumbai (Nhava Sheva)",
+            "identifiers": [
+              {
+                "type": "PORT_UN_LOCODE",
+                "value": "INNSA"
+              }
+            ],
+            "coordinates": {
+              "latitude": 18.939413,
+              "longitude": 72.947845
+            }
+          }
+        },
+        {
+          "id": "f3d28b4a-2494-3a34-a06c-ff50328db863",
+          "type": "PORT_OF_DISCHARGE",
+          "location": {
+            "name": "Hamburg",
+            "identifiers": [
+              {
+                "type": "PORT_UN_LOCODE",
+                "value": "DEHAM"
+              }
+            ],
+            "coordinates": {
+              "latitude": 53.55,
+              "longitude": 9.933333
+            }
+          }
+        }
+      ],
+      "routeSegments": [
+        {
+          "id": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+          "fromStopId": "23eca143-716a-3c87-9fab-bea98cb53fa7",
+          "toStopId": "f3d28b4a-2494-3a34-a06c-ff50328db863",
+          "transportationMode": "OCEAN",
+          "identifiers": [
+            {
+              "type": "VOYAGE_NUMBER",
+              "value": "IS210A"
+            },
+            {
+              "type": "VESSEL_NAME",
+              "value": "MSC GAIA"
+            },
+            {
+              "type": "VESSEL_IMO",
+              "value": "9401142"
+            },
+            {
+              "type": "CARRIER_NAME",
+              "value": "HIMALAYA EXPRESS SERVICE"
+            }
+          ]
+        }
+      ]
+    },
+    "relatedShipments": [
+      {
+        "id": "3b84c1da-1cd1-4898-b62f-30f0c575b3c6",
+        "identifiers": [
+          {
+            "type": "CARRIER_SCAC",
+            "value": "MSCU"
+          },
+          {
+            "type": "BILL_OF_LADING",
+            "value": "MEDUI4733164"
+          }
+        ]
+      }
+    ]
+  },
+  "states": [],
+  "events": [
+    {
+      "dateTime": "2022-01-17T13:05:00+0000",
+      "type": "GATE_OUT_EMPTY",
+      "stopId": "23eca143-716a-3c87-9fab-bea98cb53fa7"
+    },
+    {
+      "dateTime": "2022-01-29T08:20:00+0000",
+      "type": "GATE_IN_FULL",
+      "stopId": "23eca143-716a-3c87-9fab-bea98cb53fa7"
+    },
+    {
+      "dateTime": "2022-02-04T16:41:00+0000",
+      "type": "LOAD",
+      "stopId": "23eca143-716a-3c87-9fab-bea98cb53fa7"
+    },
+    {
+      "dateTime": "2022-02-05T09:19:00+0000",
+      "type": "DEPARTURE_FROM_STOP",
+      "stopId": "23eca143-716a-3c87-9fab-bea98cb53fa7",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "plannedDateTime": "2022-02-06T07:00:00+0000",
+      "estimateDateTime": "2022-02-05T13:00:00+0000"
+    },
+    {
+      "dateTime": "2022-02-05T01:19:00+0000",
+      "type": "DISCHARGE",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "estimateDateTime": "2022-03-05T11:00:00+0000"
+    },
+    {
+      "dateTime": "2022-01-16T14:05:00+0000",
+      "type": "ARRIVAL_AT_STOP",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "plannedDateTime": "2022-03-06T05:00:00+0000",
+      "estimateDateTime": "2022-03-05T12:00:00+0000"
+    },
+    {
+      "dateTime": "2022-03-10T13:33:00+0000",
+      "type": "GATE_OUT_FULL",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-11T10:20:00+0000",
+      "type": "GATE_IN_EMPTY",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "AVAILABLE",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "UNKNOWN",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "TRACKING_INITIATE",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "TRACKING_START",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "LOAD_ONTO_VEHICLE",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "UNLOAD_FROM_VEHICLE",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "GATE_IN",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "GATE_OUT",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "FLIGHT_BOOKING",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "MANIFEST",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "RECEIVE_FROM_SHIPPER",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "CONSIGNEE_NOTIFY",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "WARNING",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "EXCEPTION_LATE_DEPARTURE",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "EXCEPTION_MISSED_CONNECTION",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "EXCEPTION_DELAYED",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "EXCEPTION_DELIVERY_MISSED",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "EXCEPTION_HELD",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "EXCEPTION_PICKUP_MISSED",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "ENTERED_GEOFENCE",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "EXITED_GEOFENCE",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "INFO",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "OUT_FOR_DELIVERY",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "PICKED_UP",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    },
+    {
+      "dateTime": "2022-03-09T10:29:00+0000",
+      "type": "RETURN_TO_SENDER",
+      "stopId": "f3d28b4a-2494-3a34-a06c-ff50328db863"
+    }
+  ],
+  "positions": [
+    {
+      "dateTime": "2022-02-05T10:00:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 18.90177,
+      "longitude": 72.858665
+    },
+    {
+      "dateTime": "2022-02-05T11:14:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 18.83919,
+      "longitude": 72.6564
+    },
+    {
+      "dateTime": "2022-02-05T12:18:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 18.861387,
+      "longitude": 72.356514
+    },
+    {
+      "dateTime": "2022-02-05T13:32:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 18.901047,
+      "longitude": 71.95735
+    },
+    {
+      "dateTime": "2022-02-05T15:14:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 18.866606,
+      "longitude": 71.412254
+    },
+    {
+      "dateTime": "2022-02-05T16:20:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 18.899548,
+      "longitude": 71.050125
+    },
+    {
+      "dateTime": "2022-02-05T17:21:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 19.079462,
+      "longitude": 70.78626
+    },
+    {
+      "dateTime": "2022-02-05T19:18:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 19.585272,
+      "longitude": 70.43344
+    },
+    {
+      "dateTime": "2022-02-05T21:01:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 20.030325,
+      "longitude": 70.12006
+    },
+    {
+      "dateTime": "2022-02-06T04:27:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 21.973425,
+      "longitude": 68.86217
+    },
+    {
+      "dateTime": "2022-02-06T06:23:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 22.543285,
+      "longitude": 68.91432
+    },
+    {
+      "dateTime": "2022-02-06T09:53:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 22.699215,
+      "longitude": 69.699104
+    },
+    {
+      "dateTime": "2022-02-07T13:01:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 22.736666,
+      "longitude": 69.69666
+    },
+    {
+      "dateTime": "2022-02-07T19:48:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 22.738111,
+      "longitude": 69.69823
+    },
+    {
+      "dateTime": "2022-02-07T21:09:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 22.73811,
+      "longitude": 69.69816
+    },
+    {
+      "dateTime": "2022-02-07T23:49:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 22.736666,
+      "longitude": 69.69666
+    },
+    {
+      "dateTime": "2022-02-08T04:19:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 22.738136,
+      "longitude": 69.69805
+    },
+    {
+      "dateTime": "2022-02-08T05:19:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 22.73812,
+      "longitude": 69.69818
+    },
+    {
+      "dateTime": "2022-02-08T06:43:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 22.738173,
+      "longitude": 69.6982
+    },
+    {
+      "dateTime": "2022-02-08T07:43:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 22.738106,
+      "longitude": 69.698166
+    },
+    {
+      "dateTime": "2022-02-08T08:55:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 22.73813,
+      "longitude": 69.69817
+    },
+    {
+      "dateTime": "2022-02-08T09:55:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 22.738146,
+      "longitude": 69.69822
+    },
+    {
+      "dateTime": "2022-02-08T11:04:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 22.738148,
+      "longitude": 69.698204
+    },
+    {
+      "dateTime": "2022-02-08T12:07:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 22.738163,
+      "longitude": 69.698265
+    },
+    {
+      "dateTime": "2022-02-08T13:10:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 22.738192,
+      "longitude": 69.69821
+    },
+    {
+      "dateTime": "2022-02-08T14:10:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 22.738132,
+      "longitude": 69.698204
+    },
+    {
+      "dateTime": "2022-02-08T15:12:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 22.696356,
+      "longitude": 69.69497
+    },
+    {
+      "dateTime": "2022-02-08T17:21:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 22.636072,
+      "longitude": 69.06068
+    },
+    {
+      "dateTime": "2022-02-08T18:31:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 22.372583,
+      "longitude": 68.8144
+    },
+    {
+      "dateTime": "2022-02-09T11:10:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 20.235,
+      "longitude": 63.643333
+    },
+    {
+      "dateTime": "2022-02-09T12:34:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 20.065,
+      "longitude": 63.206665
+    },
+    {
+      "dateTime": "2022-02-10T00:55:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 18.545,
+      "longitude": 59.365
+    },
+    {
+      "dateTime": "2022-02-10T07:20:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 17.77102,
+      "longitude": 57.41708
+    },
+    {
+      "dateTime": "2022-02-10T13:07:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 17.175,
+      "longitude": 55.925
+    },
+    {
+      "dateTime": "2022-02-10T19:41:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 16.817776,
+      "longitude": 54.547867
+    },
+    {
+      "dateTime": "2022-02-10T22:46:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 16.878313,
+      "longitude": 54.135532
+    },
+    {
+      "dateTime": "2022-02-11T03:59:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 16.948263,
+      "longitude": 54.013527
+    },
+    {
+      "dateTime": "2022-02-11T07:52:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 16.94825,
+      "longitude": 54.013565
+    },
+    {
+      "dateTime": "2022-02-11T12:06:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 16.860855,
+      "longitude": 54.0459
+    },
+    {
+      "dateTime": "2022-02-11T12:38:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 16.77018,
+      "longitude": 53.949146
+    },
+    {
+      "dateTime": "2022-02-11T18:14:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 15.528725,
+      "longitude": 52.571095
+    },
+    {
+      "dateTime": "2022-02-12T00:05:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 14.624973,
+      "longitude": 50.989895
+    },
+    {
+      "dateTime": "2022-02-12T01:58:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 14.416667,
+      "longitude": 50.446667
+    },
+    {
+      "dateTime": "2022-02-12T12:32:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 13.225155,
+      "longitude": 47.30806
+    },
+    {
+      "dateTime": "2022-02-12T16:57:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 12.721813,
+      "longitude": 45.99892
+    },
+    {
+      "dateTime": "2022-02-12T21:05:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 12.3512,
+      "longitude": 44.751854
+    },
+    {
+      "dateTime": "2022-02-13T00:59:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 12.564676,
+      "longitude": 43.503258
+    },
+    {
+      "dateTime": "2022-02-13T05:07:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 13.586897,
+      "longitude": 42.641838
+    },
+    {
+      "dateTime": "2022-02-13T08:53:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 14.617722,
+      "longitude": 42.015648
+    },
+    {
+      "dateTime": "2022-02-13T13:23:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 15.832677,
+      "longitude": 41.26002
+    },
+    {
+      "dateTime": "2022-02-13T17:26:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 16.76205,
+      "longitude": 40.386314
+    },
+    {
+      "dateTime": "2022-02-13T20:33:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 17.287825,
+      "longitude": 39.79094
+    },
+    {
+      "dateTime": "2022-02-14T01:30:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 18.705112,
+      "longitude": 39.1563
+    },
+    {
+      "dateTime": "2022-02-14T06:00:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 19.96097,
+      "longitude": 38.615135
+    },
+    {
+      "dateTime": "2022-02-14T10:44:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 21.25193,
+      "longitude": 38.01024
+    },
+    {
+      "dateTime": "2022-02-14T19:03:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 23.565594,
+      "longitude": 36.756233
+    },
+    {
+      "dateTime": "2022-02-15T00:48:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 25.10958,
+      "longitude": 35.89499
+    },
+    {
+      "dateTime": "2022-02-15T05:11:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 26.192421,
+      "longitude": 35.093452
+    },
+    {
+      "dateTime": "2022-02-15T09:32:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 27.291811,
+      "longitude": 34.311886
+    },
+    {
+      "dateTime": "2022-02-15T13:33:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 28.116554,
+      "longitude": 33.409622
+    },
+    {
+      "dateTime": "2022-02-15T18:04:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 29.237349,
+      "longitude": 32.748993
+    },
+    {
+      "dateTime": "2022-02-15T22:06:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 29.810719,
+      "longitude": 32.564186
+    },
+    {
+      "dateTime": "2022-02-16T02:06:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 29.81149,
+      "longitude": 32.56337
+    },
+    {
+      "dateTime": "2022-02-16T06:14:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 30.26152,
+      "longitude": 32.508392
+    },
+    {
+      "dateTime": "2022-02-16T10:29:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 30.78276,
+      "longitude": 32.324802
+    },
+    {
+      "dateTime": "2022-02-16T14:30:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 31.448687,
+      "longitude": 32.40278
+    },
+    {
+      "dateTime": "2022-02-16T18:32:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 32.208065,
+      "longitude": 31.397482
+    },
+    {
+      "dateTime": "2022-02-16T21:18:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 32.852615,
+      "longitude": 30.70053
+    },
+    {
+      "dateTime": "2022-02-17T02:40:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 34.077763,
+      "longitude": 29.384916
+    },
+    {
+      "dateTime": "2022-02-17T06:50:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 35.033222,
+      "longitude": 28.32475
+    },
+    {
+      "dateTime": "2022-02-17T11:40:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 36.175953,
+      "longitude": 27.06166
+    },
+    {
+      "dateTime": "2022-02-17T15:40:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 37.029457,
+      "longitude": 26.17275
+    },
+    {
+      "dateTime": "2022-02-17T19:37:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 37.915096,
+      "longitude": 25.632202
+    },
+    {
+      "dateTime": "2022-02-17T23:52:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 38.948574,
+      "longitude": 25.46377
+    },
+    {
+      "dateTime": "2022-02-18T03:49:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 39.844387,
+      "longitude": 25.863033
+    },
+    {
+      "dateTime": "2022-02-18T08:22:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 40.413242,
+      "longitude": 26.720749
+    },
+    {
+      "dateTime": "2022-02-18T12:46:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 40.90272,
+      "longitude": 27.47787
+    },
+    {
+      "dateTime": "2022-02-18T16:47:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 40.900047,
+      "longitude": 27.47205
+    },
+    {
+      "dateTime": "2022-02-18T20:47:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 40.900074,
+      "longitude": 27.472046
+    },
+    {
+      "dateTime": "2022-02-19T01:11:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 40.90006,
+      "longitude": 27.471933
+    },
+    {
+      "dateTime": "2022-02-19T05:23:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 40.90008,
+      "longitude": 27.472025
+    },
+    {
+      "dateTime": "2022-02-19T09:23:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 40.90007,
+      "longitude": 27.472034
+    },
+    {
+      "dateTime": "2022-02-19T13:32:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 40.900047,
+      "longitude": 27.472029
+    },
+    {
+      "dateTime": "2022-02-19T17:35:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 40.900047,
+      "longitude": 27.472012
+    },
+    {
+      "dateTime": "2022-02-19T21:27:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 40.90005,
+      "longitude": 27.472033
+    },
+    {
+      "dateTime": "2022-02-20T01:47:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 40.7853,
+      "longitude": 27.51677
+    },
+    {
+      "dateTime": "2022-02-20T05:48:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 40.358383,
+      "longitude": 26.647186
+    },
+    {
+      "dateTime": "2022-02-20T10:02:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 39.719265,
+      "longitude": 25.738003
+    },
+    {
+      "dateTime": "2022-02-20T14:01:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 38.65106,
+      "longitude": 25.036629
+    },
+    {
+      "dateTime": "2022-02-20T18:05:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 37.58223,
+      "longitude": 24.132519
+    },
+    {
+      "dateTime": "2022-02-20T22:06:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 36.47643,
+      "longitude": 23.278694
+    },
+    {
+      "dateTime": "2022-02-21T02:31:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 36.284935,
+      "longitude": 21.631145
+    },
+    {
+      "dateTime": "2022-02-21T05:38:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 36.318317,
+      "longitude": 20.387133
+    },
+    {
+      "dateTime": "2022-02-21T14:09:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 36.410744,
+      "longitude": 17.030636
+    },
+    {
+      "dateTime": "2022-02-21T18:51:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 36.439774,
+      "longitude": 15.816366
+    },
+    {
+      "dateTime": "2022-02-21T23:01:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 36.467945,
+      "longitude": 14.832998
+    },
+    {
+      "dateTime": "2022-02-22T03:08:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 36.649143,
+      "longitude": 13.898592
+    },
+    {
+      "dateTime": "2022-02-22T07:59:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 36.924263,
+      "longitude": 12.81683
+    },
+    {
+      "dateTime": "2022-02-22T12:21:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 37.122517,
+      "longitude": 11.869153
+    },
+    {
+      "dateTime": "2022-02-22T16:29:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 37.516308,
+      "longitude": 11.02299
+    },
+    {
+      "dateTime": "2022-02-22T17:42:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 37.619408,
+      "longitude": 10.7647085
+    },
+    {
+      "dateTime": "2022-02-22T21:08:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 37.676933,
+      "longitude": 9.95261
+    },
+    {
+      "dateTime": "2022-02-23T04:55:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 37.72167,
+      "longitude": 8.05
+    },
+    {
+      "dateTime": "2022-02-23T09:43:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 37.56525,
+      "longitude": 6.808045
+    },
+    {
+      "dateTime": "2022-02-23T18:02:00+0000",
+      "routeSegmentId": "cc038a28-be7c-37b9-9e0d-dd1873c50366",
+      "latitude": 37.284283,
+      "longitude": 4.562112
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+       <KeyValue>//span[b[contains(text(), '{paramlink}')]]</KeyValue>
+       <LocationName>(//td[@class='{paramlink}'])[index]</LocationName>
+       <Arrival_Time>//div[@id='trip-viewer-component']//tbody//tr[index]//td[5]</Arrival_Time>
+       <Arrival_Time_Window>//div[@id='trip-viewer-component']//tbody//tr[index]//td[6]</Arrival_Time_Window>
+       <DeptTime>//div[@id='trip-viewer-component']//tbody//tr[index]//td[7]</DeptTime>
+       <StopDuration>//div[@id='trip-viewer-component']//tbody//tr[index]//td[8]</StopDuration>
+       <LocationCount>//div[@id='trip-viewer-component']//tbody//tr</LocationCount>
+      <TripStatus>//*[@tooltip='Trip Status']</TripStatus>
+      <NumOfRecords>//lightning-datatable//table[@data-num-rows='{paramlink1}']//th//*[contains(text(),'{paramlink2}')]</NumOfRecords>
+       <TripEventName>(//lightning-datatable//table//th//*[contains(text(),'Trip Event')])[1]</TripEventName>
+      <LegPTAValue>//div[contains(@class,'active ')]//*[@data-leg-number='{paramlink1}']/../../..//*[@title='{paramlink2}']/..//lightning-formatted-date-time</LegPTAValue>
+</locators>
+

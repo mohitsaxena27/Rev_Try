@@ -1,0 +1,285 @@
+{
+
+  "weightUnits": "lbs",
+
+  "tradingPartnerId": "KLIQA",
+
+  "totalWeight": 27000,
+
+  "stops": [
+
+    {
+
+      "timeZone": "LT",
+
+      "stopType": "Pickup",
+
+      "stopNum": 1,
+
+      "stopInstructions": [
+
+        "Pickup Instructions"
+
+      ],
+
+      "referenceNums": [],
+
+      "expectedTimeStart": "09:00",
+
+      "expectedTimeEnd": "22:00",
+
+      "expectedDate": "{CurrentDate}",
+
+      "events": [],
+
+      "contacts": [],
+
+      "company": {
+
+        "zip": "60015",
+
+        "state": "IL",
+
+        "country": "US",
+
+        "companyName": "Revenova HQ",
+
+        "city": "Bannockburn",
+
+        "addr": "2333 Waukegan Rd."
+
+      },
+
+      "apptRequired": true
+
+    },
+
+    {
+
+      "timeZone": "LT",
+
+      "stopType": "Dropoff",
+
+      "stopNum": 2,
+
+      "stopInstructions": [
+
+        "Delivery Instructions"
+
+      ],
+
+      "referenceNums": [],
+
+      "expectedTimeStart": "18:50",
+
+      "expectedTimeEnd": "18:50",
+
+      "expectedDate": "{CurrentDate}",
+
+      "events": [
+
+        {
+
+          "timeZone": "LT",
+
+          "statusTime": "18:50",
+
+          "statusDate": "{CurrentDate}",
+
+          "status": "Appointment",
+
+          "lon": -118.218198,
+
+          "lat": 34.023631
+
+        }
+
+      ],
+
+      "contacts": [],
+
+      "company": {
+
+        "zip": "90023",
+
+        "state": "CA",
+
+        "country": "US",
+
+        "companyName": "Los Angeles Lighting",
+
+        "city": "Los Angeles",
+
+        "addr": "2765 E Olympic Blvd"
+
+      },
+
+      "apptRequired": false
+
+    },
+
+    {
+
+      "timeZone": "LT",
+
+      "stopType": "Pickup",
+
+      "stopNum": 3,
+
+      "stopInstructions": [
+
+        "Pickup Instructions"
+
+      ],
+
+      "referenceNums": [],
+
+      "expectedTimeStart": "09:00",
+
+      "expectedTimeEnd": "22:00",
+
+      "expectedDate": "{CurrentDate+1}",
+
+      "events": [],
+
+      "contacts": [],
+
+      "company": {
+
+        "zip": "90023",
+
+        "state": "CA",
+
+        "country": "US",
+
+        "companyName": "Los Angeles Lighting",
+
+        "city": "Los Angeles",
+
+        "addr": "2765 E Olympic Blvd"
+
+      },
+
+      "apptRequired": false
+
+    },
+
+    {
+
+      "timeZone": "LT",
+
+      "stopType": "Dropoff",
+
+      "stopNum": 4,
+
+      "stopInstructions": [
+
+        "Delivery Instructions"
+
+      ],
+
+      "referenceNums": [],
+
+      "expectedTimeStart": "09:00",
+
+      "expectedTimeEnd": "22:00",
+
+      "expectedDate": "{CurrentDate+3}",
+
+      "events": [],
+
+      "contacts": [],
+
+      "company": {
+
+        "zip": "60015",
+
+        "state": "IL",
+
+        "country": "US",
+
+        "companyName": "Revenova HQ",
+
+        "city": "Bannockburn",
+
+        "addr": "2333 Waukegan Rd."
+
+      },
+
+      "apptRequired": false
+
+    }
+
+  ],
+
+  "shipmentId": "{shipmentId}",
+
+  "referenceNums": [],
+
+  "loadNum": "{shipmentId}",
+
+  "items": [
+
+    {
+
+      "weightUnits": "lbs",
+
+      "weight": 15000,
+
+      "referenceNums": [],
+
+      "pickupStopNum": 1,
+
+      "itemNum": "Item 1",
+
+      "isHazMat": false,
+
+      "dropoffStopNum": 2,
+
+      "dimensionUnits": "in",
+
+      "description": "Bananas"
+
+    },
+
+    {
+
+      "weightUnits": "lbs",
+
+      "weight": 12000,
+
+      "referenceNums": [],
+
+      "pickupStopNum": 3,
+
+      "itemNum": "Item 2",
+
+      "isHazMat": false,
+
+      "dropoffStopNum": 4,
+
+      "dimensionUnits": "in",
+
+      "description": "Grapes"
+
+    }
+
+  ],
+
+  "customerBillTo": {
+
+    "zip": "60015",
+
+    "state": "IL",
+
+    "country": "US",
+
+    "companyName": "Revenova HQ",
+
+    "city": "Bannockburn",
+
+    "addr": "2333 Waukegan Rd."
+
+  }
+
+}

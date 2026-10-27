@@ -1,0 +1,99 @@
+{
+  "partnerId": 101,
+  "loadTrackExternalId": {loadTrackExternalId},
+  "accountId": "{AccountID}",
+  "loadNumber": "{load_num}",
+  "dispatcherId": "User User",
+  "driverCell": "2179721878",
+  "carrierDispatcherEmail": "{email}",
+  "carrier": {
+    "companyName": "Email Carrier Two"
+  },
+  "shipper": {
+    "name": "Boston Beans",
+    "shipperId": "{BostonBeansAccountID}"
+  },
+  "stops": [
+    {
+      "orderNumber": 1,
+      "address": "526 Beacon Street",
+      "city": "Boston",
+      "state": "MA",
+      "zipcode": "02215",
+      "datetime": "{CurrentDateMM} 12:00:00 EDT",
+      "geoFenceRadius": 1,
+      "stopExternalId": "{Stop1SFID}",
+      "actions": [
+        {
+          "name": "Arrived",
+          "required": true
+        },
+        {
+          "name": "Departed",
+          "required": true
+        }
+      ]
+    },
+    {
+      "orderNumber": 2,
+      "address": "2765 E Olympic Blvd",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipcode": "90023",
+      "datetime": "{CurrentDateMM+1} 09:00:00 PDT",
+      "geoFenceRadius": 1,
+      "stopExternalId": "{Stop2SFID}",
+      "actions": [
+        {
+          "name": "Arrived",
+          "required": true
+        },
+        {
+          "name": "Departed",
+          "required": true
+        }
+      ]
+    },
+    {
+      "orderNumber": 3,
+      "address": "2765 E Olympic Blvd",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipcode": "90023",
+      "datetime": "{CurrentDateMM+1} 09:00:00 PDT",
+      "geoFenceRadius": 1,
+      "stopExternalId": "{Stop3SFID}",
+      "actions": [
+        {
+          "name": "Arrived",
+          "required": true
+        },
+        {
+          "name": "Departed",
+          "required": true
+        }
+      ]
+    },
+    {
+      "orderNumber": 4,
+      "address": "526 Beacon Street",
+      "city": "Boston",
+      "state": "MA",
+      "zipcode": "02215",
+      "datetime": "{CurrentDateMM+3} 14:45:00 EDT",
+      "geoFenceRadius": 1,
+      "stopExternalId": "{Stop4SFID}",
+      "actions": [
+        {
+          "name": "Arrived",
+          "required": true
+        },
+        {
+          "name": "Departed",
+          "required": true
+        }
+      ]
+    }
+  ]
+}
+

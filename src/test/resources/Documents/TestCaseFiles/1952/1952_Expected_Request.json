@@ -1,0 +1,208 @@
+{
+  "request": {
+    "productType": "LTL",
+    "shipment": {
+      "shipmentDate": "{CurrentData} 09:00:00",
+      "originAddress": {
+        "address": {
+          "addressLineList": [
+            "1901 West Madison Street"
+          ],
+          "locality": "Chicago",
+          "region": "IL",
+          "postalCode": "60612",
+          "countryCode": "US",
+          "companyName": "Chicago Bulls",
+          "phone": "3129997777",
+          "contactList": [
+            {
+              "phone": "3129997777"
+            }
+          ]
+        }
+      },
+      "destinationAddress": {
+        "address": {
+          "addressLineList": [
+            "1435 Fox St."
+          ],
+          "locality": "Denver",
+          "region": "CO",
+          "postalCode": "80204",
+          "countryCode": "US",
+          "companyName": "Denver Deli Meats",
+          "phone": "3129997777",
+          "contactList": [
+            {
+              "phone": "3129997777"
+            }
+          ]
+        }
+      },
+      "handlingUnitList": [
+        {
+          "billedDimension": {
+            "length": {
+              "value": "24.00",
+              "unit": "in"
+            },
+            "width": {
+              "value": "48.00",
+              "unit": "in"
+            },
+            "height": {
+              "value": "48.00",
+              "unit": "in"
+            }
+          },
+          "isStackable": false,
+          "packagingType": "PLT",
+          "quantity": 1,
+          "shippedItemList": [
+            {
+              "commodityClass": "50",
+              "commodityDescription": "Material",
+              "commodityType": "PLT",
+              "isHazMat": false,
+              "hazMatItemInfo": {
+                "hazIdentificationNbr": "N/A",
+                "hazProperShippingName": "Material"
+              },
+              "name": "Material",
+              "NMFCDescription": "Material",
+              "weight": {
+                "value": 4500,
+                "unit": "LB"
+              }
+            }
+          ],
+          "sortAndSegregateFlag": false,
+          "weight": {
+            "value": 4500,
+            "unit": "LB"
+          }
+        },
+        {
+          "billedDimension": {
+            "length": {
+              "value": "30.00",
+              "unit": "cm"
+            },
+            "width": {
+              "value": "60.00",
+              "unit": "cm"
+            },
+            "height": {
+              "value": "60.00",
+              "unit": "cm"
+            }
+          },
+          "isStackable": false,
+          "packagingType": "BALE",
+          "quantity": 2,
+          "shippedItemList": [
+            {
+              "commodityClass": "125",
+              "commodityDescription": "Banana",
+              "commodityType": "BALE",
+              "isHazMat": false,
+              "hazMatItemInfo": {
+                "hazIdentificationNbr": "N/A",
+                "hazProperShippingName": "Banana"
+              },
+              "name": "Banana",
+              "NMFCDescription": "Banana",
+              "weight": {
+                "value": 4410,
+                "unit": "LB"
+              }
+            }
+          ],
+          "sortAndSegregateFlag": false,
+          "weight": {
+            "value": 4410,
+            "unit": "LB"
+          }
+        }
+      ],
+      "totalWeight": {
+        "value": 8909.24,
+        "unit": "LB"
+      },
+      "insuranceRequestFlag": false,
+      "insuredItemConditions": "NEW",
+      "totalDeclaredValue": {
+        "value": "50000.00",
+        "unit": "USD"
+      },
+      "totalHandlingUnitCount": 3,
+      "handlingCharge": {
+        "value": 10,
+        "unit": "AMOUNT"
+      },
+      "shipmentReferenceList": [
+        {
+          "type": "Bill of Lading",
+          "value": "BOL123",
+          "isPrintAsBarCode": false
+        },
+        {
+          "type": "Pro Number",
+          "value": "PRO5678",
+          "isPrintAsBarCode": true
+        },
+        {
+          "type": "Booking Number",
+          "value": "BN223",
+          "isPrintAsBarCode": false
+        },
+        {
+          "type": "Clearance Number",
+          "value": "CN1147",
+          "isPrintAsBarCode": false
+        },
+        {
+          "type": "Entry Number",
+          "value": "EN663",
+          "isPrintAsBarCode": false
+        },
+        {
+          "type": "Load Number",
+          "value": "L-138",
+          "isPrintAsBarCode": false
+        },
+        {
+          "type": "PO Number",
+          "value": "PO77489",
+          "isPrintAsBarCode": false
+        },
+        {
+          "type": "Pickup/Delivery Number",
+          "value": "Pickup: PDN*1",
+          "isPrintAsBarCode": false
+        },
+        {
+          "type": "References",
+          "value": "Pickup: RefTest%^&*()",
+          "isPrintAsBarCode": false
+        }
+      ],
+      "holdAtTerminalFlag": false,
+      "insideDeliveryFlag": false,
+      "insidePickupFlag": false,
+      "carrierTerminalPickupFlag": false,
+      "liftgateDeliveryFlag": false,
+      "liftgatePickupFlag": false,
+      "notifyBeforeDeliveryFlag": false,
+      "protectionFromColdFlag": false,
+      "residentialDeliveryFlag": false,
+      "residentialPickupFlag": false,
+      "sortAndSegregateFlag": false,
+      "pickupSpecialInstructions": "Testing5678",
+      "deliverySpecialInstructions": "Delivery Instructions",
+      "tradeshowDeliveryFlag": false,
+      "tradeshowPickupFlag": false
+    }
+  },
+  "correlationId": "WWEX-M2M-shopFlow-ltl"
+}

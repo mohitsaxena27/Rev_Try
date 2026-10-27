@@ -1,0 +1,236 @@
+<sendLoadTenderRequest>
+<loadTender>
+    <carrierTradingPartnerId>EDIC1</carrierTradingPartnerId>
+    <carrierSCAC>SCAC1</carrierSCAC>
+    <carrierQuoteId>22311322</carrierQuoteId>
+    <contractId>777666555</contractId>
+    <shipmentId>{ShipmentId}</shipmentId>
+    <purpose>Original</purpose>
+    <referenceNums></referenceNums>
+    <mode>Truckload</mode>
+    <equipmentType>Dry Van 53&apos;</equipmentType>
+    <equipmentWeightUnits>lbs</equipmentWeightUnits>
+    <paymentTerms>Prepaid</paymentTerms>
+    <respondByDate>{CurrentDateYYYY-MM-DD}</respondByDate>
+    <respondByTime>{RespondTime}</respondByTime>
+    <timeZone>LT</timeZone>
+    <currencyCode>USD</currencyCode>
+    <mileage>{DistanceInMiles}2</mileage>
+    <customerBillTo>
+        <companyName>Revenova HQ</companyName>
+        <addr>2333 Waukegan Rd.</addr>
+        <city>Bannockburn</city>
+        <state>IL</state>
+        <zip>60015</zip>
+        <country>US</country>
+        <contact>
+            <contactName>Joe Revenova HQ</contactName>
+            <phone>312-999-7777</phone>
+            <fax>312-222-3333 </fax>
+            <email>{ScratchOrgEmail}</email>
+        </contact>
+    </customerBillTo>
+    <billTo>
+        <companyName>Revenova HQ</companyName>
+        <addr>2333 Waukegan Rd.</addr>
+        <city>Bannockburn</city>
+        <state>IL</state>
+        <zip>60015</zip>
+        <country>US</country>
+        <companyId>{RevenovaHQAccountID}</companyId>
+        <contact>
+            <contactName>Joe Revenova HQ</contactName>
+            <phone>312-999-7777</phone>
+            <fax>312-222-3333 </fax>
+            <email>{ScratchOrgEmail}</email>
+        </contact>
+    </billTo>
+    <notifyParty>
+        <companyName>Boston Beans</companyName>
+        <addr>526 Beacon Street</addr>
+        <city>Boston</city>
+        <state>MA</state>
+        <zip>02215</zip>
+        <country>US</country>
+        <contact>
+            <contactName>Joe Boston Beans</contactName>
+            <phone>312-999-7777</phone>
+            <fax>312-222-3333 </fax>
+            <email>{ScratchOrgEmail}</email>
+        </contact>
+    </notifyParty>
+    <stops>
+        <stop>
+            <stopNum>1</stopNum>
+            <stopType>Pickup</stopType>
+            <stopInstructions>Pickup Instructions</stopInstructions>
+            <referenceNums></referenceNums>
+            <apptRequired>N</apptRequired>
+            <expectedDate>{CurrentDateYYYY-MM-DD}</expectedDate>
+            <expectedTimeStart>09:00</expectedTimeStart>
+            <expectedTimeEnd>22:00</expectedTimeEnd>
+            <timeZone>LT</timeZone>
+            <company>
+                <companyName>Chicago Pizza</companyName>
+                <addr>181 W. Madison St. </addr>
+                <city>Chicago </city>
+                <state>IL </state>
+                <zip>60602 </zip>
+                <country>US</country>
+                <companyId>{ChicagoPizzaAccountID}</companyId>
+            </company>
+            <contacts>
+                <contact>
+                    <contactName>Joe Chicago Pizza</contactName>
+                    <phone>312-999-7777 </phone>
+                    <fax>312-222-3333 </fax>
+                    <email>{ScratchOrgEmail}</email>
+                </contact>
+            </contacts>
+            <accessorials></accessorials>
+        </stop>
+        <stop>
+            <stopNum>2</stopNum>
+            <stopType>Dropoff</stopType>
+            <stopInstructions>Delivery Instructions</stopInstructions>
+            <referenceNums></referenceNums>
+            <apptRequired>N</apptRequired>
+            <expectedDate>{CurrentDateYYYY-MM-DD}</expectedDate>
+            <expectedTimeStart>09:00</expectedTimeStart>
+            <expectedTimeEnd>22:00</expectedTimeEnd>
+            <timeZone>LT</timeZone>
+            <company>
+                <companyName>Los Angeles Lighting</companyName>
+                <addr>2765 E Olympic Blvd </addr>
+                <city>Los Angeles </city>
+                <state>CA </state>
+                <zip>90023 </zip>
+                <country>US</country>
+                <companyId>{LosAngelesLightingAccountID}</companyId>
+            </company>
+            <contacts>
+                <contact>
+                    <contactName>Joe Los Angeles Lighting</contactName>
+                    <phone>312-999-7777 </phone>
+                    <fax>312-222-3333 </fax>
+                    <email>{ScratchOrgEmail}</email>
+                </contact>
+            </contacts>
+            <accessorials></accessorials>
+        </stop>
+        <stop>
+            <stopNum>3</stopNum>
+            <stopType>Pickup</stopType>
+            <stopInstructions>Pickup Instructions</stopInstructions>
+            <referenceNums></referenceNums>
+            <apptRequired>N</apptRequired>
+            <expectedDate>{CurrentDateYYYY-MM-DD+1}</expectedDate>
+            <expectedTimeStart>09:00</expectedTimeStart>
+            <expectedTimeEnd>22:00</expectedTimeEnd>
+            <timeZone>LT</timeZone>
+            <company>
+                <companyName>Los Angeles Lighting</companyName>
+                <addr>2765 E Olympic Blvd </addr>
+                <city>Los Angeles </city>
+                <state>CA </state>
+                <zip>90023 </zip>
+                <country>US</country>
+                <companyId>{LosAngelesLightingAccountID}</companyId>
+            </company>
+            <contacts>
+                <contact>
+                    <contactName>Joe Los Angeles Lighting</contactName>
+                    <phone>312-999-7777 </phone>
+                    <fax>312-222-3333 </fax>
+                    <email>{ScratchOrgEmail}</email>
+                </contact>
+            </contacts>
+            <accessorials></accessorials>
+        </stop>
+        <stop>
+            <stopNum>4</stopNum>
+            <stopType>Dropoff</stopType>
+            <stopInstructions>Delivery Instructions</stopInstructions>
+            <referenceNums></referenceNums>
+            <apptRequired>N</apptRequired>
+            <expectedDate>{CurrentDateYYYY-MM-DD+3}</expectedDate>
+            <expectedTimeStart>09:00</expectedTimeStart>
+            <expectedTimeEnd>22:00</expectedTimeEnd>
+            <timeZone>LT</timeZone>
+            <company>
+                <companyName>Chicago Pizza</companyName>
+                <addr>181 W. Madison St. </addr>
+                <city>Chicago </city>
+                <state>IL </state>
+                <zip>60602 </zip>
+                <country>US</country>
+                <companyId>{ChicagoPizzaAccountID}</companyId>
+            </company>
+            <contacts>
+                <contact>
+                    <contactName>Joe Chicago Pizza</contactName>
+                    <phone>312-999-7777 </phone>
+                    <fax>312-222-3333 </fax>
+                    <email>{ScratchOrgEmail}</email>
+                </contact>
+            </contacts>
+            <accessorials></accessorials>
+        </stop>
+    </stops>
+    <items>
+        <item>
+            <pickupStopNum>1</pickupStopNum>
+            <dropoffStopNum>2</dropoffStopNum>
+            <itemNum>Item 1</itemNum>
+            <desc>Bananas </desc>
+            <handlingUnitCount></handlingUnitCount>
+            <handlingUnits></handlingUnits>
+            <packagingUnitCount></packagingUnitCount>
+            <packagingUnits></packagingUnits>
+            <weight>15000</weight>
+            <weightUnits>lbs</weightUnits>
+            <dimensionUnits>in</dimensionUnits>
+            <isHazardousMaterials>N</isHazardousMaterials>
+        </item>
+        <item>
+            <pickupStopNum>3</pickupStopNum>
+            <dropoffStopNum>4</dropoffStopNum>
+            <itemNum>Item 2</itemNum>
+            <desc>Grapes </desc>
+            <handlingUnitCount></handlingUnitCount>
+            <handlingUnits></handlingUnits>
+            <packagingUnitCount></packagingUnitCount>
+            <packagingUnits></packagingUnits>
+            <weight>1200</weight>
+            <weightUnits>lbs</weightUnits>
+            <dimensionUnits>in</dimensionUnits>
+            <isHazardousMaterials>Y</isHazardousMaterials>
+            <hazMatContactName>Joe Los Angeles Lighting</hazMatContactName>
+            <hazMatContactPhone>312-999-7777</hazMatContactPhone>
+            <hazMatContactEmail>{ScratchOrgEmail}</hazMatContactEmail>
+        </item>
+    </items>
+    <charges>
+        <charge>
+            <type>Line Haul </type>
+            <desc>Line Haul </desc>
+            <amount>2312.65</amount>
+        </charge>
+        <charge>
+            <type>Fuel </type>
+            <desc>Fuel Surcharge</desc>
+            <amount>200.00</amount>
+        </charge>
+        <charge>
+            <type>Accessorial</type>
+            <desc>Expedited </desc>
+            <amount>100.00</amount>
+        </charge>
+        <charge>
+            <type>Accessorial </type>
+            <desc>Hazardous Material Handling</desc>
+            <amount>0.00</amount>
+        </charge>
+    </charges>
+</loadTender>
+</sendLoadTenderRequest>

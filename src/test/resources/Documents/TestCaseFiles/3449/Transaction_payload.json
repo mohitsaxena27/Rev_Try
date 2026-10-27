@@ -1,0 +1,173 @@
+{
+  "weightUnits": "lbs",
+  "tradingPartnerId": "KLIQA",
+  "totalWeight": 15000,
+  "taxes": [
+
+  ],
+  "stops": [
+    {
+      "stopType": "Pickup",
+      "stopNum": 1,
+      "stopInstructions": [
+        "Pickup Instructions"
+      ],
+      "referenceNums": [
+
+      ],
+      "contacts": [
+
+      ],
+      "company": {
+        "zip": "60015",
+        "state": "IL",
+        "country": "US",
+        "companyName": "Revenova HQ",
+        "city": "Bannockburn",
+        "addr": "2333 Waukegan Rd."
+      }
+    },
+    {
+      "stopType": "Dropoff",
+      "stopNum": 2,
+      "stopInstructions": [
+        "Delivery Instructions"
+      ],
+      "referenceNums": [
+
+      ],
+      "contacts": [
+
+      ],
+      "company": {
+        "zip": "80204",
+        "state": "CO",
+        "country": "US",
+        "companyName": "Denver Deli Meats",
+        "city": "Denver",
+        "addr": "1435 Fox St."
+      }
+    }
+  ],
+  "shipmentId": "{ShipmentId}",
+  "referenceNums": [
+
+  ],
+  "pickupDate": "{CurrentDateYYYY-MM-DD}",
+  "paymentTerms": "Prepaid",
+  "loadNum": "{ShipmentId}",
+  "items": [
+    {
+      "width": 45.00,
+      "weightUnits": "lbs",
+      "weight": 6000,
+      "referenceNums": [
+
+      ],
+      "pickupStopNum": 1,
+      "nmfcClass": "50",
+      "length": 45.00,
+      "itemNum": "Item 1",
+      "isHazMat": false,
+      "height": 45.00,
+      "handlingUnits": "Pallets",
+      "handlingUnitCount": 2,
+      "dropoffStopNum": 2,
+      "dimensionUnits": "in",
+      "description": "Mixed"
+    },
+    {
+      "width": 36.00,
+      "weightUnits": "lbs",
+      "weight": 5000,
+      "referenceNums": [
+
+      ],
+      "pickupStopNum": 1,
+      "nmfcClass": "60",
+      "length": 36.00,
+      "itemNum": "Item 2",
+      "isHazMat": false,
+      "height": 36.00,
+      "handlingUnits": "Pallets",
+      "handlingUnitCount": 2,
+      "dropoffStopNum": 2,
+      "dimensionUnits": "in",
+      "description": "Bananas"
+    },
+    {
+      "width": 24.00,
+      "weightUnits": "lbs",
+      "weight": 4000,
+      "referenceNums": [
+
+      ],
+      "pickupStopNum": 1,
+      "nmfcClass": "70",
+      "length": 24.00,
+      "itemNum": "Item 3",
+      "isHazMat": false,
+      "height": 24.00,
+      "handlingUnits": "Pallets",
+      "handlingUnitCount": 2,
+      "dropoffStopNum": 2,
+      "dimensionUnits": "in",
+      "description": "Grapes"
+    }
+  ],
+  "invoiceNum": "{ShipmentId}",
+  "invoiceDate": "{invoiceDate}",
+  "deliveryDate": "{CurrentDateYYYY-MM-DD+3}",
+  "customerBillTo": {
+    "zip": "60015",
+    "state": "IL",
+    "country": "US",
+    "companyName": "Revenova HQ",
+    "city": "Bannockburn",
+    "addr": "2333 Waukegan Rd."
+  },
+  "currencyCode": "USD",
+  "charges": [
+    {
+      "type": "Line Haul",
+      "rateType": "Per HU Position",
+      "rate": 10.00,
+      "qty": 10.00,
+      "ltlCharge": false,
+      "description": "Net Line Haul",
+      "amount": 100.00
+    },
+    {
+      "type": "Fuel",
+      "rateType": "Percent of Freight",
+      "rate": 4000.0000,
+      "qty": 100.00,
+      "description": "Fuel Surcharge",
+      "amount": 400000.00
+    },
+    {
+      "type": "Accessorial",
+      "stopNum": 1,
+      "rateType": "Fixed Cost",
+      "qty": 1.00,
+      "description": "Lift Gate Pick Up",
+      "amount": 0.00
+    },
+    {
+      "type": "Accessorial",
+      "rateType": "Fixed Cost",
+      "rate": 100.00,
+      "qty": 1.00,
+      "description": "After Hours Pick Up",
+      "amount": 100.00
+    },
+    {
+      "type": "Accessorial",
+      "rateType": "Per Mile",
+      "rate": 0.25,
+      "qty": 1.00,
+      "description": "Guaranteed",
+      "amount": 0.25
+    }
+  ]
+}

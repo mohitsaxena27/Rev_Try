@@ -1,0 +1,45 @@
+{
+
+ "partnerId": 20,
+
+ "accountId": "blptiVdO6tZ/kQ6sFrNCtg==",
+
+ "loadTrackExternalId": "{loadTrackExternalId}",
+
+ "driverPhone": "2407513502",
+
+ "loadNumber": "{loadNumber}",
+
+ "eventType": "StatusUpdate",
+
+ "latestStatus": {
+
+  "name": "Entered Stop at Revenova",
+
+  "code": "PE",
+
+  "stopExternalId": "{stopExternalId}",
+
+  "timestamp": "05/15/2025 10:45 CST",
+
+"timestampSec": "05/15/2025 10:45:17 CST",
+
+"timestampUTC": "05/15/2025 15:45:17 UTC"
+
+ },
+
+ "status": {
+
+  "location": { "lat": 40.442558, "lon": -79.992553, "accuracy": 32 },
+
+  "timestamp": "03/19/2025 15:46 CST",
+
+  "name": "Entered Stop at Revenova",
+
+  "code": "PE",
+
+  "stopExternalId": "{stopExternalId}"
+
+ }
+
+}

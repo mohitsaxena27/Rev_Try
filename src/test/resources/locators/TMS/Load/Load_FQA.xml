@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <Carrier_Service>//div[contains(@class,'active')]//label[text()='Carrier Service']/..//input[@placeholder='Enter Name/MC/DOT']</Carrier_Service>
+    <Vendor_Service>//div[contains(@class,'active')]//label[text()='Vendor Service']/..//input</Vendor_Service>
+    <Carrier_Action>//div[contains(@class,'active')]//a[text()='Carrier Quotes']/../../../..//button[text()='{paramlink}']</Carrier_Action>
+    <Vendor_Action>//div[contains(@class,'active')]//a[text()='Vendor Quotes']/../../../..//*[@rtms-vendorquotebuilder_vendorquotebuilder]//button[text()='{paramlink}']</Vendor_Action>
+    <Customer_Action>//div[contains(@class,'active')]//*[@rtms-customerquotebuilder_customerquotebuilder]//button[text()='{paramlink}']</Customer_Action>
+    <MarginText>//div[contains(@class,'active')]//span[contains(text(),'Margin:') and @rtms-customerquotebuilder_customerquotebuilder]/../..</MarginText>
+    <SummaryCharges>//div[contains(@class,'active')]//*[text()='{paramlink}']/..//lightning-formatted-number[@rtms-carrierquotebuilder_carrierquotebuilder]</SummaryCharges>
+    <PricingNotesText>(//div[contains(@class,'active')]//span[contains(text(),'Pricing Notes')]/../../../..//*[contains(text(),'{paramlink}')][@rtms-carrierquotebuilder_carrierquotebuilder])[1]</PricingNotesText>
+    <CustomerPricingNotesText>(//div[contains(@class,'active')]//span[contains(text(),'Pricing Notes')]/../../../..//*[contains(text(),'{paramlink}')][@rtms-customerquotebuilder_customerquotebuilder])[1]</CustomerPricingNotesText>
+    <Carrier_Unit>//div[contains(@class,'active')]//span[text()='{NameField}']/../../../../../following-sibling::div//span[text()='{paramlink}' and not(@title)]/../../../../../../../../../../following-sibling::*[1]//span[@part='input-button-value']</Carrier_Unit>
+    <Carrier_Unit_Price>(//div[contains(@class,'active')]//span[text()='{NameField}']/../../../../../following-sibling::div//span[text()='{paramlink}' and not(@title)]/../../../../../../../../../../following-sibling::*[2]//input)[2]</Carrier_Unit_Price>
+    <QuoteItemMenu>//div[contains(@class,'active')]//span[text()='{NameField}']/../../../../../following-sibling::div//span[text()='{paramlink}' and not(@title)]/../../../../../../../../../../following-sibling::*[2]//lightning-button-menu//button</QuoteItemMenu>
+    <QuoteAddNotesButton>//div[contains(@class,'active')]//span[text()='{NameField}']/../../../../../following-sibling::div//span[text()='{paramlink}' and not(@title)]/../../../../../../../../../../following-sibling::*[2]//lightning-button-menu//span[text()='Add Note']</QuoteAddNotesButton>
+    <QuoteNotes>//div[contains(@class,'active')]//span[text()='{NameField}']/../../../../../following-sibling::div//span[text()='{paramlink}' and not(@title)]/../../../../../../../../../../following-sibling::*[3]//input</QuoteNotes>
+    <Carrier_Qty>(//div[contains(@class,'active')]//span[text()='{NameField}']/../../../../../following-sibling::div//span[text()='{paramlink}' and not(@title)]/../../../../../../../../../../following-sibling::*[2]//input)[1]</Carrier_Qty>
+    <Total_Price>//div[contains(@class,'active')]//span[text()='{NameField}']/../../../../../following-sibling::div//span[text()='{paramlink}' and not(@title)]/../../../../../../../../../../following-sibling::*[2]//lightning-formatted-number</Total_Price>
+    <Carrier_Quote>//div[contains(@class,'active')]//span[contains(@class,'revenovaHeader1 revenovaLink')][@rtms-carrierquotebuilder_carrierquotebuilder]</Carrier_Quote>
+    <Customer_Quote>//div[contains(@class,'active')]//span[contains(@class,'revenovaHeader1 revenovaLink')][@rtms-customerquotebuilder_customerquotebuilder]</Customer_Quote>
+    <Vendor_Quote>//div[contains(@class,'active')]//span[contains(@class,'revenovaHeader1 revenovaLink')][@rtms-vendorquotebuilder_vendorquotebuilder]</Vendor_Quote>
+    <VendorSummaryCharges>//div[contains(@class,'active')]//*[text()='{paramlink}']/..//lightning-formatted-number[@rtms-vendorquotebuilder_vendorquotebuilder]</VendorSummaryCharges>
+    <AddAccessorialButton>//div[contains(@class,'active')]//span[text()='{NameField}']/../../../../../..//*[contains(text(),'Add Accessorial')]/..//button</AddAccessorialButton>
+    <CustomerSummaryText>//div[contains(@class,'active')]//*[text()='{paramlink}']/..//lightning-formatted-number[@rtms-customerquotebuilder_customerquotebuilder]</CustomerSummaryText>
+    <SelectType>//div[contains(@class,'active')]//span[text()='{NameField}']/../../../../../following-sibling::div//span[text()='Select an Option' and not(@title)]/../../../../../../../../../../preceding-sibling::*[1]//label</SelectType>
+    <SelectAccessorial>//div[contains(@class,'active')]//span[text()='{NameField}']/../../../../../following-sibling::div//span[text()='Select an Option' and not(@title)]/../../../../../../../..//label</SelectAccessorial>
+    <SelectUnit>//div[contains(@class,'active')]//span[text()='{NameField}']/../../../../../following-sibling::div//span[text()='{paramlink}' and not(@title)]/../../../../../../../../../../following-sibling::*[1]//label</SelectUnit>
+    <ViewQuoteBtn>//div[contains(@class,'active ')]//button[contains(text(),'View Quotes')]</ViewQuoteBtn>
+    <QuotesCount>//div[contains(@class,'active ')]//*[contains(@class,'quoteListRow')]</QuotesCount>
+     <SelectCarrierServiceWithCarrierTotal>//div[contains(@class,'active ')]//*[contains(@class,'quoteListRow')][.//a[contains(normalize-space(.),'{paramlink1}')]and .//*[contains(normalize-space(.),'{paramlink2}')]]//span[contains(@class,'slds-checkbox_faux')]</SelectCarrierServiceWithCarrierTotal>
+         <VerifyCarrierService>//div[contains(@class,'active')]//span[text()='Carrier Service']/../..//*[text()='{paramlink}']</VerifyCarrierService>
+    <CustomerQuoteRateEntry>//div[contains(@class,'active')]//span[@class='rateEntryLink' and @rtms-customerquotebuilder_customerquotebuilder]</CustomerQuoteRateEntry>
+    <CarrierQuoteRateEntry>//div[contains(@class,'active')]//span[@class='rateEntryLink' and @rtms-carrierquotebuilder_carrierquotebuilder]</CarrierQuoteRateEntry>
+      <VerifyCarrierTotal>//*[contains(@class,'quoteListRow')]
+          [.//a[contains(normalize-space(.),'{paramlink1}')]]
+          //lightning-formatted-text[contains(normalize-space(.),'{paramlink2}')]</VerifyCarrierTotal>
+       <VerifyEstimateTransitTime>//*[contains(@class,'quoteListRow')]
+           [.//a[contains(normalize-space(.),'{paramlink1}')]]
+           //lightning-formatted-number[normalize-space(.)='{paramlink2}']</VerifyEstimateTransitTime>
+        <VerifyAccepted>(//*[contains(@class,'quoteListRow')]
+            [.//a[contains(normalize-space(.),'{paramlink1}')]]//lightning-icon)[1]</VerifyAccepted>
+        <VerifyTenderHold>(//*[contains(@class,'quoteListRow')]
+        [.//a[contains(normalize-space(.),'{paramlink1}')]]//lightning-icon)[2]</VerifyTenderHold>
+    <CarrierService>(//span[normalize-space()='{paramlink1}']/following::a[1])[1]</CarrierService>
+    <CarrierServiceValue>//div[contains(@class,'active ')]//span[normalize-space()='{paramlink1}']/..//a</CarrierServiceValue>
+    <CarrierServiceFromCarrierQuote>//div[contains(@class,'active')]//*[@rtms-carrierquotebuilder_carrierquotebuilder]//a[text()='{paramlink}']</CarrierServiceFromCarrierQuote>>
+    <RateEntryLink>//span[normalize-space()='{paramlink1}']/ancestor::lightning-layout//span[contains(@class,'rateEntryLink')]</RateEntryLink>
+    <SelectCarrierServiceFromViewQuote>//div[contains(@class,'active ')]//*[contains(@class,'quoteListRow')][.//a[contains(normalize-space(.),'{paramlink1}')]]//span[contains(@class,'slds-checkbox_faux')]</SelectCarrierServiceFromViewQuote>
+    <SelectCarrierServiceFromViewQuote1>//div[contains(@class,'active ')]//*[contains(@class,'quoteListRow')][.//a[text()='{paramlink1}']]//span[contains(@class,'slds-checkbox_faux')]</SelectCarrierServiceFromViewQuote1>
+    <radioButtonWithValue>//div[contains(@class,'active')]//tr[@role='row'] [.//td[@data-label='Carrier Service']//a[contains(normalize-space(.),'{paramlink}')]] //input[@type='radio']</radioButtonWithValue>
+    <CarrierQuote>//div[contains(@class,'active')]//tr[.//td[normalize-space()='{paramlink}']]</CarrierQuote>
+    <AutoTenderOff>//div[contains(@class,'active')]//lightning-input[.//span[normalize-space()='{paramlink}']]//input</AutoTenderOff>
+    <CarrierQuoteListMenuOption>//a[@role='menuitem' and .//span[normalize-space()='{paramlink}']]</CarrierQuoteListMenuOption>
+
+</locators>
+

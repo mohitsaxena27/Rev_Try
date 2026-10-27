@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <SaveBtn>//button[@name='SaveEdit']</SaveBtn>
+    <LabelLink>//span[text()='{paramlink}']/ancestor::div[contains(@class,'slds-form-element')]//a</LabelLink>>
+   </locators>
+

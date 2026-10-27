@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <VerifyInNetworkTableDetails>//div[contains(@class,'grayBar')][.//button[normalize-space(.)='{paramlink1}']] /following-sibling::*[1]//tr//*[@data-label='{paramlink2}' and contains(normalize-space(.),'{paramlink3}')]</VerifyInNetworkTableDetails>
+    <VerifyCapacityTableDetails>//div[contains(@class,'grayBar')][span[normalize-space(.)='{paramlink1}']] /following-sibling::*[1]//tr//*[@data-label='{paramlink2}' and normalize-space(.)='{paramlink3}']</VerifyCapacityTableDetails>
+    <CarrierMatchesRefresh>(//div[contains(@class,'active ')]//button[@title='Refresh'])[{index}]</CarrierMatchesRefresh>
+    <CarrierMatchCheckbox>//button[@title='Hide' and normalize-space(.)='{paramlink1}'] /ancestor::*[.//tr][1]//tr[ .//*[@data-label='{paramlink2}' and contains(normalize-space(.),'{paramlink3}')] ]/td[1]//input[@type='checkbox']</CarrierMatchCheckbox>
+    <CarrierMatchColumnValue>//button[@title='Hide' and normalize-space(.)='In Network'] /ancestor::*[.//tr][1] //tr//*[@data-label='{paramlink}']</CarrierMatchColumnValue>
+    <InNetworkColumn>//div[contains(@class,'grayBar')][.//button[normalize-space(.)='In Network']]/following-sibling::*[1]//tr//*[@data-label='{paramlink}']</InNetworkColumn>
+    <CapacityTableColumn>//div[contains(@class,'grayBar')][span[normalize-space(.)='{paramlink1}']]/following-sibling::*[1]//tr//*[@data-label='{paramlink2}']</CapacityTableColumn>
+    <RangeColumn>//div[contains(@class,'grayBar')][span[normalize-space(.)='{paramlink1}']]/following-sibling::*[1]//tr/*[@data-label='{paramlink2}'][{columnIndex}]</RangeColumn>
+    <InNetworkCount>//div[contains(@class,'grayBar')][.//button[normalize-space(.)='In Network']]//span[@rtms-carriermatch_carriermatch]</InNetworkCount>
+</locators>
+

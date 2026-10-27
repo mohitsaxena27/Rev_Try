@@ -1,0 +1,111 @@
+{
+"weightUnits": "lbs",
+"tradingPartnerId": "KLIQA",
+"totalWeight": 35000,
+"taxes": [
+{
+"taxType": "HST",
+"taxRatePct": 13.000,
+"taxName": "Ontario HST",
+"taxIdNumber": "",
+"taxAmount": 39.00
+}
+],
+"stops": [
+{
+"stopType": "Pickup",
+"stopNum": 1,
+"stopInstructions": [
+"Pickup Instructions"
+],
+"referenceNums": [
+
+],
+"contacts": [
+
+],
+"company": {
+"zip": "V6B 1A1",
+"state": "BC",
+"country": "CA",
+"companyName": "Vancouver Vans",
+"city": "Vancouver",
+"addr": "408, 55 Water Street Office 8036"
+}
+},
+{
+"stopType": "Dropoff",
+"stopNum": 2,
+"stopInstructions": [
+"Delivery Instructions"
+],
+"referenceNums": [
+
+],
+"contacts": [
+
+],
+"company": {
+"zip": "P9A 3X8",
+"state": "ON",
+"country": "CA",
+"companyName": "Canada Border Services Agency",
+"city": "Fort Frances",
+"addr": "101 Church Street"
+}
+}
+],
+"shipmentId": "L-12",
+"referenceNums": [
+
+],
+"pickupDate": "2026-02-20",
+"paymentTerms": "Third Party",
+"loadNum": "L-12",
+"items": [
+{
+"weightUnits": "lbs",
+"weight": 35000,
+"referenceNums": [
+
+],
+"pickupStopNum": 1,
+"itemNum": "Item 1",
+"isHazMat": false,
+"dropoffStopNum": 2,
+"dimensionUnits": "in",
+"description": "mixed"
+}
+],
+"invoiceNum": "L-12",
+"invoiceDate": "2026-02-25",
+"deliveryDate": "2026-02-20",
+"customerBillTo": {
+"zip": "60015",
+"state": "IL",
+"country": "US",
+"companyName": "Revenova HQ",
+"city": "Bannockburn",
+"addr": "2333 Waukegan Rd."
+},
+"currencyCode": "USD",
+"charges": [
+{
+"type": "Line Haul",
+"rateType": "Fixed Cost",
+"rate": 250.00,
+"qty": 1.00,
+"ltlCharge": false,
+"description": "Net Line Haul",
+"amount": 250.00
+},
+{
+"type": "Fuel",
+"rateType": "Fixed Cost",
+"rate": 50.0000,
+"qty": 1.00,
+"description": "Fuel Surcharge",
+"amount": 50.00
+}
+]
+}

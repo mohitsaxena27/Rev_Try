@@ -1,0 +1,639 @@
+{
+    "Load": {
+        "AuthenticationData": {
+            "Username": "_",
+            "Password": "_",
+            "ClientRefNum": "_"
+        },
+        "Loadinfo": {
+            "LoadID": 28079557,
+            "ManifestID": "",
+            "BOLNumber": "REV2002900021",
+            "CustomerPO": "",
+            "InvoiceID": "",
+            "BillingID": "",
+            "IncoTermID": null,
+            "UltimateDestinationCountryCode": "",
+            "PickupNumber": null,
+            "EstimatedDeliveryDate": "0001-01-01T00:00:00",
+            "EstimatedPickupDate": "0001-01-01T00:00:00",
+            "ActualPickupDate": "0001-01-01T00:00:00",
+            "ActualDeliveryDate": "0001-01-01T00:00:00"
+        },
+        "BillTo": {
+            "Name": "Revenova",
+            "Note": "",
+            "ShipType": 2,
+            "PayType": 1,
+            "UseDefaultBillTo": true,
+            "AddressInfo": {
+                "Address1": "2333 Waukegan Rd",
+                "Address2": "",
+                "City": "Bannockburn",
+                "CountryName": null,
+                "CountryCode": "United States",
+                "State": "IL",
+                "Zipcode": "60015",
+                "LocationName": "Revenova"
+            },
+            "ContactInfo": {
+                "FirstName": "",
+                "LastName": "",
+                "ContactName": "",
+                "Phone": "",
+                "PhoneExt": "",
+                "Fax": "",
+                "Email": "noreply@revenova.com"
+            },
+            "UseDefaultShipType": false,
+            "UseDefaultPayType": false
+        },
+        "InsuranceInfo": null,
+        "RateServices": [
+            {
+                "ServiceCode": 1,
+                "ShippingQty": 2,
+                "PackageType": 29,
+                "EquipmentType": 5,
+                "AdditionalWeight": 0,
+                "SpecialInstructions": "",
+                "Length": null,
+                "Width": null,
+                "Height": null,
+                "WeightUom": 1,
+                "SizeUom": 1
+            }
+        ],
+        "Shipper": {
+            "ContactInfo": {
+                "FirstName": "Dave",
+                "LastName": "TMKB",
+                "ContactName": "Dave TMKB",
+                "Phone": "(312) 777-8888",
+                "PhoneExt": "",
+                "Fax": "",
+                "Email": "dcraigmile@revenova.com"
+            },
+            "AddressInfo": {
+                "Address1": "6880 Parkway Drive",
+                "Address2": "",
+                "City": "Brookfield",
+                "CountryName": null,
+                "CountryCode": "United States",
+                "State": "OH",
+                "Zipcode": "44403",
+                "LocationName": "TMK Brookfield"
+            },
+            "CompanyName": "",
+            "Note": "",
+            "CompanyID": "",
+            "LocationName": null,
+            "VendorID": "",
+            "DCRefNum": null,
+            "Dock": {
+                "Name": "Dock",
+                "Note": "",
+                "OpenTime": "2020-01-29T08:00:00",
+                "ShipmentDateTime": "2020-01-29T12:00:00",
+                "CloseTime": "2020-01-29T23:00:00",
+                "ConfirmationNumber": "",
+                "FCFS": false
+            }
+        },
+        "Consignee": {
+            "ContactInfo": {
+                "FirstName": "Dave",
+                "LastName": "TMKH",
+                "ContactName": "Dave TMKH",
+                "Phone": "(312) 888-9999",
+                "PhoneExt": "",
+                "Fax": "",
+                "Email": "dcraigmile@revenova.com"
+            },
+            "AddressInfo": {
+                "Address1": "8216 Miller Road",
+                "Address2": "",
+                "City": "Houston",
+                "CountryName": null,
+                "CountryCode": "United States",
+                "State": "TX",
+                "Zipcode": "77049",
+                "LocationName": "TMK Houston"
+            },
+            "CompanyName": "",
+            "Note": "",
+            "CompanyID": "",
+            "LocationName": null,
+            "VendorID": "",
+            "DCRefNum": null,
+            "Dock": {
+                "Name": "Dock",
+                "Note": "",
+                "OpenTime": "2020-01-29T08:00:00",
+                "ShipmentDateTime": "2020-01-29T12:00:00",
+                "CloseTime": "2020-01-29T17:00:00",
+                "ConfirmationNumber": "",
+                "FCFS": false
+            }
+        },
+        "ReturnLocation": null,
+        "PackageInfo": {
+            "CODAmount": 0,
+            "DeclaredLiability": 0,
+            "RouteNumber": ""
+        },
+        "Products": [
+            {
+                "Quantity": 2,
+                "PackageType": 29,
+                "Weight": 1000,
+                "Class": 1,
+                "NMFC": "",
+                "SKU": "Item",
+                "IsHazmat": false,
+                "HazmatPhoneNumber": "",
+                "HazmatPhoneExt": "",
+                "Description": "Fooda",
+                "Length": 0,
+                "Width": 0,
+                "Height": 0,
+                "UOM": 0,
+                "SortOrder": 1,
+                "ReferenceNumber": "",
+                "ParcelOptions": {
+                    "DeliveryConfirmation": 0,
+                    "COD": 0,
+                    "CODAmount": 0,
+                    "AdditionalHandling": false,
+                    "LargePackage": false,
+                    "DeclaredValue": 0,
+                    "UnitValue": null,
+                    "UnitWeight": null,
+                    "UnitType": null
+                },
+                "UnNumber": "",
+                "HazMatShippingName": "",
+                "HazMatPkgGroup": "",
+                "HazMatClass": "",
+                "InternationalOptions": {
+                    "ScheduleBCode": null,
+                    "HarmonizedSystemCode": null,
+                    "ECCN": null,
+                    "UnitOriginCountryCode": null
+                },
+                "HazMatContact": "",
+                "HazMatPoison": false
+            }
+        ],
+        "ShipperAccessorials": {
+            "AppointmentRequired": false,
+            "InsidePickup": false,
+            "SortSegregate": false,
+            "PalletJack": false,
+            "ResidentialPickup": false,
+            "LiftgatePickup": true,
+            "MarkingTagging": false,
+            "TradeShowPickup": false,
+            "NYCMetro": false,
+            "NonBusinessHourPickup": false,
+            "LimitedAccessType": ""
+        },
+        "ConsigneeAccessorials": {
+            "AppointmentRequired": false,
+            "InsideDelivery": false,
+            "SortSegregate": false,
+            "PalletJack": false,
+            "ResidentialDelivery": false,
+            "LiftgateDelivery": true,
+            "MarkingTagging": false,
+            "TradeShowDelivery": false,
+            "NYCMetro": false,
+            "DeliveryNotification": false,
+            "TwoHourSpecialDelivery": false,
+            "NonBusinessHourDelivery": false,
+            "LimitedAccessType": ""
+        },
+        "LoadAccessorials": {
+            "Guaranteed": false,
+            "TimeDefinite": false,
+            "Expedited": false,
+            "HolidayPickup": false,
+            "HolidayDelivery": false,
+            "WeightDetermination": false,
+            "BlindShipment": false,
+            "BlanketService": false,
+            "ProtectFromFreezing": false,
+            "SingleShipment": false,
+            "CustomsInBond": false,
+            "OverDimension": false,
+            "Stackable": false,
+            "Turnkey": false,
+            "FoodGradeProducts": false,
+            "TSA": false,
+            "Bulkhead": false,
+            "SignatureRequired": false,
+            "BlanketServiceChilled": false,
+            "BlanketServiceFrozen": false,
+            "SaturdayDelivery": false,
+            "SecondMan": false,
+            "ReturnReceipt": false,
+            "ShipmentHold": false,
+            "ProactiveResponse": false,
+            "ShipperRelease": false,
+            "WhiteGlove": false,
+            "RestrictedDelivery": false
+        },
+        "UserDefined": [],
+        "ReferenceField": []
+    },
+    "Quotes": [
+        {
+            "LoadID": 28079557,
+            "QuoteID": 245407862,
+            "CarrierName": "Estes Express Lines (LTL Standard Transit)",
+            "SCAC": "EXLA",
+            "ThirdPartyName": "",
+            "ThirdPartySCAC": "",
+            "ServiceID": "30767072",
+            "RawPrice": {
+                "NetPrice": 323.23,
+                "FreightCharge": 180.46,
+                "DiscountAmount": 211.84,
+                "FuelSurcharge": 42.77,
+                "Minimum": 0,
+                "GrossCharge": 392.3,
+                "Tariff": 0,
+                "Interline": 0,
+                "AccessorialCharges": 100,
+                "OtherCharges": 0,
+                "Charges": [
+                    {
+                        "Name": "Liftgate Delivery",
+                        "Amount": 50,
+                        "Code": "CLFTG"
+                    },
+                    {
+                        "Name": "Liftgate Pickup",
+                        "Amount": 50,
+                        "Code": "SLFTG"
+                    }
+                ],
+                "Markup": 0
+            },
+            "CarrierPrice": {
+                "NetPrice": 323.23,
+                "FreightCharge": 180.46,
+                "DiscountAmount": 211.84,
+                "FuelSurcharge": 42.77,
+                "Minimum": 0,
+                "GrossCharge": 392.3,
+                "Tariff": 0,
+                "Interline": 0,
+                "AccessorialCharges": 100,
+                "OtherCharges": 0,
+                "Charges": [
+                    {
+                        "Name": "Liftgate Delivery",
+                        "Amount": 50,
+                        "Code": "CLFTG"
+                    },
+                    {
+                        "Name": "Liftgate Pickup",
+                        "Amount": 50,
+                        "Code": "SLFTG"
+                    }
+                ],
+                "Markup": 0
+            },
+            "CustomerPrice": {
+                "NetPrice": 323.23,
+                "FreightCharge": 180.46,
+                "DiscountAmount": 211.84,
+                "FuelSurcharge": 42.77,
+                "Minimum": 0,
+                "GrossCharge": 392.3,
+                "Tariff": 0,
+                "Interline": 0,
+                "AccessorialCharges": 100,
+                "OtherCharges": 0,
+                "Charges": [
+                    {
+                        "Name": "Liftgate Delivery",
+                        "Amount": 50,
+                        "Code": "CLFTG"
+                    },
+                    {
+                        "Name": "Liftgate Pickup",
+                        "Amount": 50,
+                        "Code": "SLFTG"
+                    }
+                ],
+                "Markup": 0
+            },
+            "TransitTime": 3,
+            "QuoteNumber": "LVBTH5Q",
+            "CarrierPerson": "Automation",
+            "CarrierNote": "GUARANTEED SERVICES &amp;mdash; IMPORTANT NOTICES All time-critical quotes expire at 3:00 p.m. today. Shipments must be tendered prior to 3:00 p.m. at the shipping location on the day of pickup to ensure pick up by 5:00 p.m.If your shipment consumes over 12 linear feet of trailer space OR exceeds 10,000 pounds, the shipment WILL incur additional surcharges to the Guaranteed LTL rate displayed. If your shipment may exceed these limits, please make sure you are logged into My Estes and choose the Volume and Truckload or Time Critical quote type, which require dimensions, when requesting a Rate Quote. If more convenient, you may contact the time critical guaranteed department for rates involving volume and over-length freight. Call 800-645-3952 or email timecritical@estes-express.com.Exclusive Use shipment rates are based on the availability of the specific vehicle type quoted at the time of the order confirmation. You will be contacted by the Time Critical department with confirmation when truck is secured. ADDITIONAL LTL SHIPMENT IMPORTANT NOTICES The National Motor Freight Classification governs all freight classification disputes and is the sole source for determining actual classes. On collect shipments, if the consignee has a pricing program with Estes Express Lines, the consignee pricing prevails. Rates provided are only applicable to LTL shipments serviced by Estes Express Lines. Automated rate quotes are not applicable to service provided by other Estes operating entities.Unless otherwise provided, any LTL shipment that exceeds 350 cubic feet of a trailer will be subject to a minimum charge based on 6 pounds per cubic foot, at the customer&#39;s applicable class 125 rate and using the customer&#39;s discount. Please refer to EXLA 105 series tariff, Item 615 for complete information.Additional charges may apply to shipments to or from Cape Cod, Massachusetts; Harbor points in the state of Washington; remote areas of northern Canada; remote areas of Montana, Nevada, Oregon, Utah, and the Eastern Sierra of California. Please refer to EXLA 105 series tariff Items 290 through 299 for a complete list of points and applicable charges.All quotes are estimates based on the information provided by the requesting party. Actual tariffs and contracts on file at Estes Express Lines and in place at the time of shipment prevail. Unless otherwise provided, rules and service charges provided in EXLA 105 series tariff are applicable.*Transit times apply to standard Estes LTL shipments and are based on the actual date and time of the pickup, which may be different from the shipment date entered. Travel times for specialty services and custom solutions provided by other Estes operating entities may differ based on service selected. VOLUME AND TRUCKLOAD: Notice to Shipper/Customer Customer is required to note Estes&#39; quote number and selected V/TL service level (V/TL Basic, V/TL Guaranteed Economy or V/TL Guaranteed Standard) on the Bill of Lading at time of pickup. Customer certifies shipment information is accurately stated above. Only accessorial charges noted above are included in this rate. V/TL Basic quotes expire 30 days from the date received. V/TL Guaranteed Economy and V/TL Guaranteed Standard quotes expire at 3:00 p.m. local time on the date the quote is issued. Terms and Conditions Estes&#39; liability under the provisions of this quote shall not exceed $2.00 per lb./per article for new product or equipment and $0.10 per lb./per article for anything used or new and uncrated. Subject to maximum liability of $10,000 per trailer. Additional coverage may be purchased upon request. Full Value Coverage Cargo Liability Coverage Estes will provide a quote for Full Value Cargo Liability Coverage on volume and truckload spot quotes when the customer selects this option on the volume and truckload rate quote application. By selecting this option, the customer will receive a conditional estimate of the Full Value Cargo Liability Coverage to be included in their volume quote. However, unless the customer&amp;rsquo;s Bill of Lading also indicates the full value coverage amount in the appropriate section, the freight will not be covered at this value. Charges IF CUSTOMER HAS AN EXISTING CONTRACT OR TARIFF PUBLICATION, THIS SPOT QUOTE BECOMES NULL &amp; VOID AND THE CONTRACT/PUBLISHED RATE APPLIES. This quote does not imply exclusive use, guaranteed serviceor equipment availability. Rate is based on Shipper load/Consignee unload, no-touch freight. Customer agrees to pay charges within 30 days of invoice. If charges are not paid in accordance with this agreement and collection efforts are necessary, this Spot Quote becomes void, and the charge reverts to your Estes LTL Pricing Program. If you do not have a current LTL Pricing Program, you will be charged according to Estes 720 LTL Tariff. Customer is granted 1 hour free of charge for pickup and delivery. Additional time will be billed at $80.00 per hour. Volume and Truckload Basic shipments are not subject to standard LTL transit times. LTL tariff/contract discounts do not apply to Volume and Truckload quotes. LTL tariff/contract discounted accessorials do not apply to Volume and Truckload shipments. EXLA 105 series tariff mandates accessorial charges. Note regarding Truckloads - If &quot;Piece Type&quot; selected is Truckload, rate provided is for one full 53&#39; trailer only, regardless of quantity listed in &quot;Pieces&quot; field. Additional commodity lines are also ignored when any line uses Truckload in the Piece Type. If actual shipment requires additional services not noted on this Spot Quote, Customer will be charged for additional service based on EXLA 105 series tariff. (A copy of the EXLA 105 series tariff is available at https://www.estes-express.com/resources/fees-and-surcharges/rules-tariff or by calling 804-353-1900, Ext. 2300.)<br/>",
+            "Datestamp": "2020-01-29T14:57:57",
+            "Interline": false,
+            "Accepted": false,
+            "CurrencyType": 0,
+            "Service": 1,
+            "InsuranceDetails": null
+        },
+        {
+            "LoadID": 28079557,
+            "QuoteID": 245407860,
+            "CarrierName": "YRC Inc. - Standard",
+            "SCAC": "RDWY",
+            "ThirdPartyName": "",
+            "ThirdPartySCAC": "",
+            "ServiceID": "30767072",
+            "RawPrice": {
+                "NetPrice": 403.5,
+                "FreightCharge": 213.5,
+                "DiscountAmount": 0,
+                "FuelSurcharge": 0,
+                "Minimum": 145,
+                "GrossCharge": 213.5,
+                "Tariff": 0,
+                "Interline": 0,
+                "AccessorialCharges": 190,
+                "OtherCharges": 0,
+                "Charges": [
+                    {
+                        "Name": "Liftgate Pickup",
+                        "Amount": 95,
+                        "Code": "SLFTG"
+                    },
+                    {
+                        "Name": "Liftgate Delivery",
+                        "Amount": 95,
+                        "Code": "CLFTG"
+                    }
+                ],
+                "Markup": 0
+            },
+            "CarrierPrice": {
+                "NetPrice": 403.5,
+                "FreightCharge": 213.5,
+                "DiscountAmount": 0,
+                "FuelSurcharge": 0,
+                "Minimum": 145,
+                "GrossCharge": 213.5,
+                "Tariff": 0,
+                "Interline": 0,
+                "AccessorialCharges": 190,
+                "OtherCharges": 0,
+                "Charges": [
+                    {
+                        "Name": "Liftgate Pickup",
+                        "Amount": 95,
+                        "Code": "SLFTG"
+                    },
+                    {
+                        "Name": "Liftgate Delivery",
+                        "Amount": 95,
+                        "Code": "CLFTG"
+                    }
+                ],
+                "Markup": 0
+            },
+            "CustomerPrice": {
+                "NetPrice": 403.5,
+                "FreightCharge": 213.5,
+                "DiscountAmount": 0,
+                "FuelSurcharge": 0,
+                "Minimum": 145,
+                "GrossCharge": 213.5,
+                "Tariff": 0,
+                "Interline": 0,
+                "AccessorialCharges": 190,
+                "OtherCharges": 0,
+                "Charges": [
+                    {
+                        "Name": "Liftgate Pickup",
+                        "Amount": 95,
+                        "Code": "SLFTG"
+                    },
+                    {
+                        "Name": "Liftgate Delivery",
+                        "Amount": 95,
+                        "Code": "CLFTG"
+                    }
+                ],
+                "Markup": 0
+            },
+            "TransitTime": 3,
+            "QuoteNumber": "42441851",
+            "CarrierPerson": "Yellow Automated Quote",
+            "CarrierNote": "GUARANTEED SERVICES &amp;mdash; IMPORTANT NOTICES All time-critical quotes expire at 3:00 p.m. today. Shipments must be tendered prior to 3:00 p.m. at the shipping location on the day of pickup to ensure pick up by 5:00 p.m.If your shipment consumes over 12 linear feet of trailer space OR exceeds 10,000 pounds, the shipment WILL incur additional surcharges to the Guaranteed LTL rate displayed. If your shipment may exceed these limits, please make sure you are logged into My Estes and choose the Volume and Truckload or Time Critical quote type, which require dimensions, when requesting a Rate Quote. If more convenient, you may contact the time critical guaranteed department for rates involving volume and over-length freight. Call 800-645-3952 or email timecritical@estes-express.com.Exclusive Use shipment rates are based on the availability of the specific vehicle type quoted at the time of the order confirmation. You will be contacted by the Time Critical department with confirmation when truck is secured. ADDITIONAL LTL SHIPMENT IMPORTANT NOTICES The National Motor Freight Classification governs all freight classification disputes and is the sole source for determining actual classes. On collect shipments, if the consignee has a pricing program with Estes Express Lines, the consignee pricing prevails. Rates provided are only applicable to LTL shipments serviced by Estes Express Lines. Automated rate quotes are not applicable to service provided by other Estes operating entities.Unless otherwise provided, any LTL shipment that exceeds 350 cubic feet of a trailer will be subject to a minimum charge based on 6 pounds per cubic foot, at the customer&#39;s applicable class 125 rate and using the customer&#39;s discount. Please refer to EXLA 105 series tariff, Item 615 for complete information.Additional charges may apply to shipments to or from Cape Cod, Massachusetts; Harbor points in the state of Washington; remote areas of northern Canada; remote areas of Montana, Nevada, Oregon, Utah, and the Eastern Sierra of California. Please refer to EXLA 105 series tariff Items 290 through 299 for a complete list of points and applicable charges.All quotes are estimates based on the information provided by the requesting party. Actual tariffs and contracts on file at Estes Express Lines and in place at the time of shipment prevail. Unless otherwise provided, rules and service charges provided in EXLA 105 series tariff are applicable.*Transit times apply to standard Estes LTL shipments and are based on the actual date and time of the pickup, which may be different from the shipment date entered. Travel times for specialty services and custom solutions provided by other Estes operating entities may differ based on service selected. VOLUME AND TRUCKLOAD: Notice to Shipper/Customer Customer is required to note Estes&#39; quote number and selected V/TL service level (V/TL Basic, V/TL Guaranteed Economy or V/TL Guaranteed Standard) on the Bill of Lading at time of pickup. Customer certifies shipment information is accurately stated above. Only accessorial charges noted above are included in this rate. V/TL Basic quotes expire 30 days from the date received. V/TL Guaranteed Economy and V/TL Guaranteed Standard quotes expire at 3:00 p.m. local time on the date the quote is issued. Terms and Conditions Estes&#39; liability under the provisions of this quote shall not exceed $2.00 per lb./per article for new product or equipment and $0.10 per lb./per article for anything used or new and uncrated. Subject to maximum liability of $10,000 per trailer. Additional coverage may be purchased upon request. Full Value Coverage Cargo Liability Coverage Estes will provide a quote for Full Value Cargo Liability Coverage on volume and truckload spot quotes when the customer selects this option on the volume and truckload rate quote application. By selecting this option, the customer will receive a conditional estimate of the Full Value Cargo Liability Coverage to be included in their volume quote. However, unless the customer&amp;rsquo;s Bill of Lading also indicates the full value coverage amount in the appropriate section, the freight will not be covered at this value. Charges IF CUSTOMER HAS AN EXISTING CONTRACT OR TARIFF PUBLICATION, THIS SPOT QUOTE BECOMES NULL &amp; VOID AND THE CONTRACT/PUBLISHED RATE APPLIES. This quote does not imply exclusive use, guaranteed serviceor equipment availability. Rate is based on Shipper load/Consignee unload, no-touch freight. Customer agrees to pay charges within 30 days of invoice. If charges are not paid in accordance with this agreement and collection efforts are necessary, this Spot Quote becomes void, and the charge reverts to your Estes LTL Pricing Program. If you do not have a current LTL Pricing Program, you will be charged according to Estes 720 LTL Tariff. Customer is granted 1 hour free of charge for pickup and delivery. Additional time will be billed at $80.00 per hour. Volume and Truckload Basic shipments are not subject to standard LTL transit times. LTL tariff/contract discounts do not apply to Volume and Truckload quotes. LTL tariff/contract discounted accessorials do not apply to Volume and Truckload shipments. EXLA 105 series tariff mandates accessorial charges. Note regarding Truckloads - If &quot;Piece Type&quot; selected is Truckload, rate provided is for one full 53&#39; trailer only, regardless of quantity listed in &quot;Pieces&quot; field. Additional commodity lines are also ignored when any line uses Truckload in the Piece Type. If actual shipment requires additional services not noted on this Spot Quote, Customer will be charged for additional service based on EXLA 105 series tariff. (A copy of the EXLA 105 series tariff is available at https://www.estes-express.com/resources/fees-and-surcharges/rules-tariff or by calling 804-353-1900, Ext. 2300.)<br/>",
+            "Datestamp": "2020-01-29T14:57:56",
+            "Interline": false,
+            "Accepted": false,
+            "CurrencyType": 0,
+            "Service": 1,
+            "InsuranceDetails": null
+        },
+        {
+            "LoadID": 28079557,
+            "QuoteID": 245407861,
+            "CarrierName": "XPO Logistics Freight, Inc.",
+            "SCAC": "XPOL",
+            "ThirdPartyName": "",
+            "ThirdPartySCAC": "",
+            "ServiceID": "30767072",
+            "RawPrice": {
+                "NetPrice": 856.99,
+                "FreightCharge": 397.58,
+                "DiscountAmount": 383.52,
+                "FuelSurcharge": 97.41,
+                "Minimum": 0,
+                "GrossCharge": 781.1,
+                "Tariff": 0,
+                "Interline": 0,
+                "AccessorialCharges": 362,
+                "OtherCharges": 0,
+                "Charges": [
+                    {
+                        "Name": "Liftgate Pickup",
+                        "Amount": 181,
+                        "Code": "SLFTG"
+                    },
+                    {
+                        "Name": "Liftgate Delivery",
+                        "Amount": 181,
+                        "Code": "CLFTG"
+                    }
+                ],
+                "Markup": 0
+            },
+            "CarrierPrice": {
+                "NetPrice": 856.99,
+                "FreightCharge": 397.58,
+                "DiscountAmount": 383.52,
+                "FuelSurcharge": 97.41,
+                "Minimum": 0,
+                "GrossCharge": 781.1,
+                "Tariff": 0,
+                "Interline": 0,
+                "AccessorialCharges": 362,
+                "OtherCharges": 0,
+                "Charges": [
+                    {
+                        "Name": "Liftgate Pickup",
+                        "Amount": 181,
+                        "Code": "SLFTG"
+                    },
+                    {
+                        "Name": "Liftgate Delivery",
+                        "Amount": 181,
+                        "Code": "CLFTG"
+                    }
+                ],
+                "Markup": 0
+            },
+            "CustomerPrice": {
+                "NetPrice": 856.99,
+                "FreightCharge": 397.58,
+                "DiscountAmount": 383.52,
+                "FuelSurcharge": 97.41,
+                "Minimum": 0,
+                "GrossCharge": 781.1,
+                "Tariff": 0,
+                "Interline": 0,
+                "AccessorialCharges": 362,
+                "OtherCharges": 0,
+                "Charges": [
+                    {
+                        "Name": "Liftgate Pickup",
+                        "Amount": 181,
+                        "Code": "SLFTG"
+                    },
+                    {
+                        "Name": "Liftgate Delivery",
+                        "Amount": 181,
+                        "Code": "CLFTG"
+                    }
+                ],
+                "Markup": 0
+            },
+            "TransitTime": 2,
+            "QuoteNumber": "5385742763293",
+            "CarrierPerson": "Spot Quote",
+            "CarrierNote": "",
+            "Datestamp": "2020-01-29T14:57:56",
+            "Interline": false,
+            "Accepted": false,
+            "CurrencyType": 0,
+            "Service": 1,
+            "InsuranceDetails": null
+        },
+     	{
+            "LoadID": 28079557,
+            "QuoteID": 245407862,
+            "CarrierName": "XPO Logistics Freight, Inc. Volume",
+            "SCAC": "XPOL",
+            "ThirdPartyName": "",
+            "ThirdPartySCAC": "",
+            "ServiceID": "30767072",
+            "RawPrice": {
+                "NetPrice": 856.99,
+                "FreightCharge": 397.58,
+                "DiscountAmount": 383.52,
+                "FuelSurcharge": 97.41,
+                "Minimum": 0,
+                "GrossCharge": 781.1,
+                "Tariff": 0,
+                "Interline": 0,
+                "AccessorialCharges": 362,
+                "OtherCharges": 0,
+                "Charges": [
+                    {
+                        "Name": "Liftgate Pickup",
+                        "Amount": 181,
+                        "Code": "SLFTG"
+                    },
+                    {
+                        "Name": "Liftgate Delivery",
+                        "Amount": 181,
+                        "Code": "CLFTG"
+                    }
+                ],
+                "Markup": 0
+            },
+            "CarrierPrice": {
+                "NetPrice": 856.99,
+                "FreightCharge": 397.58,
+                "DiscountAmount": 383.52,
+                "FuelSurcharge": 97.41,
+                "Minimum": 0,
+                "GrossCharge": 781.1,
+                "Tariff": 0,
+                "Interline": 0,
+                "AccessorialCharges": 362,
+                "OtherCharges": 0,
+                "Charges": [
+                    {
+                        "Name": "Liftgate Pickup",
+                        "Amount": 181,
+                        "Code": "SLFTG"
+                    },
+                    {
+                        "Name": "Liftgate Delivery",
+                        "Amount": 181,
+                        "Code": "CLFTG"
+                    }
+                ],
+                "Markup": 0
+            },
+            "CustomerPrice": {
+                "NetPrice": 856.99,
+                "FreightCharge": 397.58,
+                "DiscountAmount": 383.52,
+                "FuelSurcharge": 97.41,
+                "Minimum": 0,
+                "GrossCharge": 781.1,
+                "Tariff": 0,
+                "Interline": 0,
+                "AccessorialCharges": 362,
+                "OtherCharges": 0,
+                "Charges": [
+                    {
+                        "Name": "Liftgate Pickup",
+                        "Amount": 181,
+                        "Code": "SLFTG"
+                    },
+                    {
+                        "Name": "Liftgate Delivery",
+                        "Amount": 181,
+                        "Code": "CLFTG"
+                    }
+                ],
+                "Markup": 0
+            },
+            "TransitTime": 2,
+            "QuoteNumber": "5385742763293",
+            "CarrierPerson": "Spot Quote",
+            "CarrierNote": "",
+            "Datestamp": "2020-01-29T14:57:56",
+            "Interline": false,
+            "Accepted": false,
+            "CurrencyType": 0,
+            "Service": 2,
+            "InsuranceDetails": null
+        }
+    ],
+    "PendingQuotes": null,
+    "FailedQuotes": null,
+    "Notes": [
+        {
+            "Text": "Load Created",
+            "User": "Revenova Web Services",
+            "DateStamp": "2020-01-29T14:57:54",
+            "NoteType": 10
+        }
+    ],
+    "RatingComplete": true,
+    "ErrorMessage": null
+}

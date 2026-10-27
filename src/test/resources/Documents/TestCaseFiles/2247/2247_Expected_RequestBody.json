@@ -1,0 +1,96 @@
+{
+  "load": {
+    "loadNumber": "{BOL}",
+    "tags": [
+      "{Load1}"
+    ],
+    "referenceNumbers": [
+      "{BOL}"
+    ],
+    "stops": [
+      {
+        "stopType": "pickup",
+        "stopReferenceId": "{Stop1_SFID}",
+        "shipTo": "{Stop1_SFID}",
+        "name": "Chicago Pizza",
+        "addressLine1": "181 W. Madison St.",
+        "city": "Chicago",
+        "state": "IL",
+        "country": "US",
+        "postalCode": "60602",
+        "earliestAppointmentTime": "{CurrentDate}T09:00:00",
+        "latestAppointmentTime": "{CurrentDate}T09:00:00",
+        "sequence": 1,
+        "geoFenceRadius": 0.025399986284007407,
+        "latitude": 41.881842,
+        "longitude": -87.633248,
+        "customer": {
+          "poNumbers": []
+        }
+      },
+      {
+        "stopType": "delivery",
+        "stopReferenceId": "{Stop2_SFID}",
+        "shipTo": "{Stop2_SFID}",
+        "name": "Los Angeles Lighting",
+        "addressLine1": "2765 E Olympic Blvd",
+        "city": "Los Angeles",
+        "state": "CA",
+        "country": "US",
+        "postalCode": "90023",
+        "earliestAppointmentTime": "{CurrentDate}T09:00:00",
+        "latestAppointmentTime": "{CurrentDate}T09:00:00",
+        "sequence": 2,
+        "geoFenceRadius": 0.025399986284007407,
+        "latitude": 34.023788,
+        "longitude": -118.218265,
+        "customer": {
+          "poNumbers": []
+        }
+      },
+      {
+        "stopType": "pickup",
+        "stopReferenceId": "{Stop3_SFID}",
+        "shipTo": "{Stop3_SFID}",
+        "name": "Los Angeles Lighting",
+        "addressLine1": "2765 E Olympic Blvd",
+        "city": "Los Angeles",
+        "state": "CA",
+        "country": "US",
+        "postalCode": "90023",
+        "earliestAppointmentTime": "{CurrentDate+1}T09:00:00",
+        "latestAppointmentTime": "{CurrentDate+1}T09:00:00",
+        "sequence": 3,
+        "geoFenceRadius": 0.025399986284007407,
+        "latitude": 34.023788,
+        "longitude": -118.218265,
+        "customer": {
+          "poNumbers": []
+        }
+      },
+      {
+        "stopType": "delivery",
+        "stopReferenceId": "{Stop4_SFID}",
+        "shipTo": "{Stop4_SFID}",
+        "name": "Chicago Pizza",
+        "addressLine1": "181 W. Madison St.",
+        "city": "Chicago",
+        "state": "IL",
+        "country": "US",
+        "postalCode": "60602",
+        "earliestAppointmentTime": "{CurrentDate+3}T09:00:00",
+        "latestAppointmentTime": "{CurrentDate+3}T09:00:00",
+        "sequence": 4,
+        "geoFenceRadius": 0.025399986284007407,
+        "latitude": 41.881842,
+        "longitude": -87.633248,
+        "customer": {
+          "poNumbers": []
+        }
+      }
+    ],
+    "trackingInfo": {
+      "driverPhone": " 12179721878"
+    }
+  }
+}

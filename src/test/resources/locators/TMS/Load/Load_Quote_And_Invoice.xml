@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+ <TabWithSibling>//div[contains(@class,'active')]//li[@title='{paramlink1}']/following-sibling::li/a[@data-label='{paramlink2}']</TabWithSibling>
+    <VendorQuoteByPrice>//div[contains(@class,'active')]//*[@aria-label='Vendor Invoices']//span[contains(@title,'{paramlink}')]/../../../../../../../th//span[contains(text(),'Carrier')]</VendorQuoteByPrice>
+    <VerifySummaryFields>//div[contains(@class,'active ')]//*[text()='{paramlink}']/following-sibling::*[@class='importantField']</VerifySummaryFields>
+    <AccessoialFields>//tr[td/span[normalize-space(text())='{paramlink}']]//input[@type='text']</AccessoialFields>>
+    <AccessorialNameRecord>//div[contains(@class,'active')]//tr[.//span[contains(text(),'{paramlink}')]]/.//span[text()='{paramlink}']</AccessorialNameRecord>
+    <TableColumnHeader>//thead//th/div[text()='{paramlink}']</TableColumnHeader>>
+    <RowData>//td[span[normalize-space(text())='{paramlink}']]</RowData>>
+    <InputField>//*[@id='{paramlink}']/input | //*[@id='{paramlink}']//select</InputField>>
+    <Verify_count>//div[contains(@class,'active ')]//span[text()='{paramlink}']/../span[contains(text(),'(')]</Verify_count>
+    <OpenTabularRecords>//td[ .='{paramlink}']/..//th//a//*[contains(text(),'{paramlink1}')]</OpenTabularRecords>
+    <ButtonOnRelatedList>//*[contains(@data-target-selection-name,"{paramlink1}")]//*[text()='{paramlink2}']</ButtonOnRelatedList>
+    <RemoveAccessorials>//td[span[normalize-space(text())='{paramlink}']]/..//*[text()='Remove']</RemoveAccessorials>
+    <VerifyNoRecords>//div[contains(@class,'active ')]//a//span[text()='{paramlink}']/following-sibling::span[@title='(0)']</VerifyNoRecords>
+    <MoreTab>//div[contains(@class,'active ')]//lightning-button-menu[contains(@data-target-reveals,'customTab')]//button[@title='More Tabs']</MoreTab>
+</locators>
+

@@ -1,0 +1,9 @@
+{
+  "name": "Account 3227",
+  "formattedAddress": "181 West Madison Street, Chicago, IL 60602",
+  "geofence": {
+    "circle": {
+      "radiusMeters": 50
+    }
+  }
+}

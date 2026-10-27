@@ -1,0 +1,10 @@
+{
+  "request": {
+    "trackingInfoList": [
+      "{BOLNumber}"
+    ],
+    "type": "BOL",
+    "scac": "{SCAC_value}"
+  },
+  "correlationId": "WWEX-M2M-searchShipmentsFlow"
+}

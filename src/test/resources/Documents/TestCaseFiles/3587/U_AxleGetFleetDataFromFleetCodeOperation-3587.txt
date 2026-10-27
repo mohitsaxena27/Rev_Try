@@ -1,0 +1,24 @@
+{
+   "fleet_id": 165964,
+    "created_at": "2025-08-03T23:24:28.285387Z",
+    "fleet_code": "00DOt00000eYLFtMAO",
+    "carrier": {
+        "carrier_name": "Axle Technologies",
+        "dot_number": 0,
+        "home_terminal_address": "11 Temple St #7 Boston, MA 02114",
+        "home_terminal_name": "Axle Technologies",
+        "main_office_address": "11 Temple St #7 Boston, MA 02114"
+    },
+    "tsps": [
+        {
+            "axle_tsp_id": 56066,
+            "tsp_source": "motive",
+            "invalid_credentials": false
+        },
+        {
+            "axle_tsp_id": 55924,
+            "tsp_source": "samsara",
+            "invalid_credentials": false
+        }
+    ]
+}

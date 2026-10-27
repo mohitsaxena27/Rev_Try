@@ -1,0 +1,15 @@
+<getLoadTenderResponsesResponse>
+<status>
+<statusCode>OK</statusCode>
+<messageCode/>
+<message/>
+</status>
+<loadTenderResponses>
+<loadTenderResponse>
+<carrierTradingPartnerId>REDIC1</carrierTradingPartnerId>
+<shipmentId>Load-490C</shipmentId>
+<status>Accept</status>
+<waybillNumber>490C</waybillNumber>
+</loadTenderResponse>
+</loadTenderResponses>
+</getLoadTenderResponsesResponse>

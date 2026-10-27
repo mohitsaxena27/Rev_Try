@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <LinkTitle>//*[@title='{paramlink}']</LinkTitle>
+    <AppLauncher>//*[@title='App Launcher']</AppLauncher>
+    <SearchBox>//*[@placeholder='{paramlink}']</SearchBox>
+    <SearchList>//div[@class='searchResultList']/child::*</SearchList>
+    <ProfileIcon>//div[contains(@class,'profile-image-small')]/span</ProfileIcon>
+    <View_List>//span[contains(text(),'Recently Viewed')]/../..//button</View_List>
+    <Global_Text>//*[normalize-space(text())='{paramlink}']</Global_Text>
+    <GlobalPlaceholder>//*[@placeholder="{paramlink}"]</GlobalPlaceholder>
+    <Global_Text_Contains>//*[contains(text(),'{paramlink}')]</Global_Text_Contains>
+    <Label_Button>//*[text()='{paramlink}']/../..//button</Label_Button>
+    <Label_Edit_Icon>//*[text()='{paramlink}']/../..//button[contains(@title,'{paramlink}')]</Label_Edit_Icon>
+    <InputField>//label[contains(text(),'{paramlink}')]/../..//input</InputField>
+    <InputInfoButton>//label[contains(text(),'{paramlink}')]/../..//button</InputInfoButton>
+    <Button_Name_Cotains>//*[contains(@name,'{paramlink}')]</Button_Name_Cotains>
+    <Verify_Label_Text_Value>//*[contains(text(),'{paramlink1}')]/../..//*[contains(text(),'{paramlink2}')]</Verify_Label_Text_Value>
+    <Global_Text_Link>//*[contains(text(),'{paramlink}')]/..//a</Global_Text_Link>
+    <ButtonIconTitle>//*[@title='{paramlink}']</ButtonIconTitle>
+    <WithTitleContains>//*[contains(@title,'{paramlink}')]</WithTitleContains>
+    <WithTitleContains2>//*[contains(@title,'{paramlink}') and contains(@title,'{paramlink2}')]</WithTitleContains2>
+
+    <ButtonIconSearchTitle>//*[contains(@data-value,"{paramlink}")]/../..//*[@title='{paramlink}']</ButtonIconSearchTitle>
+    <LabelClearIcon>//label[text()='{paramlink}']/..//button[@title='Clear {paramlink} Selection' or @data-element-id='searchClear']</LabelClearIcon>
+<!--    <LabelClearIcon>//label[text()='{paramlink}']/..//button[contains(@title,'Clear') or @data-element-id='searchClear' or @data-clear-selection-button]</LabelClearIcon>-->
+    <Div_aria_Label>//div[@aria-label="{paramlink}"]</Div_aria_Label>
+    <Div_aria_Label_Span_Text>//div[@aria-label="{paramlink1}"]//span[text()='{paramlink2}']</Div_aria_Label_Span_Text>
+    <CheckRequiredLabel>//label[contains(text(),'{paramlink}')]/../../..//div[text()='Complete this field.']</CheckRequiredLabel>
+    <InputFiledRequired>//label[contains(text(),'{paramlink}')]/../..//input[@required]</InputFiledRequired>
+    <PickListRequired>//label[contains(text(),'{paramlink}')]/../..//button[@aria-required='true']</PickListRequired>
+    <LinkText>//a[normalize-space(text())='{paramlink}'or .='{paramlink}']</LinkText>
+    <DataLabel>//*[@data-label="{paramlink}"]</DataLabel>
+    <SpanTextObject>//span[text()='{paramlink}']</SpanTextObject>
+    <ButtonOnModal>//div[contains(@class,'slds-modal')]//button[text()='{paramlink}']</ButtonOnModal>
+
+    <SpanCheckbox>//span[text()='{paramlink}']/../..//input</SpanCheckbox>
+     <GlobalCheckbox>//*[text()='{paramlink}']/..//input</GlobalCheckbox>
+     <Verify_Deatils_Field>//*[text()='{paramlink1}' and @class='test-id__field-label']/../..//*[text()='{paramlink2}']</Verify_Deatils_Field>
+     <DetailsFieldValue>//*[text()='{paramlink1}' and @class='test-id__field-label']/../..//*[contains(@class,'test-id__field-value')]//*[@data-output-element-id="output-field"]</DetailsFieldValue>
+     <BannerFieldValue>//*[contains(@class,'windowViewMode-normal')]//span[text()='{paramlink}']/..//*[@class='slds-form-element__static']</BannerFieldValue>
+     <LogoutText>//a[.='{paramlink}']</LogoutText>
+     <LabelTextLegend>//legend[text()='{paramlink1}']/..//label[text()='{paramlink2}']</LabelTextLegend>
+    <LinkText>//div[contains(@class,'active')]//a[text()='{paramlink}']</LinkText>
+    <LinkText1>//a[text()='{paramlink}']</LinkText1>
+    <InputName>//input[contains(@name,'{paramlink}')]</InputName>
+    <VerifyInputText>//span[contains(text(),'{paramlink1}')]/../..//*[contains(text(),'{paramlink2}')]</VerifyInputText>
+    <Button_Div>//div[text()='{paramlink}']</Button_Div>
+    <Search_Result>//div[@class='searchResultList']//*[contains(text(),'{paramlink}')]</Search_Result>
+    <Field_Button>//button[@aria-label='{paramlink}']</Field_Button>
+    <SpanText>//span[contains(text(),'{paramlink}')]</SpanText>
+    <SelectValueFromComboBox>//label[contains(text(),'{paramlink1}')]/../..//span[text()='{paramlink2}']</SelectValueFromComboBox>
+    <TextField>//*[text()='{paramlink}']</TextField>
+    <ButtonText>//button[text()='{paramlink}']</ButtonText>
+    <ButtonTitle>//button[@title='{paramlink}']</ButtonTitle>
+    <!--ButtonTitle1>//button[@title='{paramlink}' or .='{paramlink}']</ButtonTitle1-->
+    <DivText>//div[contains(text(),'{paramlink}')]</DivText>
+<!--    <LabelText>//label[normalize-space(text())='{paramlink}' or .='{paramlink}']</LabelText>-->
+    <LabelText>//label[normalize-space(text())='{paramlink}' or .='{paramlink}' or .//span[normalize-space(text())='{paramlink}']]</LabelText>
+    <LabelTextWithIndex>(//label[text()='{paramlink}' or .='{paramlink}' or .//span[normalize-space(text())='{paramlink}']])[2]</LabelTextWithIndex>
+    <FormFields>//*[@id='{paramlink}' or  @name='{paramlink}']</FormFields>
+    <VerifyPlaceholder>//*[@placeholder="{paramlink}"]</VerifyPlaceholder>
+    <inputPlaceholder>//input[@placeholder="{paramlink}"]</inputPlaceholder>
+    <IframeTitle>//iframe[contains(@title,'{paramlink}')]</IframeTitle>
+    <Edit_Field>//span[text()='{paramlink}']/../..//button</Edit_Field>
+    <SpanText1>//span[text()='{paramlink}']</SpanText1>
+    <GlobalServicesHeader>//header//span[text()='{paramlink}']</GlobalServicesHeader>
+    <SpanLink>//*[contains(text(),'{paramlink1}')]/..//a</SpanLink>
+    <ButtonSpanText>//button[@aria-label="{paramlink}"]/span</ButtonSpanText>
+    <LegendSpanText>//*[text()='{paramlink1}']/..//span[text()='{paramlink2}']</LegendSpanText>
+    <VerifyLabelInputDataValue>//label[text()='{paramlink1}']/..//input[@data-value="{paramlink2}"]</VerifyLabelInputDataValue>
+    <VerifyLabelButtonDataValue>//label[text()='{paramlink1}']/..//input[@data-value="{paramlink2}"]</VerifyLabelButtonDataValue>
+    <ClearSection>//label[text()='{paramlink}']/..//button[@title='Clear Selection']</ClearSection>
+     <HandleTabRowValue>//table[@aria-label="{paramlink}"]/tbody//tr//*[@data-label='{paramlink2}']//*[contains(text(),'{paramlink3}')]</HandleTabRowValue>
+     <SetUpLink>//ul[@class='scrollable']//span[text()='{paramlink}']</SetUpLink>
+     <IframeTitle>//iframe[contains(@title,'{paramlink}')]</IframeTitle>
+     <SpanLabel>//span[text()='{paramlink}']/../..//label</SpanLabel>
+     <BtnClickOnPage>//*[contains(text(),'{paramlink2}')]/../..//input[@title='{paramlink1}']</BtnClickOnPage>
+     <ModalButton>//*[text()='{paramlink2}']/../../..//button[text()='{paramlink1}']</ModalButton>
+    <ValueInput>//*[@value='{paramlink}']</ValueInput>
+     <SelectTitle>//select[contains(@title,'{paramlink}')]</SelectTitle>
+    <SiblingText>//*[text()='{paramlink1}']/../../../..//*[text()='{paramlink2}']</SiblingText>
+    <InputValue>//input[@value='{paramlink}']</InputValue>
+    <VerifyMessage>//*[contains(text(),'{paramlink}')]</VerifyMessage>
+    <SpanTextTab>//span[contains(text(),'{paramlink}')]</SpanTextTab>
+    <HitSnag>//h2[text()='We hit a snag.']</HitSnag>
+    <SearchApp>//*[@placeholder='Search apps and items...']</SearchApp>
+    <AppLink>//*[@data-label='{paramlink}']</AppLink>
+     <ExactText>//span[@class='findSettingItemText' and normalize-space(.)='{paramlink}']</ExactText>
+    <CustomSelect>//*[normalize-space(text())='{paramlink}']/parent::*/parent::*//select</CustomSelect>
+    <WithTitle>//*[@title='{paramlink}']</WithTitle>
+    <imgTitle>//img[@title='{paramlink}']</imgTitle>
+
+    <OptionAvailableList>//*[text()='{paramlink1}']/..//ul[@data-source-list]//span[@title='{paramlink2}']</OptionAvailableList>
+    <OptionChosenList>//*[text()='{paramlink1}']/..//ul[@data-selected-list]//span[@title='{paramlink2}']</OptionChosenList>
+    <WithFieldNameAndTitle>//*[text()='{paramlink1}']/..//*[@title='{paramlink2}']</WithFieldNameAndTitle>
+    <Preview_file>//*[contains(text(),'Preview Attachments')]/../../..//lightning-button-icon</Preview_file>
+    <TableHandling>//table[@class='detailList']//tr[contains(@class,'dataRow')]//td[{index}]//{paramlink}</TableHandling>
+    <LabelSelect>//label[contains(text(),'{paramlink}')]/../following-sibling::*//select</LabelSelect>
+    <InputField2>//label[contains(text(),'{paramlink}')]/..//input</InputField2>
+    <TextAreaTitle>//textarea[@title='{paramlink}']</TextAreaTitle>
+    <InputCheckbox>//input[@type='checkbox']</InputCheckbox>
+    <DeleteModePicklist>//a[contains(@title,'{paramlink}') and contains(@title,'Del')]</DeleteModePicklist>
+    <LabelClearIcon_2>(//label[text()='{paramlink}']/..//button[@title='Clear Selection' or @data-element-id='searchClear'])[2]</LabelClearIcon_2>
+    <SelectTextRadio>//*[contains(text(),'{paramlink}')]/../../../../..//label/span</SelectTextRadio>
+    <GlobalText2>//*[text()='{paramlink}']</GlobalText2>
+    <ButtonIconTitleWithLabel>//label[text()='{paramlink}' or .='{paramlink}' or .//span[normalize-space(text())='{paramlink}']]/../..//*[@title='{paramlink2}']</ButtonIconTitleWithLabel>
+    <LabelLink1>//span[text()='{paramlink}']/../..//a//span[text()]</LabelLink1>
+    <DeleteCurrency>//td[text()='{paramlink} and after']/preceding-sibling::td//*[text()='Del']</DeleteCurrency>
+<PayEstimateRowByType>//table[.//th[normalize-space()='Estimated Pay Amount']]//tr[.//td[normalize-space()='{paramlink1}']]</PayEstimateRowByType>
+</locators>
+

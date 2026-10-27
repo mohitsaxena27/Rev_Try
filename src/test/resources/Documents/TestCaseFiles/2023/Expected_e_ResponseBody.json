@@ -1,0 +1,43 @@
+{
+  "apiVersion": "1",
+  "clientStatus": {
+    "apiVersion": "1",
+    "success": true,
+    "message": ""
+  },
+  "correlationId": "WWEX-M2M-searchShipmentsFlow",
+  "executionId": "",
+  "response": {
+    "scac": "{Scac}",
+    "vendorPreferredName": "{vendorPreferredName}",
+    "speedshipTrackingURL": "{Tracking_Link}",
+    "orderedItemFulfillmentStatusList": [
+      {
+        "status": "{Status}",
+        "orderedItemId": "{Ordered_ItemId}",
+        "fulfillmentStatusList": [
+          {
+            "code": "CREATED",
+            "createdBy": "8h94TCp0N6fg09ipP3yyJmfPPv5l1mCD",
+            "eventDateTime": "{CreatedEventDateAndTime}",
+            "timeZoneOffset": "-0500",
+            "userPrincipalId": "WWEX Test Sandbox"
+          },
+          {
+            "code": "PENDING_PICKUP",
+            "createdBy": "8h94TCp0N6fg09ipP3yyJmfPPv5l1mCD",
+            "eventDateTime": "{PendingPickUpEventDateAndTime}",
+            "timeZoneOffset": "-0500",
+            "userPrincipalId": "WWEX Test Sandbox"
+          }
+        ]
+      }
+    ],
+    "secondaryTxnIdV2List": [
+      {
+        "type": "{Type}",
+        "value": "{Value}"
+      }
+    ]
+  }
+}

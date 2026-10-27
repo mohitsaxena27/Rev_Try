@@ -1,0 +1,61 @@
+{
+  "fleet_id": {Customer_Number},
+  "axle_tsp_id": {Axle_Tsp_Id},
+  "trip_source": "Revenova",
+  "trip_key": "{Trip_Plan_Segment_ID}",
+  "reference_key": "A-1268",
+  "is_published": true,
+  "is_dispatched": true,
+  "started_at": "{CurrentDate}T05:00:00Z",
+  "completed_at": "{CurrentDate+1}T05:30:00Z",
+  "instructions": "5 Cases (40.00x40.00x40.00 in), Ham, 500 lbs",
+  "assigned_driver_id": "{Driver_ELD_ID}",
+  "assigned_vehicle_id": "{Fleet_Asset_ELD_ID}",
+  "distance": 1380.236,
+  "stops": [
+    {
+      "stop_sequence": 1,
+      "stop_type": "Location",
+      "client_name": "Joliet Jazz Supplies",
+      "scheduled_departure": "{CurrentDate}T05:00:00Z",
+      "latitude": 41.515929,
+      "longitude": -88.127574,
+      "street": "321 S Larkin Ave",
+      "city": "Joliet",
+      "province": "IL",
+      "postal_code": "60436",
+      "country": "US",
+      "timezone": "America/Chicago",
+      "activities": [
+        {
+          "activity_sequence": 1,
+          "activity_type": "Start Trip"
+        }
+      ]
+    },
+    {
+      "stop_sequence": 2,
+      "stop_type": "Location",
+      "client_name": "Miami Dolphins",
+      "scheduled_arrival": "{CurrentDate+1}T05:30:00Z",
+      "latitude": 25.957872,
+      "longitude": -80.238771,
+      "street": "347 Don Shula Drive",
+      "city": "Miami Gardens",
+      "province": "FL",
+      "postal_code": "33056",
+      "country": "US",
+      "timezone": "America/Chicago",
+      "activities": [
+        {
+          "activity_sequence": 1,
+          "activity_type": "End Trip"
+        },
+        {
+          "activity_sequence": 2,
+          "activity_type": "Pickup - Empty"
+        }
+      ]
+    }
+  ]
+}

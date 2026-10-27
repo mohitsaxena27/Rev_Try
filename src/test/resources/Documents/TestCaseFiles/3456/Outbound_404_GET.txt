@@ -1,0 +1,189 @@
+{
+"weightUnits": "lbs",
+"ultimateShipper": {
+"zip": "90802",
+"timeZone": "LT",
+"state": "CA",
+"expectedTimeStart": "04:00",
+"expectedTimeEnd": "04:00",
+"expectedDate": "2030-09-18",
+"country": "US",
+"contact": {
+"Phone": "312-999-7777",
+"Fax": "312-222-3333",
+"Email": "email@email.com",
+"ContactName": "Joe Port of Long Beach"
+},
+"companyName": "Port of Long Beach",
+"city": "Long Beach",
+"apptRequired": true,
+"addr": "415 W. Ocean Blvd"
+},
+"ultimateConsignee": {
+"zip": "31408",
+"timeZone": "LT",
+"state": "GA",
+"expectedTimeStart": "12:00",
+"expectedTimeEnd": "18:30",
+"expectedDate": "2030-09-23",
+"country": "US",
+"contact": {
+"Phone": "312-999-7777",
+"Fax": "312-222-3333",
+"Email": "email@email.com",
+"ContactName": "Joe Port of Savannah"
+},
+"companyName": "Port of Savannah",
+"city": "Garden City",
+"apptRequired": false,
+"addr": "2 Main St"
+},
+"totalWeight": 14000,
+"timeZone": "LT",
+"stops": [
+{
+"timeZone": "LT",
+"stopType": "Pickup",
+"stopNum": 1,
+"stopInstructions": [
+"Pickup Instructions"
+],
+"referenceNums": [
+],
+"expectedTimeStart": "04:00",
+"expectedTimeEnd": "04:00",
+"expectedDate": "2030-09-18",
+"contacts": [
+{
+"Phone": "312-999-7777",
+"Fax": "312-222-3333",
+"Email": "email@email.com",
+"ContactName": "Joe Port of Long Beach"
+}
+],
+"company": {
+"zip": "90802",
+"state": "CA",
+"country": "US",
+"companyName": "Port of Long Beach",
+"companyId": "{PortOfLong_BeachAccountID}",
+"city": "Long Beach",
+"addr": "415 W. Ocean Blvd"
+},
+"apptRequired": true,
+"accessorials": [
+]
+},
+{
+"timeZone": "LT",
+"stopType": "Dropoff",
+"stopNum": 2,
+"stopInstructions": [
+"Delivery Instructions"
+],
+"referenceNums": [
+],
+"expectedTimeStart": "09:00",
+"expectedTimeEnd": "22:00",
+"expectedDate": "2030-09-20",
+"contacts": [
+{
+"Phone": "312-999-7777",
+"Fax": "312-222-3333",
+"Email": "email@email.com",
+"ContactName": "Joe Illinois Terminal"
+}
+],
+"company": {
+"zip": "60428",
+"state": "IL",
+"country": "US",
+"companyName": "Illinois Terminal",
+"companyId": "{Illinois_TerminalAccountID}",
+"city": "Markham",
+"addr": "2900 166th St"
+},
+"apptRequired": false,
+"accessorials": [
+]
+}
+],
+"shipmentId": "Load-12ab",
+"respondByTime": "1800",
+"respondByDate": "2030-09-18",
+"referenceNums": [
+],
+"purpose": "Original",
+"paymentTerms": "Third Party",
+"mode": "Intermodal",
+"mileage": 404,
+"items": [
+{
+"weightUnits": "lbs",
+"weight": 14000,
+"referenceNums": [
+],
+"pickupStopNum": 1,
+"itemNum": "Item 1",
+"isHazMat": false,
+"handlingUnits": "Pallets",
+"handlingUnitCount": 8,
+"dropoffStopNum": 2,
+"dimensionUnits": "in",
+"description": "Material"
+}
+],
+"equipmentWeightUnits": "lbs",
+"equipmentType": "Container 45'",
+"customerBillTo": {
+"zip": "60015",
+"state": "IL",
+"country": "US",
+"contact": {
+"Phone": "312-999-7777",
+"Fax": "312-222-3333",
+"Email": "email@email.com",
+"ContactName": "Joe Revenova HQ"
+},
+"companyName": "Revenova HQ",
+"city": "Bannockburn",
+"addr": "2333 Waukegan Rd."
+},
+"currencyCode": "USD",
+"contractId": "Load-12ab",
+"charges": [
+{
+"type": "Line Haul",
+"description": "Line Haul",
+"amount": 300.00
+},
+{
+"type": "Fuel",
+"description": "Fuel Surcharge",
+"amount": 200.00
+},
+{
+"type": "Accessorial",
+"description": "Carrier Terminal Drop Off",
+"amount": 100.00
+}
+],
+"carrierTradingPartnerId": "REDIC1",
+"carrierScac": "EDC1",
+"carrierQuoteId": "34062942",
+"carrierBillTo": {
+"zip": "60015",
+"state": "IL",
+"country": "US",
+"contact": {
+"Phone": "312-999-7777",
+"Fax": "312-222-3333",
+"Email": "email@email.com",
+"ContactName": "Joe Revenova HQ"
+},
+"companyName": "Revenova HQ",
+"companyId": "{RevenovaHQAccountID}",
+"city": "Bannockburn",
+"addr": "2333 Waukegan Rd."
+}
+}

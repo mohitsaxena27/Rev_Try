@@ -1,0 +1,39 @@
+[
+    {
+        "inbound": true,
+        "ediCode": 990,
+        "payload": {
+            "status": "Accept",
+            "shipmentId": "Load-3400A",
+            "carrierTradingPartnerId": "EDIC1"
+        }
+    },
+    {
+        "inbound": true,
+        "ediCode": 990,
+        "payload": {
+            "waybillNumber": "3400B",
+            "tenderExceptionComments": "Exception Comment $^&! 490<",
+            "status": "Accept with exception",
+            "shipmentId": "Load-3400B",
+            "carrierTradingPartnerId": "REDIC1"
+        }
+    },
+    {
+        "inbound": true,
+        "ediCode": 990,
+        "payload": {
+            "waybillNumber": "3400C",
+            "tenderDeclinedReasonCodes": [
+                "C",
+                "OTH",
+                "8"
+            ],
+            "tenderDeclinedComments": "Declined Comment $^&*! 490",
+            "status": "Decline",
+            "shipmentId": "Load-3400C",
+            "carrierTradingPartnerId": "REDIC1",
+            "bookingNumber": "C3400"
+        }
+    }
+]

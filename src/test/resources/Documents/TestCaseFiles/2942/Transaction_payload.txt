@@ -1,0 +1,180 @@
+<sendLoadTenderRequest>
+<loadTender>
+<carrierTradingPartnerId>REDIC1</carrierTradingPartnerId>
+<carrierSCAC>EDC1</carrierSCAC>
+<carrierQuoteId>29422492</carrierQuoteId>
+<contractId>{ShipmentId}</contractId>
+<shipmentId>{ShipmentId}</shipmentId>
+<purpose>Original</purpose>
+<referenceNums></referenceNums>
+<mode>Intermodal</mode>
+<equipmentType>Container 45&apos;</equipmentType>
+<equipmentWeightUnits>lbs</equipmentWeightUnits>
+<paymentTerms>Third Party</paymentTerms>
+<respondByDate>{CurrentDateYYYY-MM-DD}</respondByDate>
+<respondByTime>{RespondTime}</respondByTime>
+<timeZone>LT</timeZone>
+<currencyCode>USD</currencyCode>
+<mileage>{DistanceInMiles}</mileage>
+<customerBillTo>
+<companyName>Revenova HQ</companyName>
+<addr>2333 Waukegan Rd.</addr>
+<city>Bannockburn</city>
+<state>IL</state>
+<zip>60015</zip>
+<country>US</country>
+<contact>
+<contactName>Joe Revenova HQ</contactName>
+<phone>312-999-7777</phone>
+ <fax>312-222-3333 </fax>
+ <email>{ScratchOrgEmail}</email>
+</contact>
+</customerBillTo>
+<billTo>
+<companyName>Revenova HQ</companyName>
+<addr>2333 Waukegan Rd.</addr>
+<city>Bannockburn</city>
+<state>IL</state>
+ <zip>60015</zip>
+<country>US</country>
+<companyId>{RevenovaHQAccountID}</companyId>
+<contact>
+<contactName>Joe Revenova HQ</contactName>
+ <phone>312-999-7777</phone>
+  <fax>312-222-3333 </fax>
+ <email>{ScratchOrgEmail}</email>
+</contact>
+</billTo>
+<ultimateShipper>
+<companyName>Port of Long Beach</companyName>
+<addr>415 W. Ocean Blvd</addr>
+<city>Long Beach</city>
+<state>CA</state>
+ <zip>90802</zip>
+<country>US</country>
+<apptRequired>Y</apptRequired>
+<expectedDate>{CurrentDateYYYY-MM-DD}</expectedDate>
+<expectedTimeStart>04:00</expectedTimeStart>
+<expectedTimeEnd>04:00</expectedTimeEnd>
+<timeZone>LT</timeZone>
+<contact>
+<contactName>Joe Port of Long Beach</contactName>
+ <phone>312-999-7777</phone>
+  <fax>312-222-3333 </fax>
+ <email>{ScratchOrgEmail}</email>
+</contact>
+</ultimateShipper>
+<ultimateConsignee>
+<companyName>Port of Savannah</companyName>
+<addr>2 Main St</addr>
+<city>Garden City</city>
+<state>GA</state>
+ <zip>31408</zip>
+<country>US</country>
+<apptRequired>N</apptRequired>
+<expectedDate>{CurrentDateYYYY-MM-DD+5}</expectedDate>
+<expectedTimeStart>12:00</expectedTimeStart>
+<expectedTimeEnd>18:30</expectedTimeEnd>
+<timeZone>LT</timeZone>
+<contact>
+<contactName>Joe Port of Savannah</contactName>
+ <phone>312-999-7777</phone>
+  <fax>312-222-3333 </fax>
+ <email>{ScratchOrgEmail}</email>
+</contact>
+</ultimateConsignee>
+<stops>
+<stop>
+<stopNum>1</stopNum>
+<stopType>Pickup</stopType>
+<stopInstructions>Pickup Instructions</stopInstructions>
+<referenceNums></referenceNums>
+<apptRequired>Y</apptRequired>
+<expectedDate>{CurrentDateYYYY-MM-DD}</expectedDate>
+<expectedTimeStart>04:00</expectedTimeStart>
+<expectedTimeEnd>04:00</expectedTimeEnd>
+<timeZone>LT</timeZone>
+<company>
+<companyName>Port of Long Beach</companyName>
+  <addr>415 W. Ocean Blvd  </addr>
+  <city>Long Beach  </city>
+  <state>CA </state>
+   <zip>90802  </zip>
+ <country>US</country>
+<companyId>{PortOfLongBeachAccountID}</companyId>
+</company>
+<contacts>
+<contact>
+<contactName>Joe Port of Long Beach</contactName>
+   <phone>312-999-7777</phone>
+    <fax>312-222-3333</fax>
+   <email>{ScratchOrgEmail}</email>
+</contact>
+</contacts>
+<accessorials></accessorials>
+</stop>
+<stop>
+<stopNum>2</stopNum>
+<stopType>Dropoff</stopType>
+<stopInstructions>Delivery Instructions</stopInstructions>
+<referenceNums></referenceNums>
+<apptRequired>N</apptRequired>
+<expectedDate>{CurrentDateYYYY-MM-DD+2}</expectedDate>
+<expectedTimeStart>09:00</expectedTimeStart>
+<expectedTimeEnd>22:00</expectedTimeEnd>
+<timeZone>LT</timeZone>
+<company>
+<companyName>Illinois Terminal</companyName>
+  <addr>2900 166th St  </addr>
+  <city>Markham  </city>
+  <state>IL </state>
+   <zip>60428  </zip>
+ <country>US</country>
+<companyId>{IllinoisTerminal_AccountIDAccountID}</companyId>
+</company>
+<contacts>
+ <contact>
+<contactName>Joe Illinois Terminal</contactName>
+   <phone>312-999-7777</phone>
+    <fax>312-222-3333</fax>
+   <email>{ScratchOrgEmail}</email>
+</contact>
+</contacts>
+<accessorials></accessorials>
+</stop>
+</stops>
+<items>
+<item>
+<pickupStopNum>1</pickupStopNum>
+<dropoffStopNum>2</dropoffStopNum>
+<itemNum>Item 1</itemNum>
+ <desc>Material </desc>
+<handlingUnitCount>8</handlingUnitCount>
+<handlingUnits>Pallets</handlingUnits>
+<packagingUnitCount></packagingUnitCount>
+<packagingUnits></packagingUnits>
+<weight>14000</weight>
+<weightUnits>lbs</weightUnits>
+<dimensionUnits>in</dimensionUnits>
+<isHazardousMaterials>N</isHazardousMaterials>
+</item>
+</items>
+<charges>
+<charge>
+ <type>Line Haul</type>
+ <desc>Line Haul</desc>
+<amount>2312.65</amount>
+</charge>
+<charge>
+ <type>Fuel </type>
+ <desc>Fuel Surcharge</desc>
+<amount>200.00</amount>
+</charge>
+<charge>
+ <type>Accessorial </type>
+ <desc>Carrier Terminal Drop Off</desc>
+<amount>100.00</amount>
+</charge>
+</charges>
+</loadTender>
+</sendLoadTenderRequest>

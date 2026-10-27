@@ -1,0 +1,204 @@
+<getLoadTenderResponse>
+	<status>
+		<statusCode>OK</statusCode>
+		<messageCode/>
+		<message/>
+	</status>
+	<loadTenders>
+		<loadTender>
+			<tradingPartnerId>KLIQA</tradingPartnerId>
+			<shipmentId>Load-2492</shipmentId>
+			<purpose>Update</purpose>
+			<mode>Truckload</mode>
+            <equipmentType>Container 45'</equipmentType>
+			<poNum>2492ABC</poNum>
+			<orderNum>ON2492AB**</orderNum>
+			<bolNum>2492BOL 957</bolNum>
+			<specialInstructions>
+                <specialInstruction>Hello</specialInstruction>
+                <specialInstruction>World</specialInstruction>
+            </specialInstructions>
+            <paymentTerms>Prepaid</paymentTerms>
+            <respondByDate>2028-12-23</respondByDate>
+            <respondByTime>19:30</respondByTime>
+			 <totalCharge>2500.00</totalCharge>              
+            <cargoValue>70000.00</cargoValue>
+            <currencyCode>USD</currencyCode>
+            <insuranceAmount>250.00</insuranceAmount>
+            <mileage>750</mileage>
+			<billTo>                                               
+				<companyName>Bill To Company ABC</companyName>
+				<companyId>testtesttest123</companyId>
+				<addr>4600 Via Fortuna</addr>
+				<city>Chicago</city>
+				<state>IL</state>
+				<zip>60603</zip>
+				<country>US</country>
+				<contact>
+					<contactName>Accounts Payable</contactName>
+					<phone>312-313-3922</phone>
+				</contact>
+			</billTo>
+			<stops>
+				<stop>
+					<stopNum>1</stopNum>
+					<stopType>pickup</stopType>
+					<stopInstructions>go to dock 122</stopInstructions>
+					<referenceNums>
+						<referenceNum>
+							<type>PO</type>
+							<text>PO Number</text>
+							<value>02240044</value>
+						</referenceNum>
+					</referenceNums>
+					<company>
+						<companyName>Oldgistics - ATL8</companyName>
+						<companyId>OG-0782</companyId>
+						<addr>5267 ROYAL SOUTH PKWY STE 432</addr>
+						<city>ATLANTA</city>
+						<state>GA</state>
+						<zip>30349</zip>
+						<country>US</country>
+					</company>
+					<apptRequired>Y</apptRequired>
+					<expectedDate>2028-08-25</expectedDate>
+					<expectedTimeStart>13:30</expectedTimeStart>
+					<expectedTimeEnd>15:00</expectedTimeEnd>
+					<contacts>
+                        <contact>
+                            <contactName>George Smiley</contactName>
+                            <phone>312-888-9999</phone>
+                            <fax>312-888-9999</fax>
+                            <email>gsmiley@mi6.org</email>
+                        </contact>
+                    </contacts> 
+					    <accessorials>
+                        <accessorial>
+                            <name>Exhibition/Trade Show Pick Up</name>
+                            <code>BB</code>
+                            <charge>245.17</charge>
+                        </accessorial>
+                    </accessorials>
+				</stop>
+				<stop>
+					<stopNum>2</stopNum>
+					<stopType>dropoff</stopType>
+					<referenceNums>
+						<referenceNum>
+							<type>BM</type>
+							<text>BOL Number</text>
+							<value>04022401275315659</value>
+						</referenceNum>
+						<referenceNum>
+							<type>CR</type>
+							<text>Customer Reference Number</text>
+							<value>LD000461060</value>
+						</referenceNum>
+					</referenceNums>
+					<company>
+						<companyName>ATCLE-FW</companyName>
+						<companyId>OG-0127</companyId>
+						<addr>13550 Independence Parkway</addr>
+						<city>Fort Worth</city>
+						<state>TX</state>
+						<zip>76177</zip>
+						<country>US</country>
+					</company>
+					<apptRequired>N</apptRequired>
+					<expectedDate>2028-08-26</expectedDate>
+					<expectedTimeStart>06:00</expectedTimeStart>
+					<expectedTimeEnd>08:00</expectedTimeEnd>
+				</stop>
+				<stop>
+					<stopNum>3</stopNum>
+					<stopType>dropoff</stopType>
+					<referenceNums>
+						<referenceNum>
+							<type>PO</type>
+							<text>PO Number</text>
+							<value>02240044</value>
+						</referenceNum>
+					</referenceNums>
+					<company>
+						<companyName>NeimanMarcus - Irving</companyName>
+						<companyId>OG-0044</companyId>
+						<addr>123 Customer Way</addr>
+						<city>Irving</city>
+						<state>TX</state>
+						<zip>75039</zip>
+						<country>US</country>
+					</company>
+					<apptRequired>N</apptRequired>
+					<expectedDate>2028-08-26</expectedDate>
+					<expectedTimeStart>06:30</expectedTimeStart>
+					<expectedTimeEnd>08:30</expectedTimeEnd>
+				</stop>
+			</stops>
+			<items>
+				<item>
+					<pickupStopNum>1</pickupStopNum>
+					<dropoffStopNum>2</dropoffStopNum>
+					<itemNum>MG12345</itemNum>
+					<desc>STUFF TO HAUL</desc>
+					<handlingUnitCount>18</handlingUnitCount>
+                    <handlingUnits>Pallets</handlingUnits>
+                    <packagingUnitCount>10</packagingUnitCount>
+                    <packagingUnits>Pieces</packagingUnits>
+                    <weight>20000</weight>
+                    <weightUnits>lbs</weightUnits>
+                    <length>48</length>
+                    <width>48</width>
+                    <height>48</height>
+                    <dimensionUnits>in</dimensionUnits>
+                    <volume>200</volume>
+                    <volumeUnits>Cubic Feet</volumeUnits>
+                    <nmfcClass>55</nmfcClass>
+                    <nmfcNum>122270</nmfcNum>
+                    <isHazardousMaterials>Y</isHazardousMaterials>
+                    <hazMatNumberType>UN</hazMatNumberType>
+                    <hazMatNumber>1234</hazMatNumber>
+                    <hazMatClassDivision>1.1</hazMatClassDivision>
+                    <hazMatPackagingGroup>III</hazMatPackagingGroup>
+                    <hazMatContactName>Harrison Ford Updated</hazMatContactName>
+                    <hazMatContactPhone>312-888-9999</hazMatContactPhone>
+                    <hazMatContactEmail>HFord@revenova.com</hazMatContactEmail>
+				</item>
+				<item>
+					<pickupStopNum>1</pickupStopNum>
+					<dropoffStopNum>3</dropoffStopNum>
+					<itemNum>MG000520789</itemNum>
+					<desc>CLOTHING LT/12 PCF</desc>
+					<nmfcNum>049880-03</nmfcNum>
+					<weight>300</weight>
+					<weightUnits>lbs</weightUnits>
+					<handlingUnitCount>3</handlingUnitCount>
+					<handlingUnits>Pallets</handlingUnits>
+					<packagingUnitCount>10</packagingUnitCount>
+					<packagingUnits>Pieces</packagingUnits>
+				</item>
+			</items>
+			<charges>
+				<charge>
+					<type>Line Haul</type>
+					<desc>Line Haul</desc>
+					<amount>5000.00</amount>
+				</charge>
+				<charge>
+					<type>Fuel</type>
+					<desc>Fuel Surcharge</desc>
+					<amount>250.00</amount>
+				</charge>
+				<charge>
+					<type>Accessorial</type>
+					<desc>Lift Gate</desc>
+					<amount>100.00</amount>
+				</charge>
+				<charge>
+					<type>Accessorial</type>
+					<desc>Lumper </desc>
+					<amount>200.00</amount>
+				</charge>
+			</charges>
+		</loadTender>
+	</loadTenders>
+</getLoadTenderResponse>

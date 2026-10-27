@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <Set_up_Icon>//a//*[@icon-name='utility:setup']</Set_up_Icon>
+    <Quick_Find>//input[@id='globalQuickfind']</Quick_Find>
+    <ObjectLink>//tr/th//a[text()='{paramlink}']</ObjectLink>
+    <Quick_Find2>//input[@id='quickfind']</Quick_Find2>
+    <defailtView>//div[@id='defaultView']</defailtView>
+    <Remove_Field1>//div[text()='{paramlink}']/../../../../..//div[@class='remove']</Remove_Field1>
+    <Remove_Field>(//div[@class='field-name']/../../../../..//div[@class='remove'])[index]</Remove_Field>
+    <Select_Field>(//div[@class='field-name'])[index]</Select_Field>
+    <Field_Count>(//div[@class='field-name'])[index]</Field_Count>
+    <SearchSetUp>//input[@placeholder='Search Setup']</SearchSetUp>
+    <DeleteJob>(//th[text()='QueuedTransactionJob']/../td[1]/a)[1]</DeleteJob>
+    <DeleteJob2>//div[@id='{paramlink}']</DeleteJob2>
+    <FieldName>//div[contains(@class,'field-name') and text()='{paramlink}']</FieldName>
+    <Field_Properties>//div[@class='field-name' and text()='{paramlink}']/../../../../..//div[@class='properties']</Field_Properties>
+    <Field_Delete>//div[contains(@class,'field-name') and text()='{paramlink}']/../../../../..//div[@class='remove']</Field_Delete>
+    <Required_Input>//th[text()='{paramlink}']/..//input</Required_Input>
+    <OKButton>//button[text()='OK']</OKButton>
+    <CancelButton>//table[@id='field_propWindowCancelBtn']//button[text()='Cancel']</CancelButton>
+    <CheckRequired>//div[@class='field-name' and text()='{paramlink}']/../..//img[@class='Requiredtrue']</CheckRequired>
+    <CheckRequiredFalse>//div[@class='field-name' and text()='{paramlink}']/../..//img[@class='Requiredfalse']</CheckRequiredFalse>
+    <DeleteDropdown>//span[contains(text(),'{paramlink}')]/../following-sibling::td[4]//a</DeleteDropdown>
+    <DivTextFieldName>//div[contains(text(),'{paramlink}') and @class='field-name']</DivTextFieldName>
+    <VerifySelected>//div[contains(@class,'field-source field-selected')]//*[text()='{paramlink}']</VerifySelected>
+    <AllField>(//div[@class='field-name'])[index]</AllField>
+</locators>
+

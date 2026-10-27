@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <FMJ>//label[contains(text(),'Fleet Management Job')]/../following-sibling::td/select</FMJ>
+    <SelectCIDFlobalSettings>//lightning-layout-item[.//*[text()='{paramlink}']]/following-sibling::lightning-layout-item[{index}]//label</SelectCIDFlobalSettings>
+</locators>
